@@ -569,6 +569,7 @@
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.label24 = new System.Windows.Forms.Label();
             this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.mainMenuStrip.SuspendLayout();
             this.pRNAsNeededTab.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -7137,11 +7138,21 @@
             this.maskedTextBox8.Size = new System.Drawing.Size(52, 21);
             this.maskedTextBox8.TabIndex = 1;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(494, 24);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 85;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // admCatSel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.logInAsMaskTxtBox);
             this.Controls.Add(this.label1);
@@ -7893,5 +7904,6 @@
         private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.MaskedTextBox maskedTextBox8;
+        private System.Windows.Forms.Button button1;
     }
 }
