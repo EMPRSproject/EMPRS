@@ -66,6 +66,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.assDataTabs = new System.Windows.Forms.TabControl();
             this.vitalSignTab = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.tempGrpBox = new System.Windows.Forms.GroupBox();
             this.comboBox10 = new System.Windows.Forms.ComboBox();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
@@ -563,7 +564,6 @@
             this.ordBtn = new System.Windows.Forms.Button();
             this.notBtn = new System.Windows.Forms.Button();
             this.assDataBtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.mainMenuStrip.SuspendLayout();
             this.selectionMenu.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -1072,6 +1072,15 @@
             this.vitalSignTab.TabIndex = 0;
             this.vitalSignTab.Text = "Vital Signs";
             this.vitalSignTab.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(864, 385);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // tempGrpBox
             // 
@@ -7132,15 +7141,6 @@
             this.assDataBtn.Text = "Assessment Data";
             this.assDataBtn.UseVisualStyleBackColor = true;
             this.assDataBtn.Click += new System.EventHandler(this.assDataBtn_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(748, 305);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // studentView
             // 
