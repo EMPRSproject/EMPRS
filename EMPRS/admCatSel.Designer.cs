@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.mainMenuStrip = new System.Windows.Forms.MenuStrip();
-            this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.userMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.patientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.setMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOutMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backBtn = new System.Windows.Forms.Button();
@@ -569,7 +566,11 @@
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.label24 = new System.Windows.Forms.Label();
             this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox48 = new System.Windows.Forms.GroupBox();
+            this.groupBox49 = new System.Windows.Forms.GroupBox();
+            this.groupBox50 = new System.Windows.Forms.GroupBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
             this.mainMenuStrip.SuspendLayout();
             this.pRNAsNeededTab.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -673,6 +674,8 @@
             this.groupBox47.SuspendLayout();
             this.panel5.SuspendLayout();
             this.groupBox45.SuspendLayout();
+            this.groupBox48.SuspendLayout();
+            this.groupBox50.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainMenuStrip
@@ -680,51 +683,27 @@
             this.mainMenuStrip.BackColor = System.Drawing.SystemColors.MenuBar;
             this.mainMenuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mainMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addToolStripMenuItem,
             this.setMenuItem,
             this.logOutMenuItem});
             this.mainMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.mainMenuStrip.Name = "mainMenuStrip";
             this.mainMenuStrip.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
             this.mainMenuStrip.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.mainMenuStrip.Size = new System.Drawing.Size(1584, 25);
+            this.mainMenuStrip.Size = new System.Drawing.Size(1584, 24);
             this.mainMenuStrip.TabIndex = 1;
             this.mainMenuStrip.Text = "menuStrip";
-            // 
-            // addToolStripMenuItem
-            // 
-            this.addToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.userMenuItem,
-            this.patientToolStripMenuItem});
-            this.addToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(46, 23);
-            this.addToolStripMenuItem.Text = "Add";
-            // 
-            // userMenuItem
-            // 
-            this.userMenuItem.Name = "userMenuItem";
-            this.userMenuItem.Size = new System.Drawing.Size(121, 24);
-            this.userMenuItem.Text = "User";
-            this.userMenuItem.Click += new System.EventHandler(this.userMenuItem_Click);
-            // 
-            // patientToolStripMenuItem
-            // 
-            this.patientToolStripMenuItem.Name = "patientToolStripMenuItem";
-            this.patientToolStripMenuItem.Size = new System.Drawing.Size(121, 24);
-            this.patientToolStripMenuItem.Text = "Patient";
             // 
             // setMenuItem
             // 
             this.setMenuItem.Name = "setMenuItem";
-            this.setMenuItem.Size = new System.Drawing.Size(61, 23);
+            this.setMenuItem.Size = new System.Drawing.Size(61, 22);
             this.setMenuItem.Text = "Settings";
             this.setMenuItem.Click += new System.EventHandler(this.setMenuItem_Click);
             // 
             // logOutMenuItem
             // 
             this.logOutMenuItem.Name = "logOutMenuItem";
-            this.logOutMenuItem.Size = new System.Drawing.Size(62, 23);
+            this.logOutMenuItem.Size = new System.Drawing.Size(62, 22);
             this.logOutMenuItem.Text = "Log Out";
             this.logOutMenuItem.Click += new System.EventHandler(this.logOutMenuItem_Click);
             // 
@@ -6664,11 +6643,14 @@
             // panel3
             // 
             this.panel3.AutoScroll = true;
+            this.panel3.Controls.Add(this.groupBox50);
+            this.panel3.Controls.Add(this.groupBox49);
+            this.panel3.Controls.Add(this.groupBox48);
             this.panel3.Controls.Add(this.panel6);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.groupBox47);
             this.panel3.Controls.Add(this.groupBox45);
-            this.panel3.Location = new System.Drawing.Point(34, 299);
+            this.panel3.Location = new System.Drawing.Point(56, 319);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1394, 730);
             this.panel3.TabIndex = 84;
@@ -7138,21 +7120,56 @@
             this.maskedTextBox8.Size = new System.Drawing.Size(52, 21);
             this.maskedTextBox8.TabIndex = 1;
             // 
-            // button1
+            // groupBox48
             // 
-            this.button1.Location = new System.Drawing.Point(877, 20);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 85;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.groupBox48.Controls.Add(this.listBox2);
+            this.groupBox48.Location = new System.Drawing.Point(706, 64);
+            this.groupBox48.Name = "groupBox48";
+            this.groupBox48.Size = new System.Drawing.Size(679, 112);
+            this.groupBox48.TabIndex = 37;
+            this.groupBox48.TabStop = false;
+            this.groupBox48.Text = "PRN (As-Needed) Medications";
+            // 
+            // groupBox49
+            // 
+            this.groupBox49.Location = new System.Drawing.Point(7, 200);
+            this.groupBox49.Name = "groupBox49";
+            this.groupBox49.Size = new System.Drawing.Size(0, 0);
+            this.groupBox49.TabIndex = 38;
+            this.groupBox49.TabStop = false;
+            this.groupBox49.Text = "Regularly Scheduled Medications";
+            // 
+            // groupBox50
+            // 
+            this.groupBox50.Controls.Add(this.listBox1);
+            this.groupBox50.Location = new System.Drawing.Point(7, 64);
+            this.groupBox50.Name = "groupBox50";
+            this.groupBox50.Size = new System.Drawing.Size(679, 112);
+            this.groupBox50.TabIndex = 38;
+            this.groupBox50.TabStop = false;
+            this.groupBox50.Text = "Regularly Scheduled Medications";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(6, 17);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(667, 82);
+            this.listBox1.TabIndex = 0;
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Location = new System.Drawing.Point(5, 18);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(667, 82);
+            this.listBox2.TabIndex = 1;
             // 
             // admCatSel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1584, 861);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.logInAsMaskTxtBox);
             this.Controls.Add(this.label1);
@@ -7177,10 +7194,6 @@
             this.Controls.Add(this.searchBtn);
             this.Controls.Add(this.searchTxtBox);
             this.Controls.Add(this.mainMenuStrip);
-            this.Controls.Add(this.labsAndImaTabs);
-            this.Controls.Add(this.ordTabs);
-            this.Controls.Add(this.notTabs);
-            this.Controls.Add(this.assDataTabs);
             this.Controls.Add(this.mARTabs);
             this.Controls.Add(this.patHigBtn);
             this.Controls.Add(this.mARBtn);
@@ -7188,6 +7201,10 @@
             this.Controls.Add(this.ordBtn);
             this.Controls.Add(this.notBtn);
             this.Controls.Add(this.assDataBtn);
+            this.Controls.Add(this.labsAndImaTabs);
+            this.Controls.Add(this.ordTabs);
+            this.Controls.Add(this.notTabs);
+            this.Controls.Add(this.assDataTabs);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "admCatSel";
             this.Text = "EMPRS - Admin";
@@ -7356,6 +7373,8 @@
             this.panel5.PerformLayout();
             this.groupBox45.ResumeLayout(false);
             this.groupBox45.PerformLayout();
+            this.groupBox48.ResumeLayout(false);
+            this.groupBox50.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -7364,9 +7383,6 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip mainMenuStrip;
-        private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem userMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem patientToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem setMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logOutMenuItem;
         private System.Windows.Forms.Button backBtn;
@@ -7904,6 +7920,10 @@
         private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.MaskedTextBox maskedTextBox8;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox50;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.GroupBox groupBox49;
+        private System.Windows.Forms.GroupBox groupBox48;
+        private System.Windows.Forms.ListBox listBox2;
     }
 }
