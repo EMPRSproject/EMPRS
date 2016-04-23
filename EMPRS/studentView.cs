@@ -19,6 +19,7 @@ namespace EMPRS
 
         private void hideTabs()
         {
+            patHigPan.Visible = false;
             labsAndImaTabs.Visible = false;
             mARTabs.Visible = false;
             assDataTabs.Visible = false;
@@ -108,7 +109,11 @@ namespace EMPRS
 
         private void buttonPH_Click(object sender, EventArgs e)
         {
-
+            hideTabs();
+            sideButtonEnabled();
+            buttonPH.Enabled = false;
+            selectionMenu.Visible = true;
+            patHigPan.Visible = true;
         }
 
         private void buttonMAR_Click(object sender, EventArgs e)
@@ -277,7 +282,11 @@ namespace EMPRS
 
         private void patHigBtn_Click(object sender, EventArgs e)
         {
-
+            // hideTabs();
+            buttonPH.Enabled = false;
+            selectionMenu.Visible = true;
+            hideHomeButtons();
+            patHigPan.Visible = true;
         }
 
         private void labsAndImaBtn_Click(object sender, EventArgs e)
@@ -316,7 +325,10 @@ namespace EMPRS
             ordTabs.Visible = true;
         }
 
+        private void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }
 

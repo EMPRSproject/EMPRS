@@ -53,12 +53,6 @@
     <Compile Include="addUser.Designer.cs">
       <DependentUpon>addUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="admCatSel.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="admCatSel.Designer.cs">
-      <DependentUpon>admCatSel.cs</DependentUpon>
-    </Compile>
     <Compile Include="adminSet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,9 +81,6 @@
     </Compile>
     <EmbeddedResource Include="addUser.resx">
       <DependentUpon>addUser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="admCatSel.resx">
-      <DependentUpon>admCatSel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminSet.resx">
       <DependentUpon>adminSet.cs</DependentUpon>

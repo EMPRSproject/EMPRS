@@ -25,13 +25,13 @@ namespace EMPRS
                 //MessageBox.Show("Please enter Username and Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            if (usernameTextbox.Text == "admin" && passwordTextbox.Text == "password")
-            {
-                errorLabel.Visible = false;
-                Hide();
-                admCatSel admCatSelFor = new admCatSel();
-                admCatSelFor.Show();
-            }
+            //if (usernameTextbox.Text == "admin" && passwordTextbox.Text == "password")
+            //{
+            //    errorLabel.Visible = false;
+            //    Hide();
+            //    studentView studentViewForm = new studentView();
+            //    studentViewForm.Show();
+            //}
             if (usernameTextbox.Text == "student" && passwordTextbox.Text == "password")
             {
                 errorLabel.Visible = false;
