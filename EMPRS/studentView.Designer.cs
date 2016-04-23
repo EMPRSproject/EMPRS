@@ -8247,7 +8247,7 @@
             this.patHigPan.Controls.Add(this.panel4);
             this.patHigPan.Controls.Add(this.groupBox53);
             this.patHigPan.Controls.Add(this.groupBox54);
-            this.patHigPan.Location = new System.Drawing.Point(188, 842);
+            this.patHigPan.Location = new System.Drawing.Point(144, 842);
             this.patHigPan.Name = "patHigPan";
             this.patHigPan.Size = new System.Drawing.Size(1394, 730);
             this.patHigPan.TabIndex = 108;
