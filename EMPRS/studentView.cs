@@ -325,9 +325,16 @@ namespace EMPRS
             ordTabs.Visible = true;
         }
 
-        private void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (checkBox5.Checked)
+            {
+                textBox5.Enabled = true;
+            }
+            else
+            {
+                textBox5.Enabled = false;
+            }
         }
     }
 }

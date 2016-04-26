@@ -1180,6 +1180,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.assDataTabs);
+            this.groupBox1.Controls.Add(this.mARTabs);
+            this.groupBox1.Controls.Add(this.labsAndImaTabs);
             this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Controls.Add(this.ordTabs);
             this.groupBox1.Controls.Add(this.notTabs);
@@ -1189,9 +1192,6 @@
             this.groupBox1.Controls.Add(this.ordBtn);
             this.groupBox1.Controls.Add(this.notBtn);
             this.groupBox1.Controls.Add(this.assDataBtn);
-            this.groupBox1.Controls.Add(this.assDataTabs);
-            this.groupBox1.Controls.Add(this.mARTabs);
-            this.groupBox1.Controls.Add(this.labsAndImaTabs);
             this.groupBox1.Location = new System.Drawing.Point(183, 96);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1389, 740);
@@ -1707,7 +1707,6 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(1226, 73);
             this.tableLayoutPanel4.TabIndex = 48;
-            this.tableLayoutPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel4_Paint);
             // 
             // label79
             // 
@@ -3771,19 +3770,19 @@
             // assessmentTab
             // 
             this.assessmentTab.Controls.Add(this.hEENTSubCatBtn);
-            this.assessmentTab.Controls.Add(this.lowExtSubCatPan);
-            this.assessmentTab.Controls.Add(this.abdSubCatPan);
             this.assessmentTab.Controls.Add(this.lowExtSubCatBtn);
             this.assessmentTab.Controls.Add(this.abdSubCatBtn);
-            this.assessmentTab.Controls.Add(this.hEENTSubCatPan);
             this.assessmentTab.Controls.Add(this.carSubCatBtn);
-            this.assessmentTab.Controls.Add(this.carSubCatPan);
-            this.assessmentTab.Controls.Add(this.pulSubCatPan);
             this.assessmentTab.Controls.Add(this.pulSubCatBtn);
             this.assessmentTab.Controls.Add(this.uppExtSubCatBtn);
             this.assessmentTab.Controls.Add(this.genSurSubCatBtn);
             this.assessmentTab.Controls.Add(this.genSurSubCatPan);
             this.assessmentTab.Controls.Add(this.uppExtSubCatPan);
+            this.assessmentTab.Controls.Add(this.lowExtSubCatPan);
+            this.assessmentTab.Controls.Add(this.abdSubCatPan);
+            this.assessmentTab.Controls.Add(this.hEENTSubCatPan);
+            this.assessmentTab.Controls.Add(this.carSubCatPan);
+            this.assessmentTab.Controls.Add(this.pulSubCatPan);
             this.assessmentTab.Location = new System.Drawing.Point(4, 24);
             this.assessmentTab.Margin = new System.Windows.Forms.Padding(2);
             this.assessmentTab.Name = "assessmentTab";
@@ -6771,6 +6770,7 @@
             this.checkBox5.TabIndex = 12;
             this.checkBox5.Text = "Other";
             this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // checkBox4
             // 
@@ -6810,6 +6810,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.Enabled = false;
             this.textBox5.Location = new System.Drawing.Point(3, 34);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Multiline = true;
