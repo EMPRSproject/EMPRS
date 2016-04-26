@@ -71,6 +71,7 @@
     <Compile Include="logOut.Designer.cs">
       <DependentUpon>logOut.cs</DependentUpon>
     </Compile>
+    <Compile Include="Patient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="studentView.cs">
