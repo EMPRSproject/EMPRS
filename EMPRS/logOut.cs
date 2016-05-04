@@ -26,7 +26,7 @@ namespace EMPRS
 
         private void logOut_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            Environment.Exit(0);
         }
     }
 }

@@ -851,6 +851,7 @@
             this.logOutMenuItem.Name = "logOutMenuItem";
             this.logOutMenuItem.Size = new System.Drawing.Size(62, 22);
             this.logOutMenuItem.Text = "Log Out";
+            this.logOutMenuItem.Click += new System.EventHandler(this.logOutMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
@@ -8904,6 +8905,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "studentView";
             this.Text = "studentView";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.studentView_FormClosing);
             this.mainMenuStrip.ResumeLayout(false);
             this.mainMenuStrip.PerformLayout();
             this.selectionMenu.ResumeLayout(false);
