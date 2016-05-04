@@ -19,12 +19,6 @@ namespace EMPRS
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            if (usernameTextbox.Text == "" || passwordTextbox.Text == "")
-            {
-                errorLabel.Visible = true;
-                //MessageBox.Show("Please enter Username and Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
             //if (usernameTextbox.Text == "admin" && passwordTextbox.Text == "password")
             //{
             //    errorLabel.Visible = false;
@@ -39,6 +33,23 @@ namespace EMPRS
                 studentView studentForm = new studentView();
                 studentForm.Show();
             }
+            else
+            {
+                //blink the failure message so user can tell their most recent input was processed
+                errorLabel.Visible = false;
+                System.Threading.Thread.Sleep(100);
+                errorLabel.Visible = true;
+
+                //erase fields and focus on the username box
+                usernameTextbox.Text = "";
+                passwordTextbox.Text = "";
+                usernameTextbox.Focus();
+            }
+        }
+
+        private void logInForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
