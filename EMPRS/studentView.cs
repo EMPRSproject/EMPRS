@@ -12,9 +12,11 @@ namespace EMPRS
 {
     public partial class studentView : Form
     {
+
         public studentView()
         {
             InitializeComponent();
+            notAuthorizedToolStripMenuItem.Checked = true;
         }
 
         private void hideTabs()
@@ -85,8 +87,6 @@ namespace EMPRS
                 logOutForm.Show();
             }
         }
-
-
 
         private void sideButtonEnabled()
         {
@@ -161,12 +161,6 @@ namespace EMPRS
             ordTabs.Visible = true;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-
         private void patientDropDown_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (patientDropDown.Text == "Patient 1")
@@ -188,17 +182,21 @@ namespace EMPRS
 
         }
 
-       
-
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void authorizedToolStripMenuItem_Click(object sender, EventArgs e)
         {
-                saveToolStripMenuItem1.Enabled = true;
-                
+            saveToolStripMenuItem1.Enabled = true;
+            notAuthorizedToolStripMenuItem.Checked = false;
+        }
+
+        private void notAuthorizedToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveToolStripMenuItem1.Enabled = false;
+            authorizedToolStripMenuItem.Checked = false;
         }
 
         //Assessment buttons
@@ -291,7 +289,7 @@ namespace EMPRS
 
         private void labsAndImaBtn_Click(object sender, EventArgs e)
         {
-           // hideTabs();
+            // hideTabs();
             buttonLI.Enabled = false;
             selectionMenu.Visible = true;
             hideHomeButtons();
@@ -334,6 +332,21 @@ namespace EMPRS
             else
             {
                 textBox5.Enabled = false;
+            }
+        }
+
+        private void studentView_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Are you sure you want to exit Empress?", "Exit Empress", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                logInForm.ActiveForm.Dispose();
+                if (Application.OpenForms["logOut"] != null)
+                    logOut.ActiveForm.Dispose();
+                Application.Exit();
+            }
+            else
+            {
+                e.Cancel = true;
             }
         }
     }

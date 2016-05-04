@@ -19,7 +19,14 @@ namespace EMPRS
 
         private void logBackInButton_Click(object sender, EventArgs e)
         {
+            Hide();
+            logInForm logIn = new logInForm();
+            logIn.Show();
+        }
 
+        private void logOut_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
