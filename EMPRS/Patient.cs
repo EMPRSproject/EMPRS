@@ -14,6 +14,7 @@ namespace EMPRS
 
         string nameL, nameF;    //patient last and first name
         int age;                //patient age
+        int patientID;          //patient ID
         DateTime DOB;           //patient DOB
         enum sex                //patient sex
         {
