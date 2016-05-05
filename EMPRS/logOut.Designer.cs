@@ -60,6 +60,7 @@
             this.Controls.Add(this.loggedOutLabel);
             this.Name = "logOut";
             this.Text = "EMPRS - Logged Out";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.logOut_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

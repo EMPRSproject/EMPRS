@@ -35,7 +35,7 @@ namespace EMPRS
             double dose;            //dosage of medication to give patient
             enum doseUnit           //units of medication dose
             {
-                
+                mg, mg_mL, mcg, mEq, mL, mL_hr, L, g
             };
             string route;           //the...method of entry
             DateTime lastGiven;     //one-time administration date or last administration date
@@ -73,24 +73,42 @@ namespace EMPRS
 
         //Blood pressure
         float SBP, DBP;
-        enum bpSite         //site of bp: 'l', 'r', or NULL
+        enum bpLR   //side of bp
+        {
+            L, R
+        };
+        enum bpSite         //site of bp
         {
             upperArm, lowerArm, calf, thigh, wrist
         };
 
         //Respiratory
         float respRate;
-        string respRhythm;      //description of breathing: "regular", "labored", "distressed", or "irregular"
-
-        //Pulse
-        float pulseRate, pulseStrength;
-        bool apical, radial, popliteal, carotid, posteriorTibalis, dorsalisPedis;   //site of pulse: 0 = not measured here, 1 = measured here
-
-        //Temperature
-        float temp;
-        enum tempSite       //site of temp reading: 0 = not measured here, 1 = measured here
+        enum respRhythm     //description of breathing
         {
-            
+            Irregular, Distressed, Labored, Regular
+        };
+
+        //Pulse (in bpm)
+        float pulseRate;
+        enum pulseStrength   //strength of pulse
+        {
+            Absent, Thready, Normal, Increased, Full
+        };
+        enum pulseSite      //site of pulse measurement
+        {
+            Apical, Radial, Popliteal, Carotid, PostTibialis, DorsalPedis
+        };
+
+        //Temperature (in F or C)
+        float temp;
+        enum fahCel
+        {
+            F, C
+        };
+        enum tempSite       //site of temp reading
+        {
+            Oral, Temporal, Axillary, Rectal, Otic
         };
 
         //ASSESSMENT
@@ -128,16 +146,7 @@ namespace EMPRS
         //Upper extremities
 
         //skin
-        enum upperExSkinTemp
-        {
-            Hot, Warm, Cold
-        };
-
-        enum upperExSkinHumid
-        {
-            Cracked, Dry, Moist
-        };
-
+        bool upExSkinHot, upExSkinWarm, upExSkinCold, upExSkinDry, upExSkinMoist, upExSkinCracked;
         string uppExtPressureUlcer;
 
         //capillary refill
@@ -166,109 +175,47 @@ namespace EMPRS
             Absent, DimOverall, DimBases, Normal
         };
 
-        //left upper lobe
-        enum leftUpLobe
-        {
-            Absent, Pleural, Rhonchi, Wheeze, Coarse, Fine, Dim, Normal
-        };
+        //left upper lobe [mc]
+        bool leftUpLobeNormal, leftUpLobeDim, leftUpLobeFine, leftUpLobeCoarse, leftUpLobeWheeze, leftUpLobeRhonchi, leftUpLobePleural, leftUpLobeAbsent;
 
         //left lower lobe
-        enum leftLowLobe
-        {
-            Absent, Pleural, Rhonchi, Wheeze, Coarse, Fine, Dim, Normal
-        };
+        bool leftLowLobeNormal, leftLowLobeDim, leftLowLobeFine, leftLowLobeCoarse, leftLowLobeWheeze, leftLowLobeRhonchi, leftLowLobePleural, leftLowLobeAbsent;
 
         //right upper lobe
-        enum rightUpLobe
-        {
-            Absent, Pleural, Rhonchi, Wheeze, Coarse, Fine, Dim, Normal
-        };
+        bool rightUpLobeNormal, rightUpLobeDim, rightUpLobeFine, rightUpLobeCoarse, rightUpLobeWheeze, rightUpLobeRhonchi, rightUpLobePleural, rightUpLobeAbsent;
 
         //right middle lobe
-        enum rightMidLobe
-        {
-            Absent, Pleural, Rhonchi, Wheeze, Coarse, Fine, Dim, Normal
-        };
+        bool rightMidLobeNormal, rightMidLobeDim, rightMidLobeFine, rightMidLobeCoarse, rightMidLobeWheeze, rightMidLobeRhonchi, rightMidLobePleural, rightMidLobeAbsent;
 
         //right lower lobe
-        enum rightLowLobe
-        {
-            Absent, Pleural, Rhonchi, Wheeze, Coarse, Fine, Dim, Normal
-        };
+        bool rightLowLobeNormal, rightLowLobeDim, rightLowLobeFine, rightLowLobeCoarse, rightLowLobeWheeze, rightLowLobeRhonchi, rightLowLobePleural, rightLowLobeAbsent;
 
         //Cardiac
-        enum cardMurm
-        {
-            Murmur, S4, S3, S1_2
-        };
+        bool cardMurmS1_S2, cardMurmS3, cardMurmS4, cardMurmPres;
 
         //Abdomen
 
         //overall
         bool abTend;    //0 = non-tender, 1 = tender
         bool abDist;    //0 = non-distended, 1 = distended
-        enum abOverBowel
-        {
-            Absent, Hypoactive, Present
-        };
+        bool abBowelPres, abBowelHypo, abBowelAbsent;
 
         //right-upper quadrant
-        enum abRUBowel
-        {
-            Absent, Hypoactive, Present
-        };
-
-        enum abRUQuality
-        {
-            Dull, Flat, Hyper, Resonant, Tympanic
-        };
+        bool abRUQBowelPres, abRUQBowelHypo, abRUQBowelAbsent, abRUQTympanic, abRUQResonant, abRUQHyper, abRUQFlat, abRUQDull;
 
         //left-upper quadrant
-        enum abLUBowel
-        {
-            Absent, Hypoactive, Present
-        };
-
-        enum abLUQuality
-        {
-            Dull, Flat, Hyper, Resonant, Tympanic
-        };
+        bool abLUQBowelPres, abLUQBowelHypo, abLUQBowelAbsent, abLUQTympanic, abLUQResonant, abLUQHyper, abLUQFlat, abLUQDull;
 
         //right-lower quadrant
-        enum abRLBowel
-        {
-            Absent, Hypoactive, Present
-        };
-
-        enum abRLQuality
-        {
-            Dull, Flat, Hyper, Resonant, Tympanic
-        };
+        bool abRLQBowelPres, abRLQBowelHypo, abRLQBowelAbsent, abRLQTympanic, abRLQResonant, abRLQHyper, abRLQFlat, abRLQDull;
 
         //left-lower quadrant
-        enum abLLBowel
-        {
-            Absent, Hypoactive, Present
-        };
-
-        enum abLLQuality
-        {
-            Dull, Flat, Hyper, Resonant, Tympanic
-        };
+        bool abLLQBowelPres, abLLQBowelHypo, abLLQBowelAbsent, abLLQTympanic, abLLQResonant, abLLQHyper, abLLQFlat, abLLQDull;
 
         //Lower Extremities
 
         //skin
-        enum lowerExSkinTemp
-        {
-            Hot, Warm, Cold
-        };
-
-        enum lowerExSkinHumid
-        {
-            Cracked, Dry, Moist
-        };
-
+        bool lowExSkinHot, lowExSkinWarm, lowExSkinCold, lowExSkinDry, lowExSkinMoist, lowExSkinCracked;
         string lowExtpressureUlcer;
 
         //capillary refill
@@ -296,37 +243,37 @@ namespace EMPRS
         //sensory perception
         enum sensePercep
         {
-            CompLimit, VeryLimit, SlightLimit, NoImpair
+            CompLimit = 1, VeryLimit = 2, SlightLimit = 3, NoImpair = 4
         };
 
         //moisture
         enum moisture
         {
-            ConstMoist, VeryMoist, OccMoist, RareMoist
+            ConstMoist = 1, VeryMoist = 2, OccMoist = 3, RareMoist = 4
         };
 
         //activity
         enum activity
         {
-            Bedfast, Chairfast, WalksOcc, WalksFreq
+            Bedfast = 1, Chairfast = 2, WalksOcc = 3, WalksFreq = 4
         };
 
         //mobility
         enum mobility
         {
-            Immobile, VeryLimit, SlightLimit, NoLimit
+            Immobile = 1, VeryLimit = 2, SlightLimit = 3, NoLimit = 4
         };
 
         //nutrition
         enum nutrition
         {
-            Poor, Inadequate, Adequate, Excellent
+            Poor = 1, Inadequate = 2, Adequate = 3, Excellent = 4
         };
 
         //friction and shear
         enum frictionShear
         {
-            Problem, PotProb, NoProb
+            Problem = 1, PotProb = 2, NoProb = 3
         };
 
         //Morse
@@ -386,10 +333,10 @@ namespace EMPRS
         //-------------------------//
 
         //MEDICATIONS
-        string newMeds;
-        string discMeds;
-        string modMeds;
-        string ongoingMeds;
+        Medication newMeds;
+        Medication discMeds;
+        Medication modMeds;
+        Medication ongoingMeds;
 
         //NURSING ORDERS
         
