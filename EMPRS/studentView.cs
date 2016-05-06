@@ -16,7 +16,36 @@ namespace EMPRS
         public studentView()
         {
             InitializeComponent();
+
+            //default not authorized
             notAuthorizedToolStripMenuItem.Checked = true;
+
+            //initialize labs text boxes empty
+            //-----lol surely there is a better way to do this
+            ca2MaskTxtBox.Clear();
+            tPMaskTxtBox.Clear();
+            aSTMaskTxtBox.Clear();
+            lDHMastTxtBox.Clear();
+            bilMastTxtBox.Clear();
+            PO43MaskTxtBox.Clear();
+            albMaskTxtBox.Clear();
+            aLTMaskTxtBox.Clear();
+            aLPMaskTxtBox.Clear();
+            iNRMaskTxtBox.Clear();
+            pTMaskTxtBox.Clear();
+            pTTMaskTxtBox.Clear();
+            naMaskTxtBox.Clear();
+            clMaskTxtBox.Clear();
+            bUNMaskTxtBox.Clear();
+            kMaskTxtBox.Clear();
+            HCO3MaskTxtBox.Clear();
+            creatMaskTxtBox.Clear();
+            glucoseMaskTxtBox.Clear();
+            rBCMaskTxtBox.Clear();
+            wBCMaskTxtBox.Clear();
+            hCTMaskTxtBox.Clear();
+            hgbMaskTxtBox.Clear();
+            pLTMaskTxtBox.Clear();
         }
 
         private void hideTabs()
@@ -347,6 +376,38 @@ namespace EMPRS
             else
             {
                 e.Cancel = true;
+            }
+        }
+
+        private void medTypeComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            maskedTextBox39.ReadOnly = false;
+            maskedTextBox38.ReadOnly = false;
+            maskedTextBox41.ReadOnly = false;
+            textBox13.ReadOnly = false;
+        }
+
+        private void ca2MaskTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (float.Parse(ca2MaskTxtBox.Text) < 8.6)
+            {
+                ca2MaskTxtBox.ForeColor = System.Drawing.Color.Navy;
+            }
+            else if (float.Parse(ca2MaskTxtBox.Text) > 10.2)
+            {
+                ca2MaskTxtBox.ForeColor = System.Drawing.Color.Crimson;
+            }
+        }
+
+        private void tPMaskTxtBox_Leave(object sender, EventArgs e)
+        {
+            if (float.Parse(tPMaskTxtBox.Text) < 8.6)
+            {
+                tPMaskTxtBox.ForeColor = System.Drawing.Color.Navy;
+            }
+            else if (float.Parse(ca2MaskTxtBox.Text) > 10.2)
+            {
+                tPMaskTxtBox.ForeColor = System.Drawing.Color.Crimson;
             }
         }
     }
