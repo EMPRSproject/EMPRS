@@ -216,7 +216,7 @@ namespace EMPRS
 
         //skin
         bool lowExSkinHot, lowExSkinWarm, lowExSkinCold, lowExSkinDry, lowExSkinMoist, lowExSkinCracked;
-        string lowExtpressureUlcer;
+        string lowExPressureUlcer;
 
         //capillary refill
         enum lowerExCapRefill
