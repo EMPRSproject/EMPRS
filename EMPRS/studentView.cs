@@ -410,6 +410,11 @@ namespace EMPRS
                 tPMaskTxtBox.ForeColor = System.Drawing.Color.Crimson;
             }
         }
+
+        private void groupBox21_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
