@@ -127,6 +127,7 @@
             this.Controls.Add(this.loginButton);
             this.Name = "logInForm";
             this.Text = "EMPRS - Login";
+            this.Load += new System.EventHandler(this.logInForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

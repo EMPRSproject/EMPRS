@@ -51,5 +51,10 @@ namespace EMPRS
         {
             Application.Exit();
         }
+
+        private void logInForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

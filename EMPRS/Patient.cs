@@ -101,7 +101,7 @@ namespace EMPRS
         };
 
         //Temperature (in F or C)
-        float temp;
+        float Temperature;//should change to Temperature to avoid ambiguity
         enum fahCel
         {
             F, C
@@ -147,7 +147,7 @@ namespace EMPRS
 
         //skin
         bool upExSkinHot, upExSkinWarm, upExSkinCold, upExSkinDry, upExSkinMoist, upExSkinCracked;
-        string uppExtPressureUlcer;
+        string upExPressureUlcer;
 
         //capillary refill
         enum upperExCapRefill
