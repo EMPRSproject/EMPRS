@@ -48,6 +48,9 @@ namespace EMPRS
         //-----LABS-----//
         //--------------//
 
+        //date of lab
+        DateTime labDate;
+
         //electrolytes, protein, other (HCO3 = bicarbonate, BUN = blood urea nitrogen)
         float sodium, potassium, chloride, HCO3, BUN, creatinine, glucose, calcium;
         float magnesium, phosphate, protein, albumin, AST, ALT, LDH, ALP, bilirubin;
@@ -64,10 +67,13 @@ namespace EMPRS
         //IMAGING
         //does anything need to be here???
         //currently looking into server/database integration and what that means for images
-        
+
         //-------------------------//
         //-----ASSESSMENT DATA-----//
         //-------------------------//
+
+        //date of Assessment
+        DateTime assessmentDate;
 
         //VITAL SIGNS
 
