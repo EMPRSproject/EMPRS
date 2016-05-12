@@ -29,6 +29,7 @@ namespace EMPRS
        
         private struct Medication   //information about medication given to patient
         {
+            int medID;              //Id for specific patient med order
             string med;             //generic name of medication
             string freq;            //frequency of med administration (free type)
             bool prn;               //0 = not as-needed, 1 = as-needed medication
