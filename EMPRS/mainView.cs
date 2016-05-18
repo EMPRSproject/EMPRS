@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace EMPRS
 {
-    public partial class studentView : Form
+    public partial class mainView : Form
     {
 
-        public studentView()
+        public mainView()
         {
             InitializeComponent();
 
@@ -46,6 +46,15 @@ namespace EMPRS
             hCTMaskTxtBox.Clear();
             hgbMaskTxtBox.Clear();
             pLTMaskTxtBox.Clear();
+
+            if (global.isAdmin == false)
+            {
+                ordTabs.TabPages.Remove(tabPage3);
+            }
+            else
+            {
+                logInAsMaskTxtBox.Text = "Admin";
+            }
         }
 
         private void hideTabs()
@@ -364,9 +373,9 @@ namespace EMPRS
             }
         }
 
-        private void studentView_FormClosing(object sender, FormClosingEventArgs e)
+        private void mainView_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to exit Empress?", "Exit Empress", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show("Are you sure you want to exit EMPRS?", "Exit EMPRS", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 logInForm.ActiveForm.Dispose();
                 if (Application.OpenForms["logOut"] != null)
@@ -412,6 +421,16 @@ namespace EMPRS
         }
 
         private void groupBox21_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void studentView_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void logInAsMaskTxtBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
         }

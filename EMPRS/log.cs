@@ -19,19 +19,20 @@ namespace EMPRS
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            //if (usernameTextbox.Text == "admin" && passwordTextbox.Text == "password")
-            //{
-            //    errorLabel.Visible = false;
-            //    Hide();
-            //    studentView studentViewForm = new studentView();
-            //    studentViewForm.Show();
-            //}
             if (usernameTextbox.Text == "student" && passwordTextbox.Text == "password")
             {
                 errorLabel.Visible = false;
                 Hide();
-                studentView studentForm = new studentView();
-                studentForm.Show();
+                mainView mainForm = new mainView();
+                mainForm.Show();
+            }
+            else if (usernameTextbox.Text == "admin" && passwordTextbox.Text == "password")
+            {
+                global.isAdmin = true;
+                errorLabel.Visible = false;
+                Hide();
+                mainView mainForm = new mainView();
+                mainForm.Show();
             }
             else
             {
