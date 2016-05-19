@@ -63,7 +63,12 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ordTabs = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label162 = new System.Windows.Forms.Label();
+            this.ordMed_Save_Btn = new System.Windows.Forms.Button();
             this.groupBox57 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.maskedTextBox38 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox39 = new System.Windows.Forms.MaskedTextBox();
             this.ordMed_Time_TxtBox = new System.Windows.Forms.TextBox();
@@ -76,6 +81,7 @@
             this.label98 = new System.Windows.Forms.Label();
             this.label99 = new System.Windows.Forms.Label();
             this.groupBox52 = new System.Windows.Forms.GroupBox();
+            this.ordMed_Drug_DataGridView = new System.Windows.Forms.DataGridView();
             this.label94 = new System.Windows.Forms.Label();
             this.ordMed_Type_CmbBox = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -941,6 +947,8 @@
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox55 = new System.Windows.Forms.GroupBox();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
             this.labelPTT = new System.Windows.Forms.Label();
             this.labelPT = new System.Windows.Forms.Label();
             this.labelINR = new System.Windows.Forms.Label();
@@ -982,21 +990,15 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.groupBox51 = new System.Windows.Forms.GroupBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.ordMed_Save_Btn = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ordMed_Drug_DataGridView = new System.Windows.Forms.DataGridView();
-            this.label162 = new System.Windows.Forms.Label();
             this.mainMenuStrip.SuspendLayout();
             this.selectionMenu.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.ordTabs.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox57.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox52.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox38.SuspendLayout();
             this.groupBox37.SuspendLayout();
@@ -1146,8 +1148,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.groupBox54.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // mainMenuStrip
@@ -1222,11 +1222,11 @@
             // 
             // logInAsMaskTxtBox
             // 
+            this.logInAsMaskTxtBox.Enabled = false;
             this.logInAsMaskTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logInAsMaskTxtBox.Location = new System.Drawing.Point(91, 39);
             this.logInAsMaskTxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.logInAsMaskTxtBox.Name = "logInAsMaskTxtBox";
-            this.logInAsMaskTxtBox.ReadOnly = true;
             this.logInAsMaskTxtBox.Size = new System.Drawing.Size(91, 19);
             this.logInAsMaskTxtBox.TabIndex = 91;
             this.logInAsMaskTxtBox.Text = "A Nurse";
@@ -1411,7 +1411,6 @@
             this.allMaskTxtBox.Location = new System.Drawing.Point(860, 75);
             this.allMaskTxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.allMaskTxtBox.Name = "allMaskTxtBox";
-            this.allMaskTxtBox.ReadOnly = true;
             this.allMaskTxtBox.Size = new System.Drawing.Size(198, 19);
             this.allMaskTxtBox.TabIndex = 83;
             // 
@@ -1421,7 +1420,6 @@
             this.infPreMaskTxtBox.Location = new System.Drawing.Point(1178, 75);
             this.infPreMaskTxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.infPreMaskTxtBox.Name = "infPreMaskTxtBox";
-            this.infPreMaskTxtBox.ReadOnly = true;
             this.infPreMaskTxtBox.Size = new System.Drawing.Size(163, 19);
             this.infPreMaskTxtBox.TabIndex = 84;
             // 
@@ -1431,7 +1429,6 @@
             this.birthMaskTxtBox.Location = new System.Drawing.Point(713, 75);
             this.birthMaskTxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.birthMaskTxtBox.Name = "birthMaskTxtBox";
-            this.birthMaskTxtBox.ReadOnly = true;
             this.birthMaskTxtBox.Size = new System.Drawing.Size(84, 19);
             this.birthMaskTxtBox.TabIndex = 85;
             // 
@@ -1441,7 +1438,6 @@
             this.ageMaskTxtBox.Location = new System.Drawing.Point(613, 75);
             this.ageMaskTxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.ageMaskTxtBox.Name = "ageMaskTxtBox";
-            this.ageMaskTxtBox.ReadOnly = true;
             this.ageMaskTxtBox.Size = new System.Drawing.Size(31, 19);
             this.ageMaskTxtBox.TabIndex = 86;
             // 
@@ -1451,7 +1447,6 @@
             this.sexMaskTxtBox.Location = new System.Drawing.Point(538, 75);
             this.sexMaskTxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.sexMaskTxtBox.Name = "sexMaskTxtBox";
-            this.sexMaskTxtBox.ReadOnly = true;
             this.sexMaskTxtBox.Size = new System.Drawing.Size(31, 19);
             this.sexMaskTxtBox.TabIndex = 87;
             // 
@@ -1461,7 +1456,6 @@
             this.mRNMaskTxtBox.Location = new System.Drawing.Point(363, 75);
             this.mRNMaskTxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.mRNMaskTxtBox.Name = "mRNMaskTxtBox";
-            this.mRNMaskTxtBox.ReadOnly = true;
             this.mRNMaskTxtBox.Size = new System.Drawing.Size(130, 19);
             this.mRNMaskTxtBox.TabIndex = 88;
             // 
@@ -1479,18 +1473,18 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Controls.Add(this.ordTabs);
             this.groupBox1.Controls.Add(this.notTabs);
+            this.groupBox1.Controls.Add(this.assDataTabs);
+            this.groupBox1.Controls.Add(this.mARTabs);
+            this.groupBox1.Controls.Add(this.labsAndImaTabs);
             this.groupBox1.Controls.Add(this.patHigBtn);
             this.groupBox1.Controls.Add(this.mARBtn);
             this.groupBox1.Controls.Add(this.labsAndImaBtn);
             this.groupBox1.Controls.Add(this.ordBtn);
             this.groupBox1.Controls.Add(this.notBtn);
             this.groupBox1.Controls.Add(this.assDataBtn);
-            this.groupBox1.Controls.Add(this.assDataTabs);
-            this.groupBox1.Controls.Add(this.mARTabs);
-            this.groupBox1.Controls.Add(this.labsAndImaTabs);
-            this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Location = new System.Drawing.Point(183, 96);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1187, 602);
@@ -1524,6 +1518,26 @@
             this.tabPage3.Text = "Medications";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // label162
+            // 
+            this.label162.AutoSize = true;
+            this.label162.Location = new System.Drawing.Point(401, 281);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(496, 13);
+            this.label162.TabIndex = 12;
+            this.label162.Text = "Drug information should be in a read only state until a combo box selection is ma" +
+    "de or a drug is selected.";
+            // 
+            // ordMed_Save_Btn
+            // 
+            this.ordMed_Save_Btn.Enabled = false;
+            this.ordMed_Save_Btn.Location = new System.Drawing.Point(541, 191);
+            this.ordMed_Save_Btn.Name = "ordMed_Save_Btn";
+            this.ordMed_Save_Btn.Size = new System.Drawing.Size(75, 23);
+            this.ordMed_Save_Btn.TabIndex = 11;
+            this.ordMed_Save_Btn.Text = "Save";
+            this.ordMed_Save_Btn.UseVisualStyleBackColor = true;
+            // 
             // groupBox57
             // 
             this.groupBox57.Controls.Add(this.dataGridView1);
@@ -1547,6 +1561,28 @@
             this.groupBox57.TabIndex = 10;
             this.groupBox57.TabStop = false;
             this.groupBox57.Text = "Drug Information";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2});
+            this.dataGridView1.Location = new System.Drawing.Point(244, -61);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 50);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Column1";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Column2";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             // 
             // maskedTextBox38
             // 
@@ -1667,6 +1703,14 @@
             this.groupBox52.TabStop = false;
             this.groupBox52.Text = "Drug List";
             // 
+            // ordMed_Drug_DataGridView
+            // 
+            this.ordMed_Drug_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ordMed_Drug_DataGridView.Location = new System.Drawing.Point(90, -90);
+            this.ordMed_Drug_DataGridView.Name = "ordMed_Drug_DataGridView";
+            this.ordMed_Drug_DataGridView.Size = new System.Drawing.Size(240, 150);
+            this.ordMed_Drug_DataGridView.TabIndex = 0;
+            // 
             // label94
             // 
             this.label94.AutoSize = true;
@@ -1714,6 +1758,7 @@
             // 
             // textBox10
             // 
+            this.textBox10.BackColor = System.Drawing.SystemColors.Window;
             this.textBox10.Location = new System.Drawing.Point(109, 109);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
@@ -1723,6 +1768,7 @@
             // 
             // textBox9
             // 
+            this.textBox9.BackColor = System.Drawing.SystemColors.Window;
             this.textBox9.Location = new System.Drawing.Point(109, 65);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
@@ -1732,6 +1778,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.SystemColors.Window;
             this.textBox6.Location = new System.Drawing.Point(109, 21);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
@@ -2045,6 +2092,7 @@
             // radioButton33
             // 
             this.radioButton33.AutoSize = true;
+            this.radioButton33.Enabled = false;
             this.radioButton33.Location = new System.Drawing.Point(23, 23);
             this.radioButton33.Name = "radioButton33";
             this.radioButton33.Size = new System.Drawing.Size(124, 17);
@@ -2064,6 +2112,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.Window;
             this.textBox3.Location = new System.Drawing.Point(109, 20);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -11672,13 +11721,12 @@
             // 
             // textBox12
             // 
-            this.textBox12.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox12.BackColor = System.Drawing.SystemColors.Window;
             this.textBox12.Enabled = false;
             this.textBox12.Location = new System.Drawing.Point(492, 15);
             this.textBox12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
-            this.textBox12.ReadOnly = true;
             this.textBox12.Size = new System.Drawing.Size(212, 22);
             this.textBox12.TabIndex = 0;
             // 
@@ -12046,31 +12094,28 @@
             // 
             // textBox15
             // 
-            this.textBox15.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox15.BackColor = System.Drawing.SystemColors.Window;
             this.textBox15.Location = new System.Drawing.Point(126, 536);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
             this.textBox15.Size = new System.Drawing.Size(998, 38);
             this.textBox15.TabIndex = 65;
             // 
             // textBox16
             // 
-            this.textBox16.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox16.BackColor = System.Drawing.SystemColors.Window;
             this.textBox16.Location = new System.Drawing.Point(126, 492);
             this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
-            this.textBox16.ReadOnly = true;
             this.textBox16.Size = new System.Drawing.Size(998, 38);
             this.textBox16.TabIndex = 64;
             // 
             // textBox17
             // 
-            this.textBox17.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox17.BackColor = System.Drawing.SystemColors.Window;
             this.textBox17.Location = new System.Drawing.Point(126, 448);
             this.textBox17.Multiline = true;
             this.textBox17.Name = "textBox17";
-            this.textBox17.ReadOnly = true;
             this.textBox17.Size = new System.Drawing.Size(998, 38);
             this.textBox17.TabIndex = 60;
             // 
@@ -12106,11 +12151,10 @@
             // 
             // textBox20
             // 
-            this.textBox20.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox20.BackColor = System.Drawing.SystemColors.Window;
             this.textBox20.Location = new System.Drawing.Point(856, 320);
             this.textBox20.Multiline = true;
             this.textBox20.Name = "textBox20";
-            this.textBox20.ReadOnly = true;
             this.textBox20.Size = new System.Drawing.Size(197, 20);
             this.textBox20.TabIndex = 59;
             // 
@@ -12126,31 +12170,28 @@
             // 
             // textBox19
             // 
-            this.textBox19.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox19.BackColor = System.Drawing.SystemColors.Window;
             this.textBox19.Location = new System.Drawing.Point(856, 355);
             this.textBox19.Multiline = true;
             this.textBox19.Name = "textBox19";
-            this.textBox19.ReadOnly = true;
             this.textBox19.Size = new System.Drawing.Size(197, 20);
             this.textBox19.TabIndex = 57;
             // 
             // textBox18
             // 
-            this.textBox18.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox18.BackColor = System.Drawing.SystemColors.Window;
             this.textBox18.Location = new System.Drawing.Point(856, 281);
             this.textBox18.Multiline = true;
             this.textBox18.Name = "textBox18";
-            this.textBox18.ReadOnly = true;
             this.textBox18.Size = new System.Drawing.Size(197, 20);
             this.textBox18.TabIndex = 56;
             // 
             // textBox14
             // 
-            this.textBox14.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox14.BackColor = System.Drawing.SystemColors.Window;
             this.textBox14.Location = new System.Drawing.Point(126, 284);
             this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
             this.textBox14.Size = new System.Drawing.Size(578, 152);
             this.textBox14.TabIndex = 51;
             // 
@@ -12497,6 +12538,24 @@
             this.groupBox55.TabStop = false;
             this.groupBox55.Text = "Labs";
             // 
+            // textBox37
+            // 
+            this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox37.Location = new System.Drawing.Point(1062, 153);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(55, 20);
+            this.textBox37.TabIndex = 109;
+            this.textBox37.Text = "2.67";
+            // 
+            // textBox36
+            // 
+            this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox36.Location = new System.Drawing.Point(1062, 30);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(55, 20);
+            this.textBox36.TabIndex = 108;
+            this.textBox36.Text = "1.75";
+            // 
             // labelPTT
             // 
             this.labelPTT.AutoSize = true;
@@ -12790,7 +12849,6 @@
             this.textBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox35.Location = new System.Drawing.Point(1100, 18);
             this.textBox35.Name = "textBox35";
-            this.textBox35.ReadOnly = true;
             this.textBox35.Size = new System.Drawing.Size(22, 21);
             this.textBox35.TabIndex = 75;
             this.textBox35.Text = "F";
@@ -12800,7 +12858,6 @@
             this.textBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox34.Location = new System.Drawing.Point(840, 17);
             this.textBox34.Name = "textBox34";
-            this.textBox34.ReadOnly = true;
             this.textBox34.Size = new System.Drawing.Size(43, 21);
             this.textBox34.TabIndex = 74;
             this.textBox34.Text = "66";
@@ -12810,7 +12867,6 @@
             this.textBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox33.Location = new System.Drawing.Point(659, 18);
             this.textBox33.Name = "textBox33";
-            this.textBox33.ReadOnly = true;
             this.textBox33.Size = new System.Drawing.Size(43, 21);
             this.textBox33.TabIndex = 73;
             this.textBox33.Text = "13";
@@ -12820,7 +12876,6 @@
             this.textBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox32.Location = new System.Drawing.Point(236, 18);
             this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
             this.textBox32.Size = new System.Drawing.Size(54, 21);
             this.textBox32.TabIndex = 72;
             this.textBox32.Text = "SBP\r\n";
@@ -12830,7 +12885,6 @@
             this.textBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox28.Location = new System.Drawing.Point(1026, 18);
             this.textBox28.Name = "textBox28";
-            this.textBox28.ReadOnly = true;
             this.textBox28.Size = new System.Drawing.Size(68, 21);
             this.textBox28.TabIndex = 17;
             this.textBox28.Text = "96.8";
@@ -12841,7 +12895,6 @@
             this.textBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox27.Location = new System.Drawing.Point(444, 17);
             this.textBox27.Name = "textBox27";
-            this.textBox27.ReadOnly = true;
             this.textBox27.Size = new System.Drawing.Size(64, 21);
             this.textBox27.TabIndex = 16;
             this.textBox27.Text = "U. Arm";
@@ -12851,7 +12904,6 @@
             this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox26.Location = new System.Drawing.Point(384, 17);
             this.textBox26.Name = "textBox26";
-            this.textBox26.ReadOnly = true;
             this.textBox26.Size = new System.Drawing.Size(50, 21);
             this.textBox26.TabIndex = 15;
             this.textBox26.Text = "Right";
@@ -12861,7 +12913,6 @@
             this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox25.Location = new System.Drawing.Point(101, 18);
             this.textBox25.Name = "textBox25";
-            this.textBox25.ReadOnly = true;
             this.textBox25.Size = new System.Drawing.Size(129, 21);
             this.textBox25.TabIndex = 14;
             this.textBox25.Text = "130/85   mmHg";
@@ -12930,76 +12981,6 @@
             this.groupBox51.TabStop = false;
             this.groupBox51.Text = "Regularly Scheduled Medications";
             // 
-            // textBox36
-            // 
-            this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(1062, 30);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.ReadOnly = true;
-            this.textBox36.Size = new System.Drawing.Size(55, 20);
-            this.textBox36.TabIndex = 108;
-            this.textBox36.Text = "1.75";
-            // 
-            // textBox37
-            // 
-            this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox37.Location = new System.Drawing.Point(1062, 153);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.ReadOnly = true;
-            this.textBox37.Size = new System.Drawing.Size(55, 20);
-            this.textBox37.TabIndex = 109;
-            this.textBox37.Text = "2.67";
-            // 
-            // ordMed_Save_Btn
-            // 
-            this.ordMed_Save_Btn.Enabled = false;
-            this.ordMed_Save_Btn.Location = new System.Drawing.Point(541, 191);
-            this.ordMed_Save_Btn.Name = "ordMed_Save_Btn";
-            this.ordMed_Save_Btn.Size = new System.Drawing.Size(75, 23);
-            this.ordMed_Save_Btn.TabIndex = 11;
-            this.ordMed_Save_Btn.Text = "Save";
-            this.ordMed_Save_Btn.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(244, -61);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 50);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Column2";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // ordMed_Drug_DataGridView
-            // 
-            this.ordMed_Drug_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ordMed_Drug_DataGridView.Location = new System.Drawing.Point(90, -90);
-            this.ordMed_Drug_DataGridView.Name = "ordMed_Drug_DataGridView";
-            this.ordMed_Drug_DataGridView.Size = new System.Drawing.Size(240, 150);
-            this.ordMed_Drug_DataGridView.TabIndex = 0;
-            // 
-            // label162
-            // 
-            this.label162.AutoSize = true;
-            this.label162.Location = new System.Drawing.Point(401, 281);
-            this.label162.Name = "label162";
-            this.label162.Size = new System.Drawing.Size(496, 13);
-            this.label162.TabIndex = 12;
-            this.label162.Text = "Drug information should be in a read only state until a combo box selection is ma" +
-    "de or a drug is selected.";
-            // 
             // mainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -13037,7 +13018,9 @@
             this.tabPage3.PerformLayout();
             this.groupBox57.ResumeLayout(false);
             this.groupBox57.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox52.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.groupBox38.ResumeLayout(false);
             this.groupBox38.PerformLayout();
@@ -13288,8 +13271,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.groupBox54.ResumeLayout(false);
             this.groupBox54.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
