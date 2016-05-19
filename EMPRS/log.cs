@@ -15,6 +15,7 @@ namespace EMPRS
         public logInForm()
         {
             InitializeComponent();
+            global.isAdmin = false;
         }
 
         private void loginButton_Click(object sender, EventArgs e)

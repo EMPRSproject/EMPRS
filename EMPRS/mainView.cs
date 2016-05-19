@@ -50,10 +50,27 @@ namespace EMPRS
             if (global.isAdmin == false)
             {
                 ordTabs.TabPages.Remove(tabPage3);
+                //readOnly_Ord_NursingOrders(this);
+                radioButton33.AutoCheck = false;
             }
             else
             {
                 logInAsMaskTxtBox.Text = "Admin";
+            }
+        }
+
+        private void readOnly_Ord_NursingOrders(Control parent)
+        {
+            foreach (Control c in parent.Controls)
+            {
+                if (c.GetType() == typeof(RadioButton))
+                {
+                    c.Enabled = false;
+                }
+                else
+                {
+                    readOnly_Ord_NursingOrders(c);
+                }
             }
         }
 
@@ -377,10 +394,11 @@ namespace EMPRS
         {
             if (MessageBox.Show("Are you sure you want to exit EMPRS?", "Exit EMPRS", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                logInForm.ActiveForm.Dispose();
-                if (Application.OpenForms["logOut"] != null)
-                    logOut.ActiveForm.Dispose();
-                Application.Exit();
+                if (global.isAdmin == false) // Restoring the controls to a "fresh state"
+                {
+                    ordTabs.TabPages.Add(tabPage3);
+                }
+                Environment.Exit(0);
             }
             else
             {
@@ -393,7 +411,7 @@ namespace EMPRS
             maskedTextBox39.ReadOnly = false;
             maskedTextBox38.ReadOnly = false;
             maskedTextBox41.ReadOnly = false;
-            textBox13.ReadOnly = false;
+            ordMed_Time_TxtBox.ReadOnly = false;
         }
 
         private void ca2MaskTxtBox_Leave(object sender, EventArgs e)
@@ -431,6 +449,11 @@ namespace EMPRS
         }
 
         private void logInAsMaskTxtBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void groupBox52_Enter(object sender, EventArgs e)
         {
 
         }
