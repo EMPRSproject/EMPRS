@@ -50,26 +50,26 @@ namespace EMPRS
             if (global.isAdmin == false)
             {
                 ordTabs.TabPages.Remove(tabPage3);
-                //readOnly_Ord_NursingOrders(this);
-                radioButton33.AutoCheck = false;
+                notTabs.TabPages.Remove(tabPage4);
             }
             else
             {
                 logInAsMaskTxtBox.Text = "Admin";
+                enableAdminView(tabPage4);
             }
         }
 
-        private void readOnly_Ord_NursingOrders(Control parent)
+        private void enableAdminView(Control parent)
         {
             foreach (Control c in parent.Controls)
             {
-                if (c.GetType() == typeof(RadioButton))
+                if (c.GetType() == typeof(TextBox) || c.GetType() == typeof(RadioButton))
                 {
-                    c.Enabled = false;
+                    c.Enabled = true;
                 }
                 else
                 {
-                    readOnly_Ord_NursingOrders(c);
+                    enableAdminView(c);
                 }
             }
         }

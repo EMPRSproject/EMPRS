@@ -990,6 +990,7 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.groupBox51 = new System.Windows.Forms.GroupBox();
+            this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.mainMenuStrip.SuspendLayout();
             this.selectionMenu.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -1473,8 +1474,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.patHigPan);
-            this.groupBox1.Controls.Add(this.ordTabs);
             this.groupBox1.Controls.Add(this.notTabs);
             this.groupBox1.Controls.Add(this.assDataTabs);
             this.groupBox1.Controls.Add(this.mARTabs);
@@ -1485,6 +1484,8 @@
             this.groupBox1.Controls.Add(this.ordBtn);
             this.groupBox1.Controls.Add(this.notBtn);
             this.groupBox1.Controls.Add(this.assDataBtn);
+            this.groupBox1.Controls.Add(this.patHigPan);
+            this.groupBox1.Controls.Add(this.ordTabs);
             this.groupBox1.Location = new System.Drawing.Point(183, 96);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1187, 602);
@@ -1586,6 +1587,7 @@
             // 
             // maskedTextBox38
             // 
+            this.maskedTextBox38.Enabled = false;
             this.maskedTextBox38.Location = new System.Drawing.Point(511, 16);
             this.maskedTextBox38.Margin = new System.Windows.Forms.Padding(2);
             this.maskedTextBox38.Name = "maskedTextBox38";
@@ -1594,6 +1596,7 @@
             // 
             // maskedTextBox39
             // 
+            this.maskedTextBox39.Enabled = false;
             this.maskedTextBox39.Location = new System.Drawing.Point(68, 18);
             this.maskedTextBox39.Margin = new System.Windows.Forms.Padding(2);
             this.maskedTextBox39.Name = "maskedTextBox39";
@@ -1602,6 +1605,7 @@
             // 
             // ordMed_Time_TxtBox
             // 
+            this.ordMed_Time_TxtBox.Enabled = false;
             this.ordMed_Time_TxtBox.Location = new System.Drawing.Point(95, 50);
             this.ordMed_Time_TxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.ordMed_Time_TxtBox.Multiline = true;
@@ -1622,6 +1626,7 @@
             // 
             // comboBox14
             // 
+            this.comboBox14.Enabled = false;
             this.comboBox14.FormattingEnabled = true;
             this.comboBox14.Location = new System.Drawing.Point(1090, 16);
             this.comboBox14.Margin = new System.Windows.Forms.Padding(2);
@@ -1642,6 +1647,7 @@
             // 
             // maskedTextBox41
             // 
+            this.maskedTextBox41.Enabled = false;
             this.maskedTextBox41.Location = new System.Drawing.Point(882, 18);
             this.maskedTextBox41.Margin = new System.Windows.Forms.Padding(2);
             this.maskedTextBox41.Name = "maskedTextBox41";
@@ -1650,6 +1656,7 @@
             // 
             // comboBox15
             // 
+            this.comboBox15.Enabled = false;
             this.comboBox15.FormattingEnabled = true;
             this.comboBox15.Location = new System.Drawing.Point(964, 17);
             this.comboBox15.Margin = new System.Windows.Forms.Padding(2);
@@ -1759,6 +1766,7 @@
             // textBox10
             // 
             this.textBox10.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox10.Enabled = false;
             this.textBox10.Location = new System.Drawing.Point(109, 109);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
@@ -1769,6 +1777,7 @@
             // textBox9
             // 
             this.textBox9.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox9.Enabled = false;
             this.textBox9.Location = new System.Drawing.Point(109, 65);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
@@ -1779,6 +1788,7 @@
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox6.Enabled = false;
             this.textBox6.Location = new System.Drawing.Point(109, 21);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
@@ -1830,6 +1840,7 @@
             // radioButton90
             // 
             this.radioButton90.AutoSize = true;
+            this.radioButton90.Enabled = false;
             this.radioButton90.Location = new System.Drawing.Point(824, 20);
             this.radioButton90.Name = "radioButton90";
             this.radioButton90.Size = new System.Drawing.Size(59, 17);
@@ -1841,6 +1852,7 @@
             // radioButton93
             // 
             this.radioButton93.AutoSize = true;
+            this.radioButton93.Enabled = false;
             this.radioButton93.Location = new System.Drawing.Point(291, 19);
             this.radioButton93.Name = "radioButton93";
             this.radioButton93.Size = new System.Drawing.Size(62, 17);
@@ -1852,6 +1864,7 @@
             // radioButton91
             // 
             this.radioButton91.AutoSize = true;
+            this.radioButton91.Enabled = false;
             this.radioButton91.Location = new System.Drawing.Point(1068, 19);
             this.radioButton91.Name = "radioButton91";
             this.radioButton91.Size = new System.Drawing.Size(64, 17);
@@ -1863,6 +1876,7 @@
             // radioButton94
             // 
             this.radioButton94.AutoSize = true;
+            this.radioButton94.Enabled = false;
             this.radioButton94.Location = new System.Drawing.Point(23, 19);
             this.radioButton94.Name = "radioButton94";
             this.radioButton94.Size = new System.Drawing.Size(68, 17);
@@ -1874,6 +1888,7 @@
             // radioButton92
             // 
             this.radioButton92.AutoSize = true;
+            this.radioButton92.Enabled = false;
             this.radioButton92.Location = new System.Drawing.Point(596, 23);
             this.radioButton92.Name = "radioButton92";
             this.radioButton92.Size = new System.Drawing.Size(92, 17);
@@ -1915,6 +1930,7 @@
             // radioButton87
             // 
             this.radioButton87.AutoSize = true;
+            this.radioButton87.Enabled = false;
             this.radioButton87.Location = new System.Drawing.Point(824, 23);
             this.radioButton87.Name = "radioButton87";
             this.radioButton87.Size = new System.Drawing.Size(54, 17);
@@ -1926,6 +1942,7 @@
             // radioButton88
             // 
             this.radioButton88.AutoSize = true;
+            this.radioButton88.Enabled = false;
             this.radioButton88.Location = new System.Drawing.Point(824, 46);
             this.radioButton88.Name = "radioButton88";
             this.radioButton88.Size = new System.Drawing.Size(70, 17);
@@ -1937,6 +1954,7 @@
             // radioButton89
             // 
             this.radioButton89.AutoSize = true;
+            this.radioButton89.Enabled = false;
             this.radioButton89.Location = new System.Drawing.Point(1065, 20);
             this.radioButton89.Name = "radioButton89";
             this.radioButton89.Size = new System.Drawing.Size(79, 17);
@@ -1948,6 +1966,7 @@
             // radioButton43
             // 
             this.radioButton43.AutoSize = true;
+            this.radioButton43.Enabled = false;
             this.radioButton43.Location = new System.Drawing.Point(23, 46);
             this.radioButton43.Name = "radioButton43";
             this.radioButton43.Size = new System.Drawing.Size(53, 17);
@@ -1959,6 +1978,7 @@
             // radioButton44
             // 
             this.radioButton44.AutoSize = true;
+            this.radioButton44.Enabled = false;
             this.radioButton44.Location = new System.Drawing.Point(594, 25);
             this.radioButton44.Name = "radioButton44";
             this.radioButton44.Size = new System.Drawing.Size(115, 17);
@@ -1970,6 +1990,7 @@
             // radioButton45
             // 
             this.radioButton45.AutoSize = true;
+            this.radioButton45.Enabled = false;
             this.radioButton45.Location = new System.Drawing.Point(594, 48);
             this.radioButton45.Name = "radioButton45";
             this.radioButton45.Size = new System.Drawing.Size(67, 17);
@@ -1981,6 +2002,7 @@
             // radioButton46
             // 
             this.radioButton46.AutoSize = true;
+            this.radioButton46.Enabled = false;
             this.radioButton46.Location = new System.Drawing.Point(291, 23);
             this.radioButton46.Name = "radioButton46";
             this.radioButton46.Size = new System.Drawing.Size(47, 17);
@@ -1992,6 +2014,7 @@
             // radioButton47
             // 
             this.radioButton47.AutoSize = true;
+            this.radioButton47.Enabled = false;
             this.radioButton47.Location = new System.Drawing.Point(291, 46);
             this.radioButton47.Name = "radioButton47";
             this.radioButton47.Size = new System.Drawing.Size(113, 17);
@@ -2003,6 +2026,7 @@
             // radioButton48
             // 
             this.radioButton48.AutoSize = true;
+            this.radioButton48.Enabled = false;
             this.radioButton48.Location = new System.Drawing.Point(23, 23);
             this.radioButton48.Name = "radioButton48";
             this.radioButton48.Size = new System.Drawing.Size(58, 17);
@@ -2037,6 +2061,7 @@
             // radioButton42
             // 
             this.radioButton42.AutoSize = true;
+            this.radioButton42.Enabled = false;
             this.radioButton42.Location = new System.Drawing.Point(23, 46);
             this.radioButton42.Name = "radioButton42";
             this.radioButton42.Size = new System.Drawing.Size(127, 17);
@@ -2048,6 +2073,7 @@
             // radioButton41
             // 
             this.radioButton41.AutoSize = true;
+            this.radioButton41.Enabled = false;
             this.radioButton41.Location = new System.Drawing.Point(591, 23);
             this.radioButton41.Name = "radioButton41";
             this.radioButton41.Size = new System.Drawing.Size(277, 17);
@@ -2059,6 +2085,7 @@
             // radioButton38
             // 
             this.radioButton38.AutoSize = true;
+            this.radioButton38.Enabled = false;
             this.radioButton38.Location = new System.Drawing.Point(591, 46);
             this.radioButton38.Name = "radioButton38";
             this.radioButton38.Size = new System.Drawing.Size(320, 17);
@@ -2070,6 +2097,7 @@
             // radioButton36
             // 
             this.radioButton36.AutoSize = true;
+            this.radioButton36.Enabled = false;
             this.radioButton36.Location = new System.Drawing.Point(288, 23);
             this.radioButton36.Name = "radioButton36";
             this.radioButton36.Size = new System.Drawing.Size(147, 17);
@@ -2081,6 +2109,7 @@
             // radioButton34
             // 
             this.radioButton34.AutoSize = true;
+            this.radioButton34.Enabled = false;
             this.radioButton34.Location = new System.Drawing.Point(288, 46);
             this.radioButton34.Name = "radioButton34";
             this.radioButton34.Size = new System.Drawing.Size(126, 17);
@@ -2113,6 +2142,7 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(109, 20);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -12095,6 +12125,7 @@
             // textBox15
             // 
             this.textBox15.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox15.Enabled = false;
             this.textBox15.Location = new System.Drawing.Point(126, 536);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
@@ -12104,6 +12135,7 @@
             // textBox16
             // 
             this.textBox16.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox16.Enabled = false;
             this.textBox16.Location = new System.Drawing.Point(126, 492);
             this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
@@ -12113,6 +12145,7 @@
             // textBox17
             // 
             this.textBox17.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox17.Enabled = false;
             this.textBox17.Location = new System.Drawing.Point(126, 448);
             this.textBox17.Multiline = true;
             this.textBox17.Name = "textBox17";
@@ -12152,6 +12185,7 @@
             // textBox20
             // 
             this.textBox20.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox20.Enabled = false;
             this.textBox20.Location = new System.Drawing.Point(856, 320);
             this.textBox20.Multiline = true;
             this.textBox20.Name = "textBox20";
@@ -12171,6 +12205,7 @@
             // textBox19
             // 
             this.textBox19.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox19.Enabled = false;
             this.textBox19.Location = new System.Drawing.Point(856, 355);
             this.textBox19.Multiline = true;
             this.textBox19.Name = "textBox19";
@@ -12180,6 +12215,7 @@
             // textBox18
             // 
             this.textBox18.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox18.Enabled = false;
             this.textBox18.Location = new System.Drawing.Point(856, 281);
             this.textBox18.Multiline = true;
             this.textBox18.Name = "textBox18";
@@ -12189,6 +12225,7 @@
             // textBox14
             // 
             this.textBox14.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox14.Enabled = false;
             this.textBox14.Location = new System.Drawing.Point(126, 284);
             this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
@@ -12476,6 +12513,7 @@
             // 
             // listBox2
             // 
+            this.listBox2.Enabled = false;
             this.listBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 15;
@@ -12488,6 +12526,7 @@
             // 
             // listBox1
             // 
+            this.listBox1.Enabled = false;
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
@@ -12540,6 +12579,7 @@
             // 
             // textBox37
             // 
+            this.textBox37.Enabled = false;
             this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox37.Location = new System.Drawing.Point(1062, 153);
             this.textBox37.Name = "textBox37";
@@ -12549,6 +12589,7 @@
             // 
             // textBox36
             // 
+            this.textBox36.Enabled = false;
             this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox36.Location = new System.Drawing.Point(1062, 30);
             this.textBox36.Name = "textBox36";
@@ -12846,6 +12887,7 @@
             // 
             // textBox35
             // 
+            this.textBox35.Enabled = false;
             this.textBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox35.Location = new System.Drawing.Point(1100, 18);
             this.textBox35.Name = "textBox35";
@@ -12855,6 +12897,7 @@
             // 
             // textBox34
             // 
+            this.textBox34.Enabled = false;
             this.textBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox34.Location = new System.Drawing.Point(840, 17);
             this.textBox34.Name = "textBox34";
@@ -12864,6 +12907,7 @@
             // 
             // textBox33
             // 
+            this.textBox33.Enabled = false;
             this.textBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox33.Location = new System.Drawing.Point(659, 18);
             this.textBox33.Name = "textBox33";
@@ -12873,6 +12917,7 @@
             // 
             // textBox32
             // 
+            this.textBox32.Enabled = false;
             this.textBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox32.Location = new System.Drawing.Point(236, 18);
             this.textBox32.Name = "textBox32";
@@ -12882,6 +12927,7 @@
             // 
             // textBox28
             // 
+            this.textBox28.Enabled = false;
             this.textBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox28.Location = new System.Drawing.Point(1026, 18);
             this.textBox28.Name = "textBox28";
@@ -12901,6 +12947,7 @@
             // 
             // textBox26
             // 
+            this.textBox26.Enabled = false;
             this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox26.Location = new System.Drawing.Point(384, 17);
             this.textBox26.Name = "textBox26";
@@ -12910,6 +12957,7 @@
             // 
             // textBox25
             // 
+            this.textBox25.Enabled = false;
             this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox25.Location = new System.Drawing.Point(101, 18);
             this.textBox25.Name = "textBox25";
@@ -14240,5 +14288,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridView ordMed_Drug_DataGridView;
         private System.Windows.Forms.Label label162;
+        private System.DirectoryServices.DirectoryEntry directoryEntry1;
     }
 }
