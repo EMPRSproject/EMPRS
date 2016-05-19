@@ -340,9 +340,7 @@ namespace EMPRS
         //-------------------------//
 
         //MEDICATIONS
-        Medication newMeds;
-        Medication discMeds;
-        Medication modMeds;
+        Medication asNeededMeds;
         Medication ongoingMeds;
 
         //NURSING ORDERS
