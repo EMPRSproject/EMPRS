@@ -49,13 +49,16 @@ namespace EMPRS
 
             if (global.isAdmin == false)
             {
-                ordTabs.TabPages.Remove(tabPage3);
-                notTabs.TabPages.Remove(tabPage4);
+                ordTabs.TabPages.Remove(tabPage3); //  
             }
             else
             {
                 logInAsMaskTxtBox.Text = "Admin";
-                enableAdminView(tabPage4);
+                enableAdminView(tabPage4); // Notes -> Nursing Orders
+                enableAdminView(assessmentTab); // Assessment Data -> Assessment
+                enableAdminView(vitalSignTab); // Assessment Data -> Vital Signs
+                enableAdminView(labsTab); // Labs -> Labs
+                groupBox45.Enabled = true; // Header
             }
         }
 
@@ -63,13 +66,28 @@ namespace EMPRS
         {
             foreach (Control c in parent.Controls)
             {
-                if (c.GetType() == typeof(TextBox) || c.GetType() == typeof(RadioButton))
+                if (c.GetType() == typeof(GroupBox) || c.GetType() == typeof(TextBox) || c.GetType() == typeof(MaskedTextBox) || c.GetType() == typeof(RadioButton) || c.GetType() == typeof(CheckBox))
                 {
                     c.Enabled = true;
                 }
                 else
                 {
                     enableAdminView(c);
+                }
+            }
+        }
+
+        private void disableAdminView(Control parent)
+        {
+            foreach (Control c in parent.Controls)
+            {
+                if (c.GetType() == typeof(GroupBox))
+                {
+                    c.Enabled = false;
+                }
+                else
+                {
+                    disableAdminView(c);
                 }
             }
         }
@@ -454,6 +472,11 @@ namespace EMPRS
         }
 
         private void groupBox52_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void monthCalendar2_DateChanged(object sender, DateRangeEventArgs e)
         {
 
         }
