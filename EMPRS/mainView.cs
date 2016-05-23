@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//using System.Data.SQLite;
 using System.Windows.Forms;
 
 namespace EMPRS
@@ -454,6 +455,11 @@ namespace EMPRS
         }
 
         private void groupBox52_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mainMenuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }

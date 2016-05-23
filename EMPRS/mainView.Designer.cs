@@ -63,7 +63,12 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ordTabs = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label162 = new System.Windows.Forms.Label();
+            this.ordMed_Save_Btn = new System.Windows.Forms.Button();
             this.groupBox57 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.maskedTextBox38 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox39 = new System.Windows.Forms.MaskedTextBox();
             this.ordMed_Time_TxtBox = new System.Windows.Forms.TextBox();
@@ -76,6 +81,7 @@
             this.label98 = new System.Windows.Forms.Label();
             this.label99 = new System.Windows.Forms.Label();
             this.groupBox52 = new System.Windows.Forms.GroupBox();
+            this.ordMed_Drug_DataGridView = new System.Windows.Forms.DataGridView();
             this.label94 = new System.Windows.Forms.Label();
             this.ordMed_Type_CmbBox = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -941,6 +947,8 @@
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox55 = new System.Windows.Forms.GroupBox();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
             this.labelPTT = new System.Windows.Forms.Label();
             this.labelPT = new System.Windows.Forms.Label();
             this.labelINR = new System.Windows.Forms.Label();
@@ -982,21 +990,15 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.groupBox51 = new System.Windows.Forms.GroupBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.ordMed_Save_Btn = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ordMed_Drug_DataGridView = new System.Windows.Forms.DataGridView();
-            this.label162 = new System.Windows.Forms.Label();
             this.mainMenuStrip.SuspendLayout();
             this.selectionMenu.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.ordTabs.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox57.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox52.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox38.SuspendLayout();
             this.groupBox37.SuspendLayout();
@@ -1146,8 +1148,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.groupBox54.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // mainMenuStrip
@@ -1165,6 +1165,7 @@
             this.mainMenuStrip.Size = new System.Drawing.Size(1350, 24);
             this.mainMenuStrip.TabIndex = 2;
             this.mainMenuStrip.Text = "menuStrip";
+            this.mainMenuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mainMenuStrip_ItemClicked);
             // 
             // setMenuItem
             // 
@@ -1524,6 +1525,26 @@
             this.tabPage3.Text = "Medications";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // label162
+            // 
+            this.label162.AutoSize = true;
+            this.label162.Location = new System.Drawing.Point(401, 281);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(496, 13);
+            this.label162.TabIndex = 12;
+            this.label162.Text = "Drug information should be in a read only state until a combo box selection is ma" +
+    "de or a drug is selected.";
+            // 
+            // ordMed_Save_Btn
+            // 
+            this.ordMed_Save_Btn.Enabled = false;
+            this.ordMed_Save_Btn.Location = new System.Drawing.Point(541, 191);
+            this.ordMed_Save_Btn.Name = "ordMed_Save_Btn";
+            this.ordMed_Save_Btn.Size = new System.Drawing.Size(75, 23);
+            this.ordMed_Save_Btn.TabIndex = 11;
+            this.ordMed_Save_Btn.Text = "Save";
+            this.ordMed_Save_Btn.UseVisualStyleBackColor = true;
+            // 
             // groupBox57
             // 
             this.groupBox57.Controls.Add(this.dataGridView1);
@@ -1547,6 +1568,28 @@
             this.groupBox57.TabIndex = 10;
             this.groupBox57.TabStop = false;
             this.groupBox57.Text = "Drug Information";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2});
+            this.dataGridView1.Location = new System.Drawing.Point(244, -61);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 50);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Column1";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Column2";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             // 
             // maskedTextBox38
             // 
@@ -1666,6 +1709,14 @@
             this.groupBox52.TabIndex = 9;
             this.groupBox52.TabStop = false;
             this.groupBox52.Text = "Drug List";
+            // 
+            // ordMed_Drug_DataGridView
+            // 
+            this.ordMed_Drug_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ordMed_Drug_DataGridView.Location = new System.Drawing.Point(90, -90);
+            this.ordMed_Drug_DataGridView.Name = "ordMed_Drug_DataGridView";
+            this.ordMed_Drug_DataGridView.Size = new System.Drawing.Size(240, 150);
+            this.ordMed_Drug_DataGridView.TabIndex = 0;
             // 
             // label94
             // 
@@ -12497,6 +12548,26 @@
             this.groupBox55.TabStop = false;
             this.groupBox55.Text = "Labs";
             // 
+            // textBox37
+            // 
+            this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox37.Location = new System.Drawing.Point(1062, 153);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.ReadOnly = true;
+            this.textBox37.Size = new System.Drawing.Size(55, 20);
+            this.textBox37.TabIndex = 109;
+            this.textBox37.Text = "2.67";
+            // 
+            // textBox36
+            // 
+            this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox36.Location = new System.Drawing.Point(1062, 30);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.ReadOnly = true;
+            this.textBox36.Size = new System.Drawing.Size(55, 20);
+            this.textBox36.TabIndex = 108;
+            this.textBox36.Text = "1.75";
+            // 
             // labelPTT
             // 
             this.labelPTT.AutoSize = true;
@@ -12930,76 +13001,6 @@
             this.groupBox51.TabStop = false;
             this.groupBox51.Text = "Regularly Scheduled Medications";
             // 
-            // textBox36
-            // 
-            this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(1062, 30);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.ReadOnly = true;
-            this.textBox36.Size = new System.Drawing.Size(55, 20);
-            this.textBox36.TabIndex = 108;
-            this.textBox36.Text = "1.75";
-            // 
-            // textBox37
-            // 
-            this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox37.Location = new System.Drawing.Point(1062, 153);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.ReadOnly = true;
-            this.textBox37.Size = new System.Drawing.Size(55, 20);
-            this.textBox37.TabIndex = 109;
-            this.textBox37.Text = "2.67";
-            // 
-            // ordMed_Save_Btn
-            // 
-            this.ordMed_Save_Btn.Enabled = false;
-            this.ordMed_Save_Btn.Location = new System.Drawing.Point(541, 191);
-            this.ordMed_Save_Btn.Name = "ordMed_Save_Btn";
-            this.ordMed_Save_Btn.Size = new System.Drawing.Size(75, 23);
-            this.ordMed_Save_Btn.TabIndex = 11;
-            this.ordMed_Save_Btn.Text = "Save";
-            this.ordMed_Save_Btn.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(244, -61);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 50);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Column2";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // ordMed_Drug_DataGridView
-            // 
-            this.ordMed_Drug_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ordMed_Drug_DataGridView.Location = new System.Drawing.Point(90, -90);
-            this.ordMed_Drug_DataGridView.Name = "ordMed_Drug_DataGridView";
-            this.ordMed_Drug_DataGridView.Size = new System.Drawing.Size(240, 150);
-            this.ordMed_Drug_DataGridView.TabIndex = 0;
-            // 
-            // label162
-            // 
-            this.label162.AutoSize = true;
-            this.label162.Location = new System.Drawing.Point(401, 281);
-            this.label162.Name = "label162";
-            this.label162.Size = new System.Drawing.Size(496, 13);
-            this.label162.TabIndex = 12;
-            this.label162.Text = "Drug information should be in a read only state until a combo box selection is ma" +
-    "de or a drug is selected.";
-            // 
             // mainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -13037,7 +13038,9 @@
             this.tabPage3.PerformLayout();
             this.groupBox57.ResumeLayout(false);
             this.groupBox57.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox52.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.groupBox38.ResumeLayout(false);
             this.groupBox38.PerformLayout();
@@ -13288,8 +13291,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.groupBox54.ResumeLayout(false);
             this.groupBox54.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
