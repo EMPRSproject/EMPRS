@@ -6,13 +6,14 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//using System.Data.SQLite;
 using System.Windows.Forms;
 
 namespace EMPRS
 {
     public partial class mainView : Form
     {
-
+        Patient curPatient = new Patient();
         public mainView()
         {
             InitializeComponent();
@@ -47,6 +48,8 @@ namespace EMPRS
             hgbMaskTxtBox.Clear();
             pLTMaskTxtBox.Clear();
 
+         //   loadData();
+
             if (global.isAdmin == false)
             {
                 ordTabs.TabPages.Remove(tabPage3); //  
@@ -61,7 +64,80 @@ namespace EMPRS
                 groupBox45.Enabled = true; // Header
             }
         }
+        /*
+        public void loadData()
+        {
+            SQLiteConnection m_dbConnection;
+            m_dbConnection = new SQLiteConnection("Data Source=C:\\SQLite\\EMPrs.db;Version=3;");
+            m_dbConnection.Open();
+            string sql = "select nameF, nameL from Patients";
+            SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
+            using (SQLiteDataReader rdr = command.ExecuteReader())
+            {
+                while (rdr.Read())
+                {
+                    patientDropDown.Items.Add(Convert.ToString(rdr["nameF"]) + " " + Convert.ToString(rdr["nameL"]));
+                }
+                rdr.Close();
+            }
+            m_dbConnection.Close();
+        }
+        public void loadPatient(string patientName)
+        {
+            var names = patientName.Split(' ');
+            string firstName = names[0];
+            string lastName = names[1];
+            SQLiteConnection m_dbConnection;
+            m_dbConnection = new SQLiteConnection("Data Source=C:\\SQLite\\EMPrs.db;Version=3;");
+            m_dbConnection.Open();
+            string sql = "select * from Patients where nameF == \"" + firstName + "\" And nameL == \"" + lastName + "\"";
+            SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
+            using (SQLiteDataReader rdr = command.ExecuteReader())
+            {
+                while (rdr.Read())
+                {
+                    //Patient Data
+                    curPatient.nameF = Convert.ToString(rdr["nameF"]);
+                    curPatient.nameL = Convert.ToString(rdr["nameL"]);
+                    curPatient.patientID = Convert.ToInt32(rdr["patientID"]);
+                    curPatient.age = Convert.ToInt32(rdr["age"]);
+                    curPatient.DOB = Convert.ToDateTime(rdr["DOB"]);
+                    curPatient.sex = (Patient.MF)Convert.ToInt32(rdr["sex"]);
+                    curPatient.height = Convert.ToInt32(rdr["height"]);
+                    curPatient.weight = Convert.ToInt32(rdr["weight"]);
+                    curPatient.allergies = Convert.ToString(rdr["allergies"]);
+                    curPatient.infections = Convert.ToString(rdr["infections"]);
+                }
+                rdr.Close();
+            }
 
+            sql = "select * from Labs where patientID == " + curPatient.patientID;
+            command = new SQLiteCommand(sql, m_dbConnection);
+            using (SQLiteDataReader rdr = command.ExecuteReader())
+            {
+                while (rdr.Read())
+                {
+                    //Labs
+                    curPatient.labDate = Convert.ToDateTime(rdr["labDate"]);
+                    curPatient.sodium = Convert.ToInt64(rdr["sodium"]);
+                    curPatient.potassium = Convert.ToInt64(rdr["potassium"]);
+                    curPatient.chloride = Convert.ToInt64(rdr["chloride"]);
+                    curPatient.HCO3 = Convert.ToInt64(rdr["HCO3"]);
+                    curPatient.BUN = Convert.ToInt64(rdr["BUN"]);
+                    curPatient.creatinine = Convert.ToInt64(rdr["creatinine"]);
+                    curPatient.glucose = Convert.ToInt64(rdr["glucose"]);
+                    curPatient.calcium = Convert.ToInt64(rdr["calcium"]);
+                    curPatient.magnesium = Convert.ToInt64(rdr["magnesium"]);
+                    curPatient.phosphate = Convert.ToInt64(rdr["phosphate"]);
+                    curPatient.protein = Convert.ToInt64(rdr["protein"]);
+                    curPatient.albumin = Convert.ToInt64(rdr["albumin"]);
+                    curPatient.AST = Convert.ToInt64(rdr["AST"]);
+                    curPatient.ALT = Convert.ToInt64(rdr["ALT"]);
+                }
+            }
+                    m_dbConnection.Close();
+        }
+        */
         private void enableAdminView(Control parent)
         {
             foreach (Control c in parent.Controls)
@@ -236,23 +312,35 @@ namespace EMPRS
 
         private void patientDropDown_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (patientDropDown.Text == "Patient 1")
-            {
-                mRNMaskTxtBox.Text = "14234634-346-6444";
-                sexMaskTxtBox.Text = "M";
-                ageMaskTxtBox.Text = "56";
-                birthMaskTxtBox.Text = "Birthday 5th";
-                allMaskTxtBox.Text = "Boogers";
-                infPreMaskTxtBox.Text = "That one thing";
-                //groupBox1.Visible = true;
-                patHigBtn.Enabled = true;
-                labsAndImaBtn.Enabled = true;
-                mARBtn.Enabled = true;
-                assDataBtn.Enabled = true;
-                notBtn.Enabled = true;
-                ordBtn.Enabled = true;
-            }
+            /*
+            string curName = patientDropDown.Text;
+            loadPatient(curName);
 
+            //Patient Data
+            mRNMaskTxtBox.Text = curPatient.patientID.ToString();
+            sexMaskTxtBox.Text = curPatient.sex.ToString();
+            ageMaskTxtBox.Text = curPatient.age.ToString();
+            birthMaskTxtBox.Text = curPatient.DOB.ToString("d");
+            allMaskTxtBox.Text = curPatient.allergies;
+            infPreMaskTxtBox.Text = curPatient.infections;
+
+            //Labs
+            naMaskTxtBox.Text = curPatient.sodium.ToString();
+            kMaskTxtBox.Text = curPatient.potassium.ToString();
+            clMaskTxtBox.Text = curPatient.chloride.ToString();
+            HCO3MaskTxtBox.Text = curPatient.HCO3.ToString();
+            bUNMaskTxtBox.Text = curPatient.BUN.ToString();
+            creatMaskTxtBox.Text = curPatient.creatinine.ToString();
+
+            //groupBox1.Visible = true;
+            patHigBtn.Enabled = true;
+            labsAndImaBtn.Enabled = true;
+            mARBtn.Enabled = true;
+            assDataBtn.Enabled = true;
+            notBtn.Enabled = true;
+            ordBtn.Enabled = true;
+            
+    */
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

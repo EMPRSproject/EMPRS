@@ -12,16 +12,19 @@ namespace EMPRS
         //--------BASIC INFORMATION--------//
         //---------------------------------//
 
-        string nameL, nameF;    //patient last and first name
-        int age;                //patient age
-        int patientID;          //patient ID
-        DateTime DOB;           //patient DOB
-        enum sex                //patient sex
+        public string nameL, nameF;    //patient last and first name
+        public int age;                //patient age
+        public int patientID;          //patient ID
+        public DateTime DOB;           //patient DOB
+        public enum MF : int               //patient sex
         {
             M, F
         };
-        int height;             //patient height
-        int weight;             //patient weight
+        public MF sex;
+        public int height;             //patient height
+        public int weight;             //patient weight
+        public string allergies;       //patient allergies
+        public string infections;      //patient infection risks
 
         //-----------------------------------//
         //----------------MAR----------------//
@@ -50,20 +53,20 @@ namespace EMPRS
         //--------------//
 
         //date of lab
-        DateTime labDate;
+        public DateTime labDate;
 
         //electrolytes, protein, other (HCO3 = bicarbonate, BUN = blood urea nitrogen)
-        float sodium, potassium, chloride, HCO3, BUN, creatinine, glucose, calcium;
-        float magnesium, phosphate, protein, albumin, AST, ALT, LDH, ALP, bilirubin;
+        public float sodium, potassium, chloride, HCO3, BUN, creatinine, glucose, calcium;
+        public float magnesium, phosphate, protein, albumin, AST, ALT, LDH, ALP, bilirubin;
 
         //CBC
-        float HCT, RBC, Hgb, WBC, PLT;
+        public float HCT, RBC, Hgb, WBC, PLT;
 
         //hemostasis labs
-        float PT, PTT, INR;
+        public float PT, PTT, INR;
 
         //cardiac enzymes
-        float myoglobin, cTnI, cTnT, CPK_CKMB2;
+        public float myoglobin, cTnI, cTnT, CPK_CKMB2;
 
         //IMAGING
         //does anything need to be here???
