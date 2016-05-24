@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using System.Data.SQLite;
 using System.Windows.Forms;
 
 namespace EMPRS
@@ -50,27 +49,45 @@ namespace EMPRS
 
             if (global.isAdmin == false)
             {
-                ordTabs.TabPages.Remove(tabPage3);
-                //readOnly_Ord_NursingOrders(this);
-                radioButton33.AutoCheck = false;
+                ordTabs.TabPages.Remove(tabPage3); //  
             }
             else
             {
                 logInAsMaskTxtBox.Text = "Admin";
+                enableAdminView(tabPage4); // Notes -> Nursing Orders
+                enableAdminView(assessmentTab); // Assessment Data -> Assessment
+                enableAdminView(vitalSignTab); // Assessment Data -> Vital Signs
+                enableAdminView(labsTab); // Labs -> Labs
+                groupBox45.Enabled = true; // Header
             }
         }
 
-        private void readOnly_Ord_NursingOrders(Control parent)
+        private void enableAdminView(Control parent)
         {
             foreach (Control c in parent.Controls)
             {
-                if (c.GetType() == typeof(RadioButton))
+                if (c.GetType() == typeof(GroupBox) || c.GetType() == typeof(TextBox) || c.GetType() == typeof(MaskedTextBox) || c.GetType() == typeof(RadioButton) || c.GetType() == typeof(CheckBox))
+                {
+                    c.Enabled = true;
+                }
+                else
+                {
+                    enableAdminView(c);
+                }
+            }
+        }
+
+        private void disableAdminView(Control parent)
+        {
+            foreach (Control c in parent.Controls)
+            {
+                if (c.GetType() == typeof(GroupBox))
                 {
                     c.Enabled = false;
                 }
                 else
                 {
-                    readOnly_Ord_NursingOrders(c);
+                    disableAdminView(c);
                 }
             }
         }
@@ -459,7 +476,7 @@ namespace EMPRS
 
         }
 
-        private void mainMenuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void monthCalendar2_DateChanged(object sender, DateRangeEventArgs e)
         {
 
         }
