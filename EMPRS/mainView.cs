@@ -187,6 +187,7 @@ namespace EMPRS
             carSubCatPan.Visible = false;
             abdSubCatPan.Visible = false;
             lowExtSubCatPan.Visible = false;
+            painSubCatPnl.Visible = false;
         }
 
         private void hideSafCheSubCat()
@@ -366,42 +367,40 @@ namespace EMPRS
             hideAssSubCat();
             genSurSubCatPan.Visible = true;
         }
-
         private void hEENTSubCatBtn_Click(object sender, EventArgs e)
         {
             hideAssSubCat();
             hEENTSubCatPan.Visible = true;
         }
-
         private void uppExtSubCatBtn_Click(object sender, EventArgs e)
         {
             hideAssSubCat();
             uppExtSubCatPan.Visible = true;
         }
-
         private void pulSubCatBtn_Click(object sender, EventArgs e)
         {
             hideAssSubCat();
             pulSubCatPan.Visible = true;
         }
-
         private void carSubCatBtn_Click(object sender, EventArgs e)
         {
-
             hideAssSubCat();
             carSubCatPan.Visible = true;
         }
-
         private void abdSubCatBtn_Click(object sender, EventArgs e)
         {
             hideAssSubCat();
             abdSubCatPan.Visible = true;
         }
-
         private void lowExtSubCatBtn_Click(object sender, EventArgs e)
         {
             hideAssSubCat();
             lowExtSubCatPan.Visible = true;
+        }
+        private void painSubCatBtn_Click(object sender, EventArgs e)
+        {
+            hideAssSubCat();
+            painSubCatPnl.Visible = true;
         }
 
         // Safety Check Sub Category Buttons
@@ -542,31 +541,6 @@ namespace EMPRS
             {
                 tPMaskTxtBox.ForeColor = System.Drawing.Color.Crimson;
             }
-        }
-
-        private void groupBox21_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void studentView_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void logInAsMaskTxtBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void groupBox52_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void monthCalendar2_DateChanged(object sender, DateRangeEventArgs e)
-        {
-
         }
     }
 }
