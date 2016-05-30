@@ -48,7 +48,7 @@ namespace EMPRS
             hgbMaskTxtBox.Clear();
             pLTMaskTxtBox.Clear();
 
-         //   loadData();
+            //loadData();
 
             if (global.isAdmin == false)
             {
@@ -119,20 +119,36 @@ namespace EMPRS
                 {
                     //Labs
                     curPatient.labDate = Convert.ToDateTime(rdr["labDate"]);
-                    curPatient.sodium = Convert.ToInt64(rdr["sodium"]);
-                    curPatient.potassium = Convert.ToInt64(rdr["potassium"]);
-                    curPatient.chloride = Convert.ToInt64(rdr["chloride"]);
-                    curPatient.HCO3 = Convert.ToInt64(rdr["HCO3"]);
-                    curPatient.BUN = Convert.ToInt64(rdr["BUN"]);
-                    curPatient.creatinine = Convert.ToInt64(rdr["creatinine"]);
-                    curPatient.glucose = Convert.ToInt64(rdr["glucose"]);
-                    curPatient.calcium = Convert.ToInt64(rdr["calcium"]);
-                    curPatient.magnesium = Convert.ToInt64(rdr["magnesium"]);
-                    curPatient.phosphate = Convert.ToInt64(rdr["phosphate"]);
-                    curPatient.protein = Convert.ToInt64(rdr["protein"]);
-                    curPatient.albumin = Convert.ToInt64(rdr["albumin"]);
-                    curPatient.AST = Convert.ToInt64(rdr["AST"]);
-                    curPatient.ALT = Convert.ToInt64(rdr["ALT"]);
+                    curPatient.sodium = Convert.ToSingle(rdr["sodium"]);
+                    curPatient.potassium = Convert.ToSingle(rdr["potassium"]);
+                    curPatient.chloride = Convert.ToSingle(rdr["chloride"]);
+                    curPatient.HCO3 = Convert.ToSingle(rdr["HCO3"]);
+                    curPatient.BUN = Convert.ToSingle(rdr["BUN"]);
+                    curPatient.creatinine = Convert.ToSingle(rdr["creatinine"]);
+                    curPatient.glucose = Convert.ToSingle(rdr["glucose"]);
+                    curPatient.calcium = Convert.ToSingle(rdr["calcium"]);
+                    curPatient.magnesium = Convert.ToSingle(rdr["magnesium"]);
+                    curPatient.phosphate = Convert.ToSingle(rdr["phosphate"]);
+                    curPatient.protein = Convert.ToSingle(rdr["protein"]);
+                    curPatient.albumin = Convert.ToSingle(rdr["albumin"]);
+                    curPatient.AST = Convert.ToSingle(rdr["AST"]);
+                    curPatient.ALT = Convert.ToSingle(rdr["ALT"]);
+                    curPatient.LDH = Convert.ToSingle(rdr["LDH"]);
+                    curPatient.ALP = Convert.ToSingle(rdr["ALP"]);
+                    curPatient.bilirubin = Convert.ToSingle(rdr["bilirubin"]);
+                    curPatient.HCT = Convert.ToSingle(rdr["HCT"]);
+                    curPatient.RBC = Convert.ToSingle(rdr["RBC"]);
+                    curPatient.Hgb = Convert.ToSingle(rdr["HGB"]);
+                    curPatient.WBC = Convert.ToSingle(rdr["WBC"]);
+                    curPatient.PLT = Convert.ToSingle(rdr["PLT"]);
+                    curPatient.PT = Convert.ToSingle(rdr["PT"]);
+                    curPatient.PTT = Convert.ToSingle(rdr["PTT"]);
+                    curPatient.INR = Convert.ToSingle(rdr["INR"]);
+                    curPatient.myoglobin = Convert.ToSingle(rdr["myoglobin"]);
+                    curPatient.cTnI = Convert.ToSingle(rdr["cTnI"]);
+                    curPatient.cTnT = Convert.ToSingle(rdr["cTnT"]);
+                    curPatient.CPK_CKMB2 = Convert.ToSingle(rdr["CPK_CKMB2"]);
+
                 }
             }
                     m_dbConnection.Close();
@@ -372,6 +388,8 @@ namespace EMPRS
             labelPT.Text = curPatient.PT.ToString();
             pTTMaskTxtBox.Text = curPatient.PTT.ToString();
             labelPTT.Text = curPatient.PTT.ToString();
+            iNRMaskTxtBox.Text = curPatient.INR.ToString();
+            labelINR.Text = curPatient.INR.ToString();
             myoglobinMaskTxtBox.Text = curPatient.myoglobin.ToString();
             cTnIMaskTxtBox.Text = curPatient.cTnI.ToString();
             cTnTMaskTxtBox.Text = curPatient.cTnT.ToString();
