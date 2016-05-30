@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using System.Data.SQLite;
+using System.Data.SQLite;
 using System.Windows.Forms;
 
 namespace EMPRS
@@ -48,7 +48,7 @@ namespace EMPRS
             hgbMaskTxtBox.Clear();
             pLTMaskTxtBox.Clear();
 
-         //   loadData();
+        //    loadData();
 
             if (global.isAdmin == false)
             {
@@ -64,7 +64,7 @@ namespace EMPRS
                 groupBox45.Enabled = true; // Header
             }
         }
-        /*
+        
         public void loadData()
         {
             SQLiteConnection m_dbConnection;
@@ -133,11 +133,25 @@ namespace EMPRS
                     curPatient.albumin = Convert.ToInt64(rdr["albumin"]);
                     curPatient.AST = Convert.ToInt64(rdr["AST"]);
                     curPatient.ALT = Convert.ToInt64(rdr["ALT"]);
+                    curPatient.LDH = Convert.ToInt64(rdr["LDH"]);
+                    curPatient.ALP = Convert.ToInt64(rdr["ALP"]);
+                    curPatient.bilirubin = Convert.ToInt64(rdr["bilirubin"]);
+                    curPatient.HCT = Convert.ToInt64(rdr["HCT"]);
+                    curPatient.RBC = Convert.ToInt64(rdr["RBC"]);
+                    curPatient.Hgb = Convert.ToInt64(rdr["HGB"]);
+                    curPatient.WBC = Convert.ToInt64(rdr["WBC"]);
+                    curPatient.PLT = Convert.ToInt64(rdr["PLT"]);
+                    curPatient.PT = Convert.ToInt64(rdr["PT"]);
+                    curPatient.PTT = Convert.ToInt64(rdr["PTT"]);
+                    curPatient.myoglobin = Convert.ToInt64(rdr["myoglobin"]);
+                    curPatient.cTnI = Convert.ToInt64(rdr["cTnI"]);
+                    curPatient.cTnT = Convert.ToInt64(rdr["cTnT"]);
+                    curPatient.CPK_CKMB2 = Convert.ToInt64(rdr["CPK_CKMB2"]);
                 }
             }
                     m_dbConnection.Close();
         }
-        */
+        
         private void enableAdminView(Control parent)
         {
             foreach (Control c in parent.Controls)
@@ -312,7 +326,7 @@ namespace EMPRS
 
         private void patientDropDown_SelectedIndexChanged(object sender, EventArgs e)
         {
-            /*
+            
             string curName = patientDropDown.Text;
             loadPatient(curName);
 
@@ -326,11 +340,57 @@ namespace EMPRS
 
             //Labs
             naMaskTxtBox.Text = curPatient.sodium.ToString();
+            labelNa.Text = curPatient.sodium.ToString();
             kMaskTxtBox.Text = curPatient.potassium.ToString();
+            labelK.Text = curPatient.potassium.ToString();
             clMaskTxtBox.Text = curPatient.chloride.ToString();
+            labelCl.Text = curPatient.chloride.ToString();
             HCO3MaskTxtBox.Text = curPatient.HCO3.ToString();
+            labelHCO3.Text = curPatient.HCO3.ToString();
             bUNMaskTxtBox.Text = curPatient.BUN.ToString();
+            labelBUN.Text = curPatient.BUN.ToString();
             creatMaskTxtBox.Text = curPatient.creatinine.ToString();
+            labelCreatine.Text = curPatient.creatinine.ToString();
+            glucoseMaskTxtBox.Text = curPatient.glucose.ToString();
+            labelGlaucose.Text = curPatient.glucose.ToString();
+            ca2MaskTxtBox.Text = curPatient.calcium.ToString();
+            labelCa.Text = curPatient.calcium.ToString();
+            mgTxtBox.Text = curPatient.magnesium.ToString();
+            labelmg.Text = curPatient.magnesium.ToString();
+            PO43MaskTxtBox.Text = curPatient.phosphate.ToString();
+            labelPO4.Text = curPatient.phosphate.ToString();
+            tPMaskTxtBox.Text = curPatient.protein.ToString();
+            labelTP.Text = curPatient.protein.ToString();
+            albMaskTxtBox.Text = curPatient.albumin.ToString();
+            labelAlb.Text = curPatient.albumin.ToString();
+            aSTMaskTxtBox.Text = curPatient.AST.ToString();
+            labelast.Text = curPatient.AST.ToString();
+            aLTMaskTxtBox.Text = curPatient.ALT.ToString();
+            labelalt.Text = curPatient.ALT.ToString();
+            lDHMastTxtBox.Text = curPatient.LDH.ToString();
+            labelldh.Text = curPatient.LDH.ToString();
+            aLPMaskTxtBox.Text = curPatient.ALP.ToString();
+            labelalp.Text = curPatient.ALP.ToString();
+            bilMastTxtBox.Text = curPatient.bilirubin.ToString();
+            labelBiliru.Text = curPatient.bilirubin.ToString();
+            hCTMaskTxtBox.Text = curPatient.HCT.ToString();
+            labelHCT.Text = curPatient.HCT.ToString();
+            rBCMaskTxtBox.Text = curPatient.RBC.ToString();
+            labelRBC.Text = curPatient.RBC.ToString();
+            hgbMaskTxtBox.Text = curPatient.Hgb.ToString();
+            labelHgb.Text = curPatient.Hgb.ToString();
+            wBCMaskTxtBox.Text = curPatient.WBC.ToString();
+            labelWBC.Text = curPatient.WBC.ToString();
+            pLTMaskTxtBox.Text = curPatient.PLT.ToString();
+            labelPLT.Text = curPatient.PLT.ToString();
+            pTMaskTxtBox.Text = curPatient.PT.ToString();
+            labelPT.Text = curPatient.PT.ToString();
+            pTTMaskTxtBox.Text = curPatient.PTT.ToString();
+            labelPTT.Text = curPatient.PTT.ToString();
+            myoglobinMaskTxtBox.Text = curPatient.myoglobin.ToString();
+            cTnIMaskTxtBox.Text = curPatient.cTnI.ToString();
+            cTnTMaskTxtBox.Text = curPatient.cTnT.ToString();
+            cPKMaskTxtBox.Text = curPatient.CPK_CKMB2.ToString();
 
             //groupBox1.Visible = true;
             patHigBtn.Enabled = true;
@@ -340,7 +400,7 @@ namespace EMPRS
             notBtn.Enabled = true;
             ordBtn.Enabled = true;
             
-    */
+    
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -565,6 +625,16 @@ namespace EMPRS
         }
 
         private void monthCalendar2_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox55_Enter(object sender, EventArgs e)
         {
 
         }

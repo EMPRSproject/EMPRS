@@ -77,23 +77,23 @@ namespace EMPRS
         //-------------------------//
 
         //date of Assessment
-        DateTime assessmentDate;
+        public DateTime assessmentDate;
 
         //VITAL SIGNS
 
         //Blood pressure
-        float SBP, DBP;
-        enum bpLR   //side of bp
+        public float SBP, DBP;
+        public enum bpLR :int  //side of bp
         {
             L, R
         };
-        enum bpSite         //site of bp
+        public enum bpSite : int      //site of bp
         {
             upperArm, lowerArm, calf, thigh, wrist
         };
 
         //Respiratory
-        float respRate;
+        public float respRate;
         enum respRhythm     //description of breathing
         {
             Irregular, Distressed, Labored, Regular

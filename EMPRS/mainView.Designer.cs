@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainView));
             this.mainMenuStrip = new System.Windows.Forms.MenuStrip();
             this.logOutMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -142,7 +143,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox55 = new System.Windows.Forms.GroupBox();
             this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.labelmg = new System.Windows.Forms.TextBox();
             this.labelPTT = new System.Windows.Forms.Label();
             this.labelPT = new System.Windows.Forms.Label();
             this.labelINR = new System.Windows.Forms.Label();
@@ -184,6 +185,12 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.groupBox51 = new System.Windows.Forms.GroupBox();
+            this.patHigBtn = new System.Windows.Forms.Button();
+            this.mARBtn = new System.Windows.Forms.Button();
+            this.labsAndImaBtn = new System.Windows.Forms.Button();
+            this.ordBtn = new System.Windows.Forms.Button();
+            this.notBtn = new System.Windows.Forms.Button();
+            this.assDataBtn = new System.Windows.Forms.Button();
             this.ordTabs = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label162 = new System.Windows.Forms.Label();
@@ -953,7 +960,7 @@
             this.groupBox58 = new System.Windows.Forms.GroupBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.PO4Label = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.mgTxtBox = new System.Windows.Forms.TextBox();
             this.magnesiumLabel = new System.Windows.Forms.Label();
             this.pLTMaskTxtBox = new System.Windows.Forms.MaskedTextBox();
             this.hgbMaskTxtBox = new System.Windows.Forms.MaskedTextBox();
@@ -983,14 +990,12 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.patHigBtn = new System.Windows.Forms.Button();
-            this.mARBtn = new System.Windows.Forms.Button();
-            this.labsAndImaBtn = new System.Windows.Forms.Button();
-            this.ordBtn = new System.Windows.Forms.Button();
-            this.notBtn = new System.Windows.Forms.Button();
-            this.assDataBtn = new System.Windows.Forms.Button();
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.groupBox45 = new System.Windows.Forms.GroupBox();
+            this.labelast = new System.Windows.Forms.Label();
+            this.labelalt = new System.Windows.Forms.Label();
+            this.labelalp = new System.Windows.Forms.Label();
+            this.labelldh = new System.Windows.Forms.Label();
             this.mainMenuStrip.SuspendLayout();
             this.selectionMenu.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -1478,18 +1483,18 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.labsAndImaTabs);
+            this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Controls.Add(this.patHigBtn);
             this.groupBox1.Controls.Add(this.mARBtn);
             this.groupBox1.Controls.Add(this.labsAndImaBtn);
             this.groupBox1.Controls.Add(this.ordBtn);
             this.groupBox1.Controls.Add(this.notBtn);
             this.groupBox1.Controls.Add(this.assDataBtn);
-            this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Controls.Add(this.ordTabs);
             this.groupBox1.Controls.Add(this.notTabs);
             this.groupBox1.Controls.Add(this.assDataTabs);
             this.groupBox1.Controls.Add(this.mARTabs);
+            this.groupBox1.Controls.Add(this.labsAndImaTabs);
             this.groupBox1.Location = new System.Drawing.Point(183, 96);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1187, 602);
@@ -1500,11 +1505,11 @@
             // 
             this.patHigPan.AutoScroll = true;
             this.patHigPan.BackColor = System.Drawing.Color.White;
+            this.patHigPan.Controls.Add(this.groupBox54);
             this.patHigPan.Controls.Add(this.groupBox53);
             this.patHigPan.Controls.Add(this.groupBox50);
             this.patHigPan.Controls.Add(this.groupBox56);
             this.patHigPan.Controls.Add(this.groupBox55);
-            this.patHigPan.Controls.Add(this.groupBox54);
             this.patHigPan.Controls.Add(this.groupBox51);
             this.patHigPan.Location = new System.Drawing.Point(1, 5);
             this.patHigPan.Name = "patHigPan";
@@ -2496,8 +2501,12 @@
             // groupBox55
             // 
             this.groupBox55.BackColor = System.Drawing.Color.White;
+            this.groupBox55.Controls.Add(this.labelldh);
+            this.groupBox55.Controls.Add(this.labelalp);
+            this.groupBox55.Controls.Add(this.labelalt);
+            this.groupBox55.Controls.Add(this.labelast);
             this.groupBox55.Controls.Add(this.textBox37);
-            this.groupBox55.Controls.Add(this.textBox36);
+            this.groupBox55.Controls.Add(this.labelmg);
             this.groupBox55.Controls.Add(this.labelPTT);
             this.groupBox55.Controls.Add(this.labelPT);
             this.groupBox55.Controls.Add(this.labelINR);
@@ -2531,6 +2540,7 @@
             this.groupBox55.TabIndex = 69;
             this.groupBox55.TabStop = false;
             this.groupBox55.Text = "Labs";
+            this.groupBox55.Enter += new System.EventHandler(this.groupBox55_Enter);
             // 
             // textBox37
             // 
@@ -2542,15 +2552,15 @@
             this.textBox37.TabIndex = 109;
             this.textBox37.Text = "2.67";
             // 
-            // textBox36
+            // labelmg
             // 
-            this.textBox36.Enabled = false;
-            this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(1062, 30);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(55, 20);
-            this.textBox36.TabIndex = 108;
-            this.textBox36.Text = "1.75";
+            this.labelmg.Enabled = false;
+            this.labelmg.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelmg.Location = new System.Drawing.Point(1062, 30);
+            this.labelmg.Name = "labelmg";
+            this.labelmg.Size = new System.Drawing.Size(55, 20);
+            this.labelmg.TabIndex = 108;
+            this.labelmg.Text = "1.75";
             // 
             // labelPTT
             // 
@@ -2646,7 +2656,7 @@
             // 
             this.labelAlb.AutoSize = true;
             this.labelAlb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAlb.Location = new System.Drawing.Point(386, 151);
+            this.labelAlb.Location = new System.Drawing.Point(386, 152);
             this.labelAlb.Name = "labelAlb";
             this.labelAlb.Size = new System.Drawing.Size(22, 13);
             this.labelAlb.TabIndex = 98;
@@ -2781,6 +2791,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 77;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
@@ -2983,6 +2994,84 @@
             this.groupBox51.TabIndex = 38;
             this.groupBox51.TabStop = false;
             this.groupBox51.Text = "Regularly Scheduled Medications";
+            // 
+            // patHigBtn
+            // 
+            this.patHigBtn.Enabled = false;
+            this.patHigBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patHigBtn.Location = new System.Drawing.Point(76, 75);
+            this.patHigBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.patHigBtn.Name = "patHigBtn";
+            this.patHigBtn.Size = new System.Drawing.Size(277, 194);
+            this.patHigBtn.TabIndex = 111;
+            this.patHigBtn.Text = "Patient Highlights";
+            this.patHigBtn.UseVisualStyleBackColor = true;
+            this.patHigBtn.Click += new System.EventHandler(this.patHigBtn_Click);
+            // 
+            // mARBtn
+            // 
+            this.mARBtn.Enabled = false;
+            this.mARBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mARBtn.Location = new System.Drawing.Point(469, 75);
+            this.mARBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.mARBtn.Name = "mARBtn";
+            this.mARBtn.Size = new System.Drawing.Size(277, 194);
+            this.mARBtn.TabIndex = 112;
+            this.mARBtn.Text = "MAR";
+            this.mARBtn.UseVisualStyleBackColor = true;
+            this.mARBtn.Click += new System.EventHandler(this.mARBtn_Click_2);
+            // 
+            // labsAndImaBtn
+            // 
+            this.labsAndImaBtn.Enabled = false;
+            this.labsAndImaBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labsAndImaBtn.Location = new System.Drawing.Point(854, 75);
+            this.labsAndImaBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.labsAndImaBtn.Name = "labsAndImaBtn";
+            this.labsAndImaBtn.Size = new System.Drawing.Size(277, 194);
+            this.labsAndImaBtn.TabIndex = 113;
+            this.labsAndImaBtn.Text = "Labs and Imaging";
+            this.labsAndImaBtn.UseVisualStyleBackColor = true;
+            this.labsAndImaBtn.Click += new System.EventHandler(this.labsAndImaBtn_Click);
+            // 
+            // ordBtn
+            // 
+            this.ordBtn.Enabled = false;
+            this.ordBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ordBtn.Location = new System.Drawing.Point(854, 355);
+            this.ordBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.ordBtn.Name = "ordBtn";
+            this.ordBtn.Size = new System.Drawing.Size(277, 194);
+            this.ordBtn.TabIndex = 116;
+            this.ordBtn.Text = "Orders";
+            this.ordBtn.UseVisualStyleBackColor = true;
+            this.ordBtn.Click += new System.EventHandler(this.ordBtn_Click);
+            // 
+            // notBtn
+            // 
+            this.notBtn.Enabled = false;
+            this.notBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.notBtn.Location = new System.Drawing.Point(469, 355);
+            this.notBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.notBtn.Name = "notBtn";
+            this.notBtn.Size = new System.Drawing.Size(277, 194);
+            this.notBtn.TabIndex = 115;
+            this.notBtn.Text = "Notes";
+            this.notBtn.UseVisualStyleBackColor = true;
+            this.notBtn.Click += new System.EventHandler(this.notBtn_Click);
+            // 
+            // assDataBtn
+            // 
+            this.assDataBtn.Enabled = false;
+            this.assDataBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.assDataBtn.Location = new System.Drawing.Point(76, 355);
+            this.assDataBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.assDataBtn.Name = "assDataBtn";
+            this.assDataBtn.Size = new System.Drawing.Size(277, 194);
+            this.assDataBtn.TabIndex = 114;
+            this.assDataBtn.Text = "Assessment Data";
+            this.assDataBtn.UseVisualStyleBackColor = true;
+            this.assDataBtn.Click += new System.EventHandler(this.assDataBtn_Click);
             // 
             // ordTabs
             // 
@@ -12436,7 +12525,7 @@
             // 
             this.groupBox58.Controls.Add(this.textBox22);
             this.groupBox58.Controls.Add(this.PO4Label);
-            this.groupBox58.Controls.Add(this.textBox21);
+            this.groupBox58.Controls.Add(this.mgTxtBox);
             this.groupBox58.Controls.Add(this.magnesiumLabel);
             this.groupBox58.Location = new System.Drawing.Point(406, 416);
             this.groupBox58.Name = "groupBox58";
@@ -12461,12 +12550,12 @@
             this.PO4Label.TabIndex = 2;
             this.PO4Label.Text = "PO4 3-";
             // 
-            // textBox21
+            // mgTxtBox
             // 
-            this.textBox21.Location = new System.Drawing.Point(78, 22);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(57, 19);
-            this.textBox21.TabIndex = 1;
+            this.mgTxtBox.Location = new System.Drawing.Point(78, 22);
+            this.mgTxtBox.Name = "mgTxtBox";
+            this.mgTxtBox.Size = new System.Drawing.Size(57, 19);
+            this.mgTxtBox.TabIndex = 1;
             // 
             // magnesiumLabel
             // 
@@ -12765,84 +12854,6 @@
             this.pictureBox2.TabIndex = 58;
             this.pictureBox2.TabStop = false;
             // 
-            // patHigBtn
-            // 
-            this.patHigBtn.Enabled = false;
-            this.patHigBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patHigBtn.Location = new System.Drawing.Point(76, 75);
-            this.patHigBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.patHigBtn.Name = "patHigBtn";
-            this.patHigBtn.Size = new System.Drawing.Size(277, 194);
-            this.patHigBtn.TabIndex = 111;
-            this.patHigBtn.Text = "Patient Highlights";
-            this.patHigBtn.UseVisualStyleBackColor = true;
-            this.patHigBtn.Click += new System.EventHandler(this.patHigBtn_Click);
-            // 
-            // mARBtn
-            // 
-            this.mARBtn.Enabled = false;
-            this.mARBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mARBtn.Location = new System.Drawing.Point(469, 75);
-            this.mARBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.mARBtn.Name = "mARBtn";
-            this.mARBtn.Size = new System.Drawing.Size(277, 194);
-            this.mARBtn.TabIndex = 112;
-            this.mARBtn.Text = "MAR";
-            this.mARBtn.UseVisualStyleBackColor = true;
-            this.mARBtn.Click += new System.EventHandler(this.mARBtn_Click_2);
-            // 
-            // labsAndImaBtn
-            // 
-            this.labsAndImaBtn.Enabled = false;
-            this.labsAndImaBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labsAndImaBtn.Location = new System.Drawing.Point(854, 75);
-            this.labsAndImaBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.labsAndImaBtn.Name = "labsAndImaBtn";
-            this.labsAndImaBtn.Size = new System.Drawing.Size(277, 194);
-            this.labsAndImaBtn.TabIndex = 113;
-            this.labsAndImaBtn.Text = "Labs and Imaging";
-            this.labsAndImaBtn.UseVisualStyleBackColor = true;
-            this.labsAndImaBtn.Click += new System.EventHandler(this.labsAndImaBtn_Click);
-            // 
-            // ordBtn
-            // 
-            this.ordBtn.Enabled = false;
-            this.ordBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ordBtn.Location = new System.Drawing.Point(854, 355);
-            this.ordBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.ordBtn.Name = "ordBtn";
-            this.ordBtn.Size = new System.Drawing.Size(277, 194);
-            this.ordBtn.TabIndex = 116;
-            this.ordBtn.Text = "Orders";
-            this.ordBtn.UseVisualStyleBackColor = true;
-            this.ordBtn.Click += new System.EventHandler(this.ordBtn_Click);
-            // 
-            // notBtn
-            // 
-            this.notBtn.Enabled = false;
-            this.notBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.notBtn.Location = new System.Drawing.Point(469, 355);
-            this.notBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.notBtn.Name = "notBtn";
-            this.notBtn.Size = new System.Drawing.Size(277, 194);
-            this.notBtn.TabIndex = 115;
-            this.notBtn.Text = "Notes";
-            this.notBtn.UseVisualStyleBackColor = true;
-            this.notBtn.Click += new System.EventHandler(this.notBtn_Click);
-            // 
-            // assDataBtn
-            // 
-            this.assDataBtn.Enabled = false;
-            this.assDataBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.assDataBtn.Location = new System.Drawing.Point(76, 355);
-            this.assDataBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.assDataBtn.Name = "assDataBtn";
-            this.assDataBtn.Size = new System.Drawing.Size(277, 194);
-            this.assDataBtn.TabIndex = 114;
-            this.assDataBtn.Text = "Assessment Data";
-            this.assDataBtn.UseVisualStyleBackColor = true;
-            this.assDataBtn.Click += new System.EventHandler(this.assDataBtn_Click);
-            // 
             // groupBox45
             // 
             this.groupBox45.Controls.Add(this.label6);
@@ -12864,6 +12875,47 @@
             this.groupBox45.TabIndex = 108;
             this.groupBox45.TabStop = false;
             // 
+            // labelast
+            // 
+            this.labelast.AutoSize = true;
+            this.labelast.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.labelast.Location = new System.Drawing.Point(444, 82);
+            this.labelast.Name = "labelast";
+            this.labelast.Size = new System.Drawing.Size(28, 13);
+            this.labelast.TabIndex = 110;
+            this.labelast.Text = "AST";
+            // 
+            // labelalt
+            // 
+            this.labelalt.AutoSize = true;
+            this.labelalt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.labelalt.Location = new System.Drawing.Point(445, 152);
+            this.labelalt.Name = "labelalt";
+            this.labelalt.Size = new System.Drawing.Size(27, 13);
+            this.labelalt.TabIndex = 111;
+            this.labelalt.Text = "ALT";
+            // 
+            // labelalp
+            // 
+            this.labelalp.AutoSize = true;
+            this.labelalp.Enabled = false;
+            this.labelalp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.labelalp.Location = new System.Drawing.Point(494, 152);
+            this.labelalp.Name = "labelalp";
+            this.labelalp.Size = new System.Drawing.Size(27, 13);
+            this.labelalp.TabIndex = 112;
+            this.labelalp.Text = "ALP";
+            // 
+            // labelldh
+            // 
+            this.labelldh.AutoSize = true;
+            this.labelldh.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.labelldh.Location = new System.Drawing.Point(497, 80);
+            this.labelldh.Name = "labelldh";
+            this.labelldh.Size = new System.Drawing.Size(29, 13);
+            this.labelldh.TabIndex = 113;
+            this.labelldh.Text = "LDH";
+            // 
             // mainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -12877,6 +12929,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.mainMenuStrip);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainView";
             this.Text = "EMPRS";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mainView_FormClosing);
@@ -13682,7 +13735,7 @@
         private System.Windows.Forms.GroupBox groupBox58;
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.Label PO4Label;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox mgTxtBox;
         private System.Windows.Forms.Label magnesiumLabel;
         private System.Windows.Forms.MaskedTextBox pLTMaskTxtBox;
         private System.Windows.Forms.MaskedTextBox hgbMaskTxtBox;
@@ -13757,7 +13810,7 @@
         private System.Windows.Forms.TextBox textBox33;
         private System.Windows.Forms.TextBox textBox32;
         private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox labelmg;
         private System.Windows.Forms.Button ordMed_Save_Btn;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
@@ -14123,5 +14176,9 @@
         private System.Windows.Forms.MaskedTextBox maskedTextBox19;
         private System.Windows.Forms.Label label152;
         private System.Windows.Forms.GroupBox groupBox45;
+        private System.Windows.Forms.Label labelldh;
+        private System.Windows.Forms.Label labelalp;
+        private System.Windows.Forms.Label labelalt;
+        private System.Windows.Forms.Label labelast;
     }
 }

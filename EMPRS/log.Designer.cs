@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(logInForm));
             this.errorLabel = new System.Windows.Forms.Label();
             this.passwordTextbox = new System.Windows.Forms.TextBox();
             this.usernameTextbox = new System.Windows.Forms.TextBox();
@@ -125,6 +126,7 @@
             this.Controls.Add(this.usernameLabel);
             this.Controls.Add(this.logInLabel);
             this.Controls.Add(this.loginButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "logInForm";
             this.Text = "EMPRS - Login";
             this.Load += new System.EventHandler(this.logInForm_Load);
