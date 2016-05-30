@@ -1505,18 +1505,18 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.labsAndImaTabs);
+            this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Controls.Add(this.patHigBtn);
             this.groupBox1.Controls.Add(this.mARBtn);
             this.groupBox1.Controls.Add(this.labsAndImaBtn);
             this.groupBox1.Controls.Add(this.ordBtn);
             this.groupBox1.Controls.Add(this.notBtn);
             this.groupBox1.Controls.Add(this.assDataBtn);
-            this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Controls.Add(this.ordTabs);
             this.groupBox1.Controls.Add(this.notTabs);
             this.groupBox1.Controls.Add(this.assDataTabs);
             this.groupBox1.Controls.Add(this.mARTabs);
+            this.groupBox1.Controls.Add(this.labsAndImaTabs);
             this.groupBox1.Location = new System.Drawing.Point(183, 96);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1187, 602);
