@@ -77,46 +77,46 @@ namespace EMPRS
         //-------------------------//
 
         //date of Assessment
-        DateTime assessmentDate;
+        public DateTime assessmentDate;
 
         //VITAL SIGNS
 
         //Blood pressure
-        float SBP, DBP;
-        enum bpLR   //side of bp
+        public float SBP, DBP;
+        public enum bpLR :int  //side of bp
         {
             L, R
         };
-        enum bpSite         //site of bp
+        public enum bpSite : int      //site of bp
         {
             upperArm, lowerArm, calf, thigh, wrist
         };
 
         //Respiratory
-        float respRate;
-        enum respRhythm     //description of breathing
+        public float respRate;
+        public enum respRhythm  : int   //description of breathing
         {
             Irregular, Distressed, Labored, Regular
         };
 
         //Pulse (in bpm)
-        float pulseRate;
-        enum pulseStrength   //strength of pulse
+        public float pulseRate;
+        public enum pulseStrength : int  //strength of pulse
         {
             Absent, Thready, Normal, Increased, Full
         };
-        enum pulseSite      //site of pulse measurement
+        public enum pulseSite : int      //site of pulse measurement
         {
             Apical, Radial, Popliteal, Carotid, PostTibialis, DorsalPedis
         };
 
         //Temperature (in F or C)
-        float Temperature;//should change to Temperature to avoid ambiguity
-        enum fahCel
+        public float Temperature;//should change to Temperature to avoid ambiguity
+        public enum fahCel : int
         {
             F, C
         };
-        enum tempSite       //site of temp reading
+        public enum tempSite : int      //site of temp reading
         {
             Oral, Temporal, Axillary, Rectal, Otic
         };
@@ -126,53 +126,53 @@ namespace EMPRS
         //General Survey
 
         //a&o
-        bool person, time, place, situation;
-        byte aAndO;      //alertness and orientation rating 0 - 4
+        public bool person, time, place, situation;
+        public byte aAndO;      //alertness and orientation rating 0 - 4
 
         //family present
-        bool spouse, children, parents, other;
-        string otherText;
+        public bool spouse, children, parents, other;
+        public string otherText;
 
         //general affect
-        bool calm, appropriate, alert, anxious, flat, unresponsive, agitated, aggressive;
+        public bool calm, appropriate, alert, anxious, flat, unresponsive, agitated, aggressive;
 
         //readiness to learn
-        bool engaged, receptive, questions, posFeed;    //Unengaged and Negative non-verbal feedback derived
+        public bool engaged, receptive, questions, posFeed;    //Unengaged and Negative non-verbal feedback derived
 
         //HEENT
 
         //PERRLA
-        bool pupilsEqual, round, reactLight, accommodating;
+        public bool pupilsEqual, round, reactLight, accommodating;
 
         //EOMs
-        enum extraOcMov
+        public enum extraOcMov : int
         {
             Normal, GeneralNystagmus, CN3Impair, CN4Impair, CN6Impair
         };
 
         //Carotid artery [p1]
-        bool carotidArtBruit;   //0 = no bruit, 1 = bruit auscultated
+        public bool carotidArtBruit;   //0 = no bruit, 1 = bruit auscultated
 
         //Upper extremities
 
         //skin
-        bool upExSkinHot, upExSkinWarm, upExSkinCold, upExSkinDry, upExSkinMoist, upExSkinCracked;
-        string upExPressureUlcer;
+        public bool upExSkinHot, upExSkinWarm, upExSkinCold, upExSkinDry, upExSkinMoist, upExSkinCracked;
+        public string upExPressureUlcer;
 
         //capillary refill
-        enum upperExCapRefill
+        public enum upperExCapRefill : int
         {
             Absent, Slow, Two, One, Brisk
         };
 
         //strength/rom
-        enum upperExStrength
+        public enum upperExStrength : int
         {
             None, Severe, Poor, Average, Slight, Normal
         };
 
         //edema
-        enum upperExEdema
+        public enum upperExEdema : int
         {
             None, Barely, Less5Mil, FiveMil, Centi
         };
@@ -180,53 +180,53 @@ namespace EMPRS
         //Pulmonary
 
         //overall
-        enum pulmOverall
+        public enum pulmOverall : int
         {
             Absent, DimOverall, DimBases, Normal
         };
 
         //left upper lobe [mc]
-        bool leftUpLobeNormal, leftUpLobeDim, leftUpLobeFine, leftUpLobeCoarse, leftUpLobeWheeze, leftUpLobeRhonchi, leftUpLobePleural, leftUpLobeAbsent;
+        public bool leftUpLobeNormal, leftUpLobeDim, leftUpLobeFine, leftUpLobeCoarse, leftUpLobeWheeze, leftUpLobeRhonchi, leftUpLobePleural, leftUpLobeAbsent;
 
         //left lower lobe
-        bool leftLowLobeNormal, leftLowLobeDim, leftLowLobeFine, leftLowLobeCoarse, leftLowLobeWheeze, leftLowLobeRhonchi, leftLowLobePleural, leftLowLobeAbsent;
+        public bool leftLowLobeNormal, leftLowLobeDim, leftLowLobeFine, leftLowLobeCoarse, leftLowLobeWheeze, leftLowLobeRhonchi, leftLowLobePleural, leftLowLobeAbsent;
 
         //right upper lobe
-        bool rightUpLobeNormal, rightUpLobeDim, rightUpLobeFine, rightUpLobeCoarse, rightUpLobeWheeze, rightUpLobeRhonchi, rightUpLobePleural, rightUpLobeAbsent;
+        public bool rightUpLobeNormal, rightUpLobeDim, rightUpLobeFine, rightUpLobeCoarse, rightUpLobeWheeze, rightUpLobeRhonchi, rightUpLobePleural, rightUpLobeAbsent;
 
         //right middle lobe
-        bool rightMidLobeNormal, rightMidLobeDim, rightMidLobeFine, rightMidLobeCoarse, rightMidLobeWheeze, rightMidLobeRhonchi, rightMidLobePleural, rightMidLobeAbsent;
+        public bool rightMidLobeNormal, rightMidLobeDim, rightMidLobeFine, rightMidLobeCoarse, rightMidLobeWheeze, rightMidLobeRhonchi, rightMidLobePleural, rightMidLobeAbsent;
 
         //right lower lobe
-        bool rightLowLobeNormal, rightLowLobeDim, rightLowLobeFine, rightLowLobeCoarse, rightLowLobeWheeze, rightLowLobeRhonchi, rightLowLobePleural, rightLowLobeAbsent;
+        public bool rightLowLobeNormal, rightLowLobeDim, rightLowLobeFine, rightLowLobeCoarse, rightLowLobeWheeze, rightLowLobeRhonchi, rightLowLobePleural, rightLowLobeAbsent;
 
         //Cardiac
-        bool cardMurmS1_S2, cardMurmS3, cardMurmS4, cardMurmPres;
+        public bool cardMurmS1_S2, cardMurmS3, cardMurmS4, cardMurmPres;
 
         //Abdomen
 
         //overall
-        bool abTend;    //0 = non-tender, 1 = tender
-        bool abDist;    //0 = non-distended, 1 = distended
-        bool abBowelPres, abBowelHypo, abBowelAbsent;
+        public bool abTend;    //0 = non-tender, 1 = tender
+        public bool abDist;    //0 = non-distended, 1 = distended
+        public bool abBowelPres, abBowelHypo, abBowelAbsent;
 
         //right-upper quadrant
-        bool abRUQBowelPres, abRUQBowelHypo, abRUQBowelAbsent, abRUQTympanic, abRUQResonant, abRUQHyper, abRUQFlat, abRUQDull;
+        public bool abRUQBowelPres, abRUQBowelHypo, abRUQBowelAbsent, abRUQTympanic, abRUQResonant, abRUQHyper, abRUQFlat, abRUQDull;
 
         //left-upper quadrant
-        bool abLUQBowelPres, abLUQBowelHypo, abLUQBowelAbsent, abLUQTympanic, abLUQResonant, abLUQHyper, abLUQFlat, abLUQDull;
+        public bool abLUQBowelPres, abLUQBowelHypo, abLUQBowelAbsent, abLUQTympanic, abLUQResonant, abLUQHyper, abLUQFlat, abLUQDull;
 
         //right-lower quadrant
-        bool abRLQBowelPres, abRLQBowelHypo, abRLQBowelAbsent, abRLQTympanic, abRLQResonant, abRLQHyper, abRLQFlat, abRLQDull;
+        public bool abRLQBowelPres, abRLQBowelHypo, abRLQBowelAbsent, abRLQTympanic, abRLQResonant, abRLQHyper, abRLQFlat, abRLQDull;
 
         //left-lower quadrant
-        bool abLLQBowelPres, abLLQBowelHypo, abLLQBowelAbsent, abLLQTympanic, abLLQResonant, abLLQHyper, abLLQFlat, abLLQDull;
+        public bool abLLQBowelPres, abLLQBowelHypo, abLLQBowelAbsent, abLLQTympanic, abLLQResonant, abLLQHyper, abLLQFlat, abLLQDull;
 
         //Lower Extremities
 
         //skin
-        bool lowExSkinHot, lowExSkinWarm, lowExSkinCold, lowExSkinDry, lowExSkinMoist, lowExSkinCracked;
-        string lowExPressureUlcer;
+        public bool lowExSkinHot, lowExSkinWarm, lowExSkinCold, lowExSkinDry, lowExSkinMoist, lowExSkinCracked;
+        public string lowExPressureUlcer;
 
         //capillary refill
         enum lowerExCapRefill
