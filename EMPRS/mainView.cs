@@ -48,7 +48,7 @@ namespace EMPRS
             hgbMaskTxtBox.Clear();
             pLTMaskTxtBox.Clear();
 
-            loadData();
+         //   loadData();
 
             if (global.isAdmin == false)
             {
