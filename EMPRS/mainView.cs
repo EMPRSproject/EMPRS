@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using System.Data.SQLite;
+using System.Data.SQLite;
 using System.Windows.Forms;
 
 namespace EMPRS
@@ -48,7 +48,7 @@ namespace EMPRS
             hgbMaskTxtBox.Clear();
             pLTMaskTxtBox.Clear();
 
-         //   loadData();
+    //        loadData();
 
             if (global.isAdmin == false)
             {
@@ -64,7 +64,7 @@ namespace EMPRS
                 groupBox45.Enabled = true; // Header
             }
         }
-        /*
+        
         public void loadData()
         {
             SQLiteConnection m_dbConnection;
@@ -137,7 +137,7 @@ namespace EMPRS
             }
                     m_dbConnection.Close();
         }
-        */
+        
         private void enableAdminView(Control parent)
         {
             foreach (Control c in parent.Controls)
@@ -313,7 +313,7 @@ namespace EMPRS
 
         private void patientDropDown_SelectedIndexChanged(object sender, EventArgs e)
         {
-            /*
+            
             string curName = patientDropDown.Text;
             loadPatient(curName);
 
@@ -332,6 +332,28 @@ namespace EMPRS
             HCO3MaskTxtBox.Text = curPatient.HCO3.ToString();
             bUNMaskTxtBox.Text = curPatient.BUN.ToString();
             creatMaskTxtBox.Text = curPatient.creatinine.ToString();
+            glucoseMaskTxtBox.Text = curPatient.glucose.ToString();
+            ca2MaskTxtBox.Text = curPatient.calcium.ToString();
+            textBox21.Text = curPatient.magnesium.ToString();
+            PO43MaskTxtBox.Text = curPatient.phosphate.ToString();
+            tPMaskTxtBox.Text = curPatient.protein.ToString();
+            albMaskTxtBox.Text = curPatient.albumin.ToString();
+            aSTMaskTxtBox.Text = curPatient.AST.ToString();
+            aLTMaskTxtBox.Text = curPatient.ALT.ToString();
+            lDHMastTxtBox.Text = curPatient.LDH.ToString();
+            bilMastTxtBox.Text = curPatient.bilirubin.ToString();
+            hCTMaskTxtBox.Text = curPatient.HCT.ToString();
+            rBCMaskTxtBox.Text = curPatient.ALT.ToString();
+            hgbMaskTxtBox.Text = curPatient.Hgb.ToString();
+            wBCMaskTxtBox.Text = curPatient.WBC.ToString();
+            pLTMaskTxtBox.Text = curPatient.PLT.ToString();
+            pTMaskTxtBox.Text = curPatient.PT.ToString();
+            pTTMaskTxtBox.Text = curPatient.PTT.ToString();
+            myoglobinMaskTxtBox.Text = curPatient.myoglobin.ToString();
+            cTnIMaskTxtBox.Text = curPatient.cTnI.ToString();
+            cTnTMaskTxtBox.Text = curPatient.cTnT.ToString();
+            cPKMaskTxtBox.Text = curPatient.CPK_CKMB2.ToString();
+            
 
             //groupBox1.Visible = true;
             patHigBtn.Enabled = true;
@@ -341,7 +363,6 @@ namespace EMPRS
             notBtn.Enabled = true;
             ordBtn.Enabled = true;
             
-    */
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
