@@ -67,6 +67,8 @@
             this.morScaSubCatBtn = new System.Windows.Forms.Button();
             this.braScaResSubCatBtn = new System.Windows.Forms.Button();
             this.braScaSubCatBtn = new System.Windows.Forms.Button();
+            this.braScaResPan = new System.Windows.Forms.Panel();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.braScaSubCatPan = new System.Windows.Forms.Panel();
             this.groupBox43 = new System.Windows.Forms.GroupBox();
             this.radioButton116 = new System.Windows.Forms.RadioButton();
@@ -120,10 +122,180 @@
             this.radioButton17 = new System.Windows.Forms.RadioButton();
             this.morScaResSubCatPan = new System.Windows.Forms.Panel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.braScaResPan = new System.Windows.Forms.Panel();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.assessmentTab = new System.Windows.Forms.TabPage();
+            this.painSubCatBtn = new System.Windows.Forms.Button();
+            this.hEENTSubCatBtn = new System.Windows.Forms.Button();
+            this.lowExtSubCatBtn = new System.Windows.Forms.Button();
+            this.abdSubCatBtn = new System.Windows.Forms.Button();
+            this.carSubCatBtn = new System.Windows.Forms.Button();
+            this.pulSubCatBtn = new System.Windows.Forms.Button();
+            this.uppExtSubCatBtn = new System.Windows.Forms.Button();
+            this.genSurSubCatBtn = new System.Windows.Forms.Button();
+            this.genSurSubCatPan = new System.Windows.Forms.Panel();
+            this.groupBox72 = new System.Windows.Forms.GroupBox();
+            this.radioButton170 = new System.Windows.Forms.RadioButton();
+            this.radioButton171 = new System.Windows.Forms.RadioButton();
+            this.radioButton172 = new System.Windows.Forms.RadioButton();
+            this.radioButton173 = new System.Windows.Forms.RadioButton();
+            this.maskedTextBox10 = new System.Windows.Forms.MaskedTextBox();
+            this.radioButton174 = new System.Windows.Forms.RadioButton();
+            this.radioButton175 = new System.Windows.Forms.RadioButton();
+            this.radioButton176 = new System.Windows.Forms.RadioButton();
+            this.radioButton177 = new System.Windows.Forms.RadioButton();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label141 = new System.Windows.Forms.Label();
+            this.label142 = new System.Windows.Forms.Label();
+            this.label143 = new System.Windows.Forms.Label();
+            this.label144 = new System.Windows.Forms.Label();
+            this.groupBox73 = new System.Windows.Forms.GroupBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.groupBox79 = new System.Windows.Forms.GroupBox();
+            this.checkBox183 = new System.Windows.Forms.CheckBox();
+            this.checkBox184 = new System.Windows.Forms.CheckBox();
+            this.checkBox185 = new System.Windows.Forms.CheckBox();
+            this.checkBox186 = new System.Windows.Forms.CheckBox();
+            this.checkBox192 = new System.Windows.Forms.CheckBox();
+            this.checkBox193 = new System.Windows.Forms.CheckBox();
+            this.checkBox194 = new System.Windows.Forms.CheckBox();
+            this.checkBox195 = new System.Windows.Forms.CheckBox();
+            this.groupBox80 = new System.Windows.Forms.GroupBox();
+            this.checkBox231 = new System.Windows.Forms.CheckBox();
+            this.checkBox232 = new System.Windows.Forms.CheckBox();
+            this.checkBox233 = new System.Windows.Forms.CheckBox();
+            this.checkBox234 = new System.Windows.Forms.CheckBox();
+            this.checkBox235 = new System.Windows.Forms.CheckBox();
+            this.checkBox236 = new System.Windows.Forms.CheckBox();
+            this.groupBox87 = new System.Windows.Forms.GroupBox();
+            this.checkBox237 = new System.Windows.Forms.CheckBox();
+            this.checkBox238 = new System.Windows.Forms.CheckBox();
+            this.checkBox239 = new System.Windows.Forms.CheckBox();
+            this.checkBox240 = new System.Windows.Forms.CheckBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.groupBox71 = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.maskedTextBox21 = new System.Windows.Forms.MaskedTextBox();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label159 = new System.Windows.Forms.Label();
+            this.genAppAndBehGrpBox = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.genAffGrpBox = new System.Windows.Forms.GroupBox();
+            this.checkBox19 = new System.Windows.Forms.CheckBox();
+            this.checkBox20 = new System.Windows.Forms.CheckBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.checkBox17 = new System.Windows.Forms.CheckBox();
+            this.reaToLrnGrpBox = new System.Windows.Forms.GroupBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.famPresGrpBox = new System.Windows.Forms.GroupBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.uppExtSubCatPan = new System.Windows.Forms.Panel();
+            this.groupBox63 = new System.Windows.Forms.GroupBox();
+            this.radioButton134 = new System.Windows.Forms.RadioButton();
+            this.radioButton135 = new System.Windows.Forms.RadioButton();
+            this.radioButton136 = new System.Windows.Forms.RadioButton();
+            this.radioButton137 = new System.Windows.Forms.RadioButton();
+            this.radioButton138 = new System.Windows.Forms.RadioButton();
+            this.groupBox64 = new System.Windows.Forms.GroupBox();
+            this.radioButton139 = new System.Windows.Forms.RadioButton();
+            this.radioButton140 = new System.Windows.Forms.RadioButton();
+            this.radioButton141 = new System.Windows.Forms.RadioButton();
+            this.radioButton142 = new System.Windows.Forms.RadioButton();
+            this.radioButton143 = new System.Windows.Forms.RadioButton();
+            this.groupBox65 = new System.Windows.Forms.GroupBox();
+            this.radioButton144 = new System.Windows.Forms.RadioButton();
+            this.radioButton145 = new System.Windows.Forms.RadioButton();
+            this.radioButton146 = new System.Windows.Forms.RadioButton();
+            this.radioButton147 = new System.Windows.Forms.RadioButton();
+            this.radioButton148 = new System.Windows.Forms.RadioButton();
+            this.radioButton149 = new System.Windows.Forms.RadioButton();
+            this.groupBox66 = new System.Windows.Forms.GroupBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.checkBox141 = new System.Windows.Forms.CheckBox();
+            this.checkBox142 = new System.Windows.Forms.CheckBox();
+            this.checkBox143 = new System.Windows.Forms.CheckBox();
+            this.checkBox144 = new System.Windows.Forms.CheckBox();
+            this.checkBox145 = new System.Windows.Forms.CheckBox();
+            this.checkBox146 = new System.Windows.Forms.CheckBox();
+            this.checkBox147 = new System.Windows.Forms.CheckBox();
+            this.label153 = new System.Windows.Forms.Label();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.radioButton55 = new System.Windows.Forms.RadioButton();
+            this.radioButton56 = new System.Windows.Forms.RadioButton();
+            this.radioButton57 = new System.Windows.Forms.RadioButton();
+            this.radioButton58 = new System.Windows.Forms.RadioButton();
+            this.radioButton59 = new System.Windows.Forms.RadioButton();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.radioButton60 = new System.Windows.Forms.RadioButton();
+            this.radioButton61 = new System.Windows.Forms.RadioButton();
+            this.radioButton62 = new System.Windows.Forms.RadioButton();
+            this.radioButton63 = new System.Windows.Forms.RadioButton();
+            this.radioButton64 = new System.Windows.Forms.RadioButton();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.radioButton65 = new System.Windows.Forms.RadioButton();
+            this.radioButton66 = new System.Windows.Forms.RadioButton();
+            this.radioButton67 = new System.Windows.Forms.RadioButton();
+            this.radioButton68 = new System.Windows.Forms.RadioButton();
+            this.radioButton69 = new System.Windows.Forms.RadioButton();
+            this.radioButton70 = new System.Windows.Forms.RadioButton();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox18 = new System.Windows.Forms.CheckBox();
+            this.checkBox21 = new System.Windows.Forms.CheckBox();
+            this.checkBox22 = new System.Windows.Forms.CheckBox();
+            this.checkBox35 = new System.Windows.Forms.CheckBox();
+            this.checkBox117 = new System.Windows.Forms.CheckBox();
+            this.checkBox118 = new System.Windows.Forms.CheckBox();
             this.painSubCatPnl = new System.Windows.Forms.Panel();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.label169 = new System.Windows.Forms.Label();
+            this.label170 = new System.Windows.Forms.Label();
+            this.label171 = new System.Windows.Forms.Label();
+            this.label172 = new System.Windows.Forms.Label();
+            this.label173 = new System.Windows.Forms.Label();
+            this.groupBox88 = new System.Windows.Forms.GroupBox();
+            this.radioButton178 = new System.Windows.Forms.RadioButton();
+            this.radioButton179 = new System.Windows.Forms.RadioButton();
+            this.radioButton180 = new System.Windows.Forms.RadioButton();
+            this.radioButton181 = new System.Windows.Forms.RadioButton();
+            this.radioButton182 = new System.Windows.Forms.RadioButton();
+            this.radioButton183 = new System.Windows.Forms.RadioButton();
+            this.radioButton184 = new System.Windows.Forms.RadioButton();
+            this.radioButton185 = new System.Windows.Forms.RadioButton();
+            this.radioButton186 = new System.Windows.Forms.RadioButton();
+            this.radioButton187 = new System.Windows.Forms.RadioButton();
+            this.radioButton188 = new System.Windows.Forms.RadioButton();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
             this.textBox38 = new System.Windows.Forms.TextBox();
             this.label168 = new System.Windows.Forms.Label();
             this.label167 = new System.Windows.Forms.Label();
@@ -143,15 +315,35 @@
             this.radioButton195 = new System.Windows.Forms.RadioButton();
             this.radioButton194 = new System.Windows.Forms.RadioButton();
             this.label163 = new System.Windows.Forms.Label();
-            this.painSubCatBtn = new System.Windows.Forms.Button();
-            this.hEENTSubCatBtn = new System.Windows.Forms.Button();
-            this.lowExtSubCatBtn = new System.Windows.Forms.Button();
-            this.abdSubCatBtn = new System.Windows.Forms.Button();
-            this.carSubCatBtn = new System.Windows.Forms.Button();
-            this.pulSubCatBtn = new System.Windows.Forms.Button();
-            this.uppExtSubCatBtn = new System.Windows.Forms.Button();
-            this.genSurSubCatBtn = new System.Windows.Forms.Button();
             this.lowExtSubCatPan = new System.Windows.Forms.Panel();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.radioButton71 = new System.Windows.Forms.RadioButton();
+            this.radioButton72 = new System.Windows.Forms.RadioButton();
+            this.radioButton73 = new System.Windows.Forms.RadioButton();
+            this.radioButton74 = new System.Windows.Forms.RadioButton();
+            this.radioButton75 = new System.Windows.Forms.RadioButton();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.radioButton76 = new System.Windows.Forms.RadioButton();
+            this.radioButton77 = new System.Windows.Forms.RadioButton();
+            this.radioButton78 = new System.Windows.Forms.RadioButton();
+            this.radioButton79 = new System.Windows.Forms.RadioButton();
+            this.radioButton80 = new System.Windows.Forms.RadioButton();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.radioButton81 = new System.Windows.Forms.RadioButton();
+            this.radioButton82 = new System.Windows.Forms.RadioButton();
+            this.radioButton83 = new System.Windows.Forms.RadioButton();
+            this.radioButton84 = new System.Windows.Forms.RadioButton();
+            this.radioButton85 = new System.Windows.Forms.RadioButton();
+            this.radioButton86 = new System.Windows.Forms.RadioButton();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.checkBox64 = new System.Windows.Forms.CheckBox();
+            this.checkBox72 = new System.Windows.Forms.CheckBox();
+            this.checkBox119 = new System.Windows.Forms.CheckBox();
+            this.checkBox120 = new System.Windows.Forms.CheckBox();
+            this.checkBox121 = new System.Windows.Forms.CheckBox();
+            this.checkBox122 = new System.Windows.Forms.CheckBox();
+            this.checkBox123 = new System.Windows.Forms.CheckBox();
             this.groupBox46 = new System.Windows.Forms.GroupBox();
             this.radioButton115 = new System.Windows.Forms.RadioButton();
             this.radioButton119 = new System.Windows.Forms.RadioButton();
@@ -182,9 +374,94 @@
             this.checkBox34 = new System.Windows.Forms.CheckBox();
             this.label154 = new System.Windows.Forms.Label();
             this.abdSubCatPan = new System.Windows.Forms.Panel();
+            this.groupBox24 = new System.Windows.Forms.GroupBox();
+            this.checkBox73 = new System.Windows.Forms.CheckBox();
+            this.checkBox74 = new System.Windows.Forms.CheckBox();
+            this.checkBox79 = new System.Windows.Forms.CheckBox();
+            this.checkBox80 = new System.Windows.Forms.CheckBox();
+            this.checkBox81 = new System.Windows.Forms.CheckBox();
+            this.checkBox82 = new System.Windows.Forms.CheckBox();
+            this.checkBox83 = new System.Windows.Forms.CheckBox();
+            this.groupBox25 = new System.Windows.Forms.GroupBox();
+            this.checkBox84 = new System.Windows.Forms.CheckBox();
+            this.checkBox85 = new System.Windows.Forms.CheckBox();
+            this.checkBox86 = new System.Windows.Forms.CheckBox();
+            this.checkBox87 = new System.Windows.Forms.CheckBox();
+            this.checkBox88 = new System.Windows.Forms.CheckBox();
+            this.checkBox89 = new System.Windows.Forms.CheckBox();
+            this.checkBox90 = new System.Windows.Forms.CheckBox();
+            this.groupBox26 = new System.Windows.Forms.GroupBox();
+            this.checkBox91 = new System.Windows.Forms.CheckBox();
+            this.checkBox92 = new System.Windows.Forms.CheckBox();
+            this.checkBox93 = new System.Windows.Forms.CheckBox();
+            this.checkBox94 = new System.Windows.Forms.CheckBox();
+            this.checkBox95 = new System.Windows.Forms.CheckBox();
+            this.checkBox96 = new System.Windows.Forms.CheckBox();
+            this.checkBox97 = new System.Windows.Forms.CheckBox();
+            this.groupBox27 = new System.Windows.Forms.GroupBox();
+            this.checkBox98 = new System.Windows.Forms.CheckBox();
+            this.checkBox99 = new System.Windows.Forms.CheckBox();
+            this.checkBox100 = new System.Windows.Forms.CheckBox();
+            this.checkBox101 = new System.Windows.Forms.CheckBox();
+            this.checkBox102 = new System.Windows.Forms.CheckBox();
+            this.checkBox103 = new System.Windows.Forms.CheckBox();
+            this.checkBox104 = new System.Windows.Forms.CheckBox();
+            this.groupBox28 = new System.Windows.Forms.GroupBox();
+            this.checkBox105 = new System.Windows.Forms.CheckBox();
+            this.checkBox108 = new System.Windows.Forms.CheckBox();
+            this.checkBox109 = new System.Windows.Forms.CheckBox();
+            this.checkBox110 = new System.Windows.Forms.CheckBox();
+            this.checkBox111 = new System.Windows.Forms.CheckBox();
+            this.checkBox112 = new System.Windows.Forms.CheckBox();
+            this.checkBox113 = new System.Windows.Forms.CheckBox();
+            this.groupBox59 = new System.Windows.Forms.GroupBox();
+            this.checkBox106 = new System.Windows.Forms.CheckBox();
+            this.checkBox107 = new System.Windows.Forms.CheckBox();
+            this.checkBox114 = new System.Windows.Forms.CheckBox();
+            this.checkBox115 = new System.Windows.Forms.CheckBox();
+            this.checkBox148 = new System.Windows.Forms.CheckBox();
+            this.checkBox149 = new System.Windows.Forms.CheckBox();
+            this.checkBox150 = new System.Windows.Forms.CheckBox();
+            this.groupBox62 = new System.Windows.Forms.GroupBox();
+            this.checkBox151 = new System.Windows.Forms.CheckBox();
+            this.checkBox152 = new System.Windows.Forms.CheckBox();
+            this.checkBox153 = new System.Windows.Forms.CheckBox();
+            this.checkBox154 = new System.Windows.Forms.CheckBox();
+            this.checkBox155 = new System.Windows.Forms.CheckBox();
+            this.checkBox156 = new System.Windows.Forms.CheckBox();
+            this.checkBox157 = new System.Windows.Forms.CheckBox();
+            this.groupBox67 = new System.Windows.Forms.GroupBox();
+            this.checkBox158 = new System.Windows.Forms.CheckBox();
+            this.checkBox159 = new System.Windows.Forms.CheckBox();
+            this.checkBox160 = new System.Windows.Forms.CheckBox();
+            this.checkBox161 = new System.Windows.Forms.CheckBox();
+            this.checkBox162 = new System.Windows.Forms.CheckBox();
+            this.checkBox163 = new System.Windows.Forms.CheckBox();
+            this.checkBox164 = new System.Windows.Forms.CheckBox();
+            this.groupBox68 = new System.Windows.Forms.GroupBox();
+            this.checkBox165 = new System.Windows.Forms.CheckBox();
+            this.checkBox166 = new System.Windows.Forms.CheckBox();
+            this.checkBox167 = new System.Windows.Forms.CheckBox();
+            this.checkBox168 = new System.Windows.Forms.CheckBox();
+            this.checkBox169 = new System.Windows.Forms.CheckBox();
+            this.checkBox170 = new System.Windows.Forms.CheckBox();
+            this.checkBox171 = new System.Windows.Forms.CheckBox();
+            this.groupBox69 = new System.Windows.Forms.GroupBox();
+            this.checkBox172 = new System.Windows.Forms.CheckBox();
+            this.checkBox173 = new System.Windows.Forms.CheckBox();
+            this.checkBox174 = new System.Windows.Forms.CheckBox();
+            this.checkBox175 = new System.Windows.Forms.CheckBox();
+            this.checkBox176 = new System.Windows.Forms.CheckBox();
+            this.checkBox177 = new System.Windows.Forms.CheckBox();
+            this.checkBox178 = new System.Windows.Forms.CheckBox();
             this.label155 = new System.Windows.Forms.Label();
             this.hEENTSubCatPan = new System.Windows.Forms.Panel();
             this.groupBox74 = new System.Windows.Forms.GroupBox();
+            this.checkBox187 = new System.Windows.Forms.CheckBox();
+            this.checkBox188 = new System.Windows.Forms.CheckBox();
+            this.checkBox189 = new System.Windows.Forms.CheckBox();
+            this.checkBox190 = new System.Windows.Forms.CheckBox();
+            this.checkBox191 = new System.Windows.Forms.CheckBox();
             this.groupBox75 = new System.Windows.Forms.GroupBox();
             this.radioButton150 = new System.Windows.Forms.RadioButton();
             this.radioButton151 = new System.Windows.Forms.RadioButton();
@@ -239,6 +516,11 @@
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.carSubCatPan = new System.Windows.Forms.Panel();
+            this.groupBox70 = new System.Windows.Forms.GroupBox();
+            this.checkBox179 = new System.Windows.Forms.CheckBox();
+            this.checkBox180 = new System.Windows.Forms.CheckBox();
+            this.checkBox181 = new System.Windows.Forms.CheckBox();
+            this.checkBox182 = new System.Windows.Forms.CheckBox();
             this.label157 = new System.Windows.Forms.Label();
             this.groupBox23 = new System.Windows.Forms.GroupBox();
             this.checkBox75 = new System.Windows.Forms.CheckBox();
@@ -337,55 +619,29 @@
             this.radioButton37 = new System.Windows.Forms.RadioButton();
             this.radioButton39 = new System.Windows.Forms.RadioButton();
             this.radioButton40 = new System.Windows.Forms.RadioButton();
-            this.genSurSubCatPan = new System.Windows.Forms.Panel();
-            this.label159 = new System.Windows.Forms.Label();
-            this.genAppAndBehGrpBox = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.genAffGrpBox = new System.Windows.Forms.GroupBox();
-            this.reaToLrnGrpBox = new System.Windows.Forms.GroupBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.famPresGrpBox = new System.Windows.Forms.GroupBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.uppExtSubCatPan = new System.Windows.Forms.Panel();
-            this.label153 = new System.Windows.Forms.Label();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.radioButton55 = new System.Windows.Forms.RadioButton();
-            this.radioButton56 = new System.Windows.Forms.RadioButton();
-            this.radioButton57 = new System.Windows.Forms.RadioButton();
-            this.radioButton58 = new System.Windows.Forms.RadioButton();
-            this.radioButton59 = new System.Windows.Forms.RadioButton();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.radioButton60 = new System.Windows.Forms.RadioButton();
-            this.radioButton61 = new System.Windows.Forms.RadioButton();
-            this.radioButton62 = new System.Windows.Forms.RadioButton();
-            this.radioButton63 = new System.Windows.Forms.RadioButton();
-            this.radioButton64 = new System.Windows.Forms.RadioButton();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.radioButton65 = new System.Windows.Forms.RadioButton();
-            this.radioButton66 = new System.Windows.Forms.RadioButton();
-            this.radioButton67 = new System.Windows.Forms.RadioButton();
-            this.radioButton68 = new System.Windows.Forms.RadioButton();
-            this.radioButton69 = new System.Windows.Forms.RadioButton();
-            this.radioButton70 = new System.Windows.Forms.RadioButton();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox35 = new System.Windows.Forms.CheckBox();
-            this.checkBox117 = new System.Windows.Forms.CheckBox();
-            this.checkBox118 = new System.Windows.Forms.CheckBox();
             this.vitalSignTab = new System.Windows.Forms.TabPage();
+            this.groupBox89 = new System.Windows.Forms.GroupBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
+            this.groupBox90 = new System.Windows.Forms.GroupBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.maskedTextBox15 = new System.Windows.Forms.MaskedTextBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.groupBox91 = new System.Windows.Forms.GroupBox();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.label145 = new System.Windows.Forms.Label();
+            this.maskedTextBox16 = new System.Windows.Forms.MaskedTextBox();
+            this.label146 = new System.Windows.Forms.Label();
+            this.groupBox92 = new System.Windows.Forms.GroupBox();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.label147 = new System.Windows.Forms.Label();
+            this.maskedTextBox17 = new System.Windows.Forms.MaskedTextBox();
             this.label160 = new System.Windows.Forms.Label();
             this.tempGrpBox = new System.Windows.Forms.GroupBox();
             this.comboBox10 = new System.Windows.Forms.ComboBox();
@@ -404,6 +660,7 @@
             this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.bldPreGrpBox = new System.Windows.Forms.GroupBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
@@ -667,27 +924,6 @@
             this.label35 = new System.Windows.Forms.Label();
             this.groupBox51 = new System.Windows.Forms.GroupBox();
             this.ordTabs = new System.Windows.Forms.TabControl();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label162 = new System.Windows.Forms.Label();
-            this.groupBox57 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maskedTextBox38 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox39 = new System.Windows.Forms.MaskedTextBox();
-            this.ordMed_Time_TxtBox = new System.Windows.Forms.TextBox();
-            this.label95 = new System.Windows.Forms.Label();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.label96 = new System.Windows.Forms.Label();
-            this.maskedTextBox41 = new System.Windows.Forms.MaskedTextBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.label97 = new System.Windows.Forms.Label();
-            this.label98 = new System.Windows.Forms.Label();
-            this.label99 = new System.Windows.Forms.Label();
-            this.groupBox52 = new System.Windows.Forms.GroupBox();
-            this.ordMed_Drug_DataGridView = new System.Windows.Forms.DataGridView();
-            this.label94 = new System.Windows.Forms.Label();
-            this.ordMed_Type_CmbBox = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox38 = new System.Windows.Forms.GroupBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
@@ -724,6 +960,27 @@
             this.label52 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label51 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label162 = new System.Windows.Forms.Label();
+            this.groupBox57 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.maskedTextBox38 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox39 = new System.Windows.Forms.MaskedTextBox();
+            this.ordMed_Time_TxtBox = new System.Windows.Forms.TextBox();
+            this.label95 = new System.Windows.Forms.Label();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.label96 = new System.Windows.Forms.Label();
+            this.maskedTextBox41 = new System.Windows.Forms.MaskedTextBox();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.groupBox52 = new System.Windows.Forms.GroupBox();
+            this.ordMed_Drug_DataGridView = new System.Windows.Forms.DataGridView();
+            this.label94 = new System.Windows.Forms.Label();
+            this.ordMed_Type_CmbBox = new System.Windows.Forms.ComboBox();
             this.notTabs = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView11 = new System.Windows.Forms.DataGridView();
@@ -748,274 +1005,23 @@
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.groupBox45 = new System.Windows.Forms.GroupBox();
             this.maskedTextBox14 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox20 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox13 = new System.Windows.Forms.MaskedTextBox();
             this.label49 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
-            this.maskedTextBox20 = new System.Windows.Forms.MaskedTextBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.groupBox59 = new System.Windows.Forms.GroupBox();
-            this.groupBox62 = new System.Windows.Forms.GroupBox();
-            this.groupBox67 = new System.Windows.Forms.GroupBox();
-            this.groupBox68 = new System.Windows.Forms.GroupBox();
-            this.groupBox69 = new System.Windows.Forms.GroupBox();
-            this.checkBox172 = new System.Windows.Forms.CheckBox();
-            this.checkBox173 = new System.Windows.Forms.CheckBox();
-            this.checkBox174 = new System.Windows.Forms.CheckBox();
-            this.checkBox175 = new System.Windows.Forms.CheckBox();
-            this.checkBox176 = new System.Windows.Forms.CheckBox();
-            this.checkBox177 = new System.Windows.Forms.CheckBox();
-            this.checkBox178 = new System.Windows.Forms.CheckBox();
-            this.groupBox71 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.maskedTextBox21 = new System.Windows.Forms.MaskedTextBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.groupBox72 = new System.Windows.Forms.GroupBox();
-            this.radioButton170 = new System.Windows.Forms.RadioButton();
-            this.radioButton171 = new System.Windows.Forms.RadioButton();
-            this.radioButton172 = new System.Windows.Forms.RadioButton();
-            this.radioButton173 = new System.Windows.Forms.RadioButton();
-            this.maskedTextBox10 = new System.Windows.Forms.MaskedTextBox();
-            this.radioButton174 = new System.Windows.Forms.RadioButton();
-            this.radioButton175 = new System.Windows.Forms.RadioButton();
-            this.radioButton176 = new System.Windows.Forms.RadioButton();
-            this.radioButton177 = new System.Windows.Forms.RadioButton();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label141 = new System.Windows.Forms.Label();
-            this.label142 = new System.Windows.Forms.Label();
-            this.label143 = new System.Windows.Forms.Label();
-            this.label144 = new System.Windows.Forms.Label();
-            this.groupBox73 = new System.Windows.Forms.GroupBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.groupBox79 = new System.Windows.Forms.GroupBox();
-            this.groupBox80 = new System.Windows.Forms.GroupBox();
-            this.checkBox231 = new System.Windows.Forms.CheckBox();
-            this.checkBox232 = new System.Windows.Forms.CheckBox();
-            this.checkBox233 = new System.Windows.Forms.CheckBox();
-            this.checkBox234 = new System.Windows.Forms.CheckBox();
-            this.checkBox235 = new System.Windows.Forms.CheckBox();
-            this.checkBox236 = new System.Windows.Forms.CheckBox();
-            this.groupBox87 = new System.Windows.Forms.GroupBox();
-            this.checkBox237 = new System.Windows.Forms.CheckBox();
-            this.checkBox238 = new System.Windows.Forms.CheckBox();
-            this.checkBox239 = new System.Windows.Forms.CheckBox();
-            this.checkBox240 = new System.Windows.Forms.CheckBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.groupBox63 = new System.Windows.Forms.GroupBox();
-            this.radioButton134 = new System.Windows.Forms.RadioButton();
-            this.radioButton135 = new System.Windows.Forms.RadioButton();
-            this.radioButton136 = new System.Windows.Forms.RadioButton();
-            this.radioButton137 = new System.Windows.Forms.RadioButton();
-            this.radioButton138 = new System.Windows.Forms.RadioButton();
-            this.groupBox64 = new System.Windows.Forms.GroupBox();
-            this.radioButton139 = new System.Windows.Forms.RadioButton();
-            this.radioButton140 = new System.Windows.Forms.RadioButton();
-            this.radioButton141 = new System.Windows.Forms.RadioButton();
-            this.radioButton142 = new System.Windows.Forms.RadioButton();
-            this.radioButton143 = new System.Windows.Forms.RadioButton();
-            this.groupBox65 = new System.Windows.Forms.GroupBox();
-            this.radioButton144 = new System.Windows.Forms.RadioButton();
-            this.radioButton145 = new System.Windows.Forms.RadioButton();
-            this.radioButton146 = new System.Windows.Forms.RadioButton();
-            this.radioButton147 = new System.Windows.Forms.RadioButton();
-            this.radioButton148 = new System.Windows.Forms.RadioButton();
-            this.radioButton149 = new System.Windows.Forms.RadioButton();
-            this.groupBox66 = new System.Windows.Forms.GroupBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.checkBox141 = new System.Windows.Forms.CheckBox();
-            this.checkBox142 = new System.Windows.Forms.CheckBox();
-            this.checkBox143 = new System.Windows.Forms.CheckBox();
-            this.checkBox144 = new System.Windows.Forms.CheckBox();
-            this.checkBox145 = new System.Windows.Forms.CheckBox();
-            this.checkBox146 = new System.Windows.Forms.CheckBox();
-            this.checkBox147 = new System.Windows.Forms.CheckBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.label169 = new System.Windows.Forms.Label();
-            this.label170 = new System.Windows.Forms.Label();
-            this.label171 = new System.Windows.Forms.Label();
-            this.label172 = new System.Windows.Forms.Label();
-            this.label173 = new System.Windows.Forms.Label();
-            this.groupBox88 = new System.Windows.Forms.GroupBox();
-            this.radioButton178 = new System.Windows.Forms.RadioButton();
-            this.radioButton179 = new System.Windows.Forms.RadioButton();
-            this.radioButton180 = new System.Windows.Forms.RadioButton();
-            this.radioButton181 = new System.Windows.Forms.RadioButton();
-            this.radioButton182 = new System.Windows.Forms.RadioButton();
-            this.radioButton183 = new System.Windows.Forms.RadioButton();
-            this.radioButton184 = new System.Windows.Forms.RadioButton();
-            this.radioButton185 = new System.Windows.Forms.RadioButton();
-            this.radioButton186 = new System.Windows.Forms.RadioButton();
-            this.radioButton187 = new System.Windows.Forms.RadioButton();
-            this.radioButton188 = new System.Windows.Forms.RadioButton();
-            this.checkBox165 = new System.Windows.Forms.CheckBox();
-            this.checkBox166 = new System.Windows.Forms.CheckBox();
-            this.checkBox167 = new System.Windows.Forms.CheckBox();
-            this.checkBox168 = new System.Windows.Forms.CheckBox();
-            this.checkBox169 = new System.Windows.Forms.CheckBox();
-            this.checkBox170 = new System.Windows.Forms.CheckBox();
-            this.checkBox171 = new System.Windows.Forms.CheckBox();
-            this.checkBox106 = new System.Windows.Forms.CheckBox();
-            this.checkBox107 = new System.Windows.Forms.CheckBox();
-            this.checkBox114 = new System.Windows.Forms.CheckBox();
-            this.checkBox115 = new System.Windows.Forms.CheckBox();
-            this.checkBox148 = new System.Windows.Forms.CheckBox();
-            this.checkBox149 = new System.Windows.Forms.CheckBox();
-            this.checkBox150 = new System.Windows.Forms.CheckBox();
-            this.checkBox158 = new System.Windows.Forms.CheckBox();
-            this.checkBox159 = new System.Windows.Forms.CheckBox();
-            this.checkBox160 = new System.Windows.Forms.CheckBox();
-            this.checkBox161 = new System.Windows.Forms.CheckBox();
-            this.checkBox162 = new System.Windows.Forms.CheckBox();
-            this.checkBox163 = new System.Windows.Forms.CheckBox();
-            this.checkBox164 = new System.Windows.Forms.CheckBox();
-            this.checkBox151 = new System.Windows.Forms.CheckBox();
-            this.checkBox152 = new System.Windows.Forms.CheckBox();
-            this.checkBox153 = new System.Windows.Forms.CheckBox();
-            this.checkBox154 = new System.Windows.Forms.CheckBox();
-            this.checkBox155 = new System.Windows.Forms.CheckBox();
-            this.checkBox156 = new System.Windows.Forms.CheckBox();
-            this.checkBox157 = new System.Windows.Forms.CheckBox();
-            this.groupBox24 = new System.Windows.Forms.GroupBox();
-            this.checkBox73 = new System.Windows.Forms.CheckBox();
-            this.checkBox74 = new System.Windows.Forms.CheckBox();
-            this.checkBox79 = new System.Windows.Forms.CheckBox();
-            this.checkBox80 = new System.Windows.Forms.CheckBox();
-            this.checkBox81 = new System.Windows.Forms.CheckBox();
-            this.checkBox82 = new System.Windows.Forms.CheckBox();
-            this.checkBox83 = new System.Windows.Forms.CheckBox();
-            this.groupBox25 = new System.Windows.Forms.GroupBox();
-            this.checkBox84 = new System.Windows.Forms.CheckBox();
-            this.checkBox85 = new System.Windows.Forms.CheckBox();
-            this.checkBox86 = new System.Windows.Forms.CheckBox();
-            this.checkBox87 = new System.Windows.Forms.CheckBox();
-            this.checkBox88 = new System.Windows.Forms.CheckBox();
-            this.checkBox89 = new System.Windows.Forms.CheckBox();
-            this.checkBox90 = new System.Windows.Forms.CheckBox();
-            this.groupBox26 = new System.Windows.Forms.GroupBox();
-            this.checkBox91 = new System.Windows.Forms.CheckBox();
-            this.checkBox92 = new System.Windows.Forms.CheckBox();
-            this.checkBox93 = new System.Windows.Forms.CheckBox();
-            this.checkBox94 = new System.Windows.Forms.CheckBox();
-            this.checkBox95 = new System.Windows.Forms.CheckBox();
-            this.checkBox96 = new System.Windows.Forms.CheckBox();
-            this.checkBox97 = new System.Windows.Forms.CheckBox();
-            this.groupBox27 = new System.Windows.Forms.GroupBox();
-            this.checkBox98 = new System.Windows.Forms.CheckBox();
-            this.checkBox99 = new System.Windows.Forms.CheckBox();
-            this.checkBox100 = new System.Windows.Forms.CheckBox();
-            this.checkBox101 = new System.Windows.Forms.CheckBox();
-            this.checkBox102 = new System.Windows.Forms.CheckBox();
-            this.checkBox103 = new System.Windows.Forms.CheckBox();
-            this.checkBox104 = new System.Windows.Forms.CheckBox();
-            this.groupBox28 = new System.Windows.Forms.GroupBox();
-            this.checkBox105 = new System.Windows.Forms.CheckBox();
-            this.checkBox108 = new System.Windows.Forms.CheckBox();
-            this.checkBox109 = new System.Windows.Forms.CheckBox();
-            this.checkBox110 = new System.Windows.Forms.CheckBox();
-            this.checkBox111 = new System.Windows.Forms.CheckBox();
-            this.checkBox112 = new System.Windows.Forms.CheckBox();
-            this.checkBox113 = new System.Windows.Forms.CheckBox();
-            this.groupBox70 = new System.Windows.Forms.GroupBox();
-            this.checkBox179 = new System.Windows.Forms.CheckBox();
-            this.checkBox180 = new System.Windows.Forms.CheckBox();
-            this.checkBox181 = new System.Windows.Forms.CheckBox();
-            this.checkBox182 = new System.Windows.Forms.CheckBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.radioButton71 = new System.Windows.Forms.RadioButton();
-            this.radioButton72 = new System.Windows.Forms.RadioButton();
-            this.radioButton73 = new System.Windows.Forms.RadioButton();
-            this.radioButton74 = new System.Windows.Forms.RadioButton();
-            this.radioButton75 = new System.Windows.Forms.RadioButton();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.radioButton76 = new System.Windows.Forms.RadioButton();
-            this.radioButton77 = new System.Windows.Forms.RadioButton();
-            this.radioButton78 = new System.Windows.Forms.RadioButton();
-            this.radioButton79 = new System.Windows.Forms.RadioButton();
-            this.radioButton80 = new System.Windows.Forms.RadioButton();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.radioButton81 = new System.Windows.Forms.RadioButton();
-            this.radioButton82 = new System.Windows.Forms.RadioButton();
-            this.radioButton83 = new System.Windows.Forms.RadioButton();
-            this.radioButton84 = new System.Windows.Forms.RadioButton();
-            this.radioButton85 = new System.Windows.Forms.RadioButton();
-            this.radioButton86 = new System.Windows.Forms.RadioButton();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.checkBox64 = new System.Windows.Forms.CheckBox();
-            this.checkBox72 = new System.Windows.Forms.CheckBox();
-            this.checkBox119 = new System.Windows.Forms.CheckBox();
-            this.checkBox120 = new System.Windows.Forms.CheckBox();
-            this.checkBox121 = new System.Windows.Forms.CheckBox();
-            this.checkBox122 = new System.Windows.Forms.CheckBox();
-            this.checkBox123 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox183 = new System.Windows.Forms.CheckBox();
-            this.checkBox184 = new System.Windows.Forms.CheckBox();
-            this.checkBox185 = new System.Windows.Forms.CheckBox();
-            this.checkBox186 = new System.Windows.Forms.CheckBox();
-            this.checkBox192 = new System.Windows.Forms.CheckBox();
-            this.checkBox193 = new System.Windows.Forms.CheckBox();
-            this.checkBox194 = new System.Windows.Forms.CheckBox();
-            this.checkBox195 = new System.Windows.Forms.CheckBox();
-            this.checkBox187 = new System.Windows.Forms.CheckBox();
-            this.checkBox188 = new System.Windows.Forms.CheckBox();
-            this.checkBox189 = new System.Windows.Forms.CheckBox();
-            this.checkBox190 = new System.Windows.Forms.CheckBox();
-            this.checkBox191 = new System.Windows.Forms.CheckBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.groupBox89 = new System.Windows.Forms.GroupBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
-            this.groupBox90 = new System.Windows.Forms.GroupBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.maskedTextBox15 = new System.Windows.Forms.MaskedTextBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.groupBox91 = new System.Windows.Forms.GroupBox();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.label145 = new System.Windows.Forms.Label();
-            this.maskedTextBox16 = new System.Windows.Forms.MaskedTextBox();
-            this.label146 = new System.Windows.Forms.Label();
-            this.groupBox92 = new System.Windows.Forms.GroupBox();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.comboBox19 = new System.Windows.Forms.ComboBox();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
-            this.label147 = new System.Windows.Forms.Label();
-            this.maskedTextBox17 = new System.Windows.Forms.MaskedTextBox();
+            this.labelast = new System.Windows.Forms.Label();
+            this.labelalt = new System.Windows.Forms.Label();
+            this.label150 = new System.Windows.Forms.Label();
+            this.labelldh = new System.Windows.Forms.Label();
             this.mainMenuStrip.SuspendLayout();
             this.selectionMenu.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.assDataTabs.SuspendLayout();
             this.safCheTab.SuspendLayout();
+            this.braScaResPan.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.braScaSubCatPan.SuspendLayout();
             this.groupBox43.SuspendLayout();
             this.groupBox42.SuspendLayout();
@@ -1032,17 +1038,50 @@
             this.groupBox3.SuspendLayout();
             this.morScaResSubCatPan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.braScaResPan.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.assessmentTab.SuspendLayout();
+            this.genSurSubCatPan.SuspendLayout();
+            this.groupBox72.SuspendLayout();
+            this.groupBox73.SuspendLayout();
+            this.groupBox79.SuspendLayout();
+            this.groupBox80.SuspendLayout();
+            this.groupBox87.SuspendLayout();
+            this.groupBox71.SuspendLayout();
+            this.genAppAndBehGrpBox.SuspendLayout();
+            this.genAffGrpBox.SuspendLayout();
+            this.reaToLrnGrpBox.SuspendLayout();
+            this.famPresGrpBox.SuspendLayout();
+            this.uppExtSubCatPan.SuspendLayout();
+            this.groupBox63.SuspendLayout();
+            this.groupBox64.SuspendLayout();
+            this.groupBox65.SuspendLayout();
+            this.groupBox66.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            this.groupBox15.SuspendLayout();
             this.painSubCatPnl.SuspendLayout();
+            this.groupBox88.SuspendLayout();
             this.groupBox78.SuspendLayout();
             this.lowExtSubCatPan.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.groupBox11.SuspendLayout();
             this.groupBox46.SuspendLayout();
             this.groupBox47.SuspendLayout();
             this.groupBox48.SuspendLayout();
             this.groupBox49.SuspendLayout();
             this.abdSubCatPan.SuspendLayout();
+            this.groupBox24.SuspendLayout();
+            this.groupBox25.SuspendLayout();
+            this.groupBox26.SuspendLayout();
+            this.groupBox27.SuspendLayout();
+            this.groupBox28.SuspendLayout();
+            this.groupBox59.SuspendLayout();
+            this.groupBox62.SuspendLayout();
+            this.groupBox67.SuspendLayout();
+            this.groupBox68.SuspendLayout();
+            this.groupBox69.SuspendLayout();
             this.hEENTSubCatPan.SuspendLayout();
             this.groupBox74.SuspendLayout();
             this.groupBox75.SuspendLayout();
@@ -1053,6 +1092,7 @@
             this.pERRLAGrpBox.SuspendLayout();
             this.groupBox30.SuspendLayout();
             this.carSubCatPan.SuspendLayout();
+            this.groupBox70.SuspendLayout();
             this.groupBox23.SuspendLayout();
             this.pulSubCatPan.SuspendLayout();
             this.groupBox81.SuspendLayout();
@@ -1067,17 +1107,11 @@
             this.groupBox19.SuspendLayout();
             this.groupBox18.SuspendLayout();
             this.groupBox17.SuspendLayout();
-            this.genSurSubCatPan.SuspendLayout();
-            this.genAppAndBehGrpBox.SuspendLayout();
-            this.genAffGrpBox.SuspendLayout();
-            this.reaToLrnGrpBox.SuspendLayout();
-            this.famPresGrpBox.SuspendLayout();
-            this.uppExtSubCatPan.SuspendLayout();
-            this.groupBox12.SuspendLayout();
-            this.groupBox13.SuspendLayout();
-            this.groupBox14.SuspendLayout();
-            this.groupBox15.SuspendLayout();
             this.vitalSignTab.SuspendLayout();
+            this.groupBox89.SuspendLayout();
+            this.groupBox90.SuspendLayout();
+            this.groupBox91.SuspendLayout();
+            this.groupBox92.SuspendLayout();
             this.tempGrpBox.SuspendLayout();
             this.pulGrpBox.SuspendLayout();
             this.resRateGrpBox.SuspendLayout();
@@ -1130,17 +1164,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.groupBox54.SuspendLayout();
             this.ordTabs.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.groupBox57.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBox52.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox38.SuspendLayout();
             this.groupBox37.SuspendLayout();
             this.groupBox36.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.groupBox57.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox52.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).BeginInit();
             this.notTabs.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).BeginInit();
@@ -1154,36 +1188,6 @@
             this.groupBox29.SuspendLayout();
             this.groupBox45.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
-            this.groupBox59.SuspendLayout();
-            this.groupBox62.SuspendLayout();
-            this.groupBox67.SuspendLayout();
-            this.groupBox68.SuspendLayout();
-            this.groupBox69.SuspendLayout();
-            this.groupBox71.SuspendLayout();
-            this.groupBox72.SuspendLayout();
-            this.groupBox73.SuspendLayout();
-            this.groupBox79.SuspendLayout();
-            this.groupBox80.SuspendLayout();
-            this.groupBox87.SuspendLayout();
-            this.groupBox63.SuspendLayout();
-            this.groupBox64.SuspendLayout();
-            this.groupBox65.SuspendLayout();
-            this.groupBox66.SuspendLayout();
-            this.groupBox88.SuspendLayout();
-            this.groupBox24.SuspendLayout();
-            this.groupBox25.SuspendLayout();
-            this.groupBox26.SuspendLayout();
-            this.groupBox27.SuspendLayout();
-            this.groupBox28.SuspendLayout();
-            this.groupBox70.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox9.SuspendLayout();
-            this.groupBox10.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            this.groupBox89.SuspendLayout();
-            this.groupBox90.SuspendLayout();
-            this.groupBox91.SuspendLayout();
-            this.groupBox92.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainMenuStrip
@@ -1501,18 +1505,18 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.assDataTabs);
-            this.groupBox1.Controls.Add(this.mARTabs);
-            this.groupBox1.Controls.Add(this.labsAndImaTabs);
+            this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Controls.Add(this.patHigBtn);
             this.groupBox1.Controls.Add(this.mARBtn);
             this.groupBox1.Controls.Add(this.labsAndImaBtn);
             this.groupBox1.Controls.Add(this.ordBtn);
             this.groupBox1.Controls.Add(this.notBtn);
             this.groupBox1.Controls.Add(this.assDataBtn);
-            this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Controls.Add(this.ordTabs);
             this.groupBox1.Controls.Add(this.notTabs);
+            this.groupBox1.Controls.Add(this.assDataTabs);
+            this.groupBox1.Controls.Add(this.mARTabs);
+            this.groupBox1.Controls.Add(this.labsAndImaTabs);
             this.groupBox1.Location = new System.Drawing.Point(183, 96);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1187, 602);
@@ -1598,6 +1602,23 @@
             this.braScaSubCatBtn.Text = "Braden Scale (Skin Integrity)";
             this.braScaSubCatBtn.UseVisualStyleBackColor = true;
             this.braScaSubCatBtn.Click += new System.EventHandler(this.braScaSubCatBtn_Click);
+            // 
+            // braScaResPan
+            // 
+            this.braScaResPan.Controls.Add(this.dataGridView3);
+            this.braScaResPan.Location = new System.Drawing.Point(5, 34);
+            this.braScaResPan.Name = "braScaResPan";
+            this.braScaResPan.Size = new System.Drawing.Size(1159, 540);
+            this.braScaResPan.TabIndex = 82;
+            this.braScaResPan.Visible = false;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(459, 195);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView3.TabIndex = 88;
             // 
             // braScaSubCatPan
             // 
@@ -2196,23 +2217,6 @@
             this.dataGridView2.Size = new System.Drawing.Size(240, 150);
             this.dataGridView2.TabIndex = 87;
             // 
-            // braScaResPan
-            // 
-            this.braScaResPan.Controls.Add(this.dataGridView3);
-            this.braScaResPan.Location = new System.Drawing.Point(5, 34);
-            this.braScaResPan.Name = "braScaResPan";
-            this.braScaResPan.Size = new System.Drawing.Size(1159, 540);
-            this.braScaResPan.TabIndex = 82;
-            this.braScaResPan.Visible = false;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(459, 195);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView3.TabIndex = 88;
-            // 
             // assessmentTab
             // 
             this.assessmentTab.Controls.Add(this.painSubCatBtn);
@@ -2239,6 +2243,1894 @@
             this.assessmentTab.TabIndex = 1;
             this.assessmentTab.Text = "Assessment";
             this.assessmentTab.UseVisualStyleBackColor = true;
+            // 
+            // painSubCatBtn
+            // 
+            this.painSubCatBtn.Location = new System.Drawing.Point(1026, 3);
+            this.painSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.painSubCatBtn.Name = "painSubCatBtn";
+            this.painSubCatBtn.Size = new System.Drawing.Size(122, 26);
+            this.painSubCatBtn.TabIndex = 54;
+            this.painSubCatBtn.Text = "Pain";
+            this.painSubCatBtn.UseVisualStyleBackColor = true;
+            this.painSubCatBtn.Click += new System.EventHandler(this.painSubCatBtn_Click);
+            // 
+            // hEENTSubCatBtn
+            // 
+            this.hEENTSubCatBtn.Location = new System.Drawing.Point(150, 4);
+            this.hEENTSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.hEENTSubCatBtn.Name = "hEENTSubCatBtn";
+            this.hEENTSubCatBtn.Size = new System.Drawing.Size(122, 26);
+            this.hEENTSubCatBtn.TabIndex = 6;
+            this.hEENTSubCatBtn.Text = "HEENT";
+            this.hEENTSubCatBtn.UseVisualStyleBackColor = true;
+            this.hEENTSubCatBtn.Click += new System.EventHandler(this.hEENTSubCatBtn_Click);
+            // 
+            // lowExtSubCatBtn
+            // 
+            this.lowExtSubCatBtn.Location = new System.Drawing.Point(880, 3);
+            this.lowExtSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.lowExtSubCatBtn.Name = "lowExtSubCatBtn";
+            this.lowExtSubCatBtn.Size = new System.Drawing.Size(122, 26);
+            this.lowExtSubCatBtn.TabIndex = 5;
+            this.lowExtSubCatBtn.Text = "Lower Extremities";
+            this.lowExtSubCatBtn.UseVisualStyleBackColor = true;
+            this.lowExtSubCatBtn.Click += new System.EventHandler(this.lowExtSubCatBtn_Click);
+            // 
+            // abdSubCatBtn
+            // 
+            this.abdSubCatBtn.Location = new System.Drawing.Point(734, 3);
+            this.abdSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.abdSubCatBtn.Name = "abdSubCatBtn";
+            this.abdSubCatBtn.Size = new System.Drawing.Size(122, 26);
+            this.abdSubCatBtn.TabIndex = 4;
+            this.abdSubCatBtn.Text = "Abdomen";
+            this.abdSubCatBtn.UseVisualStyleBackColor = true;
+            this.abdSubCatBtn.Click += new System.EventHandler(this.abdSubCatBtn_Click);
+            // 
+            // carSubCatBtn
+            // 
+            this.carSubCatBtn.Location = new System.Drawing.Point(588, 4);
+            this.carSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.carSubCatBtn.Name = "carSubCatBtn";
+            this.carSubCatBtn.Size = new System.Drawing.Size(122, 26);
+            this.carSubCatBtn.TabIndex = 3;
+            this.carSubCatBtn.Text = "Cardiac";
+            this.carSubCatBtn.UseVisualStyleBackColor = true;
+            this.carSubCatBtn.Click += new System.EventHandler(this.carSubCatBtn_Click);
+            // 
+            // pulSubCatBtn
+            // 
+            this.pulSubCatBtn.Location = new System.Drawing.Point(442, 4);
+            this.pulSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.pulSubCatBtn.Name = "pulSubCatBtn";
+            this.pulSubCatBtn.Size = new System.Drawing.Size(122, 26);
+            this.pulSubCatBtn.TabIndex = 2;
+            this.pulSubCatBtn.Text = "Pulmonary";
+            this.pulSubCatBtn.UseVisualStyleBackColor = true;
+            this.pulSubCatBtn.Click += new System.EventHandler(this.pulSubCatBtn_Click);
+            // 
+            // uppExtSubCatBtn
+            // 
+            this.uppExtSubCatBtn.Location = new System.Drawing.Point(296, 3);
+            this.uppExtSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.uppExtSubCatBtn.Name = "uppExtSubCatBtn";
+            this.uppExtSubCatBtn.Size = new System.Drawing.Size(122, 26);
+            this.uppExtSubCatBtn.TabIndex = 1;
+            this.uppExtSubCatBtn.Text = "Upper Extremities";
+            this.uppExtSubCatBtn.UseVisualStyleBackColor = true;
+            this.uppExtSubCatBtn.Click += new System.EventHandler(this.uppExtSubCatBtn_Click);
+            // 
+            // genSurSubCatBtn
+            // 
+            this.genSurSubCatBtn.Location = new System.Drawing.Point(4, 3);
+            this.genSurSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.genSurSubCatBtn.Name = "genSurSubCatBtn";
+            this.genSurSubCatBtn.Size = new System.Drawing.Size(122, 26);
+            this.genSurSubCatBtn.TabIndex = 0;
+            this.genSurSubCatBtn.Text = "General Survey";
+            this.genSurSubCatBtn.UseVisualStyleBackColor = true;
+            this.genSurSubCatBtn.Click += new System.EventHandler(this.genSurSubCatBtn_Click);
+            // 
+            // genSurSubCatPan
+            // 
+            this.genSurSubCatPan.Controls.Add(this.groupBox72);
+            this.genSurSubCatPan.Controls.Add(this.groupBox73);
+            this.genSurSubCatPan.Controls.Add(this.groupBox79);
+            this.genSurSubCatPan.Controls.Add(this.groupBox80);
+            this.genSurSubCatPan.Controls.Add(this.groupBox87);
+            this.genSurSubCatPan.Controls.Add(this.groupBox71);
+            this.genSurSubCatPan.Controls.Add(this.label159);
+            this.genSurSubCatPan.Controls.Add(this.genAppAndBehGrpBox);
+            this.genSurSubCatPan.Controls.Add(this.genAffGrpBox);
+            this.genSurSubCatPan.Controls.Add(this.reaToLrnGrpBox);
+            this.genSurSubCatPan.Controls.Add(this.famPresGrpBox);
+            this.genSurSubCatPan.Location = new System.Drawing.Point(-3, 32);
+            this.genSurSubCatPan.Margin = new System.Windows.Forms.Padding(2);
+            this.genSurSubCatPan.Name = "genSurSubCatPan";
+            this.genSurSubCatPan.Size = new System.Drawing.Size(1167, 542);
+            this.genSurSubCatPan.TabIndex = 26;
+            this.genSurSubCatPan.Visible = false;
+            // 
+            // groupBox72
+            // 
+            this.groupBox72.Controls.Add(this.radioButton170);
+            this.groupBox72.Controls.Add(this.radioButton171);
+            this.groupBox72.Controls.Add(this.radioButton172);
+            this.groupBox72.Controls.Add(this.radioButton173);
+            this.groupBox72.Controls.Add(this.maskedTextBox10);
+            this.groupBox72.Controls.Add(this.radioButton174);
+            this.groupBox72.Controls.Add(this.radioButton175);
+            this.groupBox72.Controls.Add(this.radioButton176);
+            this.groupBox72.Controls.Add(this.radioButton177);
+            this.groupBox72.Controls.Add(this.label19);
+            this.groupBox72.Controls.Add(this.label141);
+            this.groupBox72.Controls.Add(this.label142);
+            this.groupBox72.Controls.Add(this.label143);
+            this.groupBox72.Controls.Add(this.label144);
+            this.groupBox72.Enabled = false;
+            this.groupBox72.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox72.Location = new System.Drawing.Point(598, 220);
+            this.groupBox72.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox72.Name = "groupBox72";
+            this.groupBox72.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox72.Size = new System.Drawing.Size(550, 63);
+            this.groupBox72.TabIndex = 106;
+            this.groupBox72.TabStop = false;
+            this.groupBox72.Text = "Alertness and Orientation";
+            // 
+            // radioButton170
+            // 
+            this.radioButton170.AutoSize = true;
+            this.radioButton170.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton170.Location = new System.Drawing.Point(503, 35);
+            this.radioButton170.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton170.Name = "radioButton170";
+            this.radioButton170.Size = new System.Drawing.Size(39, 17);
+            this.radioButton170.TabIndex = 31;
+            this.radioButton170.TabStop = true;
+            this.radioButton170.Text = "No";
+            this.radioButton170.UseVisualStyleBackColor = true;
+            // 
+            // radioButton171
+            // 
+            this.radioButton171.AutoSize = true;
+            this.radioButton171.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton171.Location = new System.Drawing.Point(456, 35);
+            this.radioButton171.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton171.Name = "radioButton171";
+            this.radioButton171.Size = new System.Drawing.Size(43, 17);
+            this.radioButton171.TabIndex = 30;
+            this.radioButton171.TabStop = true;
+            this.radioButton171.Text = "Yes";
+            this.radioButton171.UseVisualStyleBackColor = true;
+            // 
+            // radioButton172
+            // 
+            this.radioButton172.AutoSize = true;
+            this.radioButton172.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton172.Location = new System.Drawing.Point(503, 14);
+            this.radioButton172.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton172.Name = "radioButton172";
+            this.radioButton172.Size = new System.Drawing.Size(39, 17);
+            this.radioButton172.TabIndex = 29;
+            this.radioButton172.TabStop = true;
+            this.radioButton172.Text = "No";
+            this.radioButton172.UseVisualStyleBackColor = true;
+            // 
+            // radioButton173
+            // 
+            this.radioButton173.AutoSize = true;
+            this.radioButton173.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton173.Location = new System.Drawing.Point(456, 14);
+            this.radioButton173.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton173.Name = "radioButton173";
+            this.radioButton173.Size = new System.Drawing.Size(43, 17);
+            this.radioButton173.TabIndex = 28;
+            this.radioButton173.TabStop = true;
+            this.radioButton173.Text = "Yes";
+            this.radioButton173.UseVisualStyleBackColor = true;
+            // 
+            // maskedTextBox10
+            // 
+            this.maskedTextBox10.Location = new System.Drawing.Point(285, 33);
+            this.maskedTextBox10.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox10.Name = "maskedTextBox10";
+            this.maskedTextBox10.Size = new System.Drawing.Size(52, 21);
+            this.maskedTextBox10.TabIndex = 27;
+            // 
+            // radioButton174
+            // 
+            this.radioButton174.AutoSize = true;
+            this.radioButton174.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton174.Location = new System.Drawing.Point(109, 35);
+            this.radioButton174.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton174.Name = "radioButton174";
+            this.radioButton174.Size = new System.Drawing.Size(39, 17);
+            this.radioButton174.TabIndex = 22;
+            this.radioButton174.TabStop = true;
+            this.radioButton174.Text = "No";
+            this.radioButton174.UseVisualStyleBackColor = true;
+            // 
+            // radioButton175
+            // 
+            this.radioButton175.AutoSize = true;
+            this.radioButton175.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton175.Location = new System.Drawing.Point(62, 35);
+            this.radioButton175.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton175.Name = "radioButton175";
+            this.radioButton175.Size = new System.Drawing.Size(43, 17);
+            this.radioButton175.TabIndex = 21;
+            this.radioButton175.TabStop = true;
+            this.radioButton175.Text = "Yes";
+            this.radioButton175.UseVisualStyleBackColor = true;
+            // 
+            // radioButton176
+            // 
+            this.radioButton176.AutoSize = true;
+            this.radioButton176.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton176.Location = new System.Drawing.Point(109, 14);
+            this.radioButton176.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton176.Name = "radioButton176";
+            this.radioButton176.Size = new System.Drawing.Size(39, 17);
+            this.radioButton176.TabIndex = 20;
+            this.radioButton176.TabStop = true;
+            this.radioButton176.Text = "No";
+            this.radioButton176.UseVisualStyleBackColor = true;
+            // 
+            // radioButton177
+            // 
+            this.radioButton177.AutoSize = true;
+            this.radioButton177.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton177.Location = new System.Drawing.Point(62, 14);
+            this.radioButton177.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton177.Name = "radioButton177";
+            this.radioButton177.Size = new System.Drawing.Size(43, 17);
+            this.radioButton177.TabIndex = 19;
+            this.radioButton177.TabStop = true;
+            this.radioButton177.Text = "Yes";
+            this.radioButton177.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(231, 37);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(53, 13);
+            this.label19.TabIndex = 18;
+            this.label19.Text = "A&O Score";
+            // 
+            // label141
+            // 
+            this.label141.AutoSize = true;
+            this.label141.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label141.Location = new System.Drawing.Point(404, 36);
+            this.label141.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label141.Name = "label141";
+            this.label141.Size = new System.Drawing.Size(48, 13);
+            this.label141.TabIndex = 17;
+            this.label141.Text = "Situation";
+            // 
+            // label142
+            // 
+            this.label142.AutoSize = true;
+            this.label142.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label142.Location = new System.Drawing.Point(405, 17);
+            this.label142.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label142.Name = "label142";
+            this.label142.Size = new System.Drawing.Size(34, 13);
+            this.label142.TabIndex = 16;
+            this.label142.Text = "Place";
+            // 
+            // label143
+            // 
+            this.label143.AutoSize = true;
+            this.label143.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label143.Location = new System.Drawing.Point(11, 36);
+            this.label143.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label143.Name = "label143";
+            this.label143.Size = new System.Drawing.Size(30, 13);
+            this.label143.TabIndex = 15;
+            this.label143.Text = "Time";
+            // 
+            // label144
+            // 
+            this.label144.AutoSize = true;
+            this.label144.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label144.Location = new System.Drawing.Point(11, 16);
+            this.label144.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label144.Name = "label144";
+            this.label144.Size = new System.Drawing.Size(40, 13);
+            this.label144.TabIndex = 14;
+            this.label144.Text = "Person";
+            // 
+            // groupBox73
+            // 
+            this.groupBox73.Controls.Add(this.textBox13);
+            this.groupBox73.Enabled = false;
+            this.groupBox73.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox73.Location = new System.Drawing.Point(599, 144);
+            this.groupBox73.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox73.Name = "groupBox73";
+            this.groupBox73.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox73.Size = new System.Drawing.Size(550, 76);
+            this.groupBox73.TabIndex = 102;
+            this.groupBox73.TabStop = false;
+            this.groupBox73.Text = "General appearance and behavior";
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(5, 18);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox13.Multiline = true;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(536, 51);
+            this.textBox13.TabIndex = 0;
+            // 
+            // groupBox79
+            // 
+            this.groupBox79.Controls.Add(this.checkBox183);
+            this.groupBox79.Controls.Add(this.checkBox184);
+            this.groupBox79.Controls.Add(this.checkBox185);
+            this.groupBox79.Controls.Add(this.checkBox186);
+            this.groupBox79.Controls.Add(this.checkBox192);
+            this.groupBox79.Controls.Add(this.checkBox193);
+            this.groupBox79.Controls.Add(this.checkBox194);
+            this.groupBox79.Controls.Add(this.checkBox195);
+            this.groupBox79.Enabled = false;
+            this.groupBox79.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox79.Location = new System.Drawing.Point(599, 363);
+            this.groupBox79.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox79.Name = "groupBox79";
+            this.groupBox79.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox79.Size = new System.Drawing.Size(550, 80);
+            this.groupBox79.TabIndex = 105;
+            this.groupBox79.TabStop = false;
+            this.groupBox79.Text = "General Affect";
+            // 
+            // checkBox183
+            // 
+            this.checkBox183.AutoSize = true;
+            this.checkBox183.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox183.Location = new System.Drawing.Point(376, 59);
+            this.checkBox183.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox183.Name = "checkBox183";
+            this.checkBox183.Size = new System.Drawing.Size(78, 17);
+            this.checkBox183.TabIndex = 24;
+            this.checkBox183.Text = "Aggressive";
+            this.checkBox183.UseVisualStyleBackColor = true;
+            // 
+            // checkBox184
+            // 
+            this.checkBox184.AutoSize = true;
+            this.checkBox184.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox184.Location = new System.Drawing.Point(376, 38);
+            this.checkBox184.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox184.Name = "checkBox184";
+            this.checkBox184.Size = new System.Drawing.Size(65, 17);
+            this.checkBox184.TabIndex = 23;
+            this.checkBox184.Text = "Agitated";
+            this.checkBox184.UseVisualStyleBackColor = true;
+            // 
+            // checkBox185
+            // 
+            this.checkBox185.AutoSize = true;
+            this.checkBox185.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox185.Location = new System.Drawing.Point(376, 17);
+            this.checkBox185.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox185.Name = "checkBox185";
+            this.checkBox185.Size = new System.Drawing.Size(91, 17);
+            this.checkBox185.TabIndex = 22;
+            this.checkBox185.Text = "Unresponsive";
+            this.checkBox185.UseVisualStyleBackColor = true;
+            // 
+            // checkBox186
+            // 
+            this.checkBox186.AutoSize = true;
+            this.checkBox186.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox186.Location = new System.Drawing.Point(168, 59);
+            this.checkBox186.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox186.Name = "checkBox186";
+            this.checkBox186.Size = new System.Drawing.Size(74, 17);
+            this.checkBox186.TabIndex = 21;
+            this.checkBox186.Text = "Flat Affect";
+            this.checkBox186.UseVisualStyleBackColor = true;
+            // 
+            // checkBox192
+            // 
+            this.checkBox192.AutoSize = true;
+            this.checkBox192.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox192.Location = new System.Drawing.Point(168, 18);
+            this.checkBox192.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox192.Name = "checkBox192";
+            this.checkBox192.Size = new System.Drawing.Size(47, 17);
+            this.checkBox192.TabIndex = 20;
+            this.checkBox192.Text = "Alert";
+            this.checkBox192.UseVisualStyleBackColor = true;
+            // 
+            // checkBox193
+            // 
+            this.checkBox193.AutoSize = true;
+            this.checkBox193.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox193.Location = new System.Drawing.Point(11, 39);
+            this.checkBox193.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox193.Name = "checkBox193";
+            this.checkBox193.Size = new System.Drawing.Size(80, 17);
+            this.checkBox193.TabIndex = 19;
+            this.checkBox193.Text = "Appropriate";
+            this.checkBox193.UseVisualStyleBackColor = true;
+            // 
+            // checkBox194
+            // 
+            this.checkBox194.AutoSize = true;
+            this.checkBox194.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox194.Location = new System.Drawing.Point(168, 38);
+            this.checkBox194.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox194.Name = "checkBox194";
+            this.checkBox194.Size = new System.Drawing.Size(63, 17);
+            this.checkBox194.TabIndex = 18;
+            this.checkBox194.Text = "Anxious";
+            this.checkBox194.UseVisualStyleBackColor = true;
+            // 
+            // checkBox195
+            // 
+            this.checkBox195.AutoSize = true;
+            this.checkBox195.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox195.Location = new System.Drawing.Point(11, 18);
+            this.checkBox195.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox195.Name = "checkBox195";
+            this.checkBox195.Size = new System.Drawing.Size(49, 17);
+            this.checkBox195.TabIndex = 17;
+            this.checkBox195.Text = "Calm";
+            this.checkBox195.UseVisualStyleBackColor = true;
+            // 
+            // groupBox80
+            // 
+            this.groupBox80.Controls.Add(this.checkBox231);
+            this.groupBox80.Controls.Add(this.checkBox232);
+            this.groupBox80.Controls.Add(this.checkBox233);
+            this.groupBox80.Controls.Add(this.checkBox234);
+            this.groupBox80.Controls.Add(this.checkBox235);
+            this.groupBox80.Controls.Add(this.checkBox236);
+            this.groupBox80.Enabled = false;
+            this.groupBox80.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox80.Location = new System.Drawing.Point(599, 447);
+            this.groupBox80.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox80.Name = "groupBox80";
+            this.groupBox80.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox80.Size = new System.Drawing.Size(550, 80);
+            this.groupBox80.TabIndex = 104;
+            this.groupBox80.TabStop = false;
+            this.groupBox80.Text = "Readiness to learn";
+            // 
+            // checkBox231
+            // 
+            this.checkBox231.AutoSize = true;
+            this.checkBox231.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox231.Location = new System.Drawing.Point(376, 34);
+            this.checkBox231.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox231.Name = "checkBox231";
+            this.checkBox231.Size = new System.Drawing.Size(170, 17);
+            this.checkBox231.TabIndex = 14;
+            this.checkBox231.Text = "Negative non-verbal feedback";
+            this.checkBox231.UseVisualStyleBackColor = true;
+            // 
+            // checkBox232
+            // 
+            this.checkBox232.AutoSize = true;
+            this.checkBox232.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox232.Location = new System.Drawing.Point(376, 14);
+            this.checkBox232.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox232.Name = "checkBox232";
+            this.checkBox232.Size = new System.Drawing.Size(82, 17);
+            this.checkBox232.TabIndex = 13;
+            this.checkBox232.Text = "Unengaged";
+            this.checkBox232.UseVisualStyleBackColor = true;
+            // 
+            // checkBox233
+            // 
+            this.checkBox233.AutoSize = true;
+            this.checkBox233.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox233.Location = new System.Drawing.Point(168, 15);
+            this.checkBox233.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox233.Name = "checkBox233";
+            this.checkBox233.Size = new System.Drawing.Size(97, 17);
+            this.checkBox233.TabIndex = 12;
+            this.checkBox233.Text = "Asks questions";
+            this.checkBox233.UseVisualStyleBackColor = true;
+            // 
+            // checkBox234
+            // 
+            this.checkBox234.AutoSize = true;
+            this.checkBox234.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox234.Location = new System.Drawing.Point(11, 38);
+            this.checkBox234.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox234.Name = "checkBox234";
+            this.checkBox234.Size = new System.Drawing.Size(75, 17);
+            this.checkBox234.TabIndex = 11;
+            this.checkBox234.Text = "Receptive";
+            this.checkBox234.UseVisualStyleBackColor = true;
+            // 
+            // checkBox235
+            // 
+            this.checkBox235.AutoSize = true;
+            this.checkBox235.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox235.Location = new System.Drawing.Point(168, 36);
+            this.checkBox235.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox235.Name = "checkBox235";
+            this.checkBox235.Size = new System.Drawing.Size(164, 17);
+            this.checkBox235.TabIndex = 10;
+            this.checkBox235.Text = "Positive non-verbal feedback";
+            this.checkBox235.UseVisualStyleBackColor = true;
+            // 
+            // checkBox236
+            // 
+            this.checkBox236.AutoSize = true;
+            this.checkBox236.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox236.Location = new System.Drawing.Point(11, 17);
+            this.checkBox236.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox236.Name = "checkBox236";
+            this.checkBox236.Size = new System.Drawing.Size(69, 17);
+            this.checkBox236.TabIndex = 9;
+            this.checkBox236.Text = "Engaged";
+            this.checkBox236.UseVisualStyleBackColor = true;
+            // 
+            // groupBox87
+            // 
+            this.groupBox87.Controls.Add(this.checkBox237);
+            this.groupBox87.Controls.Add(this.checkBox238);
+            this.groupBox87.Controls.Add(this.checkBox239);
+            this.groupBox87.Controls.Add(this.checkBox240);
+            this.groupBox87.Controls.Add(this.textBox30);
+            this.groupBox87.Enabled = false;
+            this.groupBox87.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox87.Location = new System.Drawing.Point(599, 281);
+            this.groupBox87.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox87.Name = "groupBox87";
+            this.groupBox87.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox87.Size = new System.Drawing.Size(550, 81);
+            this.groupBox87.TabIndex = 103;
+            this.groupBox87.TabStop = false;
+            this.groupBox87.Text = "Family Present";
+            // 
+            // checkBox237
+            // 
+            this.checkBox237.AutoSize = true;
+            this.checkBox237.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox237.Location = new System.Drawing.Point(470, 17);
+            this.checkBox237.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox237.Name = "checkBox237";
+            this.checkBox237.Size = new System.Drawing.Size(52, 17);
+            this.checkBox237.TabIndex = 12;
+            this.checkBox237.Text = "Other";
+            this.checkBox237.UseVisualStyleBackColor = true;
+            // 
+            // checkBox238
+            // 
+            this.checkBox238.AutoSize = true;
+            this.checkBox238.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox238.Location = new System.Drawing.Point(319, 16);
+            this.checkBox238.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox238.Name = "checkBox238";
+            this.checkBox238.Size = new System.Drawing.Size(64, 17);
+            this.checkBox238.TabIndex = 11;
+            this.checkBox238.Text = "Children";
+            this.checkBox238.UseVisualStyleBackColor = true;
+            // 
+            // checkBox239
+            // 
+            this.checkBox239.AutoSize = true;
+            this.checkBox239.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox239.Location = new System.Drawing.Point(165, 17);
+            this.checkBox239.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox239.Name = "checkBox239";
+            this.checkBox239.Size = new System.Drawing.Size(62, 17);
+            this.checkBox239.TabIndex = 10;
+            this.checkBox239.Text = "Parents";
+            this.checkBox239.UseVisualStyleBackColor = true;
+            // 
+            // checkBox240
+            // 
+            this.checkBox240.AutoSize = true;
+            this.checkBox240.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox240.Location = new System.Drawing.Point(11, 17);
+            this.checkBox240.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox240.Name = "checkBox240";
+            this.checkBox240.Size = new System.Drawing.Size(62, 17);
+            this.checkBox240.TabIndex = 9;
+            this.checkBox240.Text = "Spouse";
+            this.checkBox240.UseVisualStyleBackColor = true;
+            // 
+            // textBox30
+            // 
+            this.textBox30.Location = new System.Drawing.Point(3, 34);
+            this.textBox30.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox30.Multiline = true;
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(543, 42);
+            this.textBox30.TabIndex = 0;
+            // 
+            // groupBox71
+            // 
+            this.groupBox71.Controls.Add(this.radioButton1);
+            this.groupBox71.Controls.Add(this.radioButton2);
+            this.groupBox71.Controls.Add(this.radioButton3);
+            this.groupBox71.Controls.Add(this.radioButton4);
+            this.groupBox71.Controls.Add(this.maskedTextBox21);
+            this.groupBox71.Controls.Add(this.radioButton5);
+            this.groupBox71.Controls.Add(this.radioButton6);
+            this.groupBox71.Controls.Add(this.radioButton7);
+            this.groupBox71.Controls.Add(this.radioButton8);
+            this.groupBox71.Controls.Add(this.label36);
+            this.groupBox71.Controls.Add(this.label37);
+            this.groupBox71.Controls.Add(this.label42);
+            this.groupBox71.Controls.Add(this.label43);
+            this.groupBox71.Controls.Add(this.label44);
+            this.groupBox71.Enabled = false;
+            this.groupBox71.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox71.Location = new System.Drawing.Point(16, 220);
+            this.groupBox71.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox71.Name = "groupBox71";
+            this.groupBox71.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox71.Size = new System.Drawing.Size(550, 63);
+            this.groupBox71.TabIndex = 101;
+            this.groupBox71.TabStop = false;
+            this.groupBox71.Text = "Alertness and Orientation";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(503, 35);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(39, 17);
+            this.radioButton1.TabIndex = 31;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "No";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(456, 35);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(43, 17);
+            this.radioButton2.TabIndex = 30;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Yes";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(503, 14);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(39, 17);
+            this.radioButton3.TabIndex = 29;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "No";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.Location = new System.Drawing.Point(456, 14);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(43, 17);
+            this.radioButton4.TabIndex = 28;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Yes";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // maskedTextBox21
+            // 
+            this.maskedTextBox21.Location = new System.Drawing.Point(285, 33);
+            this.maskedTextBox21.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox21.Name = "maskedTextBox21";
+            this.maskedTextBox21.Size = new System.Drawing.Size(52, 21);
+            this.maskedTextBox21.TabIndex = 27;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.Location = new System.Drawing.Point(109, 35);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(39, 17);
+            this.radioButton5.TabIndex = 22;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "No";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton6.Location = new System.Drawing.Point(62, 35);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(43, 17);
+            this.radioButton6.TabIndex = 21;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "Yes";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton7.Location = new System.Drawing.Point(109, 14);
+            this.radioButton7.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(39, 17);
+            this.radioButton7.TabIndex = 20;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "No";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton8.Location = new System.Drawing.Point(62, 14);
+            this.radioButton8.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(43, 17);
+            this.radioButton8.TabIndex = 19;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "Yes";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(231, 37);
+            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(53, 13);
+            this.label36.TabIndex = 18;
+            this.label36.Text = "A&O Score";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(404, 36);
+            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(48, 13);
+            this.label37.TabIndex = 17;
+            this.label37.Text = "Situation";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(405, 17);
+            this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(34, 13);
+            this.label42.TabIndex = 16;
+            this.label42.Text = "Place";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(11, 36);
+            this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(30, 13);
+            this.label43.TabIndex = 15;
+            this.label43.Text = "Time";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(11, 16);
+            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(40, 13);
+            this.label44.TabIndex = 14;
+            this.label44.Text = "Person";
+            // 
+            // label159
+            // 
+            this.label159.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label159.Location = new System.Drawing.Point(582, 1);
+            this.label159.Name = "label159";
+            this.label159.Size = new System.Drawing.Size(2, 540);
+            this.label159.TabIndex = 82;
+            // 
+            // genAppAndBehGrpBox
+            // 
+            this.genAppAndBehGrpBox.Controls.Add(this.textBox4);
+            this.genAppAndBehGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genAppAndBehGrpBox.Location = new System.Drawing.Point(17, 144);
+            this.genAppAndBehGrpBox.Margin = new System.Windows.Forms.Padding(2);
+            this.genAppAndBehGrpBox.Name = "genAppAndBehGrpBox";
+            this.genAppAndBehGrpBox.Padding = new System.Windows.Forms.Padding(2);
+            this.genAppAndBehGrpBox.Size = new System.Drawing.Size(550, 76);
+            this.genAppAndBehGrpBox.TabIndex = 74;
+            this.genAppAndBehGrpBox.TabStop = false;
+            this.genAppAndBehGrpBox.Text = "General appearance and behavior";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(5, 18);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(536, 51);
+            this.textBox4.TabIndex = 0;
+            // 
+            // genAffGrpBox
+            // 
+            this.genAffGrpBox.Controls.Add(this.checkBox19);
+            this.genAffGrpBox.Controls.Add(this.checkBox20);
+            this.genAffGrpBox.Controls.Add(this.checkBox12);
+            this.genAffGrpBox.Controls.Add(this.checkBox13);
+            this.genAffGrpBox.Controls.Add(this.checkBox14);
+            this.genAffGrpBox.Controls.Add(this.checkBox15);
+            this.genAffGrpBox.Controls.Add(this.checkBox16);
+            this.genAffGrpBox.Controls.Add(this.checkBox17);
+            this.genAffGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genAffGrpBox.Location = new System.Drawing.Point(17, 363);
+            this.genAffGrpBox.Margin = new System.Windows.Forms.Padding(2);
+            this.genAffGrpBox.Name = "genAffGrpBox";
+            this.genAffGrpBox.Padding = new System.Windows.Forms.Padding(2);
+            this.genAffGrpBox.Size = new System.Drawing.Size(550, 80);
+            this.genAffGrpBox.TabIndex = 78;
+            this.genAffGrpBox.TabStop = false;
+            this.genAffGrpBox.Text = "General Affect";
+            // 
+            // checkBox19
+            // 
+            this.checkBox19.AutoSize = true;
+            this.checkBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox19.Location = new System.Drawing.Point(376, 58);
+            this.checkBox19.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox19.Name = "checkBox19";
+            this.checkBox19.Size = new System.Drawing.Size(78, 17);
+            this.checkBox19.TabIndex = 16;
+            this.checkBox19.Text = "Aggressive";
+            this.checkBox19.UseVisualStyleBackColor = true;
+            // 
+            // checkBox20
+            // 
+            this.checkBox20.AutoSize = true;
+            this.checkBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox20.Location = new System.Drawing.Point(376, 37);
+            this.checkBox20.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox20.Name = "checkBox20";
+            this.checkBox20.Size = new System.Drawing.Size(65, 17);
+            this.checkBox20.TabIndex = 15;
+            this.checkBox20.Text = "Agitated";
+            this.checkBox20.UseVisualStyleBackColor = true;
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox12.Location = new System.Drawing.Point(376, 16);
+            this.checkBox12.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(91, 17);
+            this.checkBox12.TabIndex = 14;
+            this.checkBox12.Text = "Unresponsive";
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox13.Location = new System.Drawing.Point(168, 58);
+            this.checkBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(74, 17);
+            this.checkBox13.TabIndex = 13;
+            this.checkBox13.Text = "Flat Affect";
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox14.Location = new System.Drawing.Point(168, 17);
+            this.checkBox14.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(47, 17);
+            this.checkBox14.TabIndex = 12;
+            this.checkBox14.Text = "Alert";
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox15.Location = new System.Drawing.Point(11, 38);
+            this.checkBox15.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(80, 17);
+            this.checkBox15.TabIndex = 11;
+            this.checkBox15.Text = "Appropriate";
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // checkBox16
+            // 
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox16.Location = new System.Drawing.Point(168, 37);
+            this.checkBox16.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(63, 17);
+            this.checkBox16.TabIndex = 10;
+            this.checkBox16.Text = "Anxious";
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // checkBox17
+            // 
+            this.checkBox17.AutoSize = true;
+            this.checkBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox17.Location = new System.Drawing.Point(11, 17);
+            this.checkBox17.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.Size = new System.Drawing.Size(49, 17);
+            this.checkBox17.TabIndex = 9;
+            this.checkBox17.Text = "Calm";
+            this.checkBox17.UseVisualStyleBackColor = true;
+            // 
+            // reaToLrnGrpBox
+            // 
+            this.reaToLrnGrpBox.Controls.Add(this.checkBox11);
+            this.reaToLrnGrpBox.Controls.Add(this.checkBox10);
+            this.reaToLrnGrpBox.Controls.Add(this.checkBox6);
+            this.reaToLrnGrpBox.Controls.Add(this.checkBox7);
+            this.reaToLrnGrpBox.Controls.Add(this.checkBox8);
+            this.reaToLrnGrpBox.Controls.Add(this.checkBox9);
+            this.reaToLrnGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reaToLrnGrpBox.Location = new System.Drawing.Point(17, 447);
+            this.reaToLrnGrpBox.Margin = new System.Windows.Forms.Padding(2);
+            this.reaToLrnGrpBox.Name = "reaToLrnGrpBox";
+            this.reaToLrnGrpBox.Padding = new System.Windows.Forms.Padding(2);
+            this.reaToLrnGrpBox.Size = new System.Drawing.Size(550, 80);
+            this.reaToLrnGrpBox.TabIndex = 77;
+            this.reaToLrnGrpBox.TabStop = false;
+            this.reaToLrnGrpBox.Text = "Readiness to learn";
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox11.Location = new System.Drawing.Point(376, 34);
+            this.checkBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(170, 17);
+            this.checkBox11.TabIndex = 14;
+            this.checkBox11.Text = "Negative non-verbal feedback";
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox10.Location = new System.Drawing.Point(376, 14);
+            this.checkBox10.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(82, 17);
+            this.checkBox10.TabIndex = 13;
+            this.checkBox10.Text = "Unengaged";
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox6.Location = new System.Drawing.Point(168, 15);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(97, 17);
+            this.checkBox6.TabIndex = 12;
+            this.checkBox6.Text = "Asks questions";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox7.Location = new System.Drawing.Point(11, 38);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(75, 17);
+            this.checkBox7.TabIndex = 11;
+            this.checkBox7.Text = "Receptive";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox8.Location = new System.Drawing.Point(168, 36);
+            this.checkBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(164, 17);
+            this.checkBox8.TabIndex = 10;
+            this.checkBox8.Text = "Positive non-verbal feedback";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox9.Location = new System.Drawing.Point(11, 17);
+            this.checkBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(69, 17);
+            this.checkBox9.TabIndex = 9;
+            this.checkBox9.Text = "Engaged";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // famPresGrpBox
+            // 
+            this.famPresGrpBox.Controls.Add(this.checkBox5);
+            this.famPresGrpBox.Controls.Add(this.checkBox4);
+            this.famPresGrpBox.Controls.Add(this.checkBox3);
+            this.famPresGrpBox.Controls.Add(this.checkBox2);
+            this.famPresGrpBox.Controls.Add(this.textBox5);
+            this.famPresGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.famPresGrpBox.Location = new System.Drawing.Point(17, 281);
+            this.famPresGrpBox.Margin = new System.Windows.Forms.Padding(2);
+            this.famPresGrpBox.Name = "famPresGrpBox";
+            this.famPresGrpBox.Padding = new System.Windows.Forms.Padding(2);
+            this.famPresGrpBox.Size = new System.Drawing.Size(550, 81);
+            this.famPresGrpBox.TabIndex = 75;
+            this.famPresGrpBox.TabStop = false;
+            this.famPresGrpBox.Text = "Family Present";
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox5.Location = new System.Drawing.Point(470, 17);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(52, 17);
+            this.checkBox5.TabIndex = 12;
+            this.checkBox5.Text = "Other";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4.Location = new System.Drawing.Point(319, 16);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(64, 17);
+            this.checkBox4.TabIndex = 11;
+            this.checkBox4.Text = "Children";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.Location = new System.Drawing.Point(165, 17);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(62, 17);
+            this.checkBox3.TabIndex = 10;
+            this.checkBox3.Text = "Parents";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(11, 17);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(62, 17);
+            this.checkBox2.TabIndex = 9;
+            this.checkBox2.Text = "Spouse";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(3, 34);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(543, 42);
+            this.textBox5.TabIndex = 0;
+            // 
+            // uppExtSubCatPan
+            // 
+            this.uppExtSubCatPan.Controls.Add(this.groupBox63);
+            this.uppExtSubCatPan.Controls.Add(this.groupBox64);
+            this.uppExtSubCatPan.Controls.Add(this.groupBox65);
+            this.uppExtSubCatPan.Controls.Add(this.groupBox66);
+            this.uppExtSubCatPan.Controls.Add(this.label153);
+            this.uppExtSubCatPan.Controls.Add(this.groupBox12);
+            this.uppExtSubCatPan.Controls.Add(this.groupBox13);
+            this.uppExtSubCatPan.Controls.Add(this.groupBox14);
+            this.uppExtSubCatPan.Controls.Add(this.groupBox15);
+            this.uppExtSubCatPan.Location = new System.Drawing.Point(3, 32);
+            this.uppExtSubCatPan.Margin = new System.Windows.Forms.Padding(2);
+            this.uppExtSubCatPan.Name = "uppExtSubCatPan";
+            this.uppExtSubCatPan.Size = new System.Drawing.Size(1161, 540);
+            this.uppExtSubCatPan.TabIndex = 0;
+            this.uppExtSubCatPan.Visible = false;
+            // 
+            // groupBox63
+            // 
+            this.groupBox63.Controls.Add(this.radioButton134);
+            this.groupBox63.Controls.Add(this.radioButton135);
+            this.groupBox63.Controls.Add(this.radioButton136);
+            this.groupBox63.Controls.Add(this.radioButton137);
+            this.groupBox63.Controls.Add(this.radioButton138);
+            this.groupBox63.Enabled = false;
+            this.groupBox63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox63.Location = new System.Drawing.Point(594, 396);
+            this.groupBox63.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox63.Name = "groupBox63";
+            this.groupBox63.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox63.Size = new System.Drawing.Size(550, 64);
+            this.groupBox63.TabIndex = 71;
+            this.groupBox63.TabStop = false;
+            this.groupBox63.Text = "Edema";
+            // 
+            // radioButton134
+            // 
+            this.radioButton134.AutoSize = true;
+            this.radioButton134.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton134.Location = new System.Drawing.Point(385, 15);
+            this.radioButton134.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton134.Name = "radioButton134";
+            this.radioButton134.Size = new System.Drawing.Size(72, 17);
+            this.radioButton134.TabIndex = 25;
+            this.radioButton134.TabStop = true;
+            this.radioButton134.Text = "4+ - >1cm";
+            this.radioButton134.UseVisualStyleBackColor = true;
+            // 
+            // radioButton135
+            // 
+            this.radioButton135.AutoSize = true;
+            this.radioButton135.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton135.Location = new System.Drawing.Point(194, 36);
+            this.radioButton135.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton135.Name = "radioButton135";
+            this.radioButton135.Size = new System.Drawing.Size(83, 17);
+            this.radioButton135.TabIndex = 22;
+            this.radioButton135.TabStop = true;
+            this.radioButton135.Text = "3+ - 5-10mm";
+            this.radioButton135.UseVisualStyleBackColor = true;
+            // 
+            // radioButton136
+            // 
+            this.radioButton136.AutoSize = true;
+            this.radioButton136.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton136.Location = new System.Drawing.Point(194, 15);
+            this.radioButton136.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton136.Name = "radioButton136";
+            this.radioButton136.Size = new System.Drawing.Size(117, 17);
+            this.radioButton136.TabIndex = 21;
+            this.radioButton136.TabStop = true;
+            this.radioButton136.Text = "2+ - Less than 5mm";
+            this.radioButton136.UseVisualStyleBackColor = true;
+            // 
+            // radioButton137
+            // 
+            this.radioButton137.AutoSize = true;
+            this.radioButton137.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton137.Location = new System.Drawing.Point(11, 38);
+            this.radioButton137.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton137.Name = "radioButton137";
+            this.radioButton137.Size = new System.Drawing.Size(128, 17);
+            this.radioButton137.TabIndex = 20;
+            this.radioButton137.TabStop = true;
+            this.radioButton137.Text = "1+ - Barely discernible";
+            this.radioButton137.UseVisualStyleBackColor = true;
+            // 
+            // radioButton138
+            // 
+            this.radioButton138.AutoSize = true;
+            this.radioButton138.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton138.Location = new System.Drawing.Point(11, 17);
+            this.radioButton138.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton138.Name = "radioButton138";
+            this.radioButton138.Size = new System.Drawing.Size(90, 17);
+            this.radioButton138.TabIndex = 19;
+            this.radioButton138.TabStop = true;
+            this.radioButton138.Text = "0 - No Edema";
+            this.radioButton138.UseVisualStyleBackColor = true;
+            // 
+            // groupBox64
+            // 
+            this.groupBox64.Controls.Add(this.radioButton139);
+            this.groupBox64.Controls.Add(this.radioButton140);
+            this.groupBox64.Controls.Add(this.radioButton141);
+            this.groupBox64.Controls.Add(this.radioButton142);
+            this.groupBox64.Controls.Add(this.radioButton143);
+            this.groupBox64.Enabled = false;
+            this.groupBox64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox64.Location = new System.Drawing.Point(595, 328);
+            this.groupBox64.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox64.Name = "groupBox64";
+            this.groupBox64.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox64.Size = new System.Drawing.Size(550, 64);
+            this.groupBox64.TabIndex = 70;
+            this.groupBox64.TabStop = false;
+            this.groupBox64.Text = "Capillary Refill";
+            // 
+            // radioButton139
+            // 
+            this.radioButton139.AutoSize = true;
+            this.radioButton139.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton139.Location = new System.Drawing.Point(470, 17);
+            this.radioButton139.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton139.Name = "radioButton139";
+            this.radioButton139.Size = new System.Drawing.Size(58, 17);
+            this.radioButton139.TabIndex = 25;
+            this.radioButton139.TabStop = true;
+            this.radioButton139.Text = "Absent";
+            this.radioButton139.UseVisualStyleBackColor = true;
+            // 
+            // radioButton140
+            // 
+            this.radioButton140.AutoSize = true;
+            this.radioButton140.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton140.Location = new System.Drawing.Point(194, 37);
+            this.radioButton140.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton140.Name = "radioButton140";
+            this.radioButton140.Size = new System.Drawing.Size(48, 17);
+            this.radioButton140.TabIndex = 22;
+            this.radioButton140.TabStop = true;
+            this.radioButton140.Text = "Slow";
+            this.radioButton140.UseVisualStyleBackColor = true;
+            // 
+            // radioButton141
+            // 
+            this.radioButton141.AutoSize = true;
+            this.radioButton141.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton141.Location = new System.Drawing.Point(194, 16);
+            this.radioButton141.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton141.Name = "radioButton141";
+            this.radioButton141.Size = new System.Drawing.Size(57, 17);
+            this.radioButton141.TabIndex = 21;
+            this.radioButton141.TabStop = true;
+            this.radioButton141.Text = "<2 sec";
+            this.radioButton141.UseVisualStyleBackColor = true;
+            // 
+            // radioButton142
+            // 
+            this.radioButton142.AutoSize = true;
+            this.radioButton142.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton142.Location = new System.Drawing.Point(11, 38);
+            this.radioButton142.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton142.Name = "radioButton142";
+            this.radioButton142.Size = new System.Drawing.Size(57, 17);
+            this.radioButton142.TabIndex = 20;
+            this.radioButton142.TabStop = true;
+            this.radioButton142.Text = "<1 sec";
+            this.radioButton142.UseVisualStyleBackColor = true;
+            // 
+            // radioButton143
+            // 
+            this.radioButton143.AutoSize = true;
+            this.radioButton143.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton143.Location = new System.Drawing.Point(11, 17);
+            this.radioButton143.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton143.Name = "radioButton143";
+            this.radioButton143.Size = new System.Drawing.Size(80, 17);
+            this.radioButton143.TabIndex = 19;
+            this.radioButton143.TabStop = true;
+            this.radioButton143.Text = "Brisk <3sec";
+            this.radioButton143.UseVisualStyleBackColor = true;
+            // 
+            // groupBox65
+            // 
+            this.groupBox65.Controls.Add(this.radioButton144);
+            this.groupBox65.Controls.Add(this.radioButton145);
+            this.groupBox65.Controls.Add(this.radioButton146);
+            this.groupBox65.Controls.Add(this.radioButton147);
+            this.groupBox65.Controls.Add(this.radioButton148);
+            this.groupBox65.Controls.Add(this.radioButton149);
+            this.groupBox65.Enabled = false;
+            this.groupBox65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox65.Location = new System.Drawing.Point(594, 463);
+            this.groupBox65.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox65.Name = "groupBox65";
+            this.groupBox65.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox65.Size = new System.Drawing.Size(550, 62);
+            this.groupBox65.TabIndex = 69;
+            this.groupBox65.TabStop = false;
+            this.groupBox65.Text = "Strength/ROM";
+            // 
+            // radioButton144
+            // 
+            this.radioButton144.AutoSize = true;
+            this.radioButton144.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton144.Location = new System.Drawing.Point(386, 17);
+            this.radioButton144.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton144.Name = "radioButton144";
+            this.radioButton144.Size = new System.Drawing.Size(125, 17);
+            this.radioButton144.TabIndex = 25;
+            this.radioButton144.TabStop = true;
+            this.radioButton144.Text = "1 - Severe weakness";
+            this.radioButton144.UseVisualStyleBackColor = true;
+            // 
+            // radioButton145
+            // 
+            this.radioButton145.AutoSize = true;
+            this.radioButton145.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton145.Location = new System.Drawing.Point(386, 38);
+            this.radioButton145.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton145.Name = "radioButton145";
+            this.radioButton145.Size = new System.Drawing.Size(158, 17);
+            this.radioButton145.TabIndex = 23;
+            this.radioButton145.TabStop = true;
+            this.radioButton145.Text = "0 - No muscular contraction ";
+            this.radioButton145.UseVisualStyleBackColor = true;
+            // 
+            // radioButton146
+            // 
+            this.radioButton146.AutoSize = true;
+            this.radioButton146.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton146.Location = new System.Drawing.Point(195, 38);
+            this.radioButton146.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton146.Name = "radioButton146";
+            this.radioButton146.Size = new System.Drawing.Size(161, 17);
+            this.radioButton146.TabIndex = 22;
+            this.radioButton146.TabStop = true;
+            this.radioButton146.Text = "2 - Poor ROM against gravity";
+            this.radioButton146.UseVisualStyleBackColor = true;
+            // 
+            // radioButton147
+            // 
+            this.radioButton147.AutoSize = true;
+            this.radioButton147.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton147.Location = new System.Drawing.Point(195, 15);
+            this.radioButton147.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton147.Name = "radioButton147";
+            this.radioButton147.Size = new System.Drawing.Size(131, 17);
+            this.radioButton147.TabIndex = 21;
+            this.radioButton147.TabStop = true;
+            this.radioButton147.Text = "3 - Average weakness";
+            this.radioButton147.UseVisualStyleBackColor = true;
+            // 
+            // radioButton148
+            // 
+            this.radioButton148.AutoSize = true;
+            this.radioButton148.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton148.Location = new System.Drawing.Point(11, 38);
+            this.radioButton148.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton148.Name = "radioButton148";
+            this.radioButton148.Size = new System.Drawing.Size(117, 17);
+            this.radioButton148.TabIndex = 20;
+            this.radioButton148.TabStop = true;
+            this.radioButton148.Text = "4 - Slight weakness";
+            this.radioButton148.UseVisualStyleBackColor = true;
+            // 
+            // radioButton149
+            // 
+            this.radioButton149.AutoSize = true;
+            this.radioButton149.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton149.Location = new System.Drawing.Point(11, 17);
+            this.radioButton149.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton149.Name = "radioButton149";
+            this.radioButton149.Size = new System.Drawing.Size(73, 17);
+            this.radioButton149.TabIndex = 19;
+            this.radioButton149.TabStop = true;
+            this.radioButton149.Text = "5 - Normal";
+            this.radioButton149.UseVisualStyleBackColor = true;
+            // 
+            // groupBox66
+            // 
+            this.groupBox66.Controls.Add(this.textBox29);
+            this.groupBox66.Controls.Add(this.checkBox141);
+            this.groupBox66.Controls.Add(this.checkBox142);
+            this.groupBox66.Controls.Add(this.checkBox143);
+            this.groupBox66.Controls.Add(this.checkBox144);
+            this.groupBox66.Controls.Add(this.checkBox145);
+            this.groupBox66.Controls.Add(this.checkBox146);
+            this.groupBox66.Controls.Add(this.checkBox147);
+            this.groupBox66.Enabled = false;
+            this.groupBox66.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox66.Location = new System.Drawing.Point(594, 197);
+            this.groupBox66.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox66.Name = "groupBox66";
+            this.groupBox66.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox66.Size = new System.Drawing.Size(550, 131);
+            this.groupBox66.TabIndex = 68;
+            this.groupBox66.TabStop = false;
+            this.groupBox66.Text = "Skin";
+            // 
+            // textBox29
+            // 
+            this.textBox29.Location = new System.Drawing.Point(4, 78);
+            this.textBox29.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox29.Multiline = true;
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(542, 47);
+            this.textBox29.TabIndex = 7;
+            // 
+            // checkBox141
+            // 
+            this.checkBox141.AutoSize = true;
+            this.checkBox141.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox141.Location = new System.Drawing.Point(470, 16);
+            this.checkBox141.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox141.Name = "checkBox141";
+            this.checkBox141.Size = new System.Drawing.Size(66, 17);
+            this.checkBox141.TabIndex = 6;
+            this.checkBox141.Text = "Cracked";
+            this.checkBox141.UseVisualStyleBackColor = true;
+            // 
+            // checkBox142
+            // 
+            this.checkBox142.AutoSize = true;
+            this.checkBox142.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox142.Location = new System.Drawing.Point(250, 58);
+            this.checkBox142.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox142.Name = "checkBox142";
+            this.checkBox142.Size = new System.Drawing.Size(51, 17);
+            this.checkBox142.TabIndex = 5;
+            this.checkBox142.Text = "Moist";
+            this.checkBox142.UseVisualStyleBackColor = true;
+            // 
+            // checkBox143
+            // 
+            this.checkBox143.AutoSize = true;
+            this.checkBox143.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox143.Location = new System.Drawing.Point(250, 37);
+            this.checkBox143.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox143.Name = "checkBox143";
+            this.checkBox143.Size = new System.Drawing.Size(47, 17);
+            this.checkBox143.TabIndex = 4;
+            this.checkBox143.Text = "Cold";
+            this.checkBox143.UseVisualStyleBackColor = true;
+            // 
+            // checkBox144
+            // 
+            this.checkBox144.AutoSize = true;
+            this.checkBox144.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox144.Location = new System.Drawing.Point(250, 16);
+            this.checkBox144.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox144.Name = "checkBox144";
+            this.checkBox144.Size = new System.Drawing.Size(42, 17);
+            this.checkBox144.TabIndex = 3;
+            this.checkBox144.Text = "Dry";
+            this.checkBox144.UseVisualStyleBackColor = true;
+            // 
+            // checkBox145
+            // 
+            this.checkBox145.AutoSize = true;
+            this.checkBox145.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox145.Location = new System.Drawing.Point(11, 58);
+            this.checkBox145.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox145.Name = "checkBox145";
+            this.checkBox145.Size = new System.Drawing.Size(95, 17);
+            this.checkBox145.TabIndex = 2;
+            this.checkBox145.Text = "Pressure Ulcer";
+            this.checkBox145.UseVisualStyleBackColor = true;
+            // 
+            // checkBox146
+            // 
+            this.checkBox146.AutoSize = true;
+            this.checkBox146.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox146.Location = new System.Drawing.Point(11, 37);
+            this.checkBox146.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox146.Name = "checkBox146";
+            this.checkBox146.Size = new System.Drawing.Size(54, 17);
+            this.checkBox146.TabIndex = 1;
+            this.checkBox146.Text = "Warm";
+            this.checkBox146.UseVisualStyleBackColor = true;
+            // 
+            // checkBox147
+            // 
+            this.checkBox147.AutoSize = true;
+            this.checkBox147.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox147.Location = new System.Drawing.Point(11, 16);
+            this.checkBox147.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox147.Name = "checkBox147";
+            this.checkBox147.Size = new System.Drawing.Size(43, 17);
+            this.checkBox147.TabIndex = 0;
+            this.checkBox147.Text = "Hot";
+            this.checkBox147.UseVisualStyleBackColor = true;
+            // 
+            // label153
+            // 
+            this.label153.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label153.Location = new System.Drawing.Point(579, 0);
+            this.label153.Name = "label153";
+            this.label153.Size = new System.Drawing.Size(2, 540);
+            this.label153.TabIndex = 67;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.radioButton55);
+            this.groupBox12.Controls.Add(this.radioButton56);
+            this.groupBox12.Controls.Add(this.radioButton57);
+            this.groupBox12.Controls.Add(this.radioButton58);
+            this.groupBox12.Controls.Add(this.radioButton59);
+            this.groupBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox12.Location = new System.Drawing.Point(14, 397);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox12.Size = new System.Drawing.Size(550, 64);
+            this.groupBox12.TabIndex = 65;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Edema";
+            // 
+            // radioButton55
+            // 
+            this.radioButton55.AutoSize = true;
+            this.radioButton55.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton55.Location = new System.Drawing.Point(385, 15);
+            this.radioButton55.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton55.Name = "radioButton55";
+            this.radioButton55.Size = new System.Drawing.Size(72, 17);
+            this.radioButton55.TabIndex = 25;
+            this.radioButton55.TabStop = true;
+            this.radioButton55.Text = "4+ - >1cm";
+            this.radioButton55.UseVisualStyleBackColor = true;
+            // 
+            // radioButton56
+            // 
+            this.radioButton56.AutoSize = true;
+            this.radioButton56.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton56.Location = new System.Drawing.Point(194, 36);
+            this.radioButton56.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton56.Name = "radioButton56";
+            this.radioButton56.Size = new System.Drawing.Size(83, 17);
+            this.radioButton56.TabIndex = 22;
+            this.radioButton56.TabStop = true;
+            this.radioButton56.Text = "3+ - 5-10mm";
+            this.radioButton56.UseVisualStyleBackColor = true;
+            // 
+            // radioButton57
+            // 
+            this.radioButton57.AutoSize = true;
+            this.radioButton57.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton57.Location = new System.Drawing.Point(194, 15);
+            this.radioButton57.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton57.Name = "radioButton57";
+            this.radioButton57.Size = new System.Drawing.Size(117, 17);
+            this.radioButton57.TabIndex = 21;
+            this.radioButton57.TabStop = true;
+            this.radioButton57.Text = "2+ - Less than 5mm";
+            this.radioButton57.UseVisualStyleBackColor = true;
+            // 
+            // radioButton58
+            // 
+            this.radioButton58.AutoSize = true;
+            this.radioButton58.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton58.Location = new System.Drawing.Point(11, 38);
+            this.radioButton58.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton58.Name = "radioButton58";
+            this.radioButton58.Size = new System.Drawing.Size(128, 17);
+            this.radioButton58.TabIndex = 20;
+            this.radioButton58.TabStop = true;
+            this.radioButton58.Text = "1+ - Barely discernible";
+            this.radioButton58.UseVisualStyleBackColor = true;
+            // 
+            // radioButton59
+            // 
+            this.radioButton59.AutoSize = true;
+            this.radioButton59.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton59.Location = new System.Drawing.Point(11, 17);
+            this.radioButton59.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton59.Name = "radioButton59";
+            this.radioButton59.Size = new System.Drawing.Size(90, 17);
+            this.radioButton59.TabIndex = 19;
+            this.radioButton59.TabStop = true;
+            this.radioButton59.Text = "0 - No Edema";
+            this.radioButton59.UseVisualStyleBackColor = true;
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.radioButton60);
+            this.groupBox13.Controls.Add(this.radioButton61);
+            this.groupBox13.Controls.Add(this.radioButton62);
+            this.groupBox13.Controls.Add(this.radioButton63);
+            this.groupBox13.Controls.Add(this.radioButton64);
+            this.groupBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox13.Location = new System.Drawing.Point(15, 329);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox13.Size = new System.Drawing.Size(550, 64);
+            this.groupBox13.TabIndex = 64;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "Capillary Refill";
+            // 
+            // radioButton60
+            // 
+            this.radioButton60.AutoSize = true;
+            this.radioButton60.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton60.Location = new System.Drawing.Point(470, 17);
+            this.radioButton60.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton60.Name = "radioButton60";
+            this.radioButton60.Size = new System.Drawing.Size(58, 17);
+            this.radioButton60.TabIndex = 25;
+            this.radioButton60.TabStop = true;
+            this.radioButton60.Text = "Absent";
+            this.radioButton60.UseVisualStyleBackColor = true;
+            // 
+            // radioButton61
+            // 
+            this.radioButton61.AutoSize = true;
+            this.radioButton61.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton61.Location = new System.Drawing.Point(194, 37);
+            this.radioButton61.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton61.Name = "radioButton61";
+            this.radioButton61.Size = new System.Drawing.Size(48, 17);
+            this.radioButton61.TabIndex = 22;
+            this.radioButton61.TabStop = true;
+            this.radioButton61.Text = "Slow";
+            this.radioButton61.UseVisualStyleBackColor = true;
+            // 
+            // radioButton62
+            // 
+            this.radioButton62.AutoSize = true;
+            this.radioButton62.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton62.Location = new System.Drawing.Point(194, 16);
+            this.radioButton62.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton62.Name = "radioButton62";
+            this.radioButton62.Size = new System.Drawing.Size(57, 17);
+            this.radioButton62.TabIndex = 21;
+            this.radioButton62.TabStop = true;
+            this.radioButton62.Text = "<2 sec";
+            this.radioButton62.UseVisualStyleBackColor = true;
+            // 
+            // radioButton63
+            // 
+            this.radioButton63.AutoSize = true;
+            this.radioButton63.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton63.Location = new System.Drawing.Point(11, 38);
+            this.radioButton63.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton63.Name = "radioButton63";
+            this.radioButton63.Size = new System.Drawing.Size(57, 17);
+            this.radioButton63.TabIndex = 20;
+            this.radioButton63.TabStop = true;
+            this.radioButton63.Text = "<1 sec";
+            this.radioButton63.UseVisualStyleBackColor = true;
+            // 
+            // radioButton64
+            // 
+            this.radioButton64.AutoSize = true;
+            this.radioButton64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton64.Location = new System.Drawing.Point(11, 17);
+            this.radioButton64.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton64.Name = "radioButton64";
+            this.radioButton64.Size = new System.Drawing.Size(80, 17);
+            this.radioButton64.TabIndex = 19;
+            this.radioButton64.TabStop = true;
+            this.radioButton64.Text = "Brisk <3sec";
+            this.radioButton64.UseVisualStyleBackColor = true;
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.radioButton65);
+            this.groupBox14.Controls.Add(this.radioButton66);
+            this.groupBox14.Controls.Add(this.radioButton67);
+            this.groupBox14.Controls.Add(this.radioButton68);
+            this.groupBox14.Controls.Add(this.radioButton69);
+            this.groupBox14.Controls.Add(this.radioButton70);
+            this.groupBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox14.Location = new System.Drawing.Point(14, 464);
+            this.groupBox14.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox14.Size = new System.Drawing.Size(550, 62);
+            this.groupBox14.TabIndex = 63;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Strength/ROM";
+            // 
+            // radioButton65
+            // 
+            this.radioButton65.AutoSize = true;
+            this.radioButton65.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton65.Location = new System.Drawing.Point(386, 17);
+            this.radioButton65.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton65.Name = "radioButton65";
+            this.radioButton65.Size = new System.Drawing.Size(125, 17);
+            this.radioButton65.TabIndex = 25;
+            this.radioButton65.TabStop = true;
+            this.radioButton65.Text = "1 - Severe weakness";
+            this.radioButton65.UseVisualStyleBackColor = true;
+            // 
+            // radioButton66
+            // 
+            this.radioButton66.AutoSize = true;
+            this.radioButton66.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton66.Location = new System.Drawing.Point(386, 38);
+            this.radioButton66.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton66.Name = "radioButton66";
+            this.radioButton66.Size = new System.Drawing.Size(158, 17);
+            this.radioButton66.TabIndex = 23;
+            this.radioButton66.TabStop = true;
+            this.radioButton66.Text = "0 - No muscular contraction ";
+            this.radioButton66.UseVisualStyleBackColor = true;
+            // 
+            // radioButton67
+            // 
+            this.radioButton67.AutoSize = true;
+            this.radioButton67.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton67.Location = new System.Drawing.Point(195, 38);
+            this.radioButton67.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton67.Name = "radioButton67";
+            this.radioButton67.Size = new System.Drawing.Size(161, 17);
+            this.radioButton67.TabIndex = 22;
+            this.radioButton67.TabStop = true;
+            this.radioButton67.Text = "2 - Poor ROM against gravity";
+            this.radioButton67.UseVisualStyleBackColor = true;
+            // 
+            // radioButton68
+            // 
+            this.radioButton68.AutoSize = true;
+            this.radioButton68.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton68.Location = new System.Drawing.Point(195, 15);
+            this.radioButton68.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton68.Name = "radioButton68";
+            this.radioButton68.Size = new System.Drawing.Size(131, 17);
+            this.radioButton68.TabIndex = 21;
+            this.radioButton68.TabStop = true;
+            this.radioButton68.Text = "3 - Average weakness";
+            this.radioButton68.UseVisualStyleBackColor = true;
+            // 
+            // radioButton69
+            // 
+            this.radioButton69.AutoSize = true;
+            this.radioButton69.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton69.Location = new System.Drawing.Point(11, 38);
+            this.radioButton69.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton69.Name = "radioButton69";
+            this.radioButton69.Size = new System.Drawing.Size(117, 17);
+            this.radioButton69.TabIndex = 20;
+            this.radioButton69.TabStop = true;
+            this.radioButton69.Text = "4 - Slight weakness";
+            this.radioButton69.UseVisualStyleBackColor = true;
+            // 
+            // radioButton70
+            // 
+            this.radioButton70.AutoSize = true;
+            this.radioButton70.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton70.Location = new System.Drawing.Point(11, 17);
+            this.radioButton70.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton70.Name = "radioButton70";
+            this.radioButton70.Size = new System.Drawing.Size(73, 17);
+            this.radioButton70.TabIndex = 19;
+            this.radioButton70.TabStop = true;
+            this.radioButton70.Text = "5 - Normal";
+            this.radioButton70.UseVisualStyleBackColor = true;
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.Controls.Add(this.textBox7);
+            this.groupBox15.Controls.Add(this.checkBox1);
+            this.groupBox15.Controls.Add(this.checkBox18);
+            this.groupBox15.Controls.Add(this.checkBox21);
+            this.groupBox15.Controls.Add(this.checkBox22);
+            this.groupBox15.Controls.Add(this.checkBox35);
+            this.groupBox15.Controls.Add(this.checkBox117);
+            this.groupBox15.Controls.Add(this.checkBox118);
+            this.groupBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox15.Location = new System.Drawing.Point(14, 198);
+            this.groupBox15.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox15.Size = new System.Drawing.Size(550, 131);
+            this.groupBox15.TabIndex = 62;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "Skin";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(4, 78);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(542, 47);
+            this.textBox7.TabIndex = 7;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(470, 16);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(66, 17);
+            this.checkBox1.TabIndex = 6;
+            this.checkBox1.Text = "Cracked";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox18
+            // 
+            this.checkBox18.AutoSize = true;
+            this.checkBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox18.Location = new System.Drawing.Point(250, 58);
+            this.checkBox18.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox18.Name = "checkBox18";
+            this.checkBox18.Size = new System.Drawing.Size(51, 17);
+            this.checkBox18.TabIndex = 5;
+            this.checkBox18.Text = "Moist";
+            this.checkBox18.UseVisualStyleBackColor = true;
+            // 
+            // checkBox21
+            // 
+            this.checkBox21.AutoSize = true;
+            this.checkBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox21.Location = new System.Drawing.Point(250, 37);
+            this.checkBox21.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox21.Name = "checkBox21";
+            this.checkBox21.Size = new System.Drawing.Size(47, 17);
+            this.checkBox21.TabIndex = 4;
+            this.checkBox21.Text = "Cold";
+            this.checkBox21.UseVisualStyleBackColor = true;
+            // 
+            // checkBox22
+            // 
+            this.checkBox22.AutoSize = true;
+            this.checkBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox22.Location = new System.Drawing.Point(250, 16);
+            this.checkBox22.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox22.Name = "checkBox22";
+            this.checkBox22.Size = new System.Drawing.Size(42, 17);
+            this.checkBox22.TabIndex = 3;
+            this.checkBox22.Text = "Dry";
+            this.checkBox22.UseVisualStyleBackColor = true;
+            // 
+            // checkBox35
+            // 
+            this.checkBox35.AutoSize = true;
+            this.checkBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox35.Location = new System.Drawing.Point(11, 58);
+            this.checkBox35.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox35.Name = "checkBox35";
+            this.checkBox35.Size = new System.Drawing.Size(95, 17);
+            this.checkBox35.TabIndex = 2;
+            this.checkBox35.Text = "Pressure Ulcer";
+            this.checkBox35.UseVisualStyleBackColor = true;
+            // 
+            // checkBox117
+            // 
+            this.checkBox117.AutoSize = true;
+            this.checkBox117.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox117.Location = new System.Drawing.Point(11, 37);
+            this.checkBox117.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox117.Name = "checkBox117";
+            this.checkBox117.Size = new System.Drawing.Size(54, 17);
+            this.checkBox117.TabIndex = 1;
+            this.checkBox117.Text = "Warm";
+            this.checkBox117.UseVisualStyleBackColor = true;
+            // 
+            // checkBox118
+            // 
+            this.checkBox118.AutoSize = true;
+            this.checkBox118.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox118.Location = new System.Drawing.Point(11, 16);
+            this.checkBox118.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox118.Name = "checkBox118";
+            this.checkBox118.Size = new System.Drawing.Size(43, 17);
+            this.checkBox118.TabIndex = 0;
+            this.checkBox118.Text = "Hot";
+            this.checkBox118.UseVisualStyleBackColor = true;
             // 
             // painSubCatPnl
             // 
@@ -2271,6 +4163,275 @@
             this.painSubCatPnl.Size = new System.Drawing.Size(1161, 540);
             this.painSubCatPnl.TabIndex = 86;
             this.painSubCatPnl.Visible = false;
+            // 
+            // textBox42
+            // 
+            this.textBox42.Enabled = false;
+            this.textBox42.Location = new System.Drawing.Point(684, 476);
+            this.textBox42.Multiline = true;
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(468, 54);
+            this.textBox42.TabIndex = 107;
+            // 
+            // textBox43
+            // 
+            this.textBox43.Enabled = false;
+            this.textBox43.Location = new System.Drawing.Point(684, 417);
+            this.textBox43.Multiline = true;
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(468, 54);
+            this.textBox43.TabIndex = 106;
+            // 
+            // textBox44
+            // 
+            this.textBox44.Enabled = false;
+            this.textBox44.Location = new System.Drawing.Point(684, 357);
+            this.textBox44.Multiline = true;
+            this.textBox44.Name = "textBox44";
+            this.textBox44.Size = new System.Drawing.Size(468, 54);
+            this.textBox44.TabIndex = 105;
+            // 
+            // textBox45
+            // 
+            this.textBox45.Enabled = false;
+            this.textBox45.Location = new System.Drawing.Point(684, 296);
+            this.textBox45.Multiline = true;
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(468, 54);
+            this.textBox45.TabIndex = 104;
+            // 
+            // textBox46
+            // 
+            this.textBox46.Enabled = false;
+            this.textBox46.Location = new System.Drawing.Point(684, 235);
+            this.textBox46.Multiline = true;
+            this.textBox46.Name = "textBox46";
+            this.textBox46.Size = new System.Drawing.Size(468, 54);
+            this.textBox46.TabIndex = 103;
+            // 
+            // label169
+            // 
+            this.label169.AutoSize = true;
+            this.label169.Enabled = false;
+            this.label169.Location = new System.Drawing.Point(584, 477);
+            this.label169.Name = "label169";
+            this.label169.Size = new System.Drawing.Size(45, 15);
+            this.label169.TabIndex = 102;
+            this.label169.Text = "Timing";
+            // 
+            // label170
+            // 
+            this.label170.AutoSize = true;
+            this.label170.Enabled = false;
+            this.label170.Location = new System.Drawing.Point(581, 420);
+            this.label170.Name = "label170";
+            this.label170.Size = new System.Drawing.Size(83, 15);
+            this.label170.TabIndex = 101;
+            this.label170.Text = "Severity Scale";
+            // 
+            // label171
+            // 
+            this.label171.AutoSize = true;
+            this.label171.Enabled = false;
+            this.label171.Location = new System.Drawing.Point(581, 356);
+            this.label171.Name = "label171";
+            this.label171.Size = new System.Drawing.Size(103, 15);
+            this.label171.TabIndex = 100;
+            this.label171.Text = "Region/Radiation";
+            // 
+            // label172
+            // 
+            this.label172.AutoSize = true;
+            this.label172.Enabled = false;
+            this.label172.Location = new System.Drawing.Point(581, 294);
+            this.label172.Name = "label172";
+            this.label172.Size = new System.Drawing.Size(91, 15);
+            this.label172.TabIndex = 99;
+            this.label172.Text = "Quality/Quantity";
+            // 
+            // label173
+            // 
+            this.label173.AutoSize = true;
+            this.label173.Enabled = false;
+            this.label173.Location = new System.Drawing.Point(581, 235);
+            this.label173.Name = "label173";
+            this.label173.Size = new System.Drawing.Size(99, 15);
+            this.label173.TabIndex = 98;
+            this.label173.Text = "Provoc./Palliative";
+            // 
+            // groupBox88
+            // 
+            this.groupBox88.Controls.Add(this.radioButton178);
+            this.groupBox88.Controls.Add(this.radioButton179);
+            this.groupBox88.Controls.Add(this.radioButton180);
+            this.groupBox88.Controls.Add(this.radioButton181);
+            this.groupBox88.Controls.Add(this.radioButton182);
+            this.groupBox88.Controls.Add(this.radioButton183);
+            this.groupBox88.Controls.Add(this.radioButton184);
+            this.groupBox88.Controls.Add(this.radioButton185);
+            this.groupBox88.Controls.Add(this.radioButton186);
+            this.groupBox88.Controls.Add(this.radioButton187);
+            this.groupBox88.Controls.Add(this.radioButton188);
+            this.groupBox88.Enabled = false;
+            this.groupBox88.Location = new System.Drawing.Point(584, 137);
+            this.groupBox88.Name = "groupBox88";
+            this.groupBox88.Size = new System.Drawing.Size(567, 85);
+            this.groupBox88.TabIndex = 97;
+            this.groupBox88.TabStop = false;
+            this.groupBox88.Text = "Pain Scale";
+            // 
+            // radioButton178
+            // 
+            this.radioButton178.AutoSize = true;
+            this.radioButton178.Location = new System.Drawing.Point(367, 38);
+            this.radioButton178.Name = "radioButton178";
+            this.radioButton178.Size = new System.Drawing.Size(197, 19);
+            this.radioButton178.TabIndex = 10;
+            this.radioButton178.TabStop = true;
+            this.radioButton178.Text = "10: Unimaginable unspeakable";
+            this.radioButton178.UseVisualStyleBackColor = true;
+            // 
+            // radioButton179
+            // 
+            this.radioButton179.AutoSize = true;
+            this.radioButton179.Location = new System.Drawing.Point(367, 18);
+            this.radioButton179.Name = "radioButton179";
+            this.radioButton179.Size = new System.Drawing.Size(171, 19);
+            this.radioButton179.TabIndex = 9;
+            this.radioButton179.TabStop = true;
+            this.radioButton179.Text = "9: Excruciating unbearable";
+            this.radioButton179.UseVisualStyleBackColor = true;
+            // 
+            // radioButton180
+            // 
+            this.radioButton180.AutoSize = true;
+            this.radioButton180.Location = new System.Drawing.Point(252, 57);
+            this.radioButton180.Name = "radioButton180";
+            this.radioButton180.Size = new System.Drawing.Size(117, 19);
+            this.radioButton180.TabIndex = 8;
+            this.radioButton180.TabStop = true;
+            this.radioButton180.Text = "8: Utterly horrible";
+            this.radioButton180.UseVisualStyleBackColor = true;
+            // 
+            // radioButton181
+            // 
+            this.radioButton181.AutoSize = true;
+            this.radioButton181.Location = new System.Drawing.Point(252, 37);
+            this.radioButton181.Name = "radioButton181";
+            this.radioButton181.Size = new System.Drawing.Size(104, 19);
+            this.radioButton181.TabIndex = 7;
+            this.radioButton181.TabStop = true;
+            this.radioButton181.Text = "7: Very intense";
+            this.radioButton181.UseVisualStyleBackColor = true;
+            // 
+            // radioButton182
+            // 
+            this.radioButton182.AutoSize = true;
+            this.radioButton182.Location = new System.Drawing.Point(252, 17);
+            this.radioButton182.Name = "radioButton182";
+            this.radioButton182.Size = new System.Drawing.Size(78, 19);
+            this.radioButton182.TabIndex = 6;
+            this.radioButton182.TabStop = true;
+            this.radioButton182.Text = "6: Intense";
+            this.radioButton182.UseVisualStyleBackColor = true;
+            // 
+            // radioButton183
+            // 
+            this.radioButton183.AutoSize = true;
+            this.radioButton183.Location = new System.Drawing.Point(125, 57);
+            this.radioButton183.Name = "radioButton183";
+            this.radioButton183.Size = new System.Drawing.Size(123, 19);
+            this.radioButton183.TabIndex = 5;
+            this.radioButton183.TabStop = true;
+            this.radioButton183.Text = "5: Very distressing";
+            this.radioButton183.UseVisualStyleBackColor = true;
+            // 
+            // radioButton184
+            // 
+            this.radioButton184.AutoSize = true;
+            this.radioButton184.Location = new System.Drawing.Point(125, 37);
+            this.radioButton184.Name = "radioButton184";
+            this.radioButton184.Size = new System.Drawing.Size(99, 19);
+            this.radioButton184.TabIndex = 4;
+            this.radioButton184.TabStop = true;
+            this.radioButton184.Text = "4: Distressing";
+            this.radioButton184.UseVisualStyleBackColor = true;
+            // 
+            // radioButton185
+            // 
+            this.radioButton185.AutoSize = true;
+            this.radioButton185.Location = new System.Drawing.Point(125, 17);
+            this.radioButton185.Name = "radioButton185";
+            this.radioButton185.Size = new System.Drawing.Size(90, 19);
+            this.radioButton185.TabIndex = 3;
+            this.radioButton185.TabStop = true;
+            this.radioButton185.Text = "3: Tolerable";
+            this.radioButton185.UseVisualStyleBackColor = true;
+            // 
+            // radioButton186
+            // 
+            this.radioButton186.AutoSize = true;
+            this.radioButton186.Location = new System.Drawing.Point(8, 57);
+            this.radioButton186.Name = "radioButton186";
+            this.radioButton186.Size = new System.Drawing.Size(114, 19);
+            this.radioButton186.TabIndex = 2;
+            this.radioButton186.TabStop = true;
+            this.radioButton186.Text = "2: Discomforting";
+            this.radioButton186.UseVisualStyleBackColor = true;
+            // 
+            // radioButton187
+            // 
+            this.radioButton187.AutoSize = true;
+            this.radioButton187.Location = new System.Drawing.Point(8, 37);
+            this.radioButton187.Name = "radioButton187";
+            this.radioButton187.Size = new System.Drawing.Size(88, 19);
+            this.radioButton187.TabIndex = 1;
+            this.radioButton187.TabStop = true;
+            this.radioButton187.Text = "1: Very mild";
+            this.radioButton187.UseVisualStyleBackColor = true;
+            // 
+            // radioButton188
+            // 
+            this.radioButton188.AutoSize = true;
+            this.radioButton188.Location = new System.Drawing.Point(8, 17);
+            this.radioButton188.Name = "radioButton188";
+            this.radioButton188.Size = new System.Drawing.Size(81, 19);
+            this.radioButton188.TabIndex = 0;
+            this.radioButton188.TabStop = true;
+            this.radioButton188.Text = "0: No pain";
+            this.radioButton188.UseVisualStyleBackColor = true;
+            // 
+            // textBox41
+            // 
+            this.textBox41.Location = new System.Drawing.Point(106, 477);
+            this.textBox41.Multiline = true;
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(468, 54);
+            this.textBox41.TabIndex = 96;
+            // 
+            // textBox40
+            // 
+            this.textBox40.Location = new System.Drawing.Point(106, 418);
+            this.textBox40.Multiline = true;
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(468, 54);
+            this.textBox40.TabIndex = 95;
+            // 
+            // textBox39
+            // 
+            this.textBox39.Location = new System.Drawing.Point(106, 358);
+            this.textBox39.Multiline = true;
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(468, 54);
+            this.textBox39.TabIndex = 94;
+            // 
+            // textBox31
+            // 
+            this.textBox31.Location = new System.Drawing.Point(106, 297);
+            this.textBox31.Multiline = true;
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(468, 54);
+            this.textBox31.TabIndex = 93;
             // 
             // textBox38
             // 
@@ -2474,94 +4635,6 @@
             this.label163.Size = new System.Drawing.Size(2, 540);
             this.label163.TabIndex = 68;
             // 
-            // painSubCatBtn
-            // 
-            this.painSubCatBtn.Location = new System.Drawing.Point(1026, 3);
-            this.painSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.painSubCatBtn.Name = "painSubCatBtn";
-            this.painSubCatBtn.Size = new System.Drawing.Size(122, 26);
-            this.painSubCatBtn.TabIndex = 54;
-            this.painSubCatBtn.Text = "Pain";
-            this.painSubCatBtn.UseVisualStyleBackColor = true;
-            this.painSubCatBtn.Click += new System.EventHandler(this.painSubCatBtn_Click);
-            // 
-            // hEENTSubCatBtn
-            // 
-            this.hEENTSubCatBtn.Location = new System.Drawing.Point(150, 4);
-            this.hEENTSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.hEENTSubCatBtn.Name = "hEENTSubCatBtn";
-            this.hEENTSubCatBtn.Size = new System.Drawing.Size(122, 26);
-            this.hEENTSubCatBtn.TabIndex = 6;
-            this.hEENTSubCatBtn.Text = "HEENT";
-            this.hEENTSubCatBtn.UseVisualStyleBackColor = true;
-            this.hEENTSubCatBtn.Click += new System.EventHandler(this.hEENTSubCatBtn_Click);
-            // 
-            // lowExtSubCatBtn
-            // 
-            this.lowExtSubCatBtn.Location = new System.Drawing.Point(880, 3);
-            this.lowExtSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.lowExtSubCatBtn.Name = "lowExtSubCatBtn";
-            this.lowExtSubCatBtn.Size = new System.Drawing.Size(122, 26);
-            this.lowExtSubCatBtn.TabIndex = 5;
-            this.lowExtSubCatBtn.Text = "Lower Extremities";
-            this.lowExtSubCatBtn.UseVisualStyleBackColor = true;
-            this.lowExtSubCatBtn.Click += new System.EventHandler(this.lowExtSubCatBtn_Click);
-            // 
-            // abdSubCatBtn
-            // 
-            this.abdSubCatBtn.Location = new System.Drawing.Point(734, 3);
-            this.abdSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.abdSubCatBtn.Name = "abdSubCatBtn";
-            this.abdSubCatBtn.Size = new System.Drawing.Size(122, 26);
-            this.abdSubCatBtn.TabIndex = 4;
-            this.abdSubCatBtn.Text = "Abdomen";
-            this.abdSubCatBtn.UseVisualStyleBackColor = true;
-            this.abdSubCatBtn.Click += new System.EventHandler(this.abdSubCatBtn_Click);
-            // 
-            // carSubCatBtn
-            // 
-            this.carSubCatBtn.Location = new System.Drawing.Point(588, 4);
-            this.carSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.carSubCatBtn.Name = "carSubCatBtn";
-            this.carSubCatBtn.Size = new System.Drawing.Size(122, 26);
-            this.carSubCatBtn.TabIndex = 3;
-            this.carSubCatBtn.Text = "Cardiac";
-            this.carSubCatBtn.UseVisualStyleBackColor = true;
-            this.carSubCatBtn.Click += new System.EventHandler(this.carSubCatBtn_Click);
-            // 
-            // pulSubCatBtn
-            // 
-            this.pulSubCatBtn.Location = new System.Drawing.Point(442, 4);
-            this.pulSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.pulSubCatBtn.Name = "pulSubCatBtn";
-            this.pulSubCatBtn.Size = new System.Drawing.Size(122, 26);
-            this.pulSubCatBtn.TabIndex = 2;
-            this.pulSubCatBtn.Text = "Pulmonary";
-            this.pulSubCatBtn.UseVisualStyleBackColor = true;
-            this.pulSubCatBtn.Click += new System.EventHandler(this.pulSubCatBtn_Click);
-            // 
-            // uppExtSubCatBtn
-            // 
-            this.uppExtSubCatBtn.Location = new System.Drawing.Point(296, 3);
-            this.uppExtSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.uppExtSubCatBtn.Name = "uppExtSubCatBtn";
-            this.uppExtSubCatBtn.Size = new System.Drawing.Size(122, 26);
-            this.uppExtSubCatBtn.TabIndex = 1;
-            this.uppExtSubCatBtn.Text = "Upper Extremities";
-            this.uppExtSubCatBtn.UseVisualStyleBackColor = true;
-            this.uppExtSubCatBtn.Click += new System.EventHandler(this.uppExtSubCatBtn_Click);
-            // 
-            // genSurSubCatBtn
-            // 
-            this.genSurSubCatBtn.Location = new System.Drawing.Point(4, 3);
-            this.genSurSubCatBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.genSurSubCatBtn.Name = "genSurSubCatBtn";
-            this.genSurSubCatBtn.Size = new System.Drawing.Size(122, 26);
-            this.genSurSubCatBtn.TabIndex = 0;
-            this.genSurSubCatBtn.Text = "General Survey";
-            this.genSurSubCatBtn.UseVisualStyleBackColor = true;
-            this.genSurSubCatBtn.Click += new System.EventHandler(this.genSurSubCatBtn_Click);
-            // 
             // lowExtSubCatPan
             // 
             this.lowExtSubCatPan.Controls.Add(this.groupBox8);
@@ -2579,6 +4652,392 @@
             this.lowExtSubCatPan.Size = new System.Drawing.Size(1161, 540);
             this.lowExtSubCatPan.TabIndex = 0;
             this.lowExtSubCatPan.Visible = false;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.radioButton71);
+            this.groupBox8.Controls.Add(this.radioButton72);
+            this.groupBox8.Controls.Add(this.radioButton73);
+            this.groupBox8.Controls.Add(this.radioButton74);
+            this.groupBox8.Controls.Add(this.radioButton75);
+            this.groupBox8.Enabled = false;
+            this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox8.Location = new System.Drawing.Point(14, 454);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox8.Size = new System.Drawing.Size(550, 68);
+            this.groupBox8.TabIndex = 89;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Edema";
+            // 
+            // radioButton71
+            // 
+            this.radioButton71.AutoSize = true;
+            this.radioButton71.BackColor = System.Drawing.Color.White;
+            this.radioButton71.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton71.Location = new System.Drawing.Point(468, 20);
+            this.radioButton71.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton71.Name = "radioButton71";
+            this.radioButton71.Size = new System.Drawing.Size(72, 17);
+            this.radioButton71.TabIndex = 25;
+            this.radioButton71.Text = "4+ - >1cm";
+            this.radioButton71.UseVisualStyleBackColor = false;
+            // 
+            // radioButton72
+            // 
+            this.radioButton72.AutoSize = true;
+            this.radioButton72.BackColor = System.Drawing.Color.White;
+            this.radioButton72.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton72.Location = new System.Drawing.Point(190, 40);
+            this.radioButton72.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton72.Name = "radioButton72";
+            this.radioButton72.Size = new System.Drawing.Size(83, 17);
+            this.radioButton72.TabIndex = 22;
+            this.radioButton72.Text = "3+ - 5-10mm";
+            this.radioButton72.UseVisualStyleBackColor = false;
+            // 
+            // radioButton73
+            // 
+            this.radioButton73.AutoSize = true;
+            this.radioButton73.BackColor = System.Drawing.Color.White;
+            this.radioButton73.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton73.Location = new System.Drawing.Point(190, 19);
+            this.radioButton73.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton73.Name = "radioButton73";
+            this.radioButton73.Size = new System.Drawing.Size(117, 17);
+            this.radioButton73.TabIndex = 21;
+            this.radioButton73.Text = "2+ - Less than 5mm";
+            this.radioButton73.UseVisualStyleBackColor = false;
+            // 
+            // radioButton74
+            // 
+            this.radioButton74.AutoSize = true;
+            this.radioButton74.BackColor = System.Drawing.Color.White;
+            this.radioButton74.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton74.Location = new System.Drawing.Point(10, 42);
+            this.radioButton74.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton74.Name = "radioButton74";
+            this.radioButton74.Size = new System.Drawing.Size(128, 17);
+            this.radioButton74.TabIndex = 20;
+            this.radioButton74.Text = "1+ - Barely discernible";
+            this.radioButton74.UseVisualStyleBackColor = false;
+            // 
+            // radioButton75
+            // 
+            this.radioButton75.AutoSize = true;
+            this.radioButton75.BackColor = System.Drawing.Color.White;
+            this.radioButton75.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton75.Location = new System.Drawing.Point(11, 22);
+            this.radioButton75.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton75.Name = "radioButton75";
+            this.radioButton75.Size = new System.Drawing.Size(90, 17);
+            this.radioButton75.TabIndex = 19;
+            this.radioButton75.Text = "0 - No Edema";
+            this.radioButton75.UseVisualStyleBackColor = false;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.radioButton76);
+            this.groupBox9.Controls.Add(this.radioButton77);
+            this.groupBox9.Controls.Add(this.radioButton78);
+            this.groupBox9.Controls.Add(this.radioButton79);
+            this.groupBox9.Controls.Add(this.radioButton80);
+            this.groupBox9.Enabled = false;
+            this.groupBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox9.Location = new System.Drawing.Point(14, 384);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox9.Size = new System.Drawing.Size(550, 65);
+            this.groupBox9.TabIndex = 88;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Capillary Refill";
+            // 
+            // radioButton76
+            // 
+            this.radioButton76.AutoSize = true;
+            this.radioButton76.BackColor = System.Drawing.Color.White;
+            this.radioButton76.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton76.Location = new System.Drawing.Point(468, 18);
+            this.radioButton76.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton76.Name = "radioButton76";
+            this.radioButton76.Size = new System.Drawing.Size(58, 17);
+            this.radioButton76.TabIndex = 25;
+            this.radioButton76.Text = "Absent";
+            this.radioButton76.UseVisualStyleBackColor = false;
+            // 
+            // radioButton77
+            // 
+            this.radioButton77.AutoSize = true;
+            this.radioButton77.BackColor = System.Drawing.Color.White;
+            this.radioButton77.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton77.Location = new System.Drawing.Point(191, 39);
+            this.radioButton77.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton77.Name = "radioButton77";
+            this.radioButton77.Size = new System.Drawing.Size(48, 17);
+            this.radioButton77.TabIndex = 22;
+            this.radioButton77.Text = "Slow";
+            this.radioButton77.UseVisualStyleBackColor = false;
+            // 
+            // radioButton78
+            // 
+            this.radioButton78.AutoSize = true;
+            this.radioButton78.BackColor = System.Drawing.Color.White;
+            this.radioButton78.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton78.Location = new System.Drawing.Point(12, 38);
+            this.radioButton78.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton78.Name = "radioButton78";
+            this.radioButton78.Size = new System.Drawing.Size(57, 17);
+            this.radioButton78.TabIndex = 21;
+            this.radioButton78.Text = "<2 sec";
+            this.radioButton78.UseVisualStyleBackColor = false;
+            // 
+            // radioButton79
+            // 
+            this.radioButton79.AutoSize = true;
+            this.radioButton79.BackColor = System.Drawing.Color.White;
+            this.radioButton79.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton79.Location = new System.Drawing.Point(190, 18);
+            this.radioButton79.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton79.Name = "radioButton79";
+            this.radioButton79.Size = new System.Drawing.Size(57, 17);
+            this.radioButton79.TabIndex = 20;
+            this.radioButton79.Text = "<1 sec";
+            this.radioButton79.UseVisualStyleBackColor = false;
+            // 
+            // radioButton80
+            // 
+            this.radioButton80.AutoSize = true;
+            this.radioButton80.BackColor = System.Drawing.Color.White;
+            this.radioButton80.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton80.Location = new System.Drawing.Point(12, 18);
+            this.radioButton80.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton80.Name = "radioButton80";
+            this.radioButton80.Size = new System.Drawing.Size(80, 17);
+            this.radioButton80.TabIndex = 19;
+            this.radioButton80.Text = "Brisk <3sec";
+            this.radioButton80.UseVisualStyleBackColor = false;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.radioButton81);
+            this.groupBox10.Controls.Add(this.radioButton82);
+            this.groupBox10.Controls.Add(this.radioButton83);
+            this.groupBox10.Controls.Add(this.radioButton84);
+            this.groupBox10.Controls.Add(this.radioButton85);
+            this.groupBox10.Controls.Add(this.radioButton86);
+            this.groupBox10.Enabled = false;
+            this.groupBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox10.Location = new System.Drawing.Point(14, 309);
+            this.groupBox10.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox10.Size = new System.Drawing.Size(550, 71);
+            this.groupBox10.TabIndex = 87;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Strength/ROM";
+            // 
+            // radioButton81
+            // 
+            this.radioButton81.AutoSize = true;
+            this.radioButton81.BackColor = System.Drawing.Color.White;
+            this.radioButton81.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton81.Location = new System.Drawing.Point(386, 21);
+            this.radioButton81.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton81.Name = "radioButton81";
+            this.radioButton81.Size = new System.Drawing.Size(125, 17);
+            this.radioButton81.TabIndex = 25;
+            this.radioButton81.Text = "1 - Severe weakness";
+            this.radioButton81.UseVisualStyleBackColor = false;
+            // 
+            // radioButton82
+            // 
+            this.radioButton82.AutoSize = true;
+            this.radioButton82.BackColor = System.Drawing.Color.White;
+            this.radioButton82.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton82.Location = new System.Drawing.Point(386, 42);
+            this.radioButton82.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton82.Name = "radioButton82";
+            this.radioButton82.Size = new System.Drawing.Size(158, 17);
+            this.radioButton82.TabIndex = 23;
+            this.radioButton82.Text = "0 - No muscular contraction ";
+            this.radioButton82.UseVisualStyleBackColor = false;
+            // 
+            // radioButton83
+            // 
+            this.radioButton83.AutoSize = true;
+            this.radioButton83.BackColor = System.Drawing.Color.White;
+            this.radioButton83.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton83.Location = new System.Drawing.Point(190, 42);
+            this.radioButton83.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton83.Name = "radioButton83";
+            this.radioButton83.Size = new System.Drawing.Size(161, 17);
+            this.radioButton83.TabIndex = 22;
+            this.radioButton83.Text = "2 - Poor ROM against gravity";
+            this.radioButton83.UseVisualStyleBackColor = false;
+            // 
+            // radioButton84
+            // 
+            this.radioButton84.AutoSize = true;
+            this.radioButton84.BackColor = System.Drawing.Color.White;
+            this.radioButton84.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton84.Location = new System.Drawing.Point(190, 21);
+            this.radioButton84.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton84.Name = "radioButton84";
+            this.radioButton84.Size = new System.Drawing.Size(131, 17);
+            this.radioButton84.TabIndex = 21;
+            this.radioButton84.Text = "3 - Average weakness";
+            this.radioButton84.UseVisualStyleBackColor = false;
+            // 
+            // radioButton85
+            // 
+            this.radioButton85.AutoSize = true;
+            this.radioButton85.BackColor = System.Drawing.Color.White;
+            this.radioButton85.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton85.Location = new System.Drawing.Point(11, 41);
+            this.radioButton85.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton85.Name = "radioButton85";
+            this.radioButton85.Size = new System.Drawing.Size(117, 17);
+            this.radioButton85.TabIndex = 20;
+            this.radioButton85.Text = "4 - Slight weakness";
+            this.radioButton85.UseVisualStyleBackColor = false;
+            // 
+            // radioButton86
+            // 
+            this.radioButton86.AutoSize = true;
+            this.radioButton86.BackColor = System.Drawing.Color.White;
+            this.radioButton86.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton86.Location = new System.Drawing.Point(11, 21);
+            this.radioButton86.Margin = new System.Windows.Forms.Padding(2);
+            this.radioButton86.Name = "radioButton86";
+            this.radioButton86.Size = new System.Drawing.Size(73, 17);
+            this.radioButton86.TabIndex = 19;
+            this.radioButton86.Text = "5 - Normal";
+            this.radioButton86.UseVisualStyleBackColor = false;
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.textBox8);
+            this.groupBox11.Controls.Add(this.checkBox64);
+            this.groupBox11.Controls.Add(this.checkBox72);
+            this.groupBox11.Controls.Add(this.checkBox119);
+            this.groupBox11.Controls.Add(this.checkBox120);
+            this.groupBox11.Controls.Add(this.checkBox121);
+            this.groupBox11.Controls.Add(this.checkBox122);
+            this.groupBox11.Controls.Add(this.checkBox123);
+            this.groupBox11.Enabled = false;
+            this.groupBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox11.Location = new System.Drawing.Point(14, 172);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox11.Size = new System.Drawing.Size(550, 135);
+            this.groupBox11.TabIndex = 86;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Skin";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.White;
+            this.textBox8.Location = new System.Drawing.Point(3, 77);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(541, 53);
+            this.textBox8.TabIndex = 7;
+            this.textBox8.Text = "WOW SUPER HOT";
+            // 
+            // checkBox64
+            // 
+            this.checkBox64.AutoSize = true;
+            this.checkBox64.BackColor = System.Drawing.Color.White;
+            this.checkBox64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox64.Location = new System.Drawing.Point(475, 13);
+            this.checkBox64.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox64.Name = "checkBox64";
+            this.checkBox64.Size = new System.Drawing.Size(66, 17);
+            this.checkBox64.TabIndex = 6;
+            this.checkBox64.Text = "Cracked";
+            this.checkBox64.UseVisualStyleBackColor = false;
+            // 
+            // checkBox72
+            // 
+            this.checkBox72.AutoSize = true;
+            this.checkBox72.BackColor = System.Drawing.Color.White;
+            this.checkBox72.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox72.Location = new System.Drawing.Point(250, 54);
+            this.checkBox72.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox72.Name = "checkBox72";
+            this.checkBox72.Size = new System.Drawing.Size(51, 17);
+            this.checkBox72.TabIndex = 5;
+            this.checkBox72.Text = "Moist";
+            this.checkBox72.UseVisualStyleBackColor = false;
+            // 
+            // checkBox119
+            // 
+            this.checkBox119.AutoSize = true;
+            this.checkBox119.BackColor = System.Drawing.Color.White;
+            this.checkBox119.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox119.Location = new System.Drawing.Point(250, 33);
+            this.checkBox119.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox119.Name = "checkBox119";
+            this.checkBox119.Size = new System.Drawing.Size(47, 17);
+            this.checkBox119.TabIndex = 4;
+            this.checkBox119.Text = "Cold";
+            this.checkBox119.UseVisualStyleBackColor = false;
+            // 
+            // checkBox120
+            // 
+            this.checkBox120.AutoSize = true;
+            this.checkBox120.BackColor = System.Drawing.Color.White;
+            this.checkBox120.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox120.Location = new System.Drawing.Point(250, 13);
+            this.checkBox120.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox120.Name = "checkBox120";
+            this.checkBox120.Size = new System.Drawing.Size(42, 17);
+            this.checkBox120.TabIndex = 3;
+            this.checkBox120.Text = "Dry";
+            this.checkBox120.UseVisualStyleBackColor = false;
+            // 
+            // checkBox121
+            // 
+            this.checkBox121.AutoSize = true;
+            this.checkBox121.BackColor = System.Drawing.Color.White;
+            this.checkBox121.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox121.Location = new System.Drawing.Point(11, 55);
+            this.checkBox121.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox121.Name = "checkBox121";
+            this.checkBox121.Size = new System.Drawing.Size(95, 17);
+            this.checkBox121.TabIndex = 2;
+            this.checkBox121.Text = "Pressure Ulcer";
+            this.checkBox121.UseVisualStyleBackColor = false;
+            // 
+            // checkBox122
+            // 
+            this.checkBox122.AutoSize = true;
+            this.checkBox122.BackColor = System.Drawing.Color.White;
+            this.checkBox122.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox122.Location = new System.Drawing.Point(11, 35);
+            this.checkBox122.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox122.Name = "checkBox122";
+            this.checkBox122.Size = new System.Drawing.Size(54, 17);
+            this.checkBox122.TabIndex = 1;
+            this.checkBox122.Text = "Warm";
+            this.checkBox122.UseVisualStyleBackColor = false;
+            // 
+            // checkBox123
+            // 
+            this.checkBox123.AutoSize = true;
+            this.checkBox123.BackColor = System.Drawing.Color.White;
+            this.checkBox123.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox123.Location = new System.Drawing.Point(11, 16);
+            this.checkBox123.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox123.Name = "checkBox123";
+            this.checkBox123.Size = new System.Drawing.Size(43, 17);
+            this.checkBox123.TabIndex = 0;
+            this.checkBox123.Text = "Hot";
+            this.checkBox123.UseVisualStyleBackColor = false;
             // 
             // groupBox46
             // 
@@ -2994,6 +5453,1041 @@
             this.abdSubCatPan.TabIndex = 53;
             this.abdSubCatPan.Visible = false;
             // 
+            // groupBox24
+            // 
+            this.groupBox24.Controls.Add(this.checkBox73);
+            this.groupBox24.Controls.Add(this.checkBox74);
+            this.groupBox24.Controls.Add(this.checkBox79);
+            this.groupBox24.Controls.Add(this.checkBox80);
+            this.groupBox24.Controls.Add(this.checkBox81);
+            this.groupBox24.Controls.Add(this.checkBox82);
+            this.groupBox24.Controls.Add(this.checkBox83);
+            this.groupBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox24.Location = new System.Drawing.Point(15, 282);
+            this.groupBox24.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox24.Name = "groupBox24";
+            this.groupBox24.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox24.Size = new System.Drawing.Size(550, 80);
+            this.groupBox24.TabIndex = 90;
+            this.groupBox24.TabStop = false;
+            this.groupBox24.Text = "Left Lower Quadrant (LLQ)";
+            // 
+            // checkBox73
+            // 
+            this.checkBox73.AutoSize = true;
+            this.checkBox73.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox73.Location = new System.Drawing.Point(206, 39);
+            this.checkBox73.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox73.Name = "checkBox73";
+            this.checkBox73.Size = new System.Drawing.Size(95, 17);
+            this.checkBox73.TabIndex = 15;
+            this.checkBox73.Text = "Non-distended";
+            this.checkBox73.UseVisualStyleBackColor = true;
+            // 
+            // checkBox74
+            // 
+            this.checkBox74.AutoSize = true;
+            this.checkBox74.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox74.Location = new System.Drawing.Point(206, 17);
+            this.checkBox74.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox74.Name = "checkBox74";
+            this.checkBox74.Size = new System.Drawing.Size(74, 17);
+            this.checkBox74.TabIndex = 14;
+            this.checkBox74.Text = "Distended";
+            this.checkBox74.UseVisualStyleBackColor = true;
+            // 
+            // checkBox79
+            // 
+            this.checkBox79.AutoSize = true;
+            this.checkBox79.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox79.Location = new System.Drawing.Point(394, 60);
+            this.checkBox79.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox79.Name = "checkBox79";
+            this.checkBox79.Size = new System.Drawing.Size(127, 17);
+            this.checkBox79.TabIndex = 13;
+            this.checkBox79.Text = "Absent bowel sounds";
+            this.checkBox79.UseVisualStyleBackColor = true;
+            // 
+            // checkBox80
+            // 
+            this.checkBox80.AutoSize = true;
+            this.checkBox80.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox80.Location = new System.Drawing.Point(394, 39);
+            this.checkBox80.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox80.Name = "checkBox80";
+            this.checkBox80.Size = new System.Drawing.Size(148, 17);
+            this.checkBox80.TabIndex = 12;
+            this.checkBox80.Text = "Hypoactive bowel sounds";
+            this.checkBox80.UseVisualStyleBackColor = true;
+            // 
+            // checkBox81
+            // 
+            this.checkBox81.AutoSize = true;
+            this.checkBox81.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox81.Location = new System.Drawing.Point(394, 17);
+            this.checkBox81.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox81.Name = "checkBox81";
+            this.checkBox81.Size = new System.Drawing.Size(130, 17);
+            this.checkBox81.TabIndex = 11;
+            this.checkBox81.Text = "Bowel sounds present";
+            this.checkBox81.UseVisualStyleBackColor = true;
+            // 
+            // checkBox82
+            // 
+            this.checkBox82.AutoSize = true;
+            this.checkBox82.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox82.Location = new System.Drawing.Point(8, 39);
+            this.checkBox82.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox82.Name = "checkBox82";
+            this.checkBox82.Size = new System.Drawing.Size(79, 17);
+            this.checkBox82.TabIndex = 10;
+            this.checkBox82.Text = "Non-tender";
+            this.checkBox82.UseVisualStyleBackColor = true;
+            // 
+            // checkBox83
+            // 
+            this.checkBox83.AutoSize = true;
+            this.checkBox83.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox83.Location = new System.Drawing.Point(8, 18);
+            this.checkBox83.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox83.Name = "checkBox83";
+            this.checkBox83.Size = new System.Drawing.Size(60, 17);
+            this.checkBox83.TabIndex = 9;
+            this.checkBox83.Text = "Tender";
+            this.checkBox83.UseVisualStyleBackColor = true;
+            // 
+            // groupBox25
+            // 
+            this.groupBox25.Controls.Add(this.checkBox84);
+            this.groupBox25.Controls.Add(this.checkBox85);
+            this.groupBox25.Controls.Add(this.checkBox86);
+            this.groupBox25.Controls.Add(this.checkBox87);
+            this.groupBox25.Controls.Add(this.checkBox88);
+            this.groupBox25.Controls.Add(this.checkBox89);
+            this.groupBox25.Controls.Add(this.checkBox90);
+            this.groupBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox25.Location = new System.Drawing.Point(15, 448);
+            this.groupBox25.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox25.Name = "groupBox25";
+            this.groupBox25.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox25.Size = new System.Drawing.Size(550, 78);
+            this.groupBox25.TabIndex = 89;
+            this.groupBox25.TabStop = false;
+            this.groupBox25.Text = "Right Lower Quadrant (RLQ)";
+            // 
+            // checkBox84
+            // 
+            this.checkBox84.AutoSize = true;
+            this.checkBox84.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox84.Location = new System.Drawing.Point(205, 38);
+            this.checkBox84.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox84.Name = "checkBox84";
+            this.checkBox84.Size = new System.Drawing.Size(95, 17);
+            this.checkBox84.TabIndex = 22;
+            this.checkBox84.Text = "Non-distended";
+            this.checkBox84.UseVisualStyleBackColor = true;
+            // 
+            // checkBox85
+            // 
+            this.checkBox85.AutoSize = true;
+            this.checkBox85.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox85.Location = new System.Drawing.Point(205, 16);
+            this.checkBox85.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox85.Name = "checkBox85";
+            this.checkBox85.Size = new System.Drawing.Size(74, 17);
+            this.checkBox85.TabIndex = 21;
+            this.checkBox85.Text = "Distended";
+            this.checkBox85.UseVisualStyleBackColor = true;
+            // 
+            // checkBox86
+            // 
+            this.checkBox86.AutoSize = true;
+            this.checkBox86.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox86.Location = new System.Drawing.Point(393, 59);
+            this.checkBox86.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox86.Name = "checkBox86";
+            this.checkBox86.Size = new System.Drawing.Size(127, 17);
+            this.checkBox86.TabIndex = 20;
+            this.checkBox86.Text = "Absent bowel sounds";
+            this.checkBox86.UseVisualStyleBackColor = true;
+            // 
+            // checkBox87
+            // 
+            this.checkBox87.AutoSize = true;
+            this.checkBox87.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox87.Location = new System.Drawing.Point(393, 38);
+            this.checkBox87.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox87.Name = "checkBox87";
+            this.checkBox87.Size = new System.Drawing.Size(148, 17);
+            this.checkBox87.TabIndex = 19;
+            this.checkBox87.Text = "Hypoactive bowel sounds";
+            this.checkBox87.UseVisualStyleBackColor = true;
+            // 
+            // checkBox88
+            // 
+            this.checkBox88.AutoSize = true;
+            this.checkBox88.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox88.Location = new System.Drawing.Point(393, 16);
+            this.checkBox88.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox88.Name = "checkBox88";
+            this.checkBox88.Size = new System.Drawing.Size(130, 17);
+            this.checkBox88.TabIndex = 18;
+            this.checkBox88.Text = "Bowel sounds present";
+            this.checkBox88.UseVisualStyleBackColor = true;
+            // 
+            // checkBox89
+            // 
+            this.checkBox89.AutoSize = true;
+            this.checkBox89.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox89.Location = new System.Drawing.Point(7, 38);
+            this.checkBox89.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox89.Name = "checkBox89";
+            this.checkBox89.Size = new System.Drawing.Size(79, 17);
+            this.checkBox89.TabIndex = 17;
+            this.checkBox89.Text = "Non-tender";
+            this.checkBox89.UseVisualStyleBackColor = true;
+            // 
+            // checkBox90
+            // 
+            this.checkBox90.AutoSize = true;
+            this.checkBox90.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox90.Location = new System.Drawing.Point(7, 17);
+            this.checkBox90.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox90.Name = "checkBox90";
+            this.checkBox90.Size = new System.Drawing.Size(60, 17);
+            this.checkBox90.TabIndex = 16;
+            this.checkBox90.Text = "Tender";
+            this.checkBox90.UseVisualStyleBackColor = true;
+            // 
+            // groupBox26
+            // 
+            this.groupBox26.Controls.Add(this.checkBox91);
+            this.groupBox26.Controls.Add(this.checkBox92);
+            this.groupBox26.Controls.Add(this.checkBox93);
+            this.groupBox26.Controls.Add(this.checkBox94);
+            this.groupBox26.Controls.Add(this.checkBox95);
+            this.groupBox26.Controls.Add(this.checkBox96);
+            this.groupBox26.Controls.Add(this.checkBox97);
+            this.groupBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox26.Location = new System.Drawing.Point(15, 365);
+            this.groupBox26.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox26.Name = "groupBox26";
+            this.groupBox26.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox26.Size = new System.Drawing.Size(550, 83);
+            this.groupBox26.TabIndex = 88;
+            this.groupBox26.TabStop = false;
+            this.groupBox26.Text = "Right Upper Quadrant (LUQ)";
+            // 
+            // checkBox91
+            // 
+            this.checkBox91.AutoSize = true;
+            this.checkBox91.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox91.Location = new System.Drawing.Point(206, 40);
+            this.checkBox91.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox91.Name = "checkBox91";
+            this.checkBox91.Size = new System.Drawing.Size(95, 17);
+            this.checkBox91.TabIndex = 15;
+            this.checkBox91.Text = "Non-distended";
+            this.checkBox91.UseVisualStyleBackColor = true;
+            // 
+            // checkBox92
+            // 
+            this.checkBox92.AutoSize = true;
+            this.checkBox92.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox92.Location = new System.Drawing.Point(206, 18);
+            this.checkBox92.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox92.Name = "checkBox92";
+            this.checkBox92.Size = new System.Drawing.Size(74, 17);
+            this.checkBox92.TabIndex = 14;
+            this.checkBox92.Text = "Distended";
+            this.checkBox92.UseVisualStyleBackColor = true;
+            // 
+            // checkBox93
+            // 
+            this.checkBox93.AutoSize = true;
+            this.checkBox93.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox93.Location = new System.Drawing.Point(394, 61);
+            this.checkBox93.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox93.Name = "checkBox93";
+            this.checkBox93.Size = new System.Drawing.Size(127, 17);
+            this.checkBox93.TabIndex = 13;
+            this.checkBox93.Text = "Absent bowel sounds";
+            this.checkBox93.UseVisualStyleBackColor = true;
+            // 
+            // checkBox94
+            // 
+            this.checkBox94.AutoSize = true;
+            this.checkBox94.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox94.Location = new System.Drawing.Point(394, 40);
+            this.checkBox94.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox94.Name = "checkBox94";
+            this.checkBox94.Size = new System.Drawing.Size(148, 17);
+            this.checkBox94.TabIndex = 12;
+            this.checkBox94.Text = "Hypoactive bowel sounds";
+            this.checkBox94.UseVisualStyleBackColor = true;
+            // 
+            // checkBox95
+            // 
+            this.checkBox95.AutoSize = true;
+            this.checkBox95.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox95.Location = new System.Drawing.Point(394, 18);
+            this.checkBox95.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox95.Name = "checkBox95";
+            this.checkBox95.Size = new System.Drawing.Size(130, 17);
+            this.checkBox95.TabIndex = 11;
+            this.checkBox95.Text = "Bowel sounds present";
+            this.checkBox95.UseVisualStyleBackColor = true;
+            // 
+            // checkBox96
+            // 
+            this.checkBox96.AutoSize = true;
+            this.checkBox96.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox96.Location = new System.Drawing.Point(8, 40);
+            this.checkBox96.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox96.Name = "checkBox96";
+            this.checkBox96.Size = new System.Drawing.Size(79, 17);
+            this.checkBox96.TabIndex = 10;
+            this.checkBox96.Text = "Non-tender";
+            this.checkBox96.UseVisualStyleBackColor = true;
+            // 
+            // checkBox97
+            // 
+            this.checkBox97.AutoSize = true;
+            this.checkBox97.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox97.Location = new System.Drawing.Point(8, 19);
+            this.checkBox97.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox97.Name = "checkBox97";
+            this.checkBox97.Size = new System.Drawing.Size(60, 17);
+            this.checkBox97.TabIndex = 9;
+            this.checkBox97.Text = "Tender";
+            this.checkBox97.UseVisualStyleBackColor = true;
+            // 
+            // groupBox27
+            // 
+            this.groupBox27.Controls.Add(this.checkBox98);
+            this.groupBox27.Controls.Add(this.checkBox99);
+            this.groupBox27.Controls.Add(this.checkBox100);
+            this.groupBox27.Controls.Add(this.checkBox101);
+            this.groupBox27.Controls.Add(this.checkBox102);
+            this.groupBox27.Controls.Add(this.checkBox103);
+            this.groupBox27.Controls.Add(this.checkBox104);
+            this.groupBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox27.Location = new System.Drawing.Point(15, 196);
+            this.groupBox27.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox27.Name = "groupBox27";
+            this.groupBox27.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox27.Size = new System.Drawing.Size(550, 81);
+            this.groupBox27.TabIndex = 87;
+            this.groupBox27.TabStop = false;
+            this.groupBox27.Text = "Left Upper Quadrant (LUQ)";
+            // 
+            // checkBox98
+            // 
+            this.checkBox98.AutoSize = true;
+            this.checkBox98.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox98.Location = new System.Drawing.Point(206, 38);
+            this.checkBox98.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox98.Name = "checkBox98";
+            this.checkBox98.Size = new System.Drawing.Size(95, 17);
+            this.checkBox98.TabIndex = 15;
+            this.checkBox98.Text = "Non-distended";
+            this.checkBox98.UseVisualStyleBackColor = true;
+            // 
+            // checkBox99
+            // 
+            this.checkBox99.AutoSize = true;
+            this.checkBox99.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox99.Location = new System.Drawing.Point(206, 16);
+            this.checkBox99.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox99.Name = "checkBox99";
+            this.checkBox99.Size = new System.Drawing.Size(74, 17);
+            this.checkBox99.TabIndex = 14;
+            this.checkBox99.Text = "Distended";
+            this.checkBox99.UseVisualStyleBackColor = true;
+            // 
+            // checkBox100
+            // 
+            this.checkBox100.AutoSize = true;
+            this.checkBox100.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox100.Location = new System.Drawing.Point(394, 59);
+            this.checkBox100.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox100.Name = "checkBox100";
+            this.checkBox100.Size = new System.Drawing.Size(127, 17);
+            this.checkBox100.TabIndex = 13;
+            this.checkBox100.Text = "Absent bowel sounds";
+            this.checkBox100.UseVisualStyleBackColor = true;
+            // 
+            // checkBox101
+            // 
+            this.checkBox101.AutoSize = true;
+            this.checkBox101.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox101.Location = new System.Drawing.Point(394, 38);
+            this.checkBox101.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox101.Name = "checkBox101";
+            this.checkBox101.Size = new System.Drawing.Size(148, 17);
+            this.checkBox101.TabIndex = 12;
+            this.checkBox101.Text = "Hypoactive bowel sounds";
+            this.checkBox101.UseVisualStyleBackColor = true;
+            // 
+            // checkBox102
+            // 
+            this.checkBox102.AutoSize = true;
+            this.checkBox102.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox102.Location = new System.Drawing.Point(394, 16);
+            this.checkBox102.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox102.Name = "checkBox102";
+            this.checkBox102.Size = new System.Drawing.Size(130, 17);
+            this.checkBox102.TabIndex = 11;
+            this.checkBox102.Text = "Bowel sounds present";
+            this.checkBox102.UseVisualStyleBackColor = true;
+            // 
+            // checkBox103
+            // 
+            this.checkBox103.AutoSize = true;
+            this.checkBox103.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox103.Location = new System.Drawing.Point(8, 38);
+            this.checkBox103.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox103.Name = "checkBox103";
+            this.checkBox103.Size = new System.Drawing.Size(79, 17);
+            this.checkBox103.TabIndex = 10;
+            this.checkBox103.Text = "Non-tender";
+            this.checkBox103.UseVisualStyleBackColor = true;
+            // 
+            // checkBox104
+            // 
+            this.checkBox104.AutoSize = true;
+            this.checkBox104.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox104.Location = new System.Drawing.Point(8, 17);
+            this.checkBox104.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox104.Name = "checkBox104";
+            this.checkBox104.Size = new System.Drawing.Size(60, 17);
+            this.checkBox104.TabIndex = 9;
+            this.checkBox104.Text = "Tender";
+            this.checkBox104.UseVisualStyleBackColor = true;
+            // 
+            // groupBox28
+            // 
+            this.groupBox28.Controls.Add(this.checkBox105);
+            this.groupBox28.Controls.Add(this.checkBox108);
+            this.groupBox28.Controls.Add(this.checkBox109);
+            this.groupBox28.Controls.Add(this.checkBox110);
+            this.groupBox28.Controls.Add(this.checkBox111);
+            this.groupBox28.Controls.Add(this.checkBox112);
+            this.groupBox28.Controls.Add(this.checkBox113);
+            this.groupBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox28.Location = new System.Drawing.Point(14, 112);
+            this.groupBox28.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox28.Name = "groupBox28";
+            this.groupBox28.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox28.Size = new System.Drawing.Size(550, 82);
+            this.groupBox28.TabIndex = 86;
+            this.groupBox28.TabStop = false;
+            this.groupBox28.Text = "Overall";
+            // 
+            // checkBox105
+            // 
+            this.checkBox105.AutoSize = true;
+            this.checkBox105.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox105.Location = new System.Drawing.Point(209, 38);
+            this.checkBox105.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox105.Name = "checkBox105";
+            this.checkBox105.Size = new System.Drawing.Size(95, 17);
+            this.checkBox105.TabIndex = 8;
+            this.checkBox105.Text = "Non-distended";
+            this.checkBox105.UseVisualStyleBackColor = true;
+            // 
+            // checkBox108
+            // 
+            this.checkBox108.AutoSize = true;
+            this.checkBox108.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox108.Location = new System.Drawing.Point(209, 16);
+            this.checkBox108.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox108.Name = "checkBox108";
+            this.checkBox108.Size = new System.Drawing.Size(74, 17);
+            this.checkBox108.TabIndex = 7;
+            this.checkBox108.Text = "Distended";
+            this.checkBox108.UseVisualStyleBackColor = true;
+            // 
+            // checkBox109
+            // 
+            this.checkBox109.AutoSize = true;
+            this.checkBox109.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox109.Location = new System.Drawing.Point(397, 59);
+            this.checkBox109.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox109.Name = "checkBox109";
+            this.checkBox109.Size = new System.Drawing.Size(127, 17);
+            this.checkBox109.TabIndex = 6;
+            this.checkBox109.Text = "Absent bowel sounds";
+            this.checkBox109.UseVisualStyleBackColor = true;
+            // 
+            // checkBox110
+            // 
+            this.checkBox110.AutoSize = true;
+            this.checkBox110.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox110.Location = new System.Drawing.Point(397, 38);
+            this.checkBox110.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox110.Name = "checkBox110";
+            this.checkBox110.Size = new System.Drawing.Size(148, 17);
+            this.checkBox110.TabIndex = 5;
+            this.checkBox110.Text = "Hypoactive bowel sounds";
+            this.checkBox110.UseVisualStyleBackColor = true;
+            // 
+            // checkBox111
+            // 
+            this.checkBox111.AutoSize = true;
+            this.checkBox111.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox111.Location = new System.Drawing.Point(397, 16);
+            this.checkBox111.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox111.Name = "checkBox111";
+            this.checkBox111.Size = new System.Drawing.Size(130, 17);
+            this.checkBox111.TabIndex = 4;
+            this.checkBox111.Text = "Bowel sounds present";
+            this.checkBox111.UseVisualStyleBackColor = true;
+            // 
+            // checkBox112
+            // 
+            this.checkBox112.AutoSize = true;
+            this.checkBox112.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox112.Location = new System.Drawing.Point(11, 38);
+            this.checkBox112.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox112.Name = "checkBox112";
+            this.checkBox112.Size = new System.Drawing.Size(79, 17);
+            this.checkBox112.TabIndex = 1;
+            this.checkBox112.Text = "Non-tender";
+            this.checkBox112.UseVisualStyleBackColor = true;
+            // 
+            // checkBox113
+            // 
+            this.checkBox113.AutoSize = true;
+            this.checkBox113.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox113.Location = new System.Drawing.Point(11, 17);
+            this.checkBox113.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox113.Name = "checkBox113";
+            this.checkBox113.Size = new System.Drawing.Size(60, 17);
+            this.checkBox113.TabIndex = 0;
+            this.checkBox113.Text = "Tender";
+            this.checkBox113.UseVisualStyleBackColor = true;
+            // 
+            // groupBox59
+            // 
+            this.groupBox59.Controls.Add(this.checkBox106);
+            this.groupBox59.Controls.Add(this.checkBox107);
+            this.groupBox59.Controls.Add(this.checkBox114);
+            this.groupBox59.Controls.Add(this.checkBox115);
+            this.groupBox59.Controls.Add(this.checkBox148);
+            this.groupBox59.Controls.Add(this.checkBox149);
+            this.groupBox59.Controls.Add(this.checkBox150);
+            this.groupBox59.Enabled = false;
+            this.groupBox59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox59.Location = new System.Drawing.Point(594, 281);
+            this.groupBox59.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox59.Name = "groupBox59";
+            this.groupBox59.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox59.Size = new System.Drawing.Size(550, 80);
+            this.groupBox59.TabIndex = 85;
+            this.groupBox59.TabStop = false;
+            this.groupBox59.Text = "Left Lower Quadrant (LLQ)";
+            // 
+            // checkBox106
+            // 
+            this.checkBox106.AutoSize = true;
+            this.checkBox106.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox106.Location = new System.Drawing.Point(206, 39);
+            this.checkBox106.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox106.Name = "checkBox106";
+            this.checkBox106.Size = new System.Drawing.Size(95, 17);
+            this.checkBox106.TabIndex = 15;
+            this.checkBox106.Text = "Non-distended";
+            this.checkBox106.UseVisualStyleBackColor = true;
+            // 
+            // checkBox107
+            // 
+            this.checkBox107.AutoSize = true;
+            this.checkBox107.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox107.Location = new System.Drawing.Point(206, 17);
+            this.checkBox107.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox107.Name = "checkBox107";
+            this.checkBox107.Size = new System.Drawing.Size(74, 17);
+            this.checkBox107.TabIndex = 14;
+            this.checkBox107.Text = "Distended";
+            this.checkBox107.UseVisualStyleBackColor = true;
+            // 
+            // checkBox114
+            // 
+            this.checkBox114.AutoSize = true;
+            this.checkBox114.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox114.Location = new System.Drawing.Point(394, 60);
+            this.checkBox114.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox114.Name = "checkBox114";
+            this.checkBox114.Size = new System.Drawing.Size(127, 17);
+            this.checkBox114.TabIndex = 13;
+            this.checkBox114.Text = "Absent bowel sounds";
+            this.checkBox114.UseVisualStyleBackColor = true;
+            // 
+            // checkBox115
+            // 
+            this.checkBox115.AutoSize = true;
+            this.checkBox115.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox115.Location = new System.Drawing.Point(394, 39);
+            this.checkBox115.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox115.Name = "checkBox115";
+            this.checkBox115.Size = new System.Drawing.Size(148, 17);
+            this.checkBox115.TabIndex = 12;
+            this.checkBox115.Text = "Hypoactive bowel sounds";
+            this.checkBox115.UseVisualStyleBackColor = true;
+            // 
+            // checkBox148
+            // 
+            this.checkBox148.AutoSize = true;
+            this.checkBox148.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox148.Location = new System.Drawing.Point(394, 17);
+            this.checkBox148.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox148.Name = "checkBox148";
+            this.checkBox148.Size = new System.Drawing.Size(130, 17);
+            this.checkBox148.TabIndex = 11;
+            this.checkBox148.Text = "Bowel sounds present";
+            this.checkBox148.UseVisualStyleBackColor = true;
+            // 
+            // checkBox149
+            // 
+            this.checkBox149.AutoSize = true;
+            this.checkBox149.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox149.Location = new System.Drawing.Point(8, 39);
+            this.checkBox149.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox149.Name = "checkBox149";
+            this.checkBox149.Size = new System.Drawing.Size(79, 17);
+            this.checkBox149.TabIndex = 10;
+            this.checkBox149.Text = "Non-tender";
+            this.checkBox149.UseVisualStyleBackColor = true;
+            // 
+            // checkBox150
+            // 
+            this.checkBox150.AutoSize = true;
+            this.checkBox150.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox150.Location = new System.Drawing.Point(8, 18);
+            this.checkBox150.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox150.Name = "checkBox150";
+            this.checkBox150.Size = new System.Drawing.Size(60, 17);
+            this.checkBox150.TabIndex = 9;
+            this.checkBox150.Text = "Tender";
+            this.checkBox150.UseVisualStyleBackColor = true;
+            // 
+            // groupBox62
+            // 
+            this.groupBox62.Controls.Add(this.checkBox151);
+            this.groupBox62.Controls.Add(this.checkBox152);
+            this.groupBox62.Controls.Add(this.checkBox153);
+            this.groupBox62.Controls.Add(this.checkBox154);
+            this.groupBox62.Controls.Add(this.checkBox155);
+            this.groupBox62.Controls.Add(this.checkBox156);
+            this.groupBox62.Controls.Add(this.checkBox157);
+            this.groupBox62.Enabled = false;
+            this.groupBox62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox62.Location = new System.Drawing.Point(594, 447);
+            this.groupBox62.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox62.Name = "groupBox62";
+            this.groupBox62.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox62.Size = new System.Drawing.Size(550, 78);
+            this.groupBox62.TabIndex = 84;
+            this.groupBox62.TabStop = false;
+            this.groupBox62.Text = "Right Lower Quadrant (RLQ)";
+            // 
+            // checkBox151
+            // 
+            this.checkBox151.AutoSize = true;
+            this.checkBox151.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox151.Location = new System.Drawing.Point(205, 38);
+            this.checkBox151.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox151.Name = "checkBox151";
+            this.checkBox151.Size = new System.Drawing.Size(95, 17);
+            this.checkBox151.TabIndex = 22;
+            this.checkBox151.Text = "Non-distended";
+            this.checkBox151.UseVisualStyleBackColor = true;
+            // 
+            // checkBox152
+            // 
+            this.checkBox152.AutoSize = true;
+            this.checkBox152.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox152.Location = new System.Drawing.Point(205, 16);
+            this.checkBox152.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox152.Name = "checkBox152";
+            this.checkBox152.Size = new System.Drawing.Size(74, 17);
+            this.checkBox152.TabIndex = 21;
+            this.checkBox152.Text = "Distended";
+            this.checkBox152.UseVisualStyleBackColor = true;
+            // 
+            // checkBox153
+            // 
+            this.checkBox153.AutoSize = true;
+            this.checkBox153.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox153.Location = new System.Drawing.Point(393, 59);
+            this.checkBox153.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox153.Name = "checkBox153";
+            this.checkBox153.Size = new System.Drawing.Size(127, 17);
+            this.checkBox153.TabIndex = 20;
+            this.checkBox153.Text = "Absent bowel sounds";
+            this.checkBox153.UseVisualStyleBackColor = true;
+            // 
+            // checkBox154
+            // 
+            this.checkBox154.AutoSize = true;
+            this.checkBox154.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox154.Location = new System.Drawing.Point(393, 38);
+            this.checkBox154.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox154.Name = "checkBox154";
+            this.checkBox154.Size = new System.Drawing.Size(148, 17);
+            this.checkBox154.TabIndex = 19;
+            this.checkBox154.Text = "Hypoactive bowel sounds";
+            this.checkBox154.UseVisualStyleBackColor = true;
+            // 
+            // checkBox155
+            // 
+            this.checkBox155.AutoSize = true;
+            this.checkBox155.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox155.Location = new System.Drawing.Point(393, 16);
+            this.checkBox155.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox155.Name = "checkBox155";
+            this.checkBox155.Size = new System.Drawing.Size(130, 17);
+            this.checkBox155.TabIndex = 18;
+            this.checkBox155.Text = "Bowel sounds present";
+            this.checkBox155.UseVisualStyleBackColor = true;
+            // 
+            // checkBox156
+            // 
+            this.checkBox156.AutoSize = true;
+            this.checkBox156.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox156.Location = new System.Drawing.Point(7, 38);
+            this.checkBox156.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox156.Name = "checkBox156";
+            this.checkBox156.Size = new System.Drawing.Size(79, 17);
+            this.checkBox156.TabIndex = 17;
+            this.checkBox156.Text = "Non-tender";
+            this.checkBox156.UseVisualStyleBackColor = true;
+            // 
+            // checkBox157
+            // 
+            this.checkBox157.AutoSize = true;
+            this.checkBox157.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox157.Location = new System.Drawing.Point(7, 17);
+            this.checkBox157.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox157.Name = "checkBox157";
+            this.checkBox157.Size = new System.Drawing.Size(60, 17);
+            this.checkBox157.TabIndex = 16;
+            this.checkBox157.Text = "Tender";
+            this.checkBox157.UseVisualStyleBackColor = true;
+            // 
+            // groupBox67
+            // 
+            this.groupBox67.Controls.Add(this.checkBox158);
+            this.groupBox67.Controls.Add(this.checkBox159);
+            this.groupBox67.Controls.Add(this.checkBox160);
+            this.groupBox67.Controls.Add(this.checkBox161);
+            this.groupBox67.Controls.Add(this.checkBox162);
+            this.groupBox67.Controls.Add(this.checkBox163);
+            this.groupBox67.Controls.Add(this.checkBox164);
+            this.groupBox67.Enabled = false;
+            this.groupBox67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox67.Location = new System.Drawing.Point(594, 364);
+            this.groupBox67.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox67.Name = "groupBox67";
+            this.groupBox67.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox67.Size = new System.Drawing.Size(550, 83);
+            this.groupBox67.TabIndex = 83;
+            this.groupBox67.TabStop = false;
+            this.groupBox67.Text = "Right Upper Quadrant (LUQ)";
+            // 
+            // checkBox158
+            // 
+            this.checkBox158.AutoSize = true;
+            this.checkBox158.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox158.Location = new System.Drawing.Point(206, 40);
+            this.checkBox158.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox158.Name = "checkBox158";
+            this.checkBox158.Size = new System.Drawing.Size(95, 17);
+            this.checkBox158.TabIndex = 15;
+            this.checkBox158.Text = "Non-distended";
+            this.checkBox158.UseVisualStyleBackColor = true;
+            // 
+            // checkBox159
+            // 
+            this.checkBox159.AutoSize = true;
+            this.checkBox159.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox159.Location = new System.Drawing.Point(206, 18);
+            this.checkBox159.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox159.Name = "checkBox159";
+            this.checkBox159.Size = new System.Drawing.Size(74, 17);
+            this.checkBox159.TabIndex = 14;
+            this.checkBox159.Text = "Distended";
+            this.checkBox159.UseVisualStyleBackColor = true;
+            // 
+            // checkBox160
+            // 
+            this.checkBox160.AutoSize = true;
+            this.checkBox160.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox160.Location = new System.Drawing.Point(394, 61);
+            this.checkBox160.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox160.Name = "checkBox160";
+            this.checkBox160.Size = new System.Drawing.Size(127, 17);
+            this.checkBox160.TabIndex = 13;
+            this.checkBox160.Text = "Absent bowel sounds";
+            this.checkBox160.UseVisualStyleBackColor = true;
+            // 
+            // checkBox161
+            // 
+            this.checkBox161.AutoSize = true;
+            this.checkBox161.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox161.Location = new System.Drawing.Point(394, 40);
+            this.checkBox161.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox161.Name = "checkBox161";
+            this.checkBox161.Size = new System.Drawing.Size(148, 17);
+            this.checkBox161.TabIndex = 12;
+            this.checkBox161.Text = "Hypoactive bowel sounds";
+            this.checkBox161.UseVisualStyleBackColor = true;
+            // 
+            // checkBox162
+            // 
+            this.checkBox162.AutoSize = true;
+            this.checkBox162.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox162.Location = new System.Drawing.Point(394, 18);
+            this.checkBox162.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox162.Name = "checkBox162";
+            this.checkBox162.Size = new System.Drawing.Size(130, 17);
+            this.checkBox162.TabIndex = 11;
+            this.checkBox162.Text = "Bowel sounds present";
+            this.checkBox162.UseVisualStyleBackColor = true;
+            // 
+            // checkBox163
+            // 
+            this.checkBox163.AutoSize = true;
+            this.checkBox163.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox163.Location = new System.Drawing.Point(8, 40);
+            this.checkBox163.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox163.Name = "checkBox163";
+            this.checkBox163.Size = new System.Drawing.Size(79, 17);
+            this.checkBox163.TabIndex = 10;
+            this.checkBox163.Text = "Non-tender";
+            this.checkBox163.UseVisualStyleBackColor = true;
+            // 
+            // checkBox164
+            // 
+            this.checkBox164.AutoSize = true;
+            this.checkBox164.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox164.Location = new System.Drawing.Point(8, 19);
+            this.checkBox164.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox164.Name = "checkBox164";
+            this.checkBox164.Size = new System.Drawing.Size(60, 17);
+            this.checkBox164.TabIndex = 9;
+            this.checkBox164.Text = "Tender";
+            this.checkBox164.UseVisualStyleBackColor = true;
+            // 
+            // groupBox68
+            // 
+            this.groupBox68.Controls.Add(this.checkBox165);
+            this.groupBox68.Controls.Add(this.checkBox166);
+            this.groupBox68.Controls.Add(this.checkBox167);
+            this.groupBox68.Controls.Add(this.checkBox168);
+            this.groupBox68.Controls.Add(this.checkBox169);
+            this.groupBox68.Controls.Add(this.checkBox170);
+            this.groupBox68.Controls.Add(this.checkBox171);
+            this.groupBox68.Enabled = false;
+            this.groupBox68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox68.Location = new System.Drawing.Point(594, 195);
+            this.groupBox68.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox68.Name = "groupBox68";
+            this.groupBox68.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox68.Size = new System.Drawing.Size(550, 81);
+            this.groupBox68.TabIndex = 82;
+            this.groupBox68.TabStop = false;
+            this.groupBox68.Text = "Left Upper Quadrant (LUQ)";
+            // 
+            // checkBox165
+            // 
+            this.checkBox165.AutoSize = true;
+            this.checkBox165.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox165.Location = new System.Drawing.Point(206, 38);
+            this.checkBox165.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox165.Name = "checkBox165";
+            this.checkBox165.Size = new System.Drawing.Size(95, 17);
+            this.checkBox165.TabIndex = 15;
+            this.checkBox165.Text = "Non-distended";
+            this.checkBox165.UseVisualStyleBackColor = true;
+            // 
+            // checkBox166
+            // 
+            this.checkBox166.AutoSize = true;
+            this.checkBox166.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox166.Location = new System.Drawing.Point(206, 16);
+            this.checkBox166.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox166.Name = "checkBox166";
+            this.checkBox166.Size = new System.Drawing.Size(74, 17);
+            this.checkBox166.TabIndex = 14;
+            this.checkBox166.Text = "Distended";
+            this.checkBox166.UseVisualStyleBackColor = true;
+            // 
+            // checkBox167
+            // 
+            this.checkBox167.AutoSize = true;
+            this.checkBox167.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox167.Location = new System.Drawing.Point(394, 59);
+            this.checkBox167.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox167.Name = "checkBox167";
+            this.checkBox167.Size = new System.Drawing.Size(127, 17);
+            this.checkBox167.TabIndex = 13;
+            this.checkBox167.Text = "Absent bowel sounds";
+            this.checkBox167.UseVisualStyleBackColor = true;
+            // 
+            // checkBox168
+            // 
+            this.checkBox168.AutoSize = true;
+            this.checkBox168.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox168.Location = new System.Drawing.Point(394, 38);
+            this.checkBox168.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox168.Name = "checkBox168";
+            this.checkBox168.Size = new System.Drawing.Size(148, 17);
+            this.checkBox168.TabIndex = 12;
+            this.checkBox168.Text = "Hypoactive bowel sounds";
+            this.checkBox168.UseVisualStyleBackColor = true;
+            // 
+            // checkBox169
+            // 
+            this.checkBox169.AutoSize = true;
+            this.checkBox169.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox169.Location = new System.Drawing.Point(394, 16);
+            this.checkBox169.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox169.Name = "checkBox169";
+            this.checkBox169.Size = new System.Drawing.Size(130, 17);
+            this.checkBox169.TabIndex = 11;
+            this.checkBox169.Text = "Bowel sounds present";
+            this.checkBox169.UseVisualStyleBackColor = true;
+            // 
+            // checkBox170
+            // 
+            this.checkBox170.AutoSize = true;
+            this.checkBox170.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox170.Location = new System.Drawing.Point(8, 38);
+            this.checkBox170.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox170.Name = "checkBox170";
+            this.checkBox170.Size = new System.Drawing.Size(79, 17);
+            this.checkBox170.TabIndex = 10;
+            this.checkBox170.Text = "Non-tender";
+            this.checkBox170.UseVisualStyleBackColor = true;
+            // 
+            // checkBox171
+            // 
+            this.checkBox171.AutoSize = true;
+            this.checkBox171.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox171.Location = new System.Drawing.Point(8, 17);
+            this.checkBox171.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox171.Name = "checkBox171";
+            this.checkBox171.Size = new System.Drawing.Size(60, 17);
+            this.checkBox171.TabIndex = 9;
+            this.checkBox171.Text = "Tender";
+            this.checkBox171.UseVisualStyleBackColor = true;
+            // 
+            // groupBox69
+            // 
+            this.groupBox69.Controls.Add(this.checkBox172);
+            this.groupBox69.Controls.Add(this.checkBox173);
+            this.groupBox69.Controls.Add(this.checkBox174);
+            this.groupBox69.Controls.Add(this.checkBox175);
+            this.groupBox69.Controls.Add(this.checkBox176);
+            this.groupBox69.Controls.Add(this.checkBox177);
+            this.groupBox69.Controls.Add(this.checkBox178);
+            this.groupBox69.Enabled = false;
+            this.groupBox69.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox69.Location = new System.Drawing.Point(593, 111);
+            this.groupBox69.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox69.Name = "groupBox69";
+            this.groupBox69.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox69.Size = new System.Drawing.Size(550, 82);
+            this.groupBox69.TabIndex = 81;
+            this.groupBox69.TabStop = false;
+            this.groupBox69.Text = "Overall";
+            // 
+            // checkBox172
+            // 
+            this.checkBox172.AutoSize = true;
+            this.checkBox172.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox172.Location = new System.Drawing.Point(209, 38);
+            this.checkBox172.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox172.Name = "checkBox172";
+            this.checkBox172.Size = new System.Drawing.Size(95, 17);
+            this.checkBox172.TabIndex = 8;
+            this.checkBox172.Text = "Non-distended";
+            this.checkBox172.UseVisualStyleBackColor = true;
+            // 
+            // checkBox173
+            // 
+            this.checkBox173.AutoSize = true;
+            this.checkBox173.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox173.Location = new System.Drawing.Point(209, 16);
+            this.checkBox173.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox173.Name = "checkBox173";
+            this.checkBox173.Size = new System.Drawing.Size(74, 17);
+            this.checkBox173.TabIndex = 7;
+            this.checkBox173.Text = "Distended";
+            this.checkBox173.UseVisualStyleBackColor = true;
+            // 
+            // checkBox174
+            // 
+            this.checkBox174.AutoSize = true;
+            this.checkBox174.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox174.Location = new System.Drawing.Point(397, 59);
+            this.checkBox174.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox174.Name = "checkBox174";
+            this.checkBox174.Size = new System.Drawing.Size(127, 17);
+            this.checkBox174.TabIndex = 6;
+            this.checkBox174.Text = "Absent bowel sounds";
+            this.checkBox174.UseVisualStyleBackColor = true;
+            // 
+            // checkBox175
+            // 
+            this.checkBox175.AutoSize = true;
+            this.checkBox175.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox175.Location = new System.Drawing.Point(397, 38);
+            this.checkBox175.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox175.Name = "checkBox175";
+            this.checkBox175.Size = new System.Drawing.Size(148, 17);
+            this.checkBox175.TabIndex = 5;
+            this.checkBox175.Text = "Hypoactive bowel sounds";
+            this.checkBox175.UseVisualStyleBackColor = true;
+            // 
+            // checkBox176
+            // 
+            this.checkBox176.AutoSize = true;
+            this.checkBox176.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox176.Location = new System.Drawing.Point(397, 16);
+            this.checkBox176.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox176.Name = "checkBox176";
+            this.checkBox176.Size = new System.Drawing.Size(130, 17);
+            this.checkBox176.TabIndex = 4;
+            this.checkBox176.Text = "Bowel sounds present";
+            this.checkBox176.UseVisualStyleBackColor = true;
+            // 
+            // checkBox177
+            // 
+            this.checkBox177.AutoSize = true;
+            this.checkBox177.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox177.Location = new System.Drawing.Point(11, 38);
+            this.checkBox177.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox177.Name = "checkBox177";
+            this.checkBox177.Size = new System.Drawing.Size(79, 17);
+            this.checkBox177.TabIndex = 1;
+            this.checkBox177.Text = "Non-tender";
+            this.checkBox177.UseVisualStyleBackColor = true;
+            // 
+            // checkBox178
+            // 
+            this.checkBox178.AutoSize = true;
+            this.checkBox178.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox178.Location = new System.Drawing.Point(11, 17);
+            this.checkBox178.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox178.Name = "checkBox178";
+            this.checkBox178.Size = new System.Drawing.Size(60, 17);
+            this.checkBox178.TabIndex = 0;
+            this.checkBox178.Text = "Tender";
+            this.checkBox178.UseVisualStyleBackColor = true;
+            // 
             // label155
             // 
             this.label155.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -3035,6 +6529,66 @@
             this.groupBox74.TabIndex = 91;
             this.groupBox74.TabStop = false;
             this.groupBox74.Text = "Extra-ocular movements";
+            // 
+            // checkBox187
+            // 
+            this.checkBox187.AutoSize = true;
+            this.checkBox187.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox187.Location = new System.Drawing.Point(432, 40);
+            this.checkBox187.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox187.Name = "checkBox187";
+            this.checkBox187.Size = new System.Drawing.Size(108, 17);
+            this.checkBox187.TabIndex = 9;
+            this.checkBox187.Text = "CN VI Impairment";
+            this.checkBox187.UseVisualStyleBackColor = true;
+            // 
+            // checkBox188
+            // 
+            this.checkBox188.AutoSize = true;
+            this.checkBox188.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox188.Location = new System.Drawing.Point(432, 20);
+            this.checkBox188.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox188.Name = "checkBox188";
+            this.checkBox188.Size = new System.Drawing.Size(108, 17);
+            this.checkBox188.TabIndex = 8;
+            this.checkBox188.Text = "CN IV Impairment";
+            this.checkBox188.UseVisualStyleBackColor = true;
+            // 
+            // checkBox189
+            // 
+            this.checkBox189.AutoSize = true;
+            this.checkBox189.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox189.Location = new System.Drawing.Point(218, 41);
+            this.checkBox189.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox189.Name = "checkBox189";
+            this.checkBox189.Size = new System.Drawing.Size(107, 17);
+            this.checkBox189.TabIndex = 7;
+            this.checkBox189.Text = "CN III Impairment";
+            this.checkBox189.UseVisualStyleBackColor = true;
+            // 
+            // checkBox190
+            // 
+            this.checkBox190.AutoSize = true;
+            this.checkBox190.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox190.Location = new System.Drawing.Point(218, 20);
+            this.checkBox190.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox190.Name = "checkBox190";
+            this.checkBox190.Size = new System.Drawing.Size(118, 17);
+            this.checkBox190.TabIndex = 6;
+            this.checkBox190.Text = "General Nystagmus";
+            this.checkBox190.UseVisualStyleBackColor = true;
+            // 
+            // checkBox191
+            // 
+            this.checkBox191.AutoSize = true;
+            this.checkBox191.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox191.Location = new System.Drawing.Point(9, 20);
+            this.checkBox191.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox191.Name = "checkBox191";
+            this.checkBox191.Size = new System.Drawing.Size(59, 17);
+            this.checkBox191.TabIndex = 5;
+            this.checkBox191.Text = "Normal";
+            this.checkBox191.UseVisualStyleBackColor = true;
             // 
             // groupBox75
             // 
@@ -3754,6 +7308,71 @@
             this.carSubCatPan.Size = new System.Drawing.Size(1161, 540);
             this.carSubCatPan.TabIndex = 52;
             this.carSubCatPan.Visible = false;
+            // 
+            // groupBox70
+            // 
+            this.groupBox70.Controls.Add(this.checkBox179);
+            this.groupBox70.Controls.Add(this.checkBox180);
+            this.groupBox70.Controls.Add(this.checkBox181);
+            this.groupBox70.Controls.Add(this.checkBox182);
+            this.groupBox70.Enabled = false;
+            this.groupBox70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox70.Location = new System.Drawing.Point(594, 49);
+            this.groupBox70.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox70.Name = "groupBox70";
+            this.groupBox70.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox70.Size = new System.Drawing.Size(550, 65);
+            this.groupBox70.TabIndex = 80;
+            this.groupBox70.TabStop = false;
+            this.groupBox70.Text = "Cardiac";
+            // 
+            // checkBox179
+            // 
+            this.checkBox179.AutoSize = true;
+            this.checkBox179.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox179.Location = new System.Drawing.Point(444, 40);
+            this.checkBox179.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox179.Name = "checkBox179";
+            this.checkBox179.Size = new System.Drawing.Size(99, 17);
+            this.checkBox179.TabIndex = 3;
+            this.checkBox179.Text = "Murmur present";
+            this.checkBox179.UseVisualStyleBackColor = true;
+            // 
+            // checkBox180
+            // 
+            this.checkBox180.AutoSize = true;
+            this.checkBox180.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox180.Location = new System.Drawing.Point(444, 17);
+            this.checkBox180.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox180.Name = "checkBox180";
+            this.checkBox180.Size = new System.Drawing.Size(78, 17);
+            this.checkBox180.TabIndex = 2;
+            this.checkBox180.Text = "S4 Present";
+            this.checkBox180.UseVisualStyleBackColor = true;
+            // 
+            // checkBox181
+            // 
+            this.checkBox181.AutoSize = true;
+            this.checkBox181.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox181.Location = new System.Drawing.Point(236, 19);
+            this.checkBox181.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox181.Name = "checkBox181";
+            this.checkBox181.Size = new System.Drawing.Size(78, 17);
+            this.checkBox181.TabIndex = 1;
+            this.checkBox181.Text = "S3 Present";
+            this.checkBox181.UseVisualStyleBackColor = true;
+            // 
+            // checkBox182
+            // 
+            this.checkBox182.AutoSize = true;
+            this.checkBox182.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox182.Location = new System.Drawing.Point(11, 20);
+            this.checkBox182.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox182.Name = "checkBox182";
+            this.checkBox182.Size = new System.Drawing.Size(96, 17);
+            this.checkBox182.TabIndex = 0;
+            this.checkBox182.Text = "S1/S2 Present";
+            this.checkBox182.UseVisualStyleBackColor = true;
             // 
             // label157
             // 
@@ -5029,639 +8648,6 @@
             this.radioButton40.Text = "Normal and Clear";
             this.radioButton40.UseVisualStyleBackColor = true;
             // 
-            // genSurSubCatPan
-            // 
-            this.genSurSubCatPan.Controls.Add(this.groupBox72);
-            this.genSurSubCatPan.Controls.Add(this.groupBox73);
-            this.genSurSubCatPan.Controls.Add(this.groupBox79);
-            this.genSurSubCatPan.Controls.Add(this.groupBox80);
-            this.genSurSubCatPan.Controls.Add(this.groupBox87);
-            this.genSurSubCatPan.Controls.Add(this.groupBox71);
-            this.genSurSubCatPan.Controls.Add(this.label159);
-            this.genSurSubCatPan.Controls.Add(this.genAppAndBehGrpBox);
-            this.genSurSubCatPan.Controls.Add(this.genAffGrpBox);
-            this.genSurSubCatPan.Controls.Add(this.reaToLrnGrpBox);
-            this.genSurSubCatPan.Controls.Add(this.famPresGrpBox);
-            this.genSurSubCatPan.Location = new System.Drawing.Point(-3, 32);
-            this.genSurSubCatPan.Margin = new System.Windows.Forms.Padding(2);
-            this.genSurSubCatPan.Name = "genSurSubCatPan";
-            this.genSurSubCatPan.Size = new System.Drawing.Size(1167, 542);
-            this.genSurSubCatPan.TabIndex = 26;
-            this.genSurSubCatPan.Visible = false;
-            // 
-            // label159
-            // 
-            this.label159.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label159.Location = new System.Drawing.Point(582, 1);
-            this.label159.Name = "label159";
-            this.label159.Size = new System.Drawing.Size(2, 540);
-            this.label159.TabIndex = 82;
-            // 
-            // genAppAndBehGrpBox
-            // 
-            this.genAppAndBehGrpBox.Controls.Add(this.textBox4);
-            this.genAppAndBehGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.genAppAndBehGrpBox.Location = new System.Drawing.Point(17, 144);
-            this.genAppAndBehGrpBox.Margin = new System.Windows.Forms.Padding(2);
-            this.genAppAndBehGrpBox.Name = "genAppAndBehGrpBox";
-            this.genAppAndBehGrpBox.Padding = new System.Windows.Forms.Padding(2);
-            this.genAppAndBehGrpBox.Size = new System.Drawing.Size(550, 76);
-            this.genAppAndBehGrpBox.TabIndex = 74;
-            this.genAppAndBehGrpBox.TabStop = false;
-            this.genAppAndBehGrpBox.Text = "General appearance and behavior";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(5, 18);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(536, 51);
-            this.textBox4.TabIndex = 0;
-            // 
-            // genAffGrpBox
-            // 
-            this.genAffGrpBox.Controls.Add(this.checkBox19);
-            this.genAffGrpBox.Controls.Add(this.checkBox20);
-            this.genAffGrpBox.Controls.Add(this.checkBox12);
-            this.genAffGrpBox.Controls.Add(this.checkBox13);
-            this.genAffGrpBox.Controls.Add(this.checkBox14);
-            this.genAffGrpBox.Controls.Add(this.checkBox15);
-            this.genAffGrpBox.Controls.Add(this.checkBox16);
-            this.genAffGrpBox.Controls.Add(this.checkBox17);
-            this.genAffGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.genAffGrpBox.Location = new System.Drawing.Point(17, 363);
-            this.genAffGrpBox.Margin = new System.Windows.Forms.Padding(2);
-            this.genAffGrpBox.Name = "genAffGrpBox";
-            this.genAffGrpBox.Padding = new System.Windows.Forms.Padding(2);
-            this.genAffGrpBox.Size = new System.Drawing.Size(550, 80);
-            this.genAffGrpBox.TabIndex = 78;
-            this.genAffGrpBox.TabStop = false;
-            this.genAffGrpBox.Text = "General Affect";
-            // 
-            // reaToLrnGrpBox
-            // 
-            this.reaToLrnGrpBox.Controls.Add(this.checkBox11);
-            this.reaToLrnGrpBox.Controls.Add(this.checkBox10);
-            this.reaToLrnGrpBox.Controls.Add(this.checkBox6);
-            this.reaToLrnGrpBox.Controls.Add(this.checkBox7);
-            this.reaToLrnGrpBox.Controls.Add(this.checkBox8);
-            this.reaToLrnGrpBox.Controls.Add(this.checkBox9);
-            this.reaToLrnGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reaToLrnGrpBox.Location = new System.Drawing.Point(17, 447);
-            this.reaToLrnGrpBox.Margin = new System.Windows.Forms.Padding(2);
-            this.reaToLrnGrpBox.Name = "reaToLrnGrpBox";
-            this.reaToLrnGrpBox.Padding = new System.Windows.Forms.Padding(2);
-            this.reaToLrnGrpBox.Size = new System.Drawing.Size(550, 80);
-            this.reaToLrnGrpBox.TabIndex = 77;
-            this.reaToLrnGrpBox.TabStop = false;
-            this.reaToLrnGrpBox.Text = "Readiness to learn";
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox11.Location = new System.Drawing.Point(376, 34);
-            this.checkBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(170, 17);
-            this.checkBox11.TabIndex = 14;
-            this.checkBox11.Text = "Negative non-verbal feedback";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(376, 14);
-            this.checkBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(82, 17);
-            this.checkBox10.TabIndex = 13;
-            this.checkBox10.Text = "Unengaged";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(168, 15);
-            this.checkBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(97, 17);
-            this.checkBox6.TabIndex = 12;
-            this.checkBox6.Text = "Asks questions";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(11, 38);
-            this.checkBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(75, 17);
-            this.checkBox7.TabIndex = 11;
-            this.checkBox7.Text = "Receptive";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(168, 36);
-            this.checkBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(164, 17);
-            this.checkBox8.TabIndex = 10;
-            this.checkBox8.Text = "Positive non-verbal feedback";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(11, 17);
-            this.checkBox9.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(69, 17);
-            this.checkBox9.TabIndex = 9;
-            this.checkBox9.Text = "Engaged";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // famPresGrpBox
-            // 
-            this.famPresGrpBox.Controls.Add(this.checkBox5);
-            this.famPresGrpBox.Controls.Add(this.checkBox4);
-            this.famPresGrpBox.Controls.Add(this.checkBox3);
-            this.famPresGrpBox.Controls.Add(this.checkBox2);
-            this.famPresGrpBox.Controls.Add(this.textBox5);
-            this.famPresGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.famPresGrpBox.Location = new System.Drawing.Point(17, 281);
-            this.famPresGrpBox.Margin = new System.Windows.Forms.Padding(2);
-            this.famPresGrpBox.Name = "famPresGrpBox";
-            this.famPresGrpBox.Padding = new System.Windows.Forms.Padding(2);
-            this.famPresGrpBox.Size = new System.Drawing.Size(550, 81);
-            this.famPresGrpBox.TabIndex = 75;
-            this.famPresGrpBox.TabStop = false;
-            this.famPresGrpBox.Text = "Family Present";
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(470, 17);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(52, 17);
-            this.checkBox5.TabIndex = 12;
-            this.checkBox5.Text = "Other";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(319, 16);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(64, 17);
-            this.checkBox4.TabIndex = 11;
-            this.checkBox4.Text = "Children";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(165, 17);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(62, 17);
-            this.checkBox3.TabIndex = 10;
-            this.checkBox3.Text = "Parents";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(11, 17);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(62, 17);
-            this.checkBox2.TabIndex = 9;
-            this.checkBox2.Text = "Spouse";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(3, 34);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(543, 42);
-            this.textBox5.TabIndex = 0;
-            // 
-            // uppExtSubCatPan
-            // 
-            this.uppExtSubCatPan.Controls.Add(this.groupBox63);
-            this.uppExtSubCatPan.Controls.Add(this.groupBox64);
-            this.uppExtSubCatPan.Controls.Add(this.groupBox65);
-            this.uppExtSubCatPan.Controls.Add(this.groupBox66);
-            this.uppExtSubCatPan.Controls.Add(this.label153);
-            this.uppExtSubCatPan.Controls.Add(this.groupBox12);
-            this.uppExtSubCatPan.Controls.Add(this.groupBox13);
-            this.uppExtSubCatPan.Controls.Add(this.groupBox14);
-            this.uppExtSubCatPan.Controls.Add(this.groupBox15);
-            this.uppExtSubCatPan.Location = new System.Drawing.Point(3, 32);
-            this.uppExtSubCatPan.Margin = new System.Windows.Forms.Padding(2);
-            this.uppExtSubCatPan.Name = "uppExtSubCatPan";
-            this.uppExtSubCatPan.Size = new System.Drawing.Size(1161, 540);
-            this.uppExtSubCatPan.TabIndex = 0;
-            this.uppExtSubCatPan.Visible = false;
-            // 
-            // label153
-            // 
-            this.label153.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label153.Location = new System.Drawing.Point(579, 0);
-            this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(2, 540);
-            this.label153.TabIndex = 67;
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.Controls.Add(this.radioButton55);
-            this.groupBox12.Controls.Add(this.radioButton56);
-            this.groupBox12.Controls.Add(this.radioButton57);
-            this.groupBox12.Controls.Add(this.radioButton58);
-            this.groupBox12.Controls.Add(this.radioButton59);
-            this.groupBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox12.Location = new System.Drawing.Point(14, 397);
-            this.groupBox12.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox12.Size = new System.Drawing.Size(550, 64);
-            this.groupBox12.TabIndex = 65;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Edema";
-            // 
-            // radioButton55
-            // 
-            this.radioButton55.AutoSize = true;
-            this.radioButton55.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton55.Location = new System.Drawing.Point(385, 15);
-            this.radioButton55.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton55.Name = "radioButton55";
-            this.radioButton55.Size = new System.Drawing.Size(72, 17);
-            this.radioButton55.TabIndex = 25;
-            this.radioButton55.TabStop = true;
-            this.radioButton55.Text = "4+ - >1cm";
-            this.radioButton55.UseVisualStyleBackColor = true;
-            // 
-            // radioButton56
-            // 
-            this.radioButton56.AutoSize = true;
-            this.radioButton56.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton56.Location = new System.Drawing.Point(194, 36);
-            this.radioButton56.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton56.Name = "radioButton56";
-            this.radioButton56.Size = new System.Drawing.Size(83, 17);
-            this.radioButton56.TabIndex = 22;
-            this.radioButton56.TabStop = true;
-            this.radioButton56.Text = "3+ - 5-10mm";
-            this.radioButton56.UseVisualStyleBackColor = true;
-            // 
-            // radioButton57
-            // 
-            this.radioButton57.AutoSize = true;
-            this.radioButton57.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton57.Location = new System.Drawing.Point(194, 15);
-            this.radioButton57.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton57.Name = "radioButton57";
-            this.radioButton57.Size = new System.Drawing.Size(117, 17);
-            this.radioButton57.TabIndex = 21;
-            this.radioButton57.TabStop = true;
-            this.radioButton57.Text = "2+ - Less than 5mm";
-            this.radioButton57.UseVisualStyleBackColor = true;
-            // 
-            // radioButton58
-            // 
-            this.radioButton58.AutoSize = true;
-            this.radioButton58.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton58.Location = new System.Drawing.Point(11, 38);
-            this.radioButton58.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton58.Name = "radioButton58";
-            this.radioButton58.Size = new System.Drawing.Size(128, 17);
-            this.radioButton58.TabIndex = 20;
-            this.radioButton58.TabStop = true;
-            this.radioButton58.Text = "1+ - Barely discernible";
-            this.radioButton58.UseVisualStyleBackColor = true;
-            // 
-            // radioButton59
-            // 
-            this.radioButton59.AutoSize = true;
-            this.radioButton59.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton59.Location = new System.Drawing.Point(11, 17);
-            this.radioButton59.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton59.Name = "radioButton59";
-            this.radioButton59.Size = new System.Drawing.Size(90, 17);
-            this.radioButton59.TabIndex = 19;
-            this.radioButton59.TabStop = true;
-            this.radioButton59.Text = "0 - No Edema";
-            this.radioButton59.UseVisualStyleBackColor = true;
-            // 
-            // groupBox13
-            // 
-            this.groupBox13.Controls.Add(this.radioButton60);
-            this.groupBox13.Controls.Add(this.radioButton61);
-            this.groupBox13.Controls.Add(this.radioButton62);
-            this.groupBox13.Controls.Add(this.radioButton63);
-            this.groupBox13.Controls.Add(this.radioButton64);
-            this.groupBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox13.Location = new System.Drawing.Point(15, 329);
-            this.groupBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox13.Size = new System.Drawing.Size(550, 64);
-            this.groupBox13.TabIndex = 64;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "Capillary Refill";
-            // 
-            // radioButton60
-            // 
-            this.radioButton60.AutoSize = true;
-            this.radioButton60.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton60.Location = new System.Drawing.Point(470, 17);
-            this.radioButton60.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton60.Name = "radioButton60";
-            this.radioButton60.Size = new System.Drawing.Size(58, 17);
-            this.radioButton60.TabIndex = 25;
-            this.radioButton60.TabStop = true;
-            this.radioButton60.Text = "Absent";
-            this.radioButton60.UseVisualStyleBackColor = true;
-            // 
-            // radioButton61
-            // 
-            this.radioButton61.AutoSize = true;
-            this.radioButton61.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton61.Location = new System.Drawing.Point(194, 37);
-            this.radioButton61.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton61.Name = "radioButton61";
-            this.radioButton61.Size = new System.Drawing.Size(48, 17);
-            this.radioButton61.TabIndex = 22;
-            this.radioButton61.TabStop = true;
-            this.radioButton61.Text = "Slow";
-            this.radioButton61.UseVisualStyleBackColor = true;
-            // 
-            // radioButton62
-            // 
-            this.radioButton62.AutoSize = true;
-            this.radioButton62.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton62.Location = new System.Drawing.Point(194, 16);
-            this.radioButton62.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton62.Name = "radioButton62";
-            this.radioButton62.Size = new System.Drawing.Size(57, 17);
-            this.radioButton62.TabIndex = 21;
-            this.radioButton62.TabStop = true;
-            this.radioButton62.Text = "<2 sec";
-            this.radioButton62.UseVisualStyleBackColor = true;
-            // 
-            // radioButton63
-            // 
-            this.radioButton63.AutoSize = true;
-            this.radioButton63.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton63.Location = new System.Drawing.Point(11, 38);
-            this.radioButton63.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton63.Name = "radioButton63";
-            this.radioButton63.Size = new System.Drawing.Size(57, 17);
-            this.radioButton63.TabIndex = 20;
-            this.radioButton63.TabStop = true;
-            this.radioButton63.Text = "<1 sec";
-            this.radioButton63.UseVisualStyleBackColor = true;
-            // 
-            // radioButton64
-            // 
-            this.radioButton64.AutoSize = true;
-            this.radioButton64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton64.Location = new System.Drawing.Point(11, 17);
-            this.radioButton64.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton64.Name = "radioButton64";
-            this.radioButton64.Size = new System.Drawing.Size(80, 17);
-            this.radioButton64.TabIndex = 19;
-            this.radioButton64.TabStop = true;
-            this.radioButton64.Text = "Brisk <3sec";
-            this.radioButton64.UseVisualStyleBackColor = true;
-            // 
-            // groupBox14
-            // 
-            this.groupBox14.Controls.Add(this.radioButton65);
-            this.groupBox14.Controls.Add(this.radioButton66);
-            this.groupBox14.Controls.Add(this.radioButton67);
-            this.groupBox14.Controls.Add(this.radioButton68);
-            this.groupBox14.Controls.Add(this.radioButton69);
-            this.groupBox14.Controls.Add(this.radioButton70);
-            this.groupBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox14.Location = new System.Drawing.Point(14, 464);
-            this.groupBox14.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox14.Size = new System.Drawing.Size(550, 62);
-            this.groupBox14.TabIndex = 63;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "Strength/ROM";
-            // 
-            // radioButton65
-            // 
-            this.radioButton65.AutoSize = true;
-            this.radioButton65.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton65.Location = new System.Drawing.Point(386, 17);
-            this.radioButton65.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton65.Name = "radioButton65";
-            this.radioButton65.Size = new System.Drawing.Size(125, 17);
-            this.radioButton65.TabIndex = 25;
-            this.radioButton65.TabStop = true;
-            this.radioButton65.Text = "1 - Severe weakness";
-            this.radioButton65.UseVisualStyleBackColor = true;
-            // 
-            // radioButton66
-            // 
-            this.radioButton66.AutoSize = true;
-            this.radioButton66.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton66.Location = new System.Drawing.Point(386, 38);
-            this.radioButton66.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton66.Name = "radioButton66";
-            this.radioButton66.Size = new System.Drawing.Size(158, 17);
-            this.radioButton66.TabIndex = 23;
-            this.radioButton66.TabStop = true;
-            this.radioButton66.Text = "0 - No muscular contraction ";
-            this.radioButton66.UseVisualStyleBackColor = true;
-            // 
-            // radioButton67
-            // 
-            this.radioButton67.AutoSize = true;
-            this.radioButton67.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton67.Location = new System.Drawing.Point(195, 38);
-            this.radioButton67.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton67.Name = "radioButton67";
-            this.radioButton67.Size = new System.Drawing.Size(161, 17);
-            this.radioButton67.TabIndex = 22;
-            this.radioButton67.TabStop = true;
-            this.radioButton67.Text = "2 - Poor ROM against gravity";
-            this.radioButton67.UseVisualStyleBackColor = true;
-            // 
-            // radioButton68
-            // 
-            this.radioButton68.AutoSize = true;
-            this.radioButton68.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton68.Location = new System.Drawing.Point(195, 15);
-            this.radioButton68.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton68.Name = "radioButton68";
-            this.radioButton68.Size = new System.Drawing.Size(131, 17);
-            this.radioButton68.TabIndex = 21;
-            this.radioButton68.TabStop = true;
-            this.radioButton68.Text = "3 - Average weakness";
-            this.radioButton68.UseVisualStyleBackColor = true;
-            // 
-            // radioButton69
-            // 
-            this.radioButton69.AutoSize = true;
-            this.radioButton69.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton69.Location = new System.Drawing.Point(11, 38);
-            this.radioButton69.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton69.Name = "radioButton69";
-            this.radioButton69.Size = new System.Drawing.Size(117, 17);
-            this.radioButton69.TabIndex = 20;
-            this.radioButton69.TabStop = true;
-            this.radioButton69.Text = "4 - Slight weakness";
-            this.radioButton69.UseVisualStyleBackColor = true;
-            // 
-            // radioButton70
-            // 
-            this.radioButton70.AutoSize = true;
-            this.radioButton70.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton70.Location = new System.Drawing.Point(11, 17);
-            this.radioButton70.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton70.Name = "radioButton70";
-            this.radioButton70.Size = new System.Drawing.Size(73, 17);
-            this.radioButton70.TabIndex = 19;
-            this.radioButton70.TabStop = true;
-            this.radioButton70.Text = "5 - Normal";
-            this.radioButton70.UseVisualStyleBackColor = true;
-            // 
-            // groupBox15
-            // 
-            this.groupBox15.Controls.Add(this.textBox7);
-            this.groupBox15.Controls.Add(this.checkBox1);
-            this.groupBox15.Controls.Add(this.checkBox18);
-            this.groupBox15.Controls.Add(this.checkBox21);
-            this.groupBox15.Controls.Add(this.checkBox22);
-            this.groupBox15.Controls.Add(this.checkBox35);
-            this.groupBox15.Controls.Add(this.checkBox117);
-            this.groupBox15.Controls.Add(this.checkBox118);
-            this.groupBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox15.Location = new System.Drawing.Point(14, 198);
-            this.groupBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox15.Size = new System.Drawing.Size(550, 131);
-            this.groupBox15.TabIndex = 62;
-            this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "Skin";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(4, 78);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(542, 47);
-            this.textBox7.TabIndex = 7;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(470, 16);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(66, 17);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Cracked";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox18.Location = new System.Drawing.Point(250, 58);
-            this.checkBox18.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(51, 17);
-            this.checkBox18.TabIndex = 5;
-            this.checkBox18.Text = "Moist";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox21.Location = new System.Drawing.Point(250, 37);
-            this.checkBox21.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(47, 17);
-            this.checkBox21.TabIndex = 4;
-            this.checkBox21.Text = "Cold";
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox22.Location = new System.Drawing.Point(250, 16);
-            this.checkBox22.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(42, 17);
-            this.checkBox22.TabIndex = 3;
-            this.checkBox22.Text = "Dry";
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // checkBox35
-            // 
-            this.checkBox35.AutoSize = true;
-            this.checkBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox35.Location = new System.Drawing.Point(11, 58);
-            this.checkBox35.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox35.Name = "checkBox35";
-            this.checkBox35.Size = new System.Drawing.Size(95, 17);
-            this.checkBox35.TabIndex = 2;
-            this.checkBox35.Text = "Pressure Ulcer";
-            this.checkBox35.UseVisualStyleBackColor = true;
-            // 
-            // checkBox117
-            // 
-            this.checkBox117.AutoSize = true;
-            this.checkBox117.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox117.Location = new System.Drawing.Point(11, 37);
-            this.checkBox117.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox117.Name = "checkBox117";
-            this.checkBox117.Size = new System.Drawing.Size(54, 17);
-            this.checkBox117.TabIndex = 1;
-            this.checkBox117.Text = "Warm";
-            this.checkBox117.UseVisualStyleBackColor = true;
-            // 
-            // checkBox118
-            // 
-            this.checkBox118.AutoSize = true;
-            this.checkBox118.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox118.Location = new System.Drawing.Point(11, 16);
-            this.checkBox118.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox118.Name = "checkBox118";
-            this.checkBox118.Size = new System.Drawing.Size(43, 17);
-            this.checkBox118.TabIndex = 0;
-            this.checkBox118.Text = "Hot";
-            this.checkBox118.UseVisualStyleBackColor = true;
-            // 
             // vitalSignTab
             // 
             this.vitalSignTab.Controls.Add(this.groupBox89);
@@ -5681,6 +8667,279 @@
             this.vitalSignTab.TabIndex = 0;
             this.vitalSignTab.Text = "Vital Signs";
             this.vitalSignTab.UseVisualStyleBackColor = true;
+            // 
+            // groupBox89
+            // 
+            this.groupBox89.Controls.Add(this.comboBox11);
+            this.groupBox89.Controls.Add(this.comboBox12);
+            this.groupBox89.Controls.Add(this.label24);
+            this.groupBox89.Controls.Add(this.maskedTextBox8);
+            this.groupBox89.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox89.Location = new System.Drawing.Point(597, 416);
+            this.groupBox89.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox89.Name = "groupBox89";
+            this.groupBox89.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox89.Size = new System.Drawing.Size(550, 55);
+            this.groupBox89.TabIndex = 73;
+            this.groupBox89.TabStop = false;
+            this.groupBox89.Text = "Temperature";
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "Fahrenheit",
+            "Celsius"});
+            this.comboBox11.Location = new System.Drawing.Point(11, 20);
+            this.comboBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(88, 23);
+            this.comboBox11.TabIndex = 9;
+            this.comboBox11.Text = "Fahrenheit";
+            // 
+            // comboBox12
+            // 
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Items.AddRange(new object[] {
+            "Oral",
+            "Temporal",
+            "Axillary",
+            "Rectal",
+            "Otic"});
+            this.comboBox12.Location = new System.Drawing.Point(250, 19);
+            this.comboBox12.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(62, 23);
+            this.comboBox12.TabIndex = 7;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(183, 24);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(66, 13);
+            this.label24.TabIndex = 2;
+            this.label24.Text = "Site/Method";
+            // 
+            // maskedTextBox8
+            // 
+            this.maskedTextBox8.Location = new System.Drawing.Point(104, 20);
+            this.maskedTextBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox8.Name = "maskedTextBox8";
+            this.maskedTextBox8.Size = new System.Drawing.Size(52, 21);
+            this.maskedTextBox8.TabIndex = 1;
+            // 
+            // groupBox90
+            // 
+            this.groupBox90.Controls.Add(this.comboBox13);
+            this.groupBox90.Controls.Add(this.comboBox16);
+            this.groupBox90.Controls.Add(this.label25);
+            this.groupBox90.Controls.Add(this.maskedTextBox15);
+            this.groupBox90.Controls.Add(this.label50);
+            this.groupBox90.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox90.Location = new System.Drawing.Point(597, 356);
+            this.groupBox90.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox90.Name = "groupBox90";
+            this.groupBox90.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox90.Size = new System.Drawing.Size(550, 56);
+            this.groupBox90.TabIndex = 72;
+            this.groupBox90.TabStop = false;
+            this.groupBox90.Text = "Pulse";
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Items.AddRange(new object[] {
+            "0 = Absent ",
+            "1+ = Thready and weak; easily obliterated ",
+            "2+ = Normal, easily identified; not easily obliderated",
+            "3+ = Increased; moderate pressure for obliteration ",
+            "4+ = Full, bounding; cannot obliterate "});
+            this.comboBox13.Location = new System.Drawing.Point(121, 20);
+            this.comboBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(305, 23);
+            this.comboBox13.TabIndex = 8;
+            // 
+            // comboBox16
+            // 
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Location = new System.Drawing.Point(477, 20);
+            this.comboBox16.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(62, 23);
+            this.comboBox16.TabIndex = 7;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(450, 25);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(25, 13);
+            this.label25.TabIndex = 2;
+            this.label25.Text = "Site";
+            // 
+            // maskedTextBox15
+            // 
+            this.maskedTextBox15.Location = new System.Drawing.Point(48, 22);
+            this.maskedTextBox15.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox15.Name = "maskedTextBox15";
+            this.maskedTextBox15.Size = new System.Drawing.Size(52, 21);
+            this.maskedTextBox15.TabIndex = 1;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Location = new System.Drawing.Point(11, 25);
+            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(30, 13);
+            this.label50.TabIndex = 0;
+            this.label50.Text = "Rate";
+            // 
+            // groupBox91
+            // 
+            this.groupBox91.Controls.Add(this.comboBox17);
+            this.groupBox91.Controls.Add(this.label145);
+            this.groupBox91.Controls.Add(this.maskedTextBox16);
+            this.groupBox91.Controls.Add(this.label146);
+            this.groupBox91.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox91.Location = new System.Drawing.Point(597, 298);
+            this.groupBox91.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox91.Name = "groupBox91";
+            this.groupBox91.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox91.Size = new System.Drawing.Size(550, 55);
+            this.groupBox91.TabIndex = 71;
+            this.groupBox91.TabStop = false;
+            this.groupBox91.Text = "Respiratory Rate";
+            // 
+            // comboBox17
+            // 
+            this.comboBox17.FormattingEnabled = true;
+            this.comboBox17.Items.AddRange(new object[] {
+            "Regular",
+            "Labored",
+            "Distressed",
+            "Irregular"});
+            this.comboBox17.Location = new System.Drawing.Point(231, 21);
+            this.comboBox17.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox17.Name = "comboBox17";
+            this.comboBox17.Size = new System.Drawing.Size(62, 23);
+            this.comboBox17.TabIndex = 7;
+            // 
+            // label145
+            // 
+            this.label145.AutoSize = true;
+            this.label145.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label145.Location = new System.Drawing.Point(184, 26);
+            this.label145.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label145.Name = "label145";
+            this.label145.Size = new System.Drawing.Size(43, 13);
+            this.label145.TabIndex = 2;
+            this.label145.Text = "Rhythm";
+            // 
+            // maskedTextBox16
+            // 
+            this.maskedTextBox16.Location = new System.Drawing.Point(48, 21);
+            this.maskedTextBox16.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox16.Name = "maskedTextBox16";
+            this.maskedTextBox16.Size = new System.Drawing.Size(52, 21);
+            this.maskedTextBox16.TabIndex = 1;
+            // 
+            // label146
+            // 
+            this.label146.AutoSize = true;
+            this.label146.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label146.Location = new System.Drawing.Point(11, 25);
+            this.label146.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label146.Name = "label146";
+            this.label146.Size = new System.Drawing.Size(30, 13);
+            this.label146.TabIndex = 0;
+            this.label146.Text = "Rate";
+            // 
+            // groupBox92
+            // 
+            this.groupBox92.Controls.Add(this.comboBox18);
+            this.groupBox92.Controls.Add(this.comboBox19);
+            this.groupBox92.Controls.Add(this.comboBox20);
+            this.groupBox92.Controls.Add(this.label147);
+            this.groupBox92.Controls.Add(this.maskedTextBox17);
+            this.groupBox92.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox92.Location = new System.Drawing.Point(597, 239);
+            this.groupBox92.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox92.Name = "groupBox92";
+            this.groupBox92.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox92.Size = new System.Drawing.Size(550, 54);
+            this.groupBox92.TabIndex = 70;
+            this.groupBox92.TabStop = false;
+            this.groupBox92.Text = "Blood Pressure";
+            // 
+            // comboBox18
+            // 
+            this.comboBox18.FormattingEnabled = true;
+            this.comboBox18.Items.AddRange(new object[] {
+            "0 = Absent ",
+            "1+ = Thready and weak; easily obliterated ",
+            "2+ = Normal, easily identified; not easily obliderated",
+            "3+ = Increased; moderate pressure for obliteration ",
+            "4+ = Full, bounding; cannot obliterate "});
+            this.comboBox18.Location = new System.Drawing.Point(8, 19);
+            this.comboBox18.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox18.Name = "comboBox18";
+            this.comboBox18.Size = new System.Drawing.Size(187, 23);
+            this.comboBox18.TabIndex = 9;
+            this.comboBox18.Text = "Systolic Blood Pressure (SBP)";
+            // 
+            // comboBox19
+            // 
+            this.comboBox19.FormattingEnabled = true;
+            this.comboBox19.Items.AddRange(new object[] {
+            "Right",
+            "Left"});
+            this.comboBox19.Location = new System.Drawing.Point(372, 20);
+            this.comboBox19.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox19.Name = "comboBox19";
+            this.comboBox19.Size = new System.Drawing.Size(79, 23);
+            this.comboBox19.TabIndex = 5;
+            // 
+            // comboBox20
+            // 
+            this.comboBox20.FormattingEnabled = true;
+            this.comboBox20.Items.AddRange(new object[] {
+            "Upper Arm",
+            "Lower Arm",
+            "Calf",
+            "Thigh",
+            "Wrist"});
+            this.comboBox20.Location = new System.Drawing.Point(462, 20);
+            this.comboBox20.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox20.Name = "comboBox20";
+            this.comboBox20.Size = new System.Drawing.Size(79, 23);
+            this.comboBox20.TabIndex = 4;
+            // 
+            // label147
+            // 
+            this.label147.AutoSize = true;
+            this.label147.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label147.Location = new System.Drawing.Point(335, 25);
+            this.label147.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label147.Name = "label147";
+            this.label147.Size = new System.Drawing.Size(25, 13);
+            this.label147.TabIndex = 3;
+            this.label147.Text = "Site";
+            // 
+            // maskedTextBox17
+            // 
+            this.maskedTextBox17.Location = new System.Drawing.Point(199, 20);
+            this.maskedTextBox17.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox17.Name = "maskedTextBox17";
+            this.maskedTextBox17.Size = new System.Drawing.Size(52, 21);
+            this.maskedTextBox17.TabIndex = 1;
             // 
             // label160
             // 
@@ -5900,6 +9159,22 @@
             this.bldPreGrpBox.TabIndex = 12;
             this.bldPreGrpBox.TabStop = false;
             this.bldPreGrpBox.Text = "Blood Pressure";
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "0 = Absent ",
+            "1+ = Thready and weak; easily obliterated ",
+            "2+ = Normal, easily identified; not easily obliderated",
+            "3+ = Increased; moderate pressure for obliteration ",
+            "4+ = Full, bounding; cannot obliterate "});
+            this.comboBox8.Location = new System.Drawing.Point(8, 19);
+            this.comboBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(187, 23);
+            this.comboBox8.TabIndex = 9;
+            this.comboBox8.Text = "Systolic Blood Pressure (SBP)";
             // 
             // comboBox4
             // 
@@ -8449,6 +11724,10 @@
             // groupBox55
             // 
             this.groupBox55.BackColor = System.Drawing.Color.White;
+            this.groupBox55.Controls.Add(this.labelldh);
+            this.groupBox55.Controls.Add(this.label150);
+            this.groupBox55.Controls.Add(this.labelalt);
+            this.groupBox55.Controls.Add(this.labelast);
             this.groupBox55.Controls.Add(this.textBox37);
             this.groupBox55.Controls.Add(this.textBox36);
             this.groupBox55.Controls.Add(this.labelPTT);
@@ -8599,7 +11878,7 @@
             // 
             this.labelAlb.AutoSize = true;
             this.labelAlb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAlb.Location = new System.Drawing.Point(386, 151);
+            this.labelAlb.Location = new System.Drawing.Point(385, 152);
             this.labelAlb.Name = "labelAlb";
             this.labelAlb.Size = new System.Drawing.Size(22, 13);
             this.labelAlb.TabIndex = 98;
@@ -8947,227 +12226,6 @@
             this.ordTabs.Size = new System.Drawing.Size(1172, 602);
             this.ordTabs.TabIndex = 110;
             this.ordTabs.Visible = false;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.label162);
-            this.tabPage3.Controls.Add(this.groupBox57);
-            this.tabPage3.Controls.Add(this.groupBox52);
-            this.tabPage3.Controls.Add(this.label94);
-            this.tabPage3.Controls.Add(this.ordMed_Type_CmbBox);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1164, 576);
-            this.tabPage3.TabIndex = 0;
-            this.tabPage3.Text = "Medications";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // label162
-            // 
-            this.label162.AutoSize = true;
-            this.label162.Location = new System.Drawing.Point(401, 281);
-            this.label162.Name = "label162";
-            this.label162.Size = new System.Drawing.Size(496, 13);
-            this.label162.TabIndex = 12;
-            this.label162.Text = "Drug information should be in a read only state until a combo box selection is ma" +
-    "de or a drug is selected.";
-            // 
-            // groupBox57
-            // 
-            this.groupBox57.Controls.Add(this.dataGridView1);
-            this.groupBox57.Controls.Add(this.maskedTextBox38);
-            this.groupBox57.Controls.Add(this.maskedTextBox39);
-            this.groupBox57.Controls.Add(this.ordMed_Time_TxtBox);
-            this.groupBox57.Controls.Add(this.label95);
-            this.groupBox57.Controls.Add(this.comboBox14);
-            this.groupBox57.Controls.Add(this.label96);
-            this.groupBox57.Controls.Add(this.maskedTextBox41);
-            this.groupBox57.Controls.Add(this.comboBox15);
-            this.groupBox57.Controls.Add(this.label97);
-            this.groupBox57.Controls.Add(this.label98);
-            this.groupBox57.Controls.Add(this.label99);
-            this.groupBox57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox57.Location = new System.Drawing.Point(5, 84);
-            this.groupBox57.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox57.Name = "groupBox57";
-            this.groupBox57.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox57.Size = new System.Drawing.Size(1154, 97);
-            this.groupBox57.TabIndex = 10;
-            this.groupBox57.TabStop = false;
-            this.groupBox57.Text = "Drug Information";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(244, -61);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 50);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Column2";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // maskedTextBox38
-            // 
-            this.maskedTextBox38.Enabled = false;
-            this.maskedTextBox38.Location = new System.Drawing.Point(511, 16);
-            this.maskedTextBox38.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox38.Name = "maskedTextBox38";
-            this.maskedTextBox38.Size = new System.Drawing.Size(292, 21);
-            this.maskedTextBox38.TabIndex = 22;
-            // 
-            // maskedTextBox39
-            // 
-            this.maskedTextBox39.Enabled = false;
-            this.maskedTextBox39.Location = new System.Drawing.Point(68, 18);
-            this.maskedTextBox39.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox39.Name = "maskedTextBox39";
-            this.maskedTextBox39.Size = new System.Drawing.Size(326, 21);
-            this.maskedTextBox39.TabIndex = 21;
-            // 
-            // ordMed_Time_TxtBox
-            // 
-            this.ordMed_Time_TxtBox.Enabled = false;
-            this.ordMed_Time_TxtBox.Location = new System.Drawing.Point(95, 50);
-            this.ordMed_Time_TxtBox.Margin = new System.Windows.Forms.Padding(2);
-            this.ordMed_Time_TxtBox.Multiline = true;
-            this.ordMed_Time_TxtBox.Name = "ordMed_Time_TxtBox";
-            this.ordMed_Time_TxtBox.Size = new System.Drawing.Size(299, 36);
-            this.ordMed_Time_TxtBox.TabIndex = 18;
-            // 
-            // label95
-            // 
-            this.label95.AutoSize = true;
-            this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label95.Location = new System.Drawing.Point(5, 50);
-            this.label95.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(85, 13);
-            this.label95.TabIndex = 17;
-            this.label95.Text = "Time/Frequency";
-            // 
-            // comboBox14
-            // 
-            this.comboBox14.Enabled = false;
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(1090, 16);
-            this.comboBox14.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(57, 23);
-            this.comboBox14.TabIndex = 16;
-            // 
-            // label96
-            // 
-            this.label96.AutoSize = true;
-            this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label96.Location = new System.Drawing.Point(1052, 21);
-            this.label96.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(36, 13);
-            this.label96.TabIndex = 15;
-            this.label96.Text = "Route";
-            // 
-            // maskedTextBox41
-            // 
-            this.maskedTextBox41.Enabled = false;
-            this.maskedTextBox41.Location = new System.Drawing.Point(882, 18);
-            this.maskedTextBox41.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox41.Name = "maskedTextBox41";
-            this.maskedTextBox41.Size = new System.Drawing.Size(78, 21);
-            this.maskedTextBox41.TabIndex = 14;
-            // 
-            // comboBox15
-            // 
-            this.comboBox15.Enabled = false;
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(964, 17);
-            this.comboBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(57, 23);
-            this.comboBox15.TabIndex = 13;
-            // 
-            // label97
-            // 
-            this.label97.AutoSize = true;
-            this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label97.Location = new System.Drawing.Point(850, 20);
-            this.label97.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(32, 13);
-            this.label97.TabIndex = 12;
-            this.label97.Text = "Dose";
-            // 
-            // label98
-            // 
-            this.label98.AutoSize = true;
-            this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label98.Location = new System.Drawing.Point(444, 20);
-            this.label98.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(66, 13);
-            this.label98.TabIndex = 11;
-            this.label98.Text = "Brand Name";
-            // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label99.Location = new System.Drawing.Point(5, 22);
-            this.label99.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(61, 13);
-            this.label99.TabIndex = 10;
-            this.label99.Text = "Drug Name";
-            // 
-            // groupBox52
-            // 
-            this.groupBox52.Controls.Add(this.ordMed_Drug_DataGridView);
-            this.groupBox52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox52.Location = new System.Drawing.Point(241, 6);
-            this.groupBox52.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox52.Name = "groupBox52";
-            this.groupBox52.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox52.Size = new System.Drawing.Size(918, 74);
-            this.groupBox52.TabIndex = 9;
-            this.groupBox52.TabStop = false;
-            this.groupBox52.Text = "Drug List";
-            // 
-            // ordMed_Drug_DataGridView
-            // 
-            this.ordMed_Drug_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ordMed_Drug_DataGridView.Location = new System.Drawing.Point(90, -90);
-            this.ordMed_Drug_DataGridView.Name = "ordMed_Drug_DataGridView";
-            this.ordMed_Drug_DataGridView.Size = new System.Drawing.Size(240, 150);
-            this.ordMed_Drug_DataGridView.TabIndex = 0;
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.Location = new System.Drawing.Point(10, 15);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(97, 13);
-            this.label94.TabIndex = 1;
-            this.label94.Text = "Type of medication";
-            // 
-            // ordMed_Type_CmbBox
-            // 
-            this.ordMed_Type_CmbBox.FormattingEnabled = true;
-            this.ordMed_Type_CmbBox.Location = new System.Drawing.Point(115, 12);
-            this.ordMed_Type_CmbBox.Name = "ordMed_Type_CmbBox";
-            this.ordMed_Type_CmbBox.Size = new System.Drawing.Size(121, 21);
-            this.ordMed_Type_CmbBox.TabIndex = 0;
             // 
             // tabPage4
             // 
@@ -9593,6 +12651,227 @@
             this.label51.TabIndex = 0;
             this.label51.Text = "Activity Level Goal";
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.label162);
+            this.tabPage3.Controls.Add(this.groupBox57);
+            this.tabPage3.Controls.Add(this.groupBox52);
+            this.tabPage3.Controls.Add(this.label94);
+            this.tabPage3.Controls.Add(this.ordMed_Type_CmbBox);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1164, 576);
+            this.tabPage3.TabIndex = 0;
+            this.tabPage3.Text = "Medications";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label162
+            // 
+            this.label162.AutoSize = true;
+            this.label162.Location = new System.Drawing.Point(401, 281);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(496, 13);
+            this.label162.TabIndex = 12;
+            this.label162.Text = "Drug information should be in a read only state until a combo box selection is ma" +
+    "de or a drug is selected.";
+            // 
+            // groupBox57
+            // 
+            this.groupBox57.Controls.Add(this.dataGridView1);
+            this.groupBox57.Controls.Add(this.maskedTextBox38);
+            this.groupBox57.Controls.Add(this.maskedTextBox39);
+            this.groupBox57.Controls.Add(this.ordMed_Time_TxtBox);
+            this.groupBox57.Controls.Add(this.label95);
+            this.groupBox57.Controls.Add(this.comboBox14);
+            this.groupBox57.Controls.Add(this.label96);
+            this.groupBox57.Controls.Add(this.maskedTextBox41);
+            this.groupBox57.Controls.Add(this.comboBox15);
+            this.groupBox57.Controls.Add(this.label97);
+            this.groupBox57.Controls.Add(this.label98);
+            this.groupBox57.Controls.Add(this.label99);
+            this.groupBox57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox57.Location = new System.Drawing.Point(5, 84);
+            this.groupBox57.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox57.Name = "groupBox57";
+            this.groupBox57.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox57.Size = new System.Drawing.Size(1154, 97);
+            this.groupBox57.TabIndex = 10;
+            this.groupBox57.TabStop = false;
+            this.groupBox57.Text = "Drug Information";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2});
+            this.dataGridView1.Location = new System.Drawing.Point(244, -61);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 50);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Column1";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Column2";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // maskedTextBox38
+            // 
+            this.maskedTextBox38.Enabled = false;
+            this.maskedTextBox38.Location = new System.Drawing.Point(511, 16);
+            this.maskedTextBox38.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox38.Name = "maskedTextBox38";
+            this.maskedTextBox38.Size = new System.Drawing.Size(292, 21);
+            this.maskedTextBox38.TabIndex = 22;
+            // 
+            // maskedTextBox39
+            // 
+            this.maskedTextBox39.Enabled = false;
+            this.maskedTextBox39.Location = new System.Drawing.Point(68, 18);
+            this.maskedTextBox39.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox39.Name = "maskedTextBox39";
+            this.maskedTextBox39.Size = new System.Drawing.Size(326, 21);
+            this.maskedTextBox39.TabIndex = 21;
+            // 
+            // ordMed_Time_TxtBox
+            // 
+            this.ordMed_Time_TxtBox.Enabled = false;
+            this.ordMed_Time_TxtBox.Location = new System.Drawing.Point(95, 50);
+            this.ordMed_Time_TxtBox.Margin = new System.Windows.Forms.Padding(2);
+            this.ordMed_Time_TxtBox.Multiline = true;
+            this.ordMed_Time_TxtBox.Name = "ordMed_Time_TxtBox";
+            this.ordMed_Time_TxtBox.Size = new System.Drawing.Size(299, 36);
+            this.ordMed_Time_TxtBox.TabIndex = 18;
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.Location = new System.Drawing.Point(5, 50);
+            this.label95.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(85, 13);
+            this.label95.TabIndex = 17;
+            this.label95.Text = "Time/Frequency";
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.Enabled = false;
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Location = new System.Drawing.Point(1090, 16);
+            this.comboBox14.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(57, 23);
+            this.comboBox14.TabIndex = 16;
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label96.Location = new System.Drawing.Point(1052, 21);
+            this.label96.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(36, 13);
+            this.label96.TabIndex = 15;
+            this.label96.Text = "Route";
+            // 
+            // maskedTextBox41
+            // 
+            this.maskedTextBox41.Enabled = false;
+            this.maskedTextBox41.Location = new System.Drawing.Point(882, 18);
+            this.maskedTextBox41.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox41.Name = "maskedTextBox41";
+            this.maskedTextBox41.Size = new System.Drawing.Size(78, 21);
+            this.maskedTextBox41.TabIndex = 14;
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.Enabled = false;
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Location = new System.Drawing.Point(964, 17);
+            this.comboBox15.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(57, 23);
+            this.comboBox15.TabIndex = 13;
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label97.Location = new System.Drawing.Point(850, 20);
+            this.label97.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(32, 13);
+            this.label97.TabIndex = 12;
+            this.label97.Text = "Dose";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label98.Location = new System.Drawing.Point(444, 20);
+            this.label98.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(66, 13);
+            this.label98.TabIndex = 11;
+            this.label98.Text = "Brand Name";
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label99.Location = new System.Drawing.Point(5, 22);
+            this.label99.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(61, 13);
+            this.label99.TabIndex = 10;
+            this.label99.Text = "Drug Name";
+            // 
+            // groupBox52
+            // 
+            this.groupBox52.Controls.Add(this.ordMed_Drug_DataGridView);
+            this.groupBox52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox52.Location = new System.Drawing.Point(241, 6);
+            this.groupBox52.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox52.Name = "groupBox52";
+            this.groupBox52.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox52.Size = new System.Drawing.Size(918, 74);
+            this.groupBox52.TabIndex = 9;
+            this.groupBox52.TabStop = false;
+            this.groupBox52.Text = "Drug List";
+            // 
+            // ordMed_Drug_DataGridView
+            // 
+            this.ordMed_Drug_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ordMed_Drug_DataGridView.Location = new System.Drawing.Point(90, -90);
+            this.ordMed_Drug_DataGridView.Name = "ordMed_Drug_DataGridView";
+            this.ordMed_Drug_DataGridView.Size = new System.Drawing.Size(240, 150);
+            this.ordMed_Drug_DataGridView.TabIndex = 0;
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(10, 15);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(97, 13);
+            this.label94.TabIndex = 1;
+            this.label94.Text = "Type of medication";
+            // 
+            // ordMed_Type_CmbBox
+            // 
+            this.ordMed_Type_CmbBox.FormattingEnabled = true;
+            this.ordMed_Type_CmbBox.Location = new System.Drawing.Point(115, 12);
+            this.ordMed_Type_CmbBox.Name = "ordMed_Type_CmbBox";
+            this.ordMed_Type_CmbBox.Size = new System.Drawing.Size(121, 21);
+            this.ordMed_Type_CmbBox.TabIndex = 0;
+            // 
             // notTabs
             // 
             this.notTabs.Controls.Add(this.tabPage2);
@@ -9835,6 +13114,16 @@
             this.maskedTextBox14.Size = new System.Drawing.Size(25, 19);
             this.maskedTextBox14.TabIndex = 113;
             // 
+            // maskedTextBox20
+            // 
+            this.maskedTextBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox20.Location = new System.Drawing.Point(583, 11);
+            this.maskedTextBox20.Margin = new System.Windows.Forms.Padding(2);
+            this.maskedTextBox20.Name = "maskedTextBox20";
+            this.maskedTextBox20.ReadOnly = true;
+            this.maskedTextBox20.Size = new System.Drawing.Size(25, 19);
+            this.maskedTextBox20.TabIndex = 114;
+            // 
             // maskedTextBox13
             // 
             this.maskedTextBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -9877,3286 +13166,45 @@
             this.label47.TabIndex = 109;
             this.label47.Text = "Height:";
             // 
-            // maskedTextBox20
-            // 
-            this.maskedTextBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox20.Location = new System.Drawing.Point(583, 11);
-            this.maskedTextBox20.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox20.Name = "maskedTextBox20";
-            this.maskedTextBox20.ReadOnly = true;
-            this.maskedTextBox20.Size = new System.Drawing.Size(25, 19);
-            this.maskedTextBox20.TabIndex = 114;
-            // 
-            // groupBox59
-            // 
-            this.groupBox59.Controls.Add(this.checkBox106);
-            this.groupBox59.Controls.Add(this.checkBox107);
-            this.groupBox59.Controls.Add(this.checkBox114);
-            this.groupBox59.Controls.Add(this.checkBox115);
-            this.groupBox59.Controls.Add(this.checkBox148);
-            this.groupBox59.Controls.Add(this.checkBox149);
-            this.groupBox59.Controls.Add(this.checkBox150);
-            this.groupBox59.Enabled = false;
-            this.groupBox59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox59.Location = new System.Drawing.Point(594, 281);
-            this.groupBox59.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox59.Name = "groupBox59";
-            this.groupBox59.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox59.Size = new System.Drawing.Size(550, 80);
-            this.groupBox59.TabIndex = 85;
-            this.groupBox59.TabStop = false;
-            this.groupBox59.Text = "Left Lower Quadrant (LLQ)";
-            // 
-            // groupBox62
-            // 
-            this.groupBox62.Controls.Add(this.checkBox151);
-            this.groupBox62.Controls.Add(this.checkBox152);
-            this.groupBox62.Controls.Add(this.checkBox153);
-            this.groupBox62.Controls.Add(this.checkBox154);
-            this.groupBox62.Controls.Add(this.checkBox155);
-            this.groupBox62.Controls.Add(this.checkBox156);
-            this.groupBox62.Controls.Add(this.checkBox157);
-            this.groupBox62.Enabled = false;
-            this.groupBox62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox62.Location = new System.Drawing.Point(594, 447);
-            this.groupBox62.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox62.Name = "groupBox62";
-            this.groupBox62.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox62.Size = new System.Drawing.Size(550, 78);
-            this.groupBox62.TabIndex = 84;
-            this.groupBox62.TabStop = false;
-            this.groupBox62.Text = "Right Lower Quadrant (RLQ)";
-            // 
-            // groupBox67
-            // 
-            this.groupBox67.Controls.Add(this.checkBox158);
-            this.groupBox67.Controls.Add(this.checkBox159);
-            this.groupBox67.Controls.Add(this.checkBox160);
-            this.groupBox67.Controls.Add(this.checkBox161);
-            this.groupBox67.Controls.Add(this.checkBox162);
-            this.groupBox67.Controls.Add(this.checkBox163);
-            this.groupBox67.Controls.Add(this.checkBox164);
-            this.groupBox67.Enabled = false;
-            this.groupBox67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox67.Location = new System.Drawing.Point(594, 364);
-            this.groupBox67.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox67.Name = "groupBox67";
-            this.groupBox67.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox67.Size = new System.Drawing.Size(550, 83);
-            this.groupBox67.TabIndex = 83;
-            this.groupBox67.TabStop = false;
-            this.groupBox67.Text = "Right Upper Quadrant (LUQ)";
-            // 
-            // groupBox68
-            // 
-            this.groupBox68.Controls.Add(this.checkBox165);
-            this.groupBox68.Controls.Add(this.checkBox166);
-            this.groupBox68.Controls.Add(this.checkBox167);
-            this.groupBox68.Controls.Add(this.checkBox168);
-            this.groupBox68.Controls.Add(this.checkBox169);
-            this.groupBox68.Controls.Add(this.checkBox170);
-            this.groupBox68.Controls.Add(this.checkBox171);
-            this.groupBox68.Enabled = false;
-            this.groupBox68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox68.Location = new System.Drawing.Point(594, 195);
-            this.groupBox68.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox68.Name = "groupBox68";
-            this.groupBox68.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox68.Size = new System.Drawing.Size(550, 81);
-            this.groupBox68.TabIndex = 82;
-            this.groupBox68.TabStop = false;
-            this.groupBox68.Text = "Left Upper Quadrant (LUQ)";
-            // 
-            // groupBox69
-            // 
-            this.groupBox69.Controls.Add(this.checkBox172);
-            this.groupBox69.Controls.Add(this.checkBox173);
-            this.groupBox69.Controls.Add(this.checkBox174);
-            this.groupBox69.Controls.Add(this.checkBox175);
-            this.groupBox69.Controls.Add(this.checkBox176);
-            this.groupBox69.Controls.Add(this.checkBox177);
-            this.groupBox69.Controls.Add(this.checkBox178);
-            this.groupBox69.Enabled = false;
-            this.groupBox69.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox69.Location = new System.Drawing.Point(593, 111);
-            this.groupBox69.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox69.Name = "groupBox69";
-            this.groupBox69.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox69.Size = new System.Drawing.Size(550, 82);
-            this.groupBox69.TabIndex = 81;
-            this.groupBox69.TabStop = false;
-            this.groupBox69.Text = "Overall";
-            // 
-            // checkBox172
-            // 
-            this.checkBox172.AutoSize = true;
-            this.checkBox172.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox172.Location = new System.Drawing.Point(209, 38);
-            this.checkBox172.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox172.Name = "checkBox172";
-            this.checkBox172.Size = new System.Drawing.Size(95, 17);
-            this.checkBox172.TabIndex = 8;
-            this.checkBox172.Text = "Non-distended";
-            this.checkBox172.UseVisualStyleBackColor = true;
-            // 
-            // checkBox173
-            // 
-            this.checkBox173.AutoSize = true;
-            this.checkBox173.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox173.Location = new System.Drawing.Point(209, 16);
-            this.checkBox173.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox173.Name = "checkBox173";
-            this.checkBox173.Size = new System.Drawing.Size(74, 17);
-            this.checkBox173.TabIndex = 7;
-            this.checkBox173.Text = "Distended";
-            this.checkBox173.UseVisualStyleBackColor = true;
-            // 
-            // checkBox174
-            // 
-            this.checkBox174.AutoSize = true;
-            this.checkBox174.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox174.Location = new System.Drawing.Point(397, 59);
-            this.checkBox174.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox174.Name = "checkBox174";
-            this.checkBox174.Size = new System.Drawing.Size(127, 17);
-            this.checkBox174.TabIndex = 6;
-            this.checkBox174.Text = "Absent bowel sounds";
-            this.checkBox174.UseVisualStyleBackColor = true;
-            // 
-            // checkBox175
-            // 
-            this.checkBox175.AutoSize = true;
-            this.checkBox175.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox175.Location = new System.Drawing.Point(397, 38);
-            this.checkBox175.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox175.Name = "checkBox175";
-            this.checkBox175.Size = new System.Drawing.Size(148, 17);
-            this.checkBox175.TabIndex = 5;
-            this.checkBox175.Text = "Hypoactive bowel sounds";
-            this.checkBox175.UseVisualStyleBackColor = true;
-            // 
-            // checkBox176
-            // 
-            this.checkBox176.AutoSize = true;
-            this.checkBox176.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox176.Location = new System.Drawing.Point(397, 16);
-            this.checkBox176.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox176.Name = "checkBox176";
-            this.checkBox176.Size = new System.Drawing.Size(130, 17);
-            this.checkBox176.TabIndex = 4;
-            this.checkBox176.Text = "Bowel sounds present";
-            this.checkBox176.UseVisualStyleBackColor = true;
-            // 
-            // checkBox177
-            // 
-            this.checkBox177.AutoSize = true;
-            this.checkBox177.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox177.Location = new System.Drawing.Point(11, 38);
-            this.checkBox177.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox177.Name = "checkBox177";
-            this.checkBox177.Size = new System.Drawing.Size(79, 17);
-            this.checkBox177.TabIndex = 1;
-            this.checkBox177.Text = "Non-tender";
-            this.checkBox177.UseVisualStyleBackColor = true;
-            // 
-            // checkBox178
-            // 
-            this.checkBox178.AutoSize = true;
-            this.checkBox178.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox178.Location = new System.Drawing.Point(11, 17);
-            this.checkBox178.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox178.Name = "checkBox178";
-            this.checkBox178.Size = new System.Drawing.Size(60, 17);
-            this.checkBox178.TabIndex = 0;
-            this.checkBox178.Text = "Tender";
-            this.checkBox178.UseVisualStyleBackColor = true;
-            // 
-            // groupBox71
-            // 
-            this.groupBox71.Controls.Add(this.radioButton1);
-            this.groupBox71.Controls.Add(this.radioButton2);
-            this.groupBox71.Controls.Add(this.radioButton3);
-            this.groupBox71.Controls.Add(this.radioButton4);
-            this.groupBox71.Controls.Add(this.maskedTextBox21);
-            this.groupBox71.Controls.Add(this.radioButton5);
-            this.groupBox71.Controls.Add(this.radioButton6);
-            this.groupBox71.Controls.Add(this.radioButton7);
-            this.groupBox71.Controls.Add(this.radioButton8);
-            this.groupBox71.Controls.Add(this.label36);
-            this.groupBox71.Controls.Add(this.label37);
-            this.groupBox71.Controls.Add(this.label42);
-            this.groupBox71.Controls.Add(this.label43);
-            this.groupBox71.Controls.Add(this.label44);
-            this.groupBox71.Enabled = false;
-            this.groupBox71.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox71.Location = new System.Drawing.Point(16, 220);
-            this.groupBox71.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox71.Name = "groupBox71";
-            this.groupBox71.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox71.Size = new System.Drawing.Size(550, 63);
-            this.groupBox71.TabIndex = 101;
-            this.groupBox71.TabStop = false;
-            this.groupBox71.Text = "Alertness and Orientation";
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(503, 35);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(39, 17);
-            this.radioButton1.TabIndex = 31;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "No";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(456, 35);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(43, 17);
-            this.radioButton2.TabIndex = 30;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Yes";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(503, 14);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(39, 17);
-            this.radioButton3.TabIndex = 29;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "No";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(456, 14);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(43, 17);
-            this.radioButton4.TabIndex = 28;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Yes";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // maskedTextBox21
-            // 
-            this.maskedTextBox21.Location = new System.Drawing.Point(285, 33);
-            this.maskedTextBox21.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox21.Name = "maskedTextBox21";
-            this.maskedTextBox21.Size = new System.Drawing.Size(52, 21);
-            this.maskedTextBox21.TabIndex = 27;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(109, 35);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(39, 17);
-            this.radioButton5.TabIndex = 22;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "No";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.Location = new System.Drawing.Point(62, 35);
-            this.radioButton6.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(43, 17);
-            this.radioButton6.TabIndex = 21;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Yes";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.Location = new System.Drawing.Point(109, 14);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(39, 17);
-            this.radioButton7.TabIndex = 20;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "No";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton8.Location = new System.Drawing.Point(62, 14);
-            this.radioButton8.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(43, 17);
-            this.radioButton8.TabIndex = 19;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Yes";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(231, 37);
-            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(53, 13);
-            this.label36.TabIndex = 18;
-            this.label36.Text = "A&O Score";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(404, 36);
-            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(48, 13);
-            this.label37.TabIndex = 17;
-            this.label37.Text = "Situation";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(405, 17);
-            this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(34, 13);
-            this.label42.TabIndex = 16;
-            this.label42.Text = "Place";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(11, 36);
-            this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(30, 13);
-            this.label43.TabIndex = 15;
-            this.label43.Text = "Time";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(11, 16);
-            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(40, 13);
-            this.label44.TabIndex = 14;
-            this.label44.Text = "Person";
-            // 
-            // groupBox72
-            // 
-            this.groupBox72.Controls.Add(this.radioButton170);
-            this.groupBox72.Controls.Add(this.radioButton171);
-            this.groupBox72.Controls.Add(this.radioButton172);
-            this.groupBox72.Controls.Add(this.radioButton173);
-            this.groupBox72.Controls.Add(this.maskedTextBox10);
-            this.groupBox72.Controls.Add(this.radioButton174);
-            this.groupBox72.Controls.Add(this.radioButton175);
-            this.groupBox72.Controls.Add(this.radioButton176);
-            this.groupBox72.Controls.Add(this.radioButton177);
-            this.groupBox72.Controls.Add(this.label19);
-            this.groupBox72.Controls.Add(this.label141);
-            this.groupBox72.Controls.Add(this.label142);
-            this.groupBox72.Controls.Add(this.label143);
-            this.groupBox72.Controls.Add(this.label144);
-            this.groupBox72.Enabled = false;
-            this.groupBox72.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox72.Location = new System.Drawing.Point(598, 220);
-            this.groupBox72.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox72.Name = "groupBox72";
-            this.groupBox72.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox72.Size = new System.Drawing.Size(550, 63);
-            this.groupBox72.TabIndex = 106;
-            this.groupBox72.TabStop = false;
-            this.groupBox72.Text = "Alertness and Orientation";
-            // 
-            // radioButton170
-            // 
-            this.radioButton170.AutoSize = true;
-            this.radioButton170.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton170.Location = new System.Drawing.Point(503, 35);
-            this.radioButton170.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton170.Name = "radioButton170";
-            this.radioButton170.Size = new System.Drawing.Size(39, 17);
-            this.radioButton170.TabIndex = 31;
-            this.radioButton170.TabStop = true;
-            this.radioButton170.Text = "No";
-            this.radioButton170.UseVisualStyleBackColor = true;
-            // 
-            // radioButton171
-            // 
-            this.radioButton171.AutoSize = true;
-            this.radioButton171.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton171.Location = new System.Drawing.Point(456, 35);
-            this.radioButton171.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton171.Name = "radioButton171";
-            this.radioButton171.Size = new System.Drawing.Size(43, 17);
-            this.radioButton171.TabIndex = 30;
-            this.radioButton171.TabStop = true;
-            this.radioButton171.Text = "Yes";
-            this.radioButton171.UseVisualStyleBackColor = true;
-            // 
-            // radioButton172
-            // 
-            this.radioButton172.AutoSize = true;
-            this.radioButton172.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton172.Location = new System.Drawing.Point(503, 14);
-            this.radioButton172.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton172.Name = "radioButton172";
-            this.radioButton172.Size = new System.Drawing.Size(39, 17);
-            this.radioButton172.TabIndex = 29;
-            this.radioButton172.TabStop = true;
-            this.radioButton172.Text = "No";
-            this.radioButton172.UseVisualStyleBackColor = true;
-            // 
-            // radioButton173
-            // 
-            this.radioButton173.AutoSize = true;
-            this.radioButton173.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton173.Location = new System.Drawing.Point(456, 14);
-            this.radioButton173.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton173.Name = "radioButton173";
-            this.radioButton173.Size = new System.Drawing.Size(43, 17);
-            this.radioButton173.TabIndex = 28;
-            this.radioButton173.TabStop = true;
-            this.radioButton173.Text = "Yes";
-            this.radioButton173.UseVisualStyleBackColor = true;
-            // 
-            // maskedTextBox10
-            // 
-            this.maskedTextBox10.Location = new System.Drawing.Point(285, 33);
-            this.maskedTextBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox10.Name = "maskedTextBox10";
-            this.maskedTextBox10.Size = new System.Drawing.Size(52, 21);
-            this.maskedTextBox10.TabIndex = 27;
-            // 
-            // radioButton174
-            // 
-            this.radioButton174.AutoSize = true;
-            this.radioButton174.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton174.Location = new System.Drawing.Point(109, 35);
-            this.radioButton174.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton174.Name = "radioButton174";
-            this.radioButton174.Size = new System.Drawing.Size(39, 17);
-            this.radioButton174.TabIndex = 22;
-            this.radioButton174.TabStop = true;
-            this.radioButton174.Text = "No";
-            this.radioButton174.UseVisualStyleBackColor = true;
-            // 
-            // radioButton175
-            // 
-            this.radioButton175.AutoSize = true;
-            this.radioButton175.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton175.Location = new System.Drawing.Point(62, 35);
-            this.radioButton175.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton175.Name = "radioButton175";
-            this.radioButton175.Size = new System.Drawing.Size(43, 17);
-            this.radioButton175.TabIndex = 21;
-            this.radioButton175.TabStop = true;
-            this.radioButton175.Text = "Yes";
-            this.radioButton175.UseVisualStyleBackColor = true;
-            // 
-            // radioButton176
-            // 
-            this.radioButton176.AutoSize = true;
-            this.radioButton176.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton176.Location = new System.Drawing.Point(109, 14);
-            this.radioButton176.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton176.Name = "radioButton176";
-            this.radioButton176.Size = new System.Drawing.Size(39, 17);
-            this.radioButton176.TabIndex = 20;
-            this.radioButton176.TabStop = true;
-            this.radioButton176.Text = "No";
-            this.radioButton176.UseVisualStyleBackColor = true;
-            // 
-            // radioButton177
-            // 
-            this.radioButton177.AutoSize = true;
-            this.radioButton177.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton177.Location = new System.Drawing.Point(62, 14);
-            this.radioButton177.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton177.Name = "radioButton177";
-            this.radioButton177.Size = new System.Drawing.Size(43, 17);
-            this.radioButton177.TabIndex = 19;
-            this.radioButton177.TabStop = true;
-            this.radioButton177.Text = "Yes";
-            this.radioButton177.UseVisualStyleBackColor = true;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(231, 37);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(53, 13);
-            this.label19.TabIndex = 18;
-            this.label19.Text = "A&O Score";
-            // 
-            // label141
-            // 
-            this.label141.AutoSize = true;
-            this.label141.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label141.Location = new System.Drawing.Point(404, 36);
-            this.label141.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(48, 13);
-            this.label141.TabIndex = 17;
-            this.label141.Text = "Situation";
-            // 
-            // label142
-            // 
-            this.label142.AutoSize = true;
-            this.label142.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label142.Location = new System.Drawing.Point(405, 17);
-            this.label142.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(34, 13);
-            this.label142.TabIndex = 16;
-            this.label142.Text = "Place";
-            // 
-            // label143
-            // 
-            this.label143.AutoSize = true;
-            this.label143.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label143.Location = new System.Drawing.Point(11, 36);
-            this.label143.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(30, 13);
-            this.label143.TabIndex = 15;
-            this.label143.Text = "Time";
-            // 
-            // label144
-            // 
-            this.label144.AutoSize = true;
-            this.label144.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label144.Location = new System.Drawing.Point(11, 16);
-            this.label144.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label144.Name = "label144";
-            this.label144.Size = new System.Drawing.Size(40, 13);
-            this.label144.TabIndex = 14;
-            this.label144.Text = "Person";
-            // 
-            // groupBox73
-            // 
-            this.groupBox73.Controls.Add(this.textBox13);
-            this.groupBox73.Enabled = false;
-            this.groupBox73.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox73.Location = new System.Drawing.Point(599, 144);
-            this.groupBox73.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox73.Name = "groupBox73";
-            this.groupBox73.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox73.Size = new System.Drawing.Size(550, 76);
-            this.groupBox73.TabIndex = 102;
-            this.groupBox73.TabStop = false;
-            this.groupBox73.Text = "General appearance and behavior";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(5, 18);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(536, 51);
-            this.textBox13.TabIndex = 0;
-            // 
-            // groupBox79
-            // 
-            this.groupBox79.Controls.Add(this.checkBox183);
-            this.groupBox79.Controls.Add(this.checkBox184);
-            this.groupBox79.Controls.Add(this.checkBox185);
-            this.groupBox79.Controls.Add(this.checkBox186);
-            this.groupBox79.Controls.Add(this.checkBox192);
-            this.groupBox79.Controls.Add(this.checkBox193);
-            this.groupBox79.Controls.Add(this.checkBox194);
-            this.groupBox79.Controls.Add(this.checkBox195);
-            this.groupBox79.Enabled = false;
-            this.groupBox79.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox79.Location = new System.Drawing.Point(599, 363);
-            this.groupBox79.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox79.Name = "groupBox79";
-            this.groupBox79.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox79.Size = new System.Drawing.Size(550, 80);
-            this.groupBox79.TabIndex = 105;
-            this.groupBox79.TabStop = false;
-            this.groupBox79.Text = "General Affect";
-            // 
-            // groupBox80
-            // 
-            this.groupBox80.Controls.Add(this.checkBox231);
-            this.groupBox80.Controls.Add(this.checkBox232);
-            this.groupBox80.Controls.Add(this.checkBox233);
-            this.groupBox80.Controls.Add(this.checkBox234);
-            this.groupBox80.Controls.Add(this.checkBox235);
-            this.groupBox80.Controls.Add(this.checkBox236);
-            this.groupBox80.Enabled = false;
-            this.groupBox80.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox80.Location = new System.Drawing.Point(599, 447);
-            this.groupBox80.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox80.Name = "groupBox80";
-            this.groupBox80.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox80.Size = new System.Drawing.Size(550, 80);
-            this.groupBox80.TabIndex = 104;
-            this.groupBox80.TabStop = false;
-            this.groupBox80.Text = "Readiness to learn";
-            // 
-            // checkBox231
-            // 
-            this.checkBox231.AutoSize = true;
-            this.checkBox231.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox231.Location = new System.Drawing.Point(376, 34);
-            this.checkBox231.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox231.Name = "checkBox231";
-            this.checkBox231.Size = new System.Drawing.Size(170, 17);
-            this.checkBox231.TabIndex = 14;
-            this.checkBox231.Text = "Negative non-verbal feedback";
-            this.checkBox231.UseVisualStyleBackColor = true;
-            // 
-            // checkBox232
-            // 
-            this.checkBox232.AutoSize = true;
-            this.checkBox232.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox232.Location = new System.Drawing.Point(376, 14);
-            this.checkBox232.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox232.Name = "checkBox232";
-            this.checkBox232.Size = new System.Drawing.Size(82, 17);
-            this.checkBox232.TabIndex = 13;
-            this.checkBox232.Text = "Unengaged";
-            this.checkBox232.UseVisualStyleBackColor = true;
-            // 
-            // checkBox233
-            // 
-            this.checkBox233.AutoSize = true;
-            this.checkBox233.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox233.Location = new System.Drawing.Point(168, 15);
-            this.checkBox233.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox233.Name = "checkBox233";
-            this.checkBox233.Size = new System.Drawing.Size(97, 17);
-            this.checkBox233.TabIndex = 12;
-            this.checkBox233.Text = "Asks questions";
-            this.checkBox233.UseVisualStyleBackColor = true;
-            // 
-            // checkBox234
-            // 
-            this.checkBox234.AutoSize = true;
-            this.checkBox234.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox234.Location = new System.Drawing.Point(11, 38);
-            this.checkBox234.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox234.Name = "checkBox234";
-            this.checkBox234.Size = new System.Drawing.Size(75, 17);
-            this.checkBox234.TabIndex = 11;
-            this.checkBox234.Text = "Receptive";
-            this.checkBox234.UseVisualStyleBackColor = true;
-            // 
-            // checkBox235
-            // 
-            this.checkBox235.AutoSize = true;
-            this.checkBox235.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox235.Location = new System.Drawing.Point(168, 36);
-            this.checkBox235.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox235.Name = "checkBox235";
-            this.checkBox235.Size = new System.Drawing.Size(164, 17);
-            this.checkBox235.TabIndex = 10;
-            this.checkBox235.Text = "Positive non-verbal feedback";
-            this.checkBox235.UseVisualStyleBackColor = true;
-            // 
-            // checkBox236
-            // 
-            this.checkBox236.AutoSize = true;
-            this.checkBox236.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox236.Location = new System.Drawing.Point(11, 17);
-            this.checkBox236.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox236.Name = "checkBox236";
-            this.checkBox236.Size = new System.Drawing.Size(69, 17);
-            this.checkBox236.TabIndex = 9;
-            this.checkBox236.Text = "Engaged";
-            this.checkBox236.UseVisualStyleBackColor = true;
-            // 
-            // groupBox87
-            // 
-            this.groupBox87.Controls.Add(this.checkBox237);
-            this.groupBox87.Controls.Add(this.checkBox238);
-            this.groupBox87.Controls.Add(this.checkBox239);
-            this.groupBox87.Controls.Add(this.checkBox240);
-            this.groupBox87.Controls.Add(this.textBox30);
-            this.groupBox87.Enabled = false;
-            this.groupBox87.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox87.Location = new System.Drawing.Point(599, 281);
-            this.groupBox87.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox87.Name = "groupBox87";
-            this.groupBox87.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox87.Size = new System.Drawing.Size(550, 81);
-            this.groupBox87.TabIndex = 103;
-            this.groupBox87.TabStop = false;
-            this.groupBox87.Text = "Family Present";
-            // 
-            // checkBox237
-            // 
-            this.checkBox237.AutoSize = true;
-            this.checkBox237.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox237.Location = new System.Drawing.Point(470, 17);
-            this.checkBox237.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox237.Name = "checkBox237";
-            this.checkBox237.Size = new System.Drawing.Size(52, 17);
-            this.checkBox237.TabIndex = 12;
-            this.checkBox237.Text = "Other";
-            this.checkBox237.UseVisualStyleBackColor = true;
-            // 
-            // checkBox238
-            // 
-            this.checkBox238.AutoSize = true;
-            this.checkBox238.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox238.Location = new System.Drawing.Point(319, 16);
-            this.checkBox238.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox238.Name = "checkBox238";
-            this.checkBox238.Size = new System.Drawing.Size(64, 17);
-            this.checkBox238.TabIndex = 11;
-            this.checkBox238.Text = "Children";
-            this.checkBox238.UseVisualStyleBackColor = true;
-            // 
-            // checkBox239
-            // 
-            this.checkBox239.AutoSize = true;
-            this.checkBox239.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox239.Location = new System.Drawing.Point(165, 17);
-            this.checkBox239.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox239.Name = "checkBox239";
-            this.checkBox239.Size = new System.Drawing.Size(62, 17);
-            this.checkBox239.TabIndex = 10;
-            this.checkBox239.Text = "Parents";
-            this.checkBox239.UseVisualStyleBackColor = true;
-            // 
-            // checkBox240
-            // 
-            this.checkBox240.AutoSize = true;
-            this.checkBox240.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox240.Location = new System.Drawing.Point(11, 17);
-            this.checkBox240.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox240.Name = "checkBox240";
-            this.checkBox240.Size = new System.Drawing.Size(62, 17);
-            this.checkBox240.TabIndex = 9;
-            this.checkBox240.Text = "Spouse";
-            this.checkBox240.UseVisualStyleBackColor = true;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Location = new System.Drawing.Point(3, 34);
-            this.textBox30.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox30.Multiline = true;
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(543, 42);
-            this.textBox30.TabIndex = 0;
-            // 
-            // groupBox63
-            // 
-            this.groupBox63.Controls.Add(this.radioButton134);
-            this.groupBox63.Controls.Add(this.radioButton135);
-            this.groupBox63.Controls.Add(this.radioButton136);
-            this.groupBox63.Controls.Add(this.radioButton137);
-            this.groupBox63.Controls.Add(this.radioButton138);
-            this.groupBox63.Enabled = false;
-            this.groupBox63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox63.Location = new System.Drawing.Point(594, 396);
-            this.groupBox63.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox63.Name = "groupBox63";
-            this.groupBox63.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox63.Size = new System.Drawing.Size(550, 64);
-            this.groupBox63.TabIndex = 71;
-            this.groupBox63.TabStop = false;
-            this.groupBox63.Text = "Edema";
-            // 
-            // radioButton134
-            // 
-            this.radioButton134.AutoSize = true;
-            this.radioButton134.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton134.Location = new System.Drawing.Point(385, 15);
-            this.radioButton134.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton134.Name = "radioButton134";
-            this.radioButton134.Size = new System.Drawing.Size(72, 17);
-            this.radioButton134.TabIndex = 25;
-            this.radioButton134.TabStop = true;
-            this.radioButton134.Text = "4+ - >1cm";
-            this.radioButton134.UseVisualStyleBackColor = true;
-            // 
-            // radioButton135
-            // 
-            this.radioButton135.AutoSize = true;
-            this.radioButton135.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton135.Location = new System.Drawing.Point(194, 36);
-            this.radioButton135.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton135.Name = "radioButton135";
-            this.radioButton135.Size = new System.Drawing.Size(83, 17);
-            this.radioButton135.TabIndex = 22;
-            this.radioButton135.TabStop = true;
-            this.radioButton135.Text = "3+ - 5-10mm";
-            this.radioButton135.UseVisualStyleBackColor = true;
-            // 
-            // radioButton136
-            // 
-            this.radioButton136.AutoSize = true;
-            this.radioButton136.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton136.Location = new System.Drawing.Point(194, 15);
-            this.radioButton136.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton136.Name = "radioButton136";
-            this.radioButton136.Size = new System.Drawing.Size(117, 17);
-            this.radioButton136.TabIndex = 21;
-            this.radioButton136.TabStop = true;
-            this.radioButton136.Text = "2+ - Less than 5mm";
-            this.radioButton136.UseVisualStyleBackColor = true;
-            // 
-            // radioButton137
-            // 
-            this.radioButton137.AutoSize = true;
-            this.radioButton137.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton137.Location = new System.Drawing.Point(11, 38);
-            this.radioButton137.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton137.Name = "radioButton137";
-            this.radioButton137.Size = new System.Drawing.Size(128, 17);
-            this.radioButton137.TabIndex = 20;
-            this.radioButton137.TabStop = true;
-            this.radioButton137.Text = "1+ - Barely discernible";
-            this.radioButton137.UseVisualStyleBackColor = true;
-            // 
-            // radioButton138
-            // 
-            this.radioButton138.AutoSize = true;
-            this.radioButton138.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton138.Location = new System.Drawing.Point(11, 17);
-            this.radioButton138.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton138.Name = "radioButton138";
-            this.radioButton138.Size = new System.Drawing.Size(90, 17);
-            this.radioButton138.TabIndex = 19;
-            this.radioButton138.TabStop = true;
-            this.radioButton138.Text = "0 - No Edema";
-            this.radioButton138.UseVisualStyleBackColor = true;
-            // 
-            // groupBox64
-            // 
-            this.groupBox64.Controls.Add(this.radioButton139);
-            this.groupBox64.Controls.Add(this.radioButton140);
-            this.groupBox64.Controls.Add(this.radioButton141);
-            this.groupBox64.Controls.Add(this.radioButton142);
-            this.groupBox64.Controls.Add(this.radioButton143);
-            this.groupBox64.Enabled = false;
-            this.groupBox64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox64.Location = new System.Drawing.Point(595, 328);
-            this.groupBox64.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox64.Name = "groupBox64";
-            this.groupBox64.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox64.Size = new System.Drawing.Size(550, 64);
-            this.groupBox64.TabIndex = 70;
-            this.groupBox64.TabStop = false;
-            this.groupBox64.Text = "Capillary Refill";
-            // 
-            // radioButton139
-            // 
-            this.radioButton139.AutoSize = true;
-            this.radioButton139.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton139.Location = new System.Drawing.Point(470, 17);
-            this.radioButton139.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton139.Name = "radioButton139";
-            this.radioButton139.Size = new System.Drawing.Size(58, 17);
-            this.radioButton139.TabIndex = 25;
-            this.radioButton139.TabStop = true;
-            this.radioButton139.Text = "Absent";
-            this.radioButton139.UseVisualStyleBackColor = true;
-            // 
-            // radioButton140
-            // 
-            this.radioButton140.AutoSize = true;
-            this.radioButton140.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton140.Location = new System.Drawing.Point(194, 37);
-            this.radioButton140.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton140.Name = "radioButton140";
-            this.radioButton140.Size = new System.Drawing.Size(48, 17);
-            this.radioButton140.TabIndex = 22;
-            this.radioButton140.TabStop = true;
-            this.radioButton140.Text = "Slow";
-            this.radioButton140.UseVisualStyleBackColor = true;
-            // 
-            // radioButton141
-            // 
-            this.radioButton141.AutoSize = true;
-            this.radioButton141.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton141.Location = new System.Drawing.Point(194, 16);
-            this.radioButton141.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton141.Name = "radioButton141";
-            this.radioButton141.Size = new System.Drawing.Size(57, 17);
-            this.radioButton141.TabIndex = 21;
-            this.radioButton141.TabStop = true;
-            this.radioButton141.Text = "<2 sec";
-            this.radioButton141.UseVisualStyleBackColor = true;
-            // 
-            // radioButton142
-            // 
-            this.radioButton142.AutoSize = true;
-            this.radioButton142.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton142.Location = new System.Drawing.Point(11, 38);
-            this.radioButton142.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton142.Name = "radioButton142";
-            this.radioButton142.Size = new System.Drawing.Size(57, 17);
-            this.radioButton142.TabIndex = 20;
-            this.radioButton142.TabStop = true;
-            this.radioButton142.Text = "<1 sec";
-            this.radioButton142.UseVisualStyleBackColor = true;
-            // 
-            // radioButton143
-            // 
-            this.radioButton143.AutoSize = true;
-            this.radioButton143.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton143.Location = new System.Drawing.Point(11, 17);
-            this.radioButton143.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton143.Name = "radioButton143";
-            this.radioButton143.Size = new System.Drawing.Size(80, 17);
-            this.radioButton143.TabIndex = 19;
-            this.radioButton143.TabStop = true;
-            this.radioButton143.Text = "Brisk <3sec";
-            this.radioButton143.UseVisualStyleBackColor = true;
-            // 
-            // groupBox65
-            // 
-            this.groupBox65.Controls.Add(this.radioButton144);
-            this.groupBox65.Controls.Add(this.radioButton145);
-            this.groupBox65.Controls.Add(this.radioButton146);
-            this.groupBox65.Controls.Add(this.radioButton147);
-            this.groupBox65.Controls.Add(this.radioButton148);
-            this.groupBox65.Controls.Add(this.radioButton149);
-            this.groupBox65.Enabled = false;
-            this.groupBox65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox65.Location = new System.Drawing.Point(594, 463);
-            this.groupBox65.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox65.Name = "groupBox65";
-            this.groupBox65.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox65.Size = new System.Drawing.Size(550, 62);
-            this.groupBox65.TabIndex = 69;
-            this.groupBox65.TabStop = false;
-            this.groupBox65.Text = "Strength/ROM";
-            // 
-            // radioButton144
-            // 
-            this.radioButton144.AutoSize = true;
-            this.radioButton144.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton144.Location = new System.Drawing.Point(386, 17);
-            this.radioButton144.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton144.Name = "radioButton144";
-            this.radioButton144.Size = new System.Drawing.Size(125, 17);
-            this.radioButton144.TabIndex = 25;
-            this.radioButton144.TabStop = true;
-            this.radioButton144.Text = "1 - Severe weakness";
-            this.radioButton144.UseVisualStyleBackColor = true;
-            // 
-            // radioButton145
-            // 
-            this.radioButton145.AutoSize = true;
-            this.radioButton145.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton145.Location = new System.Drawing.Point(386, 38);
-            this.radioButton145.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton145.Name = "radioButton145";
-            this.radioButton145.Size = new System.Drawing.Size(158, 17);
-            this.radioButton145.TabIndex = 23;
-            this.radioButton145.TabStop = true;
-            this.radioButton145.Text = "0 - No muscular contraction ";
-            this.radioButton145.UseVisualStyleBackColor = true;
-            // 
-            // radioButton146
-            // 
-            this.radioButton146.AutoSize = true;
-            this.radioButton146.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton146.Location = new System.Drawing.Point(195, 38);
-            this.radioButton146.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton146.Name = "radioButton146";
-            this.radioButton146.Size = new System.Drawing.Size(161, 17);
-            this.radioButton146.TabIndex = 22;
-            this.radioButton146.TabStop = true;
-            this.radioButton146.Text = "2 - Poor ROM against gravity";
-            this.radioButton146.UseVisualStyleBackColor = true;
-            // 
-            // radioButton147
-            // 
-            this.radioButton147.AutoSize = true;
-            this.radioButton147.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton147.Location = new System.Drawing.Point(195, 15);
-            this.radioButton147.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton147.Name = "radioButton147";
-            this.radioButton147.Size = new System.Drawing.Size(131, 17);
-            this.radioButton147.TabIndex = 21;
-            this.radioButton147.TabStop = true;
-            this.radioButton147.Text = "3 - Average weakness";
-            this.radioButton147.UseVisualStyleBackColor = true;
-            // 
-            // radioButton148
-            // 
-            this.radioButton148.AutoSize = true;
-            this.radioButton148.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton148.Location = new System.Drawing.Point(11, 38);
-            this.radioButton148.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton148.Name = "radioButton148";
-            this.radioButton148.Size = new System.Drawing.Size(117, 17);
-            this.radioButton148.TabIndex = 20;
-            this.radioButton148.TabStop = true;
-            this.radioButton148.Text = "4 - Slight weakness";
-            this.radioButton148.UseVisualStyleBackColor = true;
-            // 
-            // radioButton149
-            // 
-            this.radioButton149.AutoSize = true;
-            this.radioButton149.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton149.Location = new System.Drawing.Point(11, 17);
-            this.radioButton149.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton149.Name = "radioButton149";
-            this.radioButton149.Size = new System.Drawing.Size(73, 17);
-            this.radioButton149.TabIndex = 19;
-            this.radioButton149.TabStop = true;
-            this.radioButton149.Text = "5 - Normal";
-            this.radioButton149.UseVisualStyleBackColor = true;
-            // 
-            // groupBox66
-            // 
-            this.groupBox66.Controls.Add(this.textBox29);
-            this.groupBox66.Controls.Add(this.checkBox141);
-            this.groupBox66.Controls.Add(this.checkBox142);
-            this.groupBox66.Controls.Add(this.checkBox143);
-            this.groupBox66.Controls.Add(this.checkBox144);
-            this.groupBox66.Controls.Add(this.checkBox145);
-            this.groupBox66.Controls.Add(this.checkBox146);
-            this.groupBox66.Controls.Add(this.checkBox147);
-            this.groupBox66.Enabled = false;
-            this.groupBox66.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox66.Location = new System.Drawing.Point(594, 197);
-            this.groupBox66.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox66.Name = "groupBox66";
-            this.groupBox66.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox66.Size = new System.Drawing.Size(550, 131);
-            this.groupBox66.TabIndex = 68;
-            this.groupBox66.TabStop = false;
-            this.groupBox66.Text = "Skin";
-            // 
-            // textBox29
-            // 
-            this.textBox29.Location = new System.Drawing.Point(4, 78);
-            this.textBox29.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox29.Multiline = true;
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(542, 47);
-            this.textBox29.TabIndex = 7;
-            // 
-            // checkBox141
-            // 
-            this.checkBox141.AutoSize = true;
-            this.checkBox141.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox141.Location = new System.Drawing.Point(470, 16);
-            this.checkBox141.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox141.Name = "checkBox141";
-            this.checkBox141.Size = new System.Drawing.Size(66, 17);
-            this.checkBox141.TabIndex = 6;
-            this.checkBox141.Text = "Cracked";
-            this.checkBox141.UseVisualStyleBackColor = true;
-            // 
-            // checkBox142
-            // 
-            this.checkBox142.AutoSize = true;
-            this.checkBox142.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox142.Location = new System.Drawing.Point(250, 58);
-            this.checkBox142.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox142.Name = "checkBox142";
-            this.checkBox142.Size = new System.Drawing.Size(51, 17);
-            this.checkBox142.TabIndex = 5;
-            this.checkBox142.Text = "Moist";
-            this.checkBox142.UseVisualStyleBackColor = true;
-            // 
-            // checkBox143
-            // 
-            this.checkBox143.AutoSize = true;
-            this.checkBox143.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox143.Location = new System.Drawing.Point(250, 37);
-            this.checkBox143.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox143.Name = "checkBox143";
-            this.checkBox143.Size = new System.Drawing.Size(47, 17);
-            this.checkBox143.TabIndex = 4;
-            this.checkBox143.Text = "Cold";
-            this.checkBox143.UseVisualStyleBackColor = true;
-            // 
-            // checkBox144
-            // 
-            this.checkBox144.AutoSize = true;
-            this.checkBox144.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox144.Location = new System.Drawing.Point(250, 16);
-            this.checkBox144.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox144.Name = "checkBox144";
-            this.checkBox144.Size = new System.Drawing.Size(42, 17);
-            this.checkBox144.TabIndex = 3;
-            this.checkBox144.Text = "Dry";
-            this.checkBox144.UseVisualStyleBackColor = true;
-            // 
-            // checkBox145
-            // 
-            this.checkBox145.AutoSize = true;
-            this.checkBox145.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox145.Location = new System.Drawing.Point(11, 58);
-            this.checkBox145.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox145.Name = "checkBox145";
-            this.checkBox145.Size = new System.Drawing.Size(95, 17);
-            this.checkBox145.TabIndex = 2;
-            this.checkBox145.Text = "Pressure Ulcer";
-            this.checkBox145.UseVisualStyleBackColor = true;
-            // 
-            // checkBox146
-            // 
-            this.checkBox146.AutoSize = true;
-            this.checkBox146.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox146.Location = new System.Drawing.Point(11, 37);
-            this.checkBox146.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox146.Name = "checkBox146";
-            this.checkBox146.Size = new System.Drawing.Size(54, 17);
-            this.checkBox146.TabIndex = 1;
-            this.checkBox146.Text = "Warm";
-            this.checkBox146.UseVisualStyleBackColor = true;
-            // 
-            // checkBox147
-            // 
-            this.checkBox147.AutoSize = true;
-            this.checkBox147.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox147.Location = new System.Drawing.Point(11, 16);
-            this.checkBox147.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox147.Name = "checkBox147";
-            this.checkBox147.Size = new System.Drawing.Size(43, 17);
-            this.checkBox147.TabIndex = 0;
-            this.checkBox147.Text = "Hot";
-            this.checkBox147.UseVisualStyleBackColor = true;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Location = new System.Drawing.Point(106, 297);
-            this.textBox31.Multiline = true;
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(468, 54);
-            this.textBox31.TabIndex = 93;
-            // 
-            // textBox39
-            // 
-            this.textBox39.Location = new System.Drawing.Point(106, 358);
-            this.textBox39.Multiline = true;
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(468, 54);
-            this.textBox39.TabIndex = 94;
-            // 
-            // textBox40
-            // 
-            this.textBox40.Location = new System.Drawing.Point(106, 418);
-            this.textBox40.Multiline = true;
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(468, 54);
-            this.textBox40.TabIndex = 95;
-            // 
-            // textBox41
-            // 
-            this.textBox41.Location = new System.Drawing.Point(106, 477);
-            this.textBox41.Multiline = true;
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(468, 54);
-            this.textBox41.TabIndex = 96;
-            // 
-            // textBox42
-            // 
-            this.textBox42.Enabled = false;
-            this.textBox42.Location = new System.Drawing.Point(684, 476);
-            this.textBox42.Multiline = true;
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(468, 54);
-            this.textBox42.TabIndex = 107;
-            // 
-            // textBox43
-            // 
-            this.textBox43.Enabled = false;
-            this.textBox43.Location = new System.Drawing.Point(684, 417);
-            this.textBox43.Multiline = true;
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(468, 54);
-            this.textBox43.TabIndex = 106;
-            // 
-            // textBox44
-            // 
-            this.textBox44.Enabled = false;
-            this.textBox44.Location = new System.Drawing.Point(684, 357);
-            this.textBox44.Multiline = true;
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(468, 54);
-            this.textBox44.TabIndex = 105;
-            // 
-            // textBox45
-            // 
-            this.textBox45.Enabled = false;
-            this.textBox45.Location = new System.Drawing.Point(684, 296);
-            this.textBox45.Multiline = true;
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(468, 54);
-            this.textBox45.TabIndex = 104;
-            // 
-            // textBox46
-            // 
-            this.textBox46.Enabled = false;
-            this.textBox46.Location = new System.Drawing.Point(684, 235);
-            this.textBox46.Multiline = true;
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(468, 54);
-            this.textBox46.TabIndex = 103;
-            // 
-            // label169
-            // 
-            this.label169.AutoSize = true;
-            this.label169.Enabled = false;
-            this.label169.Location = new System.Drawing.Point(584, 477);
-            this.label169.Name = "label169";
-            this.label169.Size = new System.Drawing.Size(45, 15);
-            this.label169.TabIndex = 102;
-            this.label169.Text = "Timing";
-            // 
-            // label170
-            // 
-            this.label170.AutoSize = true;
-            this.label170.Enabled = false;
-            this.label170.Location = new System.Drawing.Point(581, 420);
-            this.label170.Name = "label170";
-            this.label170.Size = new System.Drawing.Size(83, 15);
-            this.label170.TabIndex = 101;
-            this.label170.Text = "Severity Scale";
-            // 
-            // label171
-            // 
-            this.label171.AutoSize = true;
-            this.label171.Enabled = false;
-            this.label171.Location = new System.Drawing.Point(581, 356);
-            this.label171.Name = "label171";
-            this.label171.Size = new System.Drawing.Size(103, 15);
-            this.label171.TabIndex = 100;
-            this.label171.Text = "Region/Radiation";
-            // 
-            // label172
-            // 
-            this.label172.AutoSize = true;
-            this.label172.Enabled = false;
-            this.label172.Location = new System.Drawing.Point(581, 294);
-            this.label172.Name = "label172";
-            this.label172.Size = new System.Drawing.Size(91, 15);
-            this.label172.TabIndex = 99;
-            this.label172.Text = "Quality/Quantity";
-            // 
-            // label173
-            // 
-            this.label173.AutoSize = true;
-            this.label173.Enabled = false;
-            this.label173.Location = new System.Drawing.Point(581, 235);
-            this.label173.Name = "label173";
-            this.label173.Size = new System.Drawing.Size(99, 15);
-            this.label173.TabIndex = 98;
-            this.label173.Text = "Provoc./Palliative";
-            // 
-            // groupBox88
-            // 
-            this.groupBox88.Controls.Add(this.radioButton178);
-            this.groupBox88.Controls.Add(this.radioButton179);
-            this.groupBox88.Controls.Add(this.radioButton180);
-            this.groupBox88.Controls.Add(this.radioButton181);
-            this.groupBox88.Controls.Add(this.radioButton182);
-            this.groupBox88.Controls.Add(this.radioButton183);
-            this.groupBox88.Controls.Add(this.radioButton184);
-            this.groupBox88.Controls.Add(this.radioButton185);
-            this.groupBox88.Controls.Add(this.radioButton186);
-            this.groupBox88.Controls.Add(this.radioButton187);
-            this.groupBox88.Controls.Add(this.radioButton188);
-            this.groupBox88.Enabled = false;
-            this.groupBox88.Location = new System.Drawing.Point(584, 137);
-            this.groupBox88.Name = "groupBox88";
-            this.groupBox88.Size = new System.Drawing.Size(567, 85);
-            this.groupBox88.TabIndex = 97;
-            this.groupBox88.TabStop = false;
-            this.groupBox88.Text = "Pain Scale";
-            // 
-            // radioButton178
-            // 
-            this.radioButton178.AutoSize = true;
-            this.radioButton178.Location = new System.Drawing.Point(367, 38);
-            this.radioButton178.Name = "radioButton178";
-            this.radioButton178.Size = new System.Drawing.Size(197, 19);
-            this.radioButton178.TabIndex = 10;
-            this.radioButton178.TabStop = true;
-            this.radioButton178.Text = "10: Unimaginable unspeakable";
-            this.radioButton178.UseVisualStyleBackColor = true;
-            // 
-            // radioButton179
-            // 
-            this.radioButton179.AutoSize = true;
-            this.radioButton179.Location = new System.Drawing.Point(367, 18);
-            this.radioButton179.Name = "radioButton179";
-            this.radioButton179.Size = new System.Drawing.Size(171, 19);
-            this.radioButton179.TabIndex = 9;
-            this.radioButton179.TabStop = true;
-            this.radioButton179.Text = "9: Excruciating unbearable";
-            this.radioButton179.UseVisualStyleBackColor = true;
-            // 
-            // radioButton180
-            // 
-            this.radioButton180.AutoSize = true;
-            this.radioButton180.Location = new System.Drawing.Point(252, 57);
-            this.radioButton180.Name = "radioButton180";
-            this.radioButton180.Size = new System.Drawing.Size(117, 19);
-            this.radioButton180.TabIndex = 8;
-            this.radioButton180.TabStop = true;
-            this.radioButton180.Text = "8: Utterly horrible";
-            this.radioButton180.UseVisualStyleBackColor = true;
-            // 
-            // radioButton181
-            // 
-            this.radioButton181.AutoSize = true;
-            this.radioButton181.Location = new System.Drawing.Point(252, 37);
-            this.radioButton181.Name = "radioButton181";
-            this.radioButton181.Size = new System.Drawing.Size(104, 19);
-            this.radioButton181.TabIndex = 7;
-            this.radioButton181.TabStop = true;
-            this.radioButton181.Text = "7: Very intense";
-            this.radioButton181.UseVisualStyleBackColor = true;
-            // 
-            // radioButton182
-            // 
-            this.radioButton182.AutoSize = true;
-            this.radioButton182.Location = new System.Drawing.Point(252, 17);
-            this.radioButton182.Name = "radioButton182";
-            this.radioButton182.Size = new System.Drawing.Size(78, 19);
-            this.radioButton182.TabIndex = 6;
-            this.radioButton182.TabStop = true;
-            this.radioButton182.Text = "6: Intense";
-            this.radioButton182.UseVisualStyleBackColor = true;
-            // 
-            // radioButton183
-            // 
-            this.radioButton183.AutoSize = true;
-            this.radioButton183.Location = new System.Drawing.Point(125, 57);
-            this.radioButton183.Name = "radioButton183";
-            this.radioButton183.Size = new System.Drawing.Size(123, 19);
-            this.radioButton183.TabIndex = 5;
-            this.radioButton183.TabStop = true;
-            this.radioButton183.Text = "5: Very distressing";
-            this.radioButton183.UseVisualStyleBackColor = true;
-            // 
-            // radioButton184
-            // 
-            this.radioButton184.AutoSize = true;
-            this.radioButton184.Location = new System.Drawing.Point(125, 37);
-            this.radioButton184.Name = "radioButton184";
-            this.radioButton184.Size = new System.Drawing.Size(99, 19);
-            this.radioButton184.TabIndex = 4;
-            this.radioButton184.TabStop = true;
-            this.radioButton184.Text = "4: Distressing";
-            this.radioButton184.UseVisualStyleBackColor = true;
-            // 
-            // radioButton185
-            // 
-            this.radioButton185.AutoSize = true;
-            this.radioButton185.Location = new System.Drawing.Point(125, 17);
-            this.radioButton185.Name = "radioButton185";
-            this.radioButton185.Size = new System.Drawing.Size(90, 19);
-            this.radioButton185.TabIndex = 3;
-            this.radioButton185.TabStop = true;
-            this.radioButton185.Text = "3: Tolerable";
-            this.radioButton185.UseVisualStyleBackColor = true;
-            // 
-            // radioButton186
-            // 
-            this.radioButton186.AutoSize = true;
-            this.radioButton186.Location = new System.Drawing.Point(8, 57);
-            this.radioButton186.Name = "radioButton186";
-            this.radioButton186.Size = new System.Drawing.Size(114, 19);
-            this.radioButton186.TabIndex = 2;
-            this.radioButton186.TabStop = true;
-            this.radioButton186.Text = "2: Discomforting";
-            this.radioButton186.UseVisualStyleBackColor = true;
-            // 
-            // radioButton187
-            // 
-            this.radioButton187.AutoSize = true;
-            this.radioButton187.Location = new System.Drawing.Point(8, 37);
-            this.radioButton187.Name = "radioButton187";
-            this.radioButton187.Size = new System.Drawing.Size(88, 19);
-            this.radioButton187.TabIndex = 1;
-            this.radioButton187.TabStop = true;
-            this.radioButton187.Text = "1: Very mild";
-            this.radioButton187.UseVisualStyleBackColor = true;
-            // 
-            // radioButton188
-            // 
-            this.radioButton188.AutoSize = true;
-            this.radioButton188.Location = new System.Drawing.Point(8, 17);
-            this.radioButton188.Name = "radioButton188";
-            this.radioButton188.Size = new System.Drawing.Size(81, 19);
-            this.radioButton188.TabIndex = 0;
-            this.radioButton188.TabStop = true;
-            this.radioButton188.Text = "0: No pain";
-            this.radioButton188.UseVisualStyleBackColor = true;
-            // 
-            // checkBox165
-            // 
-            this.checkBox165.AutoSize = true;
-            this.checkBox165.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox165.Location = new System.Drawing.Point(206, 38);
-            this.checkBox165.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox165.Name = "checkBox165";
-            this.checkBox165.Size = new System.Drawing.Size(95, 17);
-            this.checkBox165.TabIndex = 15;
-            this.checkBox165.Text = "Non-distended";
-            this.checkBox165.UseVisualStyleBackColor = true;
-            // 
-            // checkBox166
-            // 
-            this.checkBox166.AutoSize = true;
-            this.checkBox166.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox166.Location = new System.Drawing.Point(206, 16);
-            this.checkBox166.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox166.Name = "checkBox166";
-            this.checkBox166.Size = new System.Drawing.Size(74, 17);
-            this.checkBox166.TabIndex = 14;
-            this.checkBox166.Text = "Distended";
-            this.checkBox166.UseVisualStyleBackColor = true;
-            // 
-            // checkBox167
-            // 
-            this.checkBox167.AutoSize = true;
-            this.checkBox167.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox167.Location = new System.Drawing.Point(394, 59);
-            this.checkBox167.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox167.Name = "checkBox167";
-            this.checkBox167.Size = new System.Drawing.Size(127, 17);
-            this.checkBox167.TabIndex = 13;
-            this.checkBox167.Text = "Absent bowel sounds";
-            this.checkBox167.UseVisualStyleBackColor = true;
-            // 
-            // checkBox168
-            // 
-            this.checkBox168.AutoSize = true;
-            this.checkBox168.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox168.Location = new System.Drawing.Point(394, 38);
-            this.checkBox168.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox168.Name = "checkBox168";
-            this.checkBox168.Size = new System.Drawing.Size(148, 17);
-            this.checkBox168.TabIndex = 12;
-            this.checkBox168.Text = "Hypoactive bowel sounds";
-            this.checkBox168.UseVisualStyleBackColor = true;
-            // 
-            // checkBox169
-            // 
-            this.checkBox169.AutoSize = true;
-            this.checkBox169.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox169.Location = new System.Drawing.Point(394, 16);
-            this.checkBox169.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox169.Name = "checkBox169";
-            this.checkBox169.Size = new System.Drawing.Size(130, 17);
-            this.checkBox169.TabIndex = 11;
-            this.checkBox169.Text = "Bowel sounds present";
-            this.checkBox169.UseVisualStyleBackColor = true;
-            // 
-            // checkBox170
-            // 
-            this.checkBox170.AutoSize = true;
-            this.checkBox170.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox170.Location = new System.Drawing.Point(8, 38);
-            this.checkBox170.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox170.Name = "checkBox170";
-            this.checkBox170.Size = new System.Drawing.Size(79, 17);
-            this.checkBox170.TabIndex = 10;
-            this.checkBox170.Text = "Non-tender";
-            this.checkBox170.UseVisualStyleBackColor = true;
-            // 
-            // checkBox171
-            // 
-            this.checkBox171.AutoSize = true;
-            this.checkBox171.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox171.Location = new System.Drawing.Point(8, 17);
-            this.checkBox171.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox171.Name = "checkBox171";
-            this.checkBox171.Size = new System.Drawing.Size(60, 17);
-            this.checkBox171.TabIndex = 9;
-            this.checkBox171.Text = "Tender";
-            this.checkBox171.UseVisualStyleBackColor = true;
-            // 
-            // checkBox106
-            // 
-            this.checkBox106.AutoSize = true;
-            this.checkBox106.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox106.Location = new System.Drawing.Point(206, 39);
-            this.checkBox106.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox106.Name = "checkBox106";
-            this.checkBox106.Size = new System.Drawing.Size(95, 17);
-            this.checkBox106.TabIndex = 15;
-            this.checkBox106.Text = "Non-distended";
-            this.checkBox106.UseVisualStyleBackColor = true;
-            // 
-            // checkBox107
-            // 
-            this.checkBox107.AutoSize = true;
-            this.checkBox107.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox107.Location = new System.Drawing.Point(206, 17);
-            this.checkBox107.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox107.Name = "checkBox107";
-            this.checkBox107.Size = new System.Drawing.Size(74, 17);
-            this.checkBox107.TabIndex = 14;
-            this.checkBox107.Text = "Distended";
-            this.checkBox107.UseVisualStyleBackColor = true;
-            // 
-            // checkBox114
-            // 
-            this.checkBox114.AutoSize = true;
-            this.checkBox114.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox114.Location = new System.Drawing.Point(394, 60);
-            this.checkBox114.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox114.Name = "checkBox114";
-            this.checkBox114.Size = new System.Drawing.Size(127, 17);
-            this.checkBox114.TabIndex = 13;
-            this.checkBox114.Text = "Absent bowel sounds";
-            this.checkBox114.UseVisualStyleBackColor = true;
-            // 
-            // checkBox115
-            // 
-            this.checkBox115.AutoSize = true;
-            this.checkBox115.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox115.Location = new System.Drawing.Point(394, 39);
-            this.checkBox115.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox115.Name = "checkBox115";
-            this.checkBox115.Size = new System.Drawing.Size(148, 17);
-            this.checkBox115.TabIndex = 12;
-            this.checkBox115.Text = "Hypoactive bowel sounds";
-            this.checkBox115.UseVisualStyleBackColor = true;
-            // 
-            // checkBox148
-            // 
-            this.checkBox148.AutoSize = true;
-            this.checkBox148.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox148.Location = new System.Drawing.Point(394, 17);
-            this.checkBox148.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox148.Name = "checkBox148";
-            this.checkBox148.Size = new System.Drawing.Size(130, 17);
-            this.checkBox148.TabIndex = 11;
-            this.checkBox148.Text = "Bowel sounds present";
-            this.checkBox148.UseVisualStyleBackColor = true;
-            // 
-            // checkBox149
-            // 
-            this.checkBox149.AutoSize = true;
-            this.checkBox149.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox149.Location = new System.Drawing.Point(8, 39);
-            this.checkBox149.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox149.Name = "checkBox149";
-            this.checkBox149.Size = new System.Drawing.Size(79, 17);
-            this.checkBox149.TabIndex = 10;
-            this.checkBox149.Text = "Non-tender";
-            this.checkBox149.UseVisualStyleBackColor = true;
-            // 
-            // checkBox150
-            // 
-            this.checkBox150.AutoSize = true;
-            this.checkBox150.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox150.Location = new System.Drawing.Point(8, 18);
-            this.checkBox150.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox150.Name = "checkBox150";
-            this.checkBox150.Size = new System.Drawing.Size(60, 17);
-            this.checkBox150.TabIndex = 9;
-            this.checkBox150.Text = "Tender";
-            this.checkBox150.UseVisualStyleBackColor = true;
-            // 
-            // checkBox158
-            // 
-            this.checkBox158.AutoSize = true;
-            this.checkBox158.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox158.Location = new System.Drawing.Point(206, 40);
-            this.checkBox158.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox158.Name = "checkBox158";
-            this.checkBox158.Size = new System.Drawing.Size(95, 17);
-            this.checkBox158.TabIndex = 15;
-            this.checkBox158.Text = "Non-distended";
-            this.checkBox158.UseVisualStyleBackColor = true;
-            // 
-            // checkBox159
-            // 
-            this.checkBox159.AutoSize = true;
-            this.checkBox159.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox159.Location = new System.Drawing.Point(206, 18);
-            this.checkBox159.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox159.Name = "checkBox159";
-            this.checkBox159.Size = new System.Drawing.Size(74, 17);
-            this.checkBox159.TabIndex = 14;
-            this.checkBox159.Text = "Distended";
-            this.checkBox159.UseVisualStyleBackColor = true;
-            // 
-            // checkBox160
-            // 
-            this.checkBox160.AutoSize = true;
-            this.checkBox160.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox160.Location = new System.Drawing.Point(394, 61);
-            this.checkBox160.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox160.Name = "checkBox160";
-            this.checkBox160.Size = new System.Drawing.Size(127, 17);
-            this.checkBox160.TabIndex = 13;
-            this.checkBox160.Text = "Absent bowel sounds";
-            this.checkBox160.UseVisualStyleBackColor = true;
-            // 
-            // checkBox161
-            // 
-            this.checkBox161.AutoSize = true;
-            this.checkBox161.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox161.Location = new System.Drawing.Point(394, 40);
-            this.checkBox161.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox161.Name = "checkBox161";
-            this.checkBox161.Size = new System.Drawing.Size(148, 17);
-            this.checkBox161.TabIndex = 12;
-            this.checkBox161.Text = "Hypoactive bowel sounds";
-            this.checkBox161.UseVisualStyleBackColor = true;
-            // 
-            // checkBox162
-            // 
-            this.checkBox162.AutoSize = true;
-            this.checkBox162.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox162.Location = new System.Drawing.Point(394, 18);
-            this.checkBox162.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox162.Name = "checkBox162";
-            this.checkBox162.Size = new System.Drawing.Size(130, 17);
-            this.checkBox162.TabIndex = 11;
-            this.checkBox162.Text = "Bowel sounds present";
-            this.checkBox162.UseVisualStyleBackColor = true;
-            // 
-            // checkBox163
-            // 
-            this.checkBox163.AutoSize = true;
-            this.checkBox163.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox163.Location = new System.Drawing.Point(8, 40);
-            this.checkBox163.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox163.Name = "checkBox163";
-            this.checkBox163.Size = new System.Drawing.Size(79, 17);
-            this.checkBox163.TabIndex = 10;
-            this.checkBox163.Text = "Non-tender";
-            this.checkBox163.UseVisualStyleBackColor = true;
-            // 
-            // checkBox164
-            // 
-            this.checkBox164.AutoSize = true;
-            this.checkBox164.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox164.Location = new System.Drawing.Point(8, 19);
-            this.checkBox164.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox164.Name = "checkBox164";
-            this.checkBox164.Size = new System.Drawing.Size(60, 17);
-            this.checkBox164.TabIndex = 9;
-            this.checkBox164.Text = "Tender";
-            this.checkBox164.UseVisualStyleBackColor = true;
-            // 
-            // checkBox151
-            // 
-            this.checkBox151.AutoSize = true;
-            this.checkBox151.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox151.Location = new System.Drawing.Point(205, 38);
-            this.checkBox151.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox151.Name = "checkBox151";
-            this.checkBox151.Size = new System.Drawing.Size(95, 17);
-            this.checkBox151.TabIndex = 22;
-            this.checkBox151.Text = "Non-distended";
-            this.checkBox151.UseVisualStyleBackColor = true;
-            // 
-            // checkBox152
-            // 
-            this.checkBox152.AutoSize = true;
-            this.checkBox152.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox152.Location = new System.Drawing.Point(205, 16);
-            this.checkBox152.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox152.Name = "checkBox152";
-            this.checkBox152.Size = new System.Drawing.Size(74, 17);
-            this.checkBox152.TabIndex = 21;
-            this.checkBox152.Text = "Distended";
-            this.checkBox152.UseVisualStyleBackColor = true;
-            // 
-            // checkBox153
-            // 
-            this.checkBox153.AutoSize = true;
-            this.checkBox153.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox153.Location = new System.Drawing.Point(393, 59);
-            this.checkBox153.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox153.Name = "checkBox153";
-            this.checkBox153.Size = new System.Drawing.Size(127, 17);
-            this.checkBox153.TabIndex = 20;
-            this.checkBox153.Text = "Absent bowel sounds";
-            this.checkBox153.UseVisualStyleBackColor = true;
-            // 
-            // checkBox154
-            // 
-            this.checkBox154.AutoSize = true;
-            this.checkBox154.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox154.Location = new System.Drawing.Point(393, 38);
-            this.checkBox154.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox154.Name = "checkBox154";
-            this.checkBox154.Size = new System.Drawing.Size(148, 17);
-            this.checkBox154.TabIndex = 19;
-            this.checkBox154.Text = "Hypoactive bowel sounds";
-            this.checkBox154.UseVisualStyleBackColor = true;
-            // 
-            // checkBox155
-            // 
-            this.checkBox155.AutoSize = true;
-            this.checkBox155.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox155.Location = new System.Drawing.Point(393, 16);
-            this.checkBox155.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox155.Name = "checkBox155";
-            this.checkBox155.Size = new System.Drawing.Size(130, 17);
-            this.checkBox155.TabIndex = 18;
-            this.checkBox155.Text = "Bowel sounds present";
-            this.checkBox155.UseVisualStyleBackColor = true;
-            // 
-            // checkBox156
-            // 
-            this.checkBox156.AutoSize = true;
-            this.checkBox156.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox156.Location = new System.Drawing.Point(7, 38);
-            this.checkBox156.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox156.Name = "checkBox156";
-            this.checkBox156.Size = new System.Drawing.Size(79, 17);
-            this.checkBox156.TabIndex = 17;
-            this.checkBox156.Text = "Non-tender";
-            this.checkBox156.UseVisualStyleBackColor = true;
-            // 
-            // checkBox157
-            // 
-            this.checkBox157.AutoSize = true;
-            this.checkBox157.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox157.Location = new System.Drawing.Point(7, 17);
-            this.checkBox157.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox157.Name = "checkBox157";
-            this.checkBox157.Size = new System.Drawing.Size(60, 17);
-            this.checkBox157.TabIndex = 16;
-            this.checkBox157.Text = "Tender";
-            this.checkBox157.UseVisualStyleBackColor = true;
-            // 
-            // groupBox24
-            // 
-            this.groupBox24.Controls.Add(this.checkBox73);
-            this.groupBox24.Controls.Add(this.checkBox74);
-            this.groupBox24.Controls.Add(this.checkBox79);
-            this.groupBox24.Controls.Add(this.checkBox80);
-            this.groupBox24.Controls.Add(this.checkBox81);
-            this.groupBox24.Controls.Add(this.checkBox82);
-            this.groupBox24.Controls.Add(this.checkBox83);
-            this.groupBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox24.Location = new System.Drawing.Point(15, 282);
-            this.groupBox24.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox24.Name = "groupBox24";
-            this.groupBox24.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox24.Size = new System.Drawing.Size(550, 80);
-            this.groupBox24.TabIndex = 90;
-            this.groupBox24.TabStop = false;
-            this.groupBox24.Text = "Left Lower Quadrant (LLQ)";
-            // 
-            // checkBox73
-            // 
-            this.checkBox73.AutoSize = true;
-            this.checkBox73.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox73.Location = new System.Drawing.Point(206, 39);
-            this.checkBox73.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox73.Name = "checkBox73";
-            this.checkBox73.Size = new System.Drawing.Size(95, 17);
-            this.checkBox73.TabIndex = 15;
-            this.checkBox73.Text = "Non-distended";
-            this.checkBox73.UseVisualStyleBackColor = true;
-            // 
-            // checkBox74
-            // 
-            this.checkBox74.AutoSize = true;
-            this.checkBox74.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox74.Location = new System.Drawing.Point(206, 17);
-            this.checkBox74.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox74.Name = "checkBox74";
-            this.checkBox74.Size = new System.Drawing.Size(74, 17);
-            this.checkBox74.TabIndex = 14;
-            this.checkBox74.Text = "Distended";
-            this.checkBox74.UseVisualStyleBackColor = true;
-            // 
-            // checkBox79
-            // 
-            this.checkBox79.AutoSize = true;
-            this.checkBox79.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox79.Location = new System.Drawing.Point(394, 60);
-            this.checkBox79.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox79.Name = "checkBox79";
-            this.checkBox79.Size = new System.Drawing.Size(127, 17);
-            this.checkBox79.TabIndex = 13;
-            this.checkBox79.Text = "Absent bowel sounds";
-            this.checkBox79.UseVisualStyleBackColor = true;
-            // 
-            // checkBox80
-            // 
-            this.checkBox80.AutoSize = true;
-            this.checkBox80.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox80.Location = new System.Drawing.Point(394, 39);
-            this.checkBox80.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox80.Name = "checkBox80";
-            this.checkBox80.Size = new System.Drawing.Size(148, 17);
-            this.checkBox80.TabIndex = 12;
-            this.checkBox80.Text = "Hypoactive bowel sounds";
-            this.checkBox80.UseVisualStyleBackColor = true;
-            // 
-            // checkBox81
-            // 
-            this.checkBox81.AutoSize = true;
-            this.checkBox81.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox81.Location = new System.Drawing.Point(394, 17);
-            this.checkBox81.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox81.Name = "checkBox81";
-            this.checkBox81.Size = new System.Drawing.Size(130, 17);
-            this.checkBox81.TabIndex = 11;
-            this.checkBox81.Text = "Bowel sounds present";
-            this.checkBox81.UseVisualStyleBackColor = true;
-            // 
-            // checkBox82
-            // 
-            this.checkBox82.AutoSize = true;
-            this.checkBox82.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox82.Location = new System.Drawing.Point(8, 39);
-            this.checkBox82.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox82.Name = "checkBox82";
-            this.checkBox82.Size = new System.Drawing.Size(79, 17);
-            this.checkBox82.TabIndex = 10;
-            this.checkBox82.Text = "Non-tender";
-            this.checkBox82.UseVisualStyleBackColor = true;
-            // 
-            // checkBox83
-            // 
-            this.checkBox83.AutoSize = true;
-            this.checkBox83.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox83.Location = new System.Drawing.Point(8, 18);
-            this.checkBox83.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox83.Name = "checkBox83";
-            this.checkBox83.Size = new System.Drawing.Size(60, 17);
-            this.checkBox83.TabIndex = 9;
-            this.checkBox83.Text = "Tender";
-            this.checkBox83.UseVisualStyleBackColor = true;
-            // 
-            // groupBox25
-            // 
-            this.groupBox25.Controls.Add(this.checkBox84);
-            this.groupBox25.Controls.Add(this.checkBox85);
-            this.groupBox25.Controls.Add(this.checkBox86);
-            this.groupBox25.Controls.Add(this.checkBox87);
-            this.groupBox25.Controls.Add(this.checkBox88);
-            this.groupBox25.Controls.Add(this.checkBox89);
-            this.groupBox25.Controls.Add(this.checkBox90);
-            this.groupBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox25.Location = new System.Drawing.Point(15, 448);
-            this.groupBox25.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox25.Size = new System.Drawing.Size(550, 78);
-            this.groupBox25.TabIndex = 89;
-            this.groupBox25.TabStop = false;
-            this.groupBox25.Text = "Right Lower Quadrant (RLQ)";
-            // 
-            // checkBox84
-            // 
-            this.checkBox84.AutoSize = true;
-            this.checkBox84.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox84.Location = new System.Drawing.Point(205, 38);
-            this.checkBox84.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox84.Name = "checkBox84";
-            this.checkBox84.Size = new System.Drawing.Size(95, 17);
-            this.checkBox84.TabIndex = 22;
-            this.checkBox84.Text = "Non-distended";
-            this.checkBox84.UseVisualStyleBackColor = true;
-            // 
-            // checkBox85
-            // 
-            this.checkBox85.AutoSize = true;
-            this.checkBox85.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox85.Location = new System.Drawing.Point(205, 16);
-            this.checkBox85.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox85.Name = "checkBox85";
-            this.checkBox85.Size = new System.Drawing.Size(74, 17);
-            this.checkBox85.TabIndex = 21;
-            this.checkBox85.Text = "Distended";
-            this.checkBox85.UseVisualStyleBackColor = true;
-            // 
-            // checkBox86
-            // 
-            this.checkBox86.AutoSize = true;
-            this.checkBox86.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox86.Location = new System.Drawing.Point(393, 59);
-            this.checkBox86.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox86.Name = "checkBox86";
-            this.checkBox86.Size = new System.Drawing.Size(127, 17);
-            this.checkBox86.TabIndex = 20;
-            this.checkBox86.Text = "Absent bowel sounds";
-            this.checkBox86.UseVisualStyleBackColor = true;
-            // 
-            // checkBox87
-            // 
-            this.checkBox87.AutoSize = true;
-            this.checkBox87.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox87.Location = new System.Drawing.Point(393, 38);
-            this.checkBox87.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox87.Name = "checkBox87";
-            this.checkBox87.Size = new System.Drawing.Size(148, 17);
-            this.checkBox87.TabIndex = 19;
-            this.checkBox87.Text = "Hypoactive bowel sounds";
-            this.checkBox87.UseVisualStyleBackColor = true;
-            // 
-            // checkBox88
-            // 
-            this.checkBox88.AutoSize = true;
-            this.checkBox88.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox88.Location = new System.Drawing.Point(393, 16);
-            this.checkBox88.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox88.Name = "checkBox88";
-            this.checkBox88.Size = new System.Drawing.Size(130, 17);
-            this.checkBox88.TabIndex = 18;
-            this.checkBox88.Text = "Bowel sounds present";
-            this.checkBox88.UseVisualStyleBackColor = true;
-            // 
-            // checkBox89
-            // 
-            this.checkBox89.AutoSize = true;
-            this.checkBox89.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox89.Location = new System.Drawing.Point(7, 38);
-            this.checkBox89.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox89.Name = "checkBox89";
-            this.checkBox89.Size = new System.Drawing.Size(79, 17);
-            this.checkBox89.TabIndex = 17;
-            this.checkBox89.Text = "Non-tender";
-            this.checkBox89.UseVisualStyleBackColor = true;
-            // 
-            // checkBox90
-            // 
-            this.checkBox90.AutoSize = true;
-            this.checkBox90.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox90.Location = new System.Drawing.Point(7, 17);
-            this.checkBox90.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox90.Name = "checkBox90";
-            this.checkBox90.Size = new System.Drawing.Size(60, 17);
-            this.checkBox90.TabIndex = 16;
-            this.checkBox90.Text = "Tender";
-            this.checkBox90.UseVisualStyleBackColor = true;
-            // 
-            // groupBox26
-            // 
-            this.groupBox26.Controls.Add(this.checkBox91);
-            this.groupBox26.Controls.Add(this.checkBox92);
-            this.groupBox26.Controls.Add(this.checkBox93);
-            this.groupBox26.Controls.Add(this.checkBox94);
-            this.groupBox26.Controls.Add(this.checkBox95);
-            this.groupBox26.Controls.Add(this.checkBox96);
-            this.groupBox26.Controls.Add(this.checkBox97);
-            this.groupBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox26.Location = new System.Drawing.Point(15, 365);
-            this.groupBox26.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox26.Size = new System.Drawing.Size(550, 83);
-            this.groupBox26.TabIndex = 88;
-            this.groupBox26.TabStop = false;
-            this.groupBox26.Text = "Right Upper Quadrant (LUQ)";
-            // 
-            // checkBox91
-            // 
-            this.checkBox91.AutoSize = true;
-            this.checkBox91.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox91.Location = new System.Drawing.Point(206, 40);
-            this.checkBox91.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox91.Name = "checkBox91";
-            this.checkBox91.Size = new System.Drawing.Size(95, 17);
-            this.checkBox91.TabIndex = 15;
-            this.checkBox91.Text = "Non-distended";
-            this.checkBox91.UseVisualStyleBackColor = true;
-            // 
-            // checkBox92
-            // 
-            this.checkBox92.AutoSize = true;
-            this.checkBox92.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox92.Location = new System.Drawing.Point(206, 18);
-            this.checkBox92.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox92.Name = "checkBox92";
-            this.checkBox92.Size = new System.Drawing.Size(74, 17);
-            this.checkBox92.TabIndex = 14;
-            this.checkBox92.Text = "Distended";
-            this.checkBox92.UseVisualStyleBackColor = true;
-            // 
-            // checkBox93
-            // 
-            this.checkBox93.AutoSize = true;
-            this.checkBox93.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox93.Location = new System.Drawing.Point(394, 61);
-            this.checkBox93.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox93.Name = "checkBox93";
-            this.checkBox93.Size = new System.Drawing.Size(127, 17);
-            this.checkBox93.TabIndex = 13;
-            this.checkBox93.Text = "Absent bowel sounds";
-            this.checkBox93.UseVisualStyleBackColor = true;
-            // 
-            // checkBox94
-            // 
-            this.checkBox94.AutoSize = true;
-            this.checkBox94.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox94.Location = new System.Drawing.Point(394, 40);
-            this.checkBox94.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox94.Name = "checkBox94";
-            this.checkBox94.Size = new System.Drawing.Size(148, 17);
-            this.checkBox94.TabIndex = 12;
-            this.checkBox94.Text = "Hypoactive bowel sounds";
-            this.checkBox94.UseVisualStyleBackColor = true;
-            // 
-            // checkBox95
-            // 
-            this.checkBox95.AutoSize = true;
-            this.checkBox95.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox95.Location = new System.Drawing.Point(394, 18);
-            this.checkBox95.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox95.Name = "checkBox95";
-            this.checkBox95.Size = new System.Drawing.Size(130, 17);
-            this.checkBox95.TabIndex = 11;
-            this.checkBox95.Text = "Bowel sounds present";
-            this.checkBox95.UseVisualStyleBackColor = true;
-            // 
-            // checkBox96
-            // 
-            this.checkBox96.AutoSize = true;
-            this.checkBox96.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox96.Location = new System.Drawing.Point(8, 40);
-            this.checkBox96.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox96.Name = "checkBox96";
-            this.checkBox96.Size = new System.Drawing.Size(79, 17);
-            this.checkBox96.TabIndex = 10;
-            this.checkBox96.Text = "Non-tender";
-            this.checkBox96.UseVisualStyleBackColor = true;
-            // 
-            // checkBox97
-            // 
-            this.checkBox97.AutoSize = true;
-            this.checkBox97.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox97.Location = new System.Drawing.Point(8, 19);
-            this.checkBox97.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox97.Name = "checkBox97";
-            this.checkBox97.Size = new System.Drawing.Size(60, 17);
-            this.checkBox97.TabIndex = 9;
-            this.checkBox97.Text = "Tender";
-            this.checkBox97.UseVisualStyleBackColor = true;
-            // 
-            // groupBox27
-            // 
-            this.groupBox27.Controls.Add(this.checkBox98);
-            this.groupBox27.Controls.Add(this.checkBox99);
-            this.groupBox27.Controls.Add(this.checkBox100);
-            this.groupBox27.Controls.Add(this.checkBox101);
-            this.groupBox27.Controls.Add(this.checkBox102);
-            this.groupBox27.Controls.Add(this.checkBox103);
-            this.groupBox27.Controls.Add(this.checkBox104);
-            this.groupBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox27.Location = new System.Drawing.Point(15, 196);
-            this.groupBox27.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox27.Name = "groupBox27";
-            this.groupBox27.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox27.Size = new System.Drawing.Size(550, 81);
-            this.groupBox27.TabIndex = 87;
-            this.groupBox27.TabStop = false;
-            this.groupBox27.Text = "Left Upper Quadrant (LUQ)";
-            // 
-            // checkBox98
-            // 
-            this.checkBox98.AutoSize = true;
-            this.checkBox98.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox98.Location = new System.Drawing.Point(206, 38);
-            this.checkBox98.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox98.Name = "checkBox98";
-            this.checkBox98.Size = new System.Drawing.Size(95, 17);
-            this.checkBox98.TabIndex = 15;
-            this.checkBox98.Text = "Non-distended";
-            this.checkBox98.UseVisualStyleBackColor = true;
-            // 
-            // checkBox99
-            // 
-            this.checkBox99.AutoSize = true;
-            this.checkBox99.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox99.Location = new System.Drawing.Point(206, 16);
-            this.checkBox99.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox99.Name = "checkBox99";
-            this.checkBox99.Size = new System.Drawing.Size(74, 17);
-            this.checkBox99.TabIndex = 14;
-            this.checkBox99.Text = "Distended";
-            this.checkBox99.UseVisualStyleBackColor = true;
-            // 
-            // checkBox100
-            // 
-            this.checkBox100.AutoSize = true;
-            this.checkBox100.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox100.Location = new System.Drawing.Point(394, 59);
-            this.checkBox100.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox100.Name = "checkBox100";
-            this.checkBox100.Size = new System.Drawing.Size(127, 17);
-            this.checkBox100.TabIndex = 13;
-            this.checkBox100.Text = "Absent bowel sounds";
-            this.checkBox100.UseVisualStyleBackColor = true;
-            // 
-            // checkBox101
-            // 
-            this.checkBox101.AutoSize = true;
-            this.checkBox101.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox101.Location = new System.Drawing.Point(394, 38);
-            this.checkBox101.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox101.Name = "checkBox101";
-            this.checkBox101.Size = new System.Drawing.Size(148, 17);
-            this.checkBox101.TabIndex = 12;
-            this.checkBox101.Text = "Hypoactive bowel sounds";
-            this.checkBox101.UseVisualStyleBackColor = true;
-            // 
-            // checkBox102
-            // 
-            this.checkBox102.AutoSize = true;
-            this.checkBox102.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox102.Location = new System.Drawing.Point(394, 16);
-            this.checkBox102.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox102.Name = "checkBox102";
-            this.checkBox102.Size = new System.Drawing.Size(130, 17);
-            this.checkBox102.TabIndex = 11;
-            this.checkBox102.Text = "Bowel sounds present";
-            this.checkBox102.UseVisualStyleBackColor = true;
-            // 
-            // checkBox103
-            // 
-            this.checkBox103.AutoSize = true;
-            this.checkBox103.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox103.Location = new System.Drawing.Point(8, 38);
-            this.checkBox103.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox103.Name = "checkBox103";
-            this.checkBox103.Size = new System.Drawing.Size(79, 17);
-            this.checkBox103.TabIndex = 10;
-            this.checkBox103.Text = "Non-tender";
-            this.checkBox103.UseVisualStyleBackColor = true;
-            // 
-            // checkBox104
-            // 
-            this.checkBox104.AutoSize = true;
-            this.checkBox104.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox104.Location = new System.Drawing.Point(8, 17);
-            this.checkBox104.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox104.Name = "checkBox104";
-            this.checkBox104.Size = new System.Drawing.Size(60, 17);
-            this.checkBox104.TabIndex = 9;
-            this.checkBox104.Text = "Tender";
-            this.checkBox104.UseVisualStyleBackColor = true;
-            // 
-            // groupBox28
-            // 
-            this.groupBox28.Controls.Add(this.checkBox105);
-            this.groupBox28.Controls.Add(this.checkBox108);
-            this.groupBox28.Controls.Add(this.checkBox109);
-            this.groupBox28.Controls.Add(this.checkBox110);
-            this.groupBox28.Controls.Add(this.checkBox111);
-            this.groupBox28.Controls.Add(this.checkBox112);
-            this.groupBox28.Controls.Add(this.checkBox113);
-            this.groupBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox28.Location = new System.Drawing.Point(14, 112);
-            this.groupBox28.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox28.Size = new System.Drawing.Size(550, 82);
-            this.groupBox28.TabIndex = 86;
-            this.groupBox28.TabStop = false;
-            this.groupBox28.Text = "Overall";
-            // 
-            // checkBox105
-            // 
-            this.checkBox105.AutoSize = true;
-            this.checkBox105.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox105.Location = new System.Drawing.Point(209, 38);
-            this.checkBox105.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox105.Name = "checkBox105";
-            this.checkBox105.Size = new System.Drawing.Size(95, 17);
-            this.checkBox105.TabIndex = 8;
-            this.checkBox105.Text = "Non-distended";
-            this.checkBox105.UseVisualStyleBackColor = true;
-            // 
-            // checkBox108
-            // 
-            this.checkBox108.AutoSize = true;
-            this.checkBox108.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox108.Location = new System.Drawing.Point(209, 16);
-            this.checkBox108.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox108.Name = "checkBox108";
-            this.checkBox108.Size = new System.Drawing.Size(74, 17);
-            this.checkBox108.TabIndex = 7;
-            this.checkBox108.Text = "Distended";
-            this.checkBox108.UseVisualStyleBackColor = true;
-            // 
-            // checkBox109
-            // 
-            this.checkBox109.AutoSize = true;
-            this.checkBox109.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox109.Location = new System.Drawing.Point(397, 59);
-            this.checkBox109.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox109.Name = "checkBox109";
-            this.checkBox109.Size = new System.Drawing.Size(127, 17);
-            this.checkBox109.TabIndex = 6;
-            this.checkBox109.Text = "Absent bowel sounds";
-            this.checkBox109.UseVisualStyleBackColor = true;
-            // 
-            // checkBox110
-            // 
-            this.checkBox110.AutoSize = true;
-            this.checkBox110.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox110.Location = new System.Drawing.Point(397, 38);
-            this.checkBox110.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox110.Name = "checkBox110";
-            this.checkBox110.Size = new System.Drawing.Size(148, 17);
-            this.checkBox110.TabIndex = 5;
-            this.checkBox110.Text = "Hypoactive bowel sounds";
-            this.checkBox110.UseVisualStyleBackColor = true;
-            // 
-            // checkBox111
-            // 
-            this.checkBox111.AutoSize = true;
-            this.checkBox111.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox111.Location = new System.Drawing.Point(397, 16);
-            this.checkBox111.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox111.Name = "checkBox111";
-            this.checkBox111.Size = new System.Drawing.Size(130, 17);
-            this.checkBox111.TabIndex = 4;
-            this.checkBox111.Text = "Bowel sounds present";
-            this.checkBox111.UseVisualStyleBackColor = true;
-            // 
-            // checkBox112
-            // 
-            this.checkBox112.AutoSize = true;
-            this.checkBox112.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox112.Location = new System.Drawing.Point(11, 38);
-            this.checkBox112.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox112.Name = "checkBox112";
-            this.checkBox112.Size = new System.Drawing.Size(79, 17);
-            this.checkBox112.TabIndex = 1;
-            this.checkBox112.Text = "Non-tender";
-            this.checkBox112.UseVisualStyleBackColor = true;
-            // 
-            // checkBox113
-            // 
-            this.checkBox113.AutoSize = true;
-            this.checkBox113.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox113.Location = new System.Drawing.Point(11, 17);
-            this.checkBox113.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox113.Name = "checkBox113";
-            this.checkBox113.Size = new System.Drawing.Size(60, 17);
-            this.checkBox113.TabIndex = 0;
-            this.checkBox113.Text = "Tender";
-            this.checkBox113.UseVisualStyleBackColor = true;
-            // 
-            // groupBox70
-            // 
-            this.groupBox70.Controls.Add(this.checkBox179);
-            this.groupBox70.Controls.Add(this.checkBox180);
-            this.groupBox70.Controls.Add(this.checkBox181);
-            this.groupBox70.Controls.Add(this.checkBox182);
-            this.groupBox70.Enabled = false;
-            this.groupBox70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox70.Location = new System.Drawing.Point(594, 49);
-            this.groupBox70.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox70.Name = "groupBox70";
-            this.groupBox70.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox70.Size = new System.Drawing.Size(550, 65);
-            this.groupBox70.TabIndex = 80;
-            this.groupBox70.TabStop = false;
-            this.groupBox70.Text = "Cardiac";
-            // 
-            // checkBox179
-            // 
-            this.checkBox179.AutoSize = true;
-            this.checkBox179.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox179.Location = new System.Drawing.Point(444, 40);
-            this.checkBox179.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox179.Name = "checkBox179";
-            this.checkBox179.Size = new System.Drawing.Size(99, 17);
-            this.checkBox179.TabIndex = 3;
-            this.checkBox179.Text = "Murmur present";
-            this.checkBox179.UseVisualStyleBackColor = true;
-            // 
-            // checkBox180
-            // 
-            this.checkBox180.AutoSize = true;
-            this.checkBox180.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox180.Location = new System.Drawing.Point(444, 17);
-            this.checkBox180.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox180.Name = "checkBox180";
-            this.checkBox180.Size = new System.Drawing.Size(78, 17);
-            this.checkBox180.TabIndex = 2;
-            this.checkBox180.Text = "S4 Present";
-            this.checkBox180.UseVisualStyleBackColor = true;
-            // 
-            // checkBox181
-            // 
-            this.checkBox181.AutoSize = true;
-            this.checkBox181.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox181.Location = new System.Drawing.Point(236, 19);
-            this.checkBox181.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox181.Name = "checkBox181";
-            this.checkBox181.Size = new System.Drawing.Size(78, 17);
-            this.checkBox181.TabIndex = 1;
-            this.checkBox181.Text = "S3 Present";
-            this.checkBox181.UseVisualStyleBackColor = true;
-            // 
-            // checkBox182
-            // 
-            this.checkBox182.AutoSize = true;
-            this.checkBox182.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox182.Location = new System.Drawing.Point(11, 20);
-            this.checkBox182.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox182.Name = "checkBox182";
-            this.checkBox182.Size = new System.Drawing.Size(96, 17);
-            this.checkBox182.TabIndex = 0;
-            this.checkBox182.Text = "S1/S2 Present";
-            this.checkBox182.UseVisualStyleBackColor = true;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.radioButton71);
-            this.groupBox8.Controls.Add(this.radioButton72);
-            this.groupBox8.Controls.Add(this.radioButton73);
-            this.groupBox8.Controls.Add(this.radioButton74);
-            this.groupBox8.Controls.Add(this.radioButton75);
-            this.groupBox8.Enabled = false;
-            this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox8.Location = new System.Drawing.Point(14, 454);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox8.Size = new System.Drawing.Size(550, 68);
-            this.groupBox8.TabIndex = 89;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Edema";
-            // 
-            // radioButton71
-            // 
-            this.radioButton71.AutoSize = true;
-            this.radioButton71.BackColor = System.Drawing.Color.White;
-            this.radioButton71.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton71.Location = new System.Drawing.Point(468, 20);
-            this.radioButton71.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton71.Name = "radioButton71";
-            this.radioButton71.Size = new System.Drawing.Size(72, 17);
-            this.radioButton71.TabIndex = 25;
-            this.radioButton71.Text = "4+ - >1cm";
-            this.radioButton71.UseVisualStyleBackColor = false;
-            // 
-            // radioButton72
-            // 
-            this.radioButton72.AutoSize = true;
-            this.radioButton72.BackColor = System.Drawing.Color.White;
-            this.radioButton72.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton72.Location = new System.Drawing.Point(190, 40);
-            this.radioButton72.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton72.Name = "radioButton72";
-            this.radioButton72.Size = new System.Drawing.Size(83, 17);
-            this.radioButton72.TabIndex = 22;
-            this.radioButton72.Text = "3+ - 5-10mm";
-            this.radioButton72.UseVisualStyleBackColor = false;
-            // 
-            // radioButton73
-            // 
-            this.radioButton73.AutoSize = true;
-            this.radioButton73.BackColor = System.Drawing.Color.White;
-            this.radioButton73.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton73.Location = new System.Drawing.Point(190, 19);
-            this.radioButton73.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton73.Name = "radioButton73";
-            this.radioButton73.Size = new System.Drawing.Size(117, 17);
-            this.radioButton73.TabIndex = 21;
-            this.radioButton73.Text = "2+ - Less than 5mm";
-            this.radioButton73.UseVisualStyleBackColor = false;
-            // 
-            // radioButton74
-            // 
-            this.radioButton74.AutoSize = true;
-            this.radioButton74.BackColor = System.Drawing.Color.White;
-            this.radioButton74.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton74.Location = new System.Drawing.Point(10, 42);
-            this.radioButton74.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton74.Name = "radioButton74";
-            this.radioButton74.Size = new System.Drawing.Size(128, 17);
-            this.radioButton74.TabIndex = 20;
-            this.radioButton74.Text = "1+ - Barely discernible";
-            this.radioButton74.UseVisualStyleBackColor = false;
-            // 
-            // radioButton75
-            // 
-            this.radioButton75.AutoSize = true;
-            this.radioButton75.BackColor = System.Drawing.Color.White;
-            this.radioButton75.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton75.Location = new System.Drawing.Point(11, 22);
-            this.radioButton75.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton75.Name = "radioButton75";
-            this.radioButton75.Size = new System.Drawing.Size(90, 17);
-            this.radioButton75.TabIndex = 19;
-            this.radioButton75.Text = "0 - No Edema";
-            this.radioButton75.UseVisualStyleBackColor = false;
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.radioButton76);
-            this.groupBox9.Controls.Add(this.radioButton77);
-            this.groupBox9.Controls.Add(this.radioButton78);
-            this.groupBox9.Controls.Add(this.radioButton79);
-            this.groupBox9.Controls.Add(this.radioButton80);
-            this.groupBox9.Enabled = false;
-            this.groupBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox9.Location = new System.Drawing.Point(14, 384);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox9.Size = new System.Drawing.Size(550, 65);
-            this.groupBox9.TabIndex = 88;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Capillary Refill";
-            // 
-            // radioButton76
-            // 
-            this.radioButton76.AutoSize = true;
-            this.radioButton76.BackColor = System.Drawing.Color.White;
-            this.radioButton76.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton76.Location = new System.Drawing.Point(468, 18);
-            this.radioButton76.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton76.Name = "radioButton76";
-            this.radioButton76.Size = new System.Drawing.Size(58, 17);
-            this.radioButton76.TabIndex = 25;
-            this.radioButton76.Text = "Absent";
-            this.radioButton76.UseVisualStyleBackColor = false;
-            // 
-            // radioButton77
-            // 
-            this.radioButton77.AutoSize = true;
-            this.radioButton77.BackColor = System.Drawing.Color.White;
-            this.radioButton77.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton77.Location = new System.Drawing.Point(191, 39);
-            this.radioButton77.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton77.Name = "radioButton77";
-            this.radioButton77.Size = new System.Drawing.Size(48, 17);
-            this.radioButton77.TabIndex = 22;
-            this.radioButton77.Text = "Slow";
-            this.radioButton77.UseVisualStyleBackColor = false;
-            // 
-            // radioButton78
-            // 
-            this.radioButton78.AutoSize = true;
-            this.radioButton78.BackColor = System.Drawing.Color.White;
-            this.radioButton78.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton78.Location = new System.Drawing.Point(12, 38);
-            this.radioButton78.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton78.Name = "radioButton78";
-            this.radioButton78.Size = new System.Drawing.Size(57, 17);
-            this.radioButton78.TabIndex = 21;
-            this.radioButton78.Text = "<2 sec";
-            this.radioButton78.UseVisualStyleBackColor = false;
-            // 
-            // radioButton79
-            // 
-            this.radioButton79.AutoSize = true;
-            this.radioButton79.BackColor = System.Drawing.Color.White;
-            this.radioButton79.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton79.Location = new System.Drawing.Point(190, 18);
-            this.radioButton79.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton79.Name = "radioButton79";
-            this.radioButton79.Size = new System.Drawing.Size(57, 17);
-            this.radioButton79.TabIndex = 20;
-            this.radioButton79.Text = "<1 sec";
-            this.radioButton79.UseVisualStyleBackColor = false;
-            // 
-            // radioButton80
-            // 
-            this.radioButton80.AutoSize = true;
-            this.radioButton80.BackColor = System.Drawing.Color.White;
-            this.radioButton80.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton80.Location = new System.Drawing.Point(12, 18);
-            this.radioButton80.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton80.Name = "radioButton80";
-            this.radioButton80.Size = new System.Drawing.Size(80, 17);
-            this.radioButton80.TabIndex = 19;
-            this.radioButton80.Text = "Brisk <3sec";
-            this.radioButton80.UseVisualStyleBackColor = false;
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.Controls.Add(this.radioButton81);
-            this.groupBox10.Controls.Add(this.radioButton82);
-            this.groupBox10.Controls.Add(this.radioButton83);
-            this.groupBox10.Controls.Add(this.radioButton84);
-            this.groupBox10.Controls.Add(this.radioButton85);
-            this.groupBox10.Controls.Add(this.radioButton86);
-            this.groupBox10.Enabled = false;
-            this.groupBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox10.Location = new System.Drawing.Point(14, 309);
-            this.groupBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox10.Size = new System.Drawing.Size(550, 71);
-            this.groupBox10.TabIndex = 87;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Strength/ROM";
-            // 
-            // radioButton81
-            // 
-            this.radioButton81.AutoSize = true;
-            this.radioButton81.BackColor = System.Drawing.Color.White;
-            this.radioButton81.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton81.Location = new System.Drawing.Point(386, 21);
-            this.radioButton81.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton81.Name = "radioButton81";
-            this.radioButton81.Size = new System.Drawing.Size(125, 17);
-            this.radioButton81.TabIndex = 25;
-            this.radioButton81.Text = "1 - Severe weakness";
-            this.radioButton81.UseVisualStyleBackColor = false;
-            // 
-            // radioButton82
-            // 
-            this.radioButton82.AutoSize = true;
-            this.radioButton82.BackColor = System.Drawing.Color.White;
-            this.radioButton82.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton82.Location = new System.Drawing.Point(386, 42);
-            this.radioButton82.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton82.Name = "radioButton82";
-            this.radioButton82.Size = new System.Drawing.Size(158, 17);
-            this.radioButton82.TabIndex = 23;
-            this.radioButton82.Text = "0 - No muscular contraction ";
-            this.radioButton82.UseVisualStyleBackColor = false;
-            // 
-            // radioButton83
-            // 
-            this.radioButton83.AutoSize = true;
-            this.radioButton83.BackColor = System.Drawing.Color.White;
-            this.radioButton83.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton83.Location = new System.Drawing.Point(190, 42);
-            this.radioButton83.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton83.Name = "radioButton83";
-            this.radioButton83.Size = new System.Drawing.Size(161, 17);
-            this.radioButton83.TabIndex = 22;
-            this.radioButton83.Text = "2 - Poor ROM against gravity";
-            this.radioButton83.UseVisualStyleBackColor = false;
-            // 
-            // radioButton84
-            // 
-            this.radioButton84.AutoSize = true;
-            this.radioButton84.BackColor = System.Drawing.Color.White;
-            this.radioButton84.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton84.Location = new System.Drawing.Point(190, 21);
-            this.radioButton84.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton84.Name = "radioButton84";
-            this.radioButton84.Size = new System.Drawing.Size(131, 17);
-            this.radioButton84.TabIndex = 21;
-            this.radioButton84.Text = "3 - Average weakness";
-            this.radioButton84.UseVisualStyleBackColor = false;
-            // 
-            // radioButton85
-            // 
-            this.radioButton85.AutoSize = true;
-            this.radioButton85.BackColor = System.Drawing.Color.White;
-            this.radioButton85.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton85.Location = new System.Drawing.Point(11, 41);
-            this.radioButton85.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton85.Name = "radioButton85";
-            this.radioButton85.Size = new System.Drawing.Size(117, 17);
-            this.radioButton85.TabIndex = 20;
-            this.radioButton85.Text = "4 - Slight weakness";
-            this.radioButton85.UseVisualStyleBackColor = false;
-            // 
-            // radioButton86
-            // 
-            this.radioButton86.AutoSize = true;
-            this.radioButton86.BackColor = System.Drawing.Color.White;
-            this.radioButton86.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton86.Location = new System.Drawing.Point(11, 21);
-            this.radioButton86.Margin = new System.Windows.Forms.Padding(2);
-            this.radioButton86.Name = "radioButton86";
-            this.radioButton86.Size = new System.Drawing.Size(73, 17);
-            this.radioButton86.TabIndex = 19;
-            this.radioButton86.Text = "5 - Normal";
-            this.radioButton86.UseVisualStyleBackColor = false;
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.Controls.Add(this.textBox8);
-            this.groupBox11.Controls.Add(this.checkBox64);
-            this.groupBox11.Controls.Add(this.checkBox72);
-            this.groupBox11.Controls.Add(this.checkBox119);
-            this.groupBox11.Controls.Add(this.checkBox120);
-            this.groupBox11.Controls.Add(this.checkBox121);
-            this.groupBox11.Controls.Add(this.checkBox122);
-            this.groupBox11.Controls.Add(this.checkBox123);
-            this.groupBox11.Enabled = false;
-            this.groupBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox11.Location = new System.Drawing.Point(14, 172);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox11.Size = new System.Drawing.Size(550, 135);
-            this.groupBox11.TabIndex = 86;
-            this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Skin";
-            // 
-            // textBox8
-            // 
-            this.textBox8.BackColor = System.Drawing.Color.White;
-            this.textBox8.Location = new System.Drawing.Point(3, 77);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(541, 53);
-            this.textBox8.TabIndex = 7;
-            this.textBox8.Text = "WOW SUPER HOT";
-            // 
-            // checkBox64
-            // 
-            this.checkBox64.AutoSize = true;
-            this.checkBox64.BackColor = System.Drawing.Color.White;
-            this.checkBox64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox64.Location = new System.Drawing.Point(475, 13);
-            this.checkBox64.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox64.Name = "checkBox64";
-            this.checkBox64.Size = new System.Drawing.Size(66, 17);
-            this.checkBox64.TabIndex = 6;
-            this.checkBox64.Text = "Cracked";
-            this.checkBox64.UseVisualStyleBackColor = false;
-            // 
-            // checkBox72
-            // 
-            this.checkBox72.AutoSize = true;
-            this.checkBox72.BackColor = System.Drawing.Color.White;
-            this.checkBox72.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox72.Location = new System.Drawing.Point(250, 54);
-            this.checkBox72.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox72.Name = "checkBox72";
-            this.checkBox72.Size = new System.Drawing.Size(51, 17);
-            this.checkBox72.TabIndex = 5;
-            this.checkBox72.Text = "Moist";
-            this.checkBox72.UseVisualStyleBackColor = false;
-            // 
-            // checkBox119
-            // 
-            this.checkBox119.AutoSize = true;
-            this.checkBox119.BackColor = System.Drawing.Color.White;
-            this.checkBox119.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox119.Location = new System.Drawing.Point(250, 33);
-            this.checkBox119.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox119.Name = "checkBox119";
-            this.checkBox119.Size = new System.Drawing.Size(47, 17);
-            this.checkBox119.TabIndex = 4;
-            this.checkBox119.Text = "Cold";
-            this.checkBox119.UseVisualStyleBackColor = false;
-            // 
-            // checkBox120
-            // 
-            this.checkBox120.AutoSize = true;
-            this.checkBox120.BackColor = System.Drawing.Color.White;
-            this.checkBox120.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox120.Location = new System.Drawing.Point(250, 13);
-            this.checkBox120.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox120.Name = "checkBox120";
-            this.checkBox120.Size = new System.Drawing.Size(42, 17);
-            this.checkBox120.TabIndex = 3;
-            this.checkBox120.Text = "Dry";
-            this.checkBox120.UseVisualStyleBackColor = false;
-            // 
-            // checkBox121
-            // 
-            this.checkBox121.AutoSize = true;
-            this.checkBox121.BackColor = System.Drawing.Color.White;
-            this.checkBox121.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox121.Location = new System.Drawing.Point(11, 55);
-            this.checkBox121.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox121.Name = "checkBox121";
-            this.checkBox121.Size = new System.Drawing.Size(95, 17);
-            this.checkBox121.TabIndex = 2;
-            this.checkBox121.Text = "Pressure Ulcer";
-            this.checkBox121.UseVisualStyleBackColor = false;
-            // 
-            // checkBox122
-            // 
-            this.checkBox122.AutoSize = true;
-            this.checkBox122.BackColor = System.Drawing.Color.White;
-            this.checkBox122.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox122.Location = new System.Drawing.Point(11, 35);
-            this.checkBox122.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox122.Name = "checkBox122";
-            this.checkBox122.Size = new System.Drawing.Size(54, 17);
-            this.checkBox122.TabIndex = 1;
-            this.checkBox122.Text = "Warm";
-            this.checkBox122.UseVisualStyleBackColor = false;
-            // 
-            // checkBox123
-            // 
-            this.checkBox123.AutoSize = true;
-            this.checkBox123.BackColor = System.Drawing.Color.White;
-            this.checkBox123.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox123.Location = new System.Drawing.Point(11, 16);
-            this.checkBox123.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox123.Name = "checkBox123";
-            this.checkBox123.Size = new System.Drawing.Size(43, 17);
-            this.checkBox123.TabIndex = 0;
-            this.checkBox123.Text = "Hot";
-            this.checkBox123.UseVisualStyleBackColor = false;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox17.Location = new System.Drawing.Point(11, 17);
-            this.checkBox17.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(49, 17);
-            this.checkBox17.TabIndex = 9;
-            this.checkBox17.Text = "Calm";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox16.Location = new System.Drawing.Point(168, 37);
-            this.checkBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(63, 17);
-            this.checkBox16.TabIndex = 10;
-            this.checkBox16.Text = "Anxious";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox15.Location = new System.Drawing.Point(11, 38);
-            this.checkBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(80, 17);
-            this.checkBox15.TabIndex = 11;
-            this.checkBox15.Text = "Appropriate";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox14.Location = new System.Drawing.Point(168, 17);
-            this.checkBox14.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(47, 17);
-            this.checkBox14.TabIndex = 12;
-            this.checkBox14.Text = "Alert";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox13.Location = new System.Drawing.Point(168, 58);
-            this.checkBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(74, 17);
-            this.checkBox13.TabIndex = 13;
-            this.checkBox13.Text = "Flat Affect";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox12.Location = new System.Drawing.Point(376, 16);
-            this.checkBox12.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(91, 17);
-            this.checkBox12.TabIndex = 14;
-            this.checkBox12.Text = "Unresponsive";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox20.Location = new System.Drawing.Point(376, 37);
-            this.checkBox20.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(65, 17);
-            this.checkBox20.TabIndex = 15;
-            this.checkBox20.Text = "Agitated";
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox19.Location = new System.Drawing.Point(376, 58);
-            this.checkBox19.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(78, 17);
-            this.checkBox19.TabIndex = 16;
-            this.checkBox19.Text = "Aggressive";
-            this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // checkBox183
-            // 
-            this.checkBox183.AutoSize = true;
-            this.checkBox183.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox183.Location = new System.Drawing.Point(376, 59);
-            this.checkBox183.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox183.Name = "checkBox183";
-            this.checkBox183.Size = new System.Drawing.Size(78, 17);
-            this.checkBox183.TabIndex = 24;
-            this.checkBox183.Text = "Aggressive";
-            this.checkBox183.UseVisualStyleBackColor = true;
-            // 
-            // checkBox184
-            // 
-            this.checkBox184.AutoSize = true;
-            this.checkBox184.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox184.Location = new System.Drawing.Point(376, 38);
-            this.checkBox184.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox184.Name = "checkBox184";
-            this.checkBox184.Size = new System.Drawing.Size(65, 17);
-            this.checkBox184.TabIndex = 23;
-            this.checkBox184.Text = "Agitated";
-            this.checkBox184.UseVisualStyleBackColor = true;
-            // 
-            // checkBox185
-            // 
-            this.checkBox185.AutoSize = true;
-            this.checkBox185.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox185.Location = new System.Drawing.Point(376, 17);
-            this.checkBox185.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox185.Name = "checkBox185";
-            this.checkBox185.Size = new System.Drawing.Size(91, 17);
-            this.checkBox185.TabIndex = 22;
-            this.checkBox185.Text = "Unresponsive";
-            this.checkBox185.UseVisualStyleBackColor = true;
-            // 
-            // checkBox186
-            // 
-            this.checkBox186.AutoSize = true;
-            this.checkBox186.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox186.Location = new System.Drawing.Point(168, 59);
-            this.checkBox186.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox186.Name = "checkBox186";
-            this.checkBox186.Size = new System.Drawing.Size(74, 17);
-            this.checkBox186.TabIndex = 21;
-            this.checkBox186.Text = "Flat Affect";
-            this.checkBox186.UseVisualStyleBackColor = true;
-            // 
-            // checkBox192
-            // 
-            this.checkBox192.AutoSize = true;
-            this.checkBox192.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox192.Location = new System.Drawing.Point(168, 18);
-            this.checkBox192.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox192.Name = "checkBox192";
-            this.checkBox192.Size = new System.Drawing.Size(47, 17);
-            this.checkBox192.TabIndex = 20;
-            this.checkBox192.Text = "Alert";
-            this.checkBox192.UseVisualStyleBackColor = true;
-            // 
-            // checkBox193
-            // 
-            this.checkBox193.AutoSize = true;
-            this.checkBox193.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox193.Location = new System.Drawing.Point(11, 39);
-            this.checkBox193.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox193.Name = "checkBox193";
-            this.checkBox193.Size = new System.Drawing.Size(80, 17);
-            this.checkBox193.TabIndex = 19;
-            this.checkBox193.Text = "Appropriate";
-            this.checkBox193.UseVisualStyleBackColor = true;
-            // 
-            // checkBox194
-            // 
-            this.checkBox194.AutoSize = true;
-            this.checkBox194.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox194.Location = new System.Drawing.Point(168, 38);
-            this.checkBox194.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox194.Name = "checkBox194";
-            this.checkBox194.Size = new System.Drawing.Size(63, 17);
-            this.checkBox194.TabIndex = 18;
-            this.checkBox194.Text = "Anxious";
-            this.checkBox194.UseVisualStyleBackColor = true;
-            // 
-            // checkBox195
-            // 
-            this.checkBox195.AutoSize = true;
-            this.checkBox195.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox195.Location = new System.Drawing.Point(11, 18);
-            this.checkBox195.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox195.Name = "checkBox195";
-            this.checkBox195.Size = new System.Drawing.Size(49, 17);
-            this.checkBox195.TabIndex = 17;
-            this.checkBox195.Text = "Calm";
-            this.checkBox195.UseVisualStyleBackColor = true;
-            // 
-            // checkBox187
-            // 
-            this.checkBox187.AutoSize = true;
-            this.checkBox187.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox187.Location = new System.Drawing.Point(432, 40);
-            this.checkBox187.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox187.Name = "checkBox187";
-            this.checkBox187.Size = new System.Drawing.Size(108, 17);
-            this.checkBox187.TabIndex = 9;
-            this.checkBox187.Text = "CN VI Impairment";
-            this.checkBox187.UseVisualStyleBackColor = true;
-            // 
-            // checkBox188
-            // 
-            this.checkBox188.AutoSize = true;
-            this.checkBox188.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox188.Location = new System.Drawing.Point(432, 20);
-            this.checkBox188.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox188.Name = "checkBox188";
-            this.checkBox188.Size = new System.Drawing.Size(108, 17);
-            this.checkBox188.TabIndex = 8;
-            this.checkBox188.Text = "CN IV Impairment";
-            this.checkBox188.UseVisualStyleBackColor = true;
-            // 
-            // checkBox189
-            // 
-            this.checkBox189.AutoSize = true;
-            this.checkBox189.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox189.Location = new System.Drawing.Point(218, 41);
-            this.checkBox189.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox189.Name = "checkBox189";
-            this.checkBox189.Size = new System.Drawing.Size(107, 17);
-            this.checkBox189.TabIndex = 7;
-            this.checkBox189.Text = "CN III Impairment";
-            this.checkBox189.UseVisualStyleBackColor = true;
-            // 
-            // checkBox190
-            // 
-            this.checkBox190.AutoSize = true;
-            this.checkBox190.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox190.Location = new System.Drawing.Point(218, 20);
-            this.checkBox190.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox190.Name = "checkBox190";
-            this.checkBox190.Size = new System.Drawing.Size(118, 17);
-            this.checkBox190.TabIndex = 6;
-            this.checkBox190.Text = "General Nystagmus";
-            this.checkBox190.UseVisualStyleBackColor = true;
-            // 
-            // checkBox191
-            // 
-            this.checkBox191.AutoSize = true;
-            this.checkBox191.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox191.Location = new System.Drawing.Point(9, 20);
-            this.checkBox191.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox191.Name = "checkBox191";
-            this.checkBox191.Size = new System.Drawing.Size(59, 17);
-            this.checkBox191.TabIndex = 5;
-            this.checkBox191.Text = "Normal";
-            this.checkBox191.UseVisualStyleBackColor = true;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "0 = Absent ",
-            "1+ = Thready and weak; easily obliterated ",
-            "2+ = Normal, easily identified; not easily obliderated",
-            "3+ = Increased; moderate pressure for obliteration ",
-            "4+ = Full, bounding; cannot obliterate "});
-            this.comboBox8.Location = new System.Drawing.Point(8, 19);
-            this.comboBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(187, 23);
-            this.comboBox8.TabIndex = 9;
-            this.comboBox8.Text = "Systolic Blood Pressure (SBP)";
-            // 
-            // groupBox89
-            // 
-            this.groupBox89.Controls.Add(this.comboBox11);
-            this.groupBox89.Controls.Add(this.comboBox12);
-            this.groupBox89.Controls.Add(this.label24);
-            this.groupBox89.Controls.Add(this.maskedTextBox8);
-            this.groupBox89.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox89.Location = new System.Drawing.Point(597, 416);
-            this.groupBox89.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox89.Name = "groupBox89";
-            this.groupBox89.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox89.Size = new System.Drawing.Size(550, 55);
-            this.groupBox89.TabIndex = 73;
-            this.groupBox89.TabStop = false;
-            this.groupBox89.Text = "Temperature";
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Items.AddRange(new object[] {
-            "Fahrenheit",
-            "Celsius"});
-            this.comboBox11.Location = new System.Drawing.Point(11, 20);
-            this.comboBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(88, 23);
-            this.comboBox11.TabIndex = 9;
-            this.comboBox11.Text = "Fahrenheit";
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Items.AddRange(new object[] {
-            "Oral",
-            "Temporal",
-            "Axillary",
-            "Rectal",
-            "Otic"});
-            this.comboBox12.Location = new System.Drawing.Point(250, 19);
-            this.comboBox12.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(62, 23);
-            this.comboBox12.TabIndex = 7;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(183, 24);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(66, 13);
-            this.label24.TabIndex = 2;
-            this.label24.Text = "Site/Method";
-            // 
-            // maskedTextBox8
-            // 
-            this.maskedTextBox8.Location = new System.Drawing.Point(104, 20);
-            this.maskedTextBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox8.Name = "maskedTextBox8";
-            this.maskedTextBox8.Size = new System.Drawing.Size(52, 21);
-            this.maskedTextBox8.TabIndex = 1;
-            // 
-            // groupBox90
-            // 
-            this.groupBox90.Controls.Add(this.comboBox13);
-            this.groupBox90.Controls.Add(this.comboBox16);
-            this.groupBox90.Controls.Add(this.label25);
-            this.groupBox90.Controls.Add(this.maskedTextBox15);
-            this.groupBox90.Controls.Add(this.label50);
-            this.groupBox90.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox90.Location = new System.Drawing.Point(597, 356);
-            this.groupBox90.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox90.Name = "groupBox90";
-            this.groupBox90.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox90.Size = new System.Drawing.Size(550, 56);
-            this.groupBox90.TabIndex = 72;
-            this.groupBox90.TabStop = false;
-            this.groupBox90.Text = "Pulse";
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Items.AddRange(new object[] {
-            "0 = Absent ",
-            "1+ = Thready and weak; easily obliterated ",
-            "2+ = Normal, easily identified; not easily obliderated",
-            "3+ = Increased; moderate pressure for obliteration ",
-            "4+ = Full, bounding; cannot obliterate "});
-            this.comboBox13.Location = new System.Drawing.Point(121, 20);
-            this.comboBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(305, 23);
-            this.comboBox13.TabIndex = 8;
-            // 
-            // comboBox16
-            // 
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Location = new System.Drawing.Point(477, 20);
-            this.comboBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(62, 23);
-            this.comboBox16.TabIndex = 7;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(450, 25);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(25, 13);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "Site";
-            // 
-            // maskedTextBox15
-            // 
-            this.maskedTextBox15.Location = new System.Drawing.Point(48, 22);
-            this.maskedTextBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox15.Name = "maskedTextBox15";
-            this.maskedTextBox15.Size = new System.Drawing.Size(52, 21);
-            this.maskedTextBox15.TabIndex = 1;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(11, 25);
-            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(30, 13);
-            this.label50.TabIndex = 0;
-            this.label50.Text = "Rate";
-            // 
-            // groupBox91
-            // 
-            this.groupBox91.Controls.Add(this.comboBox17);
-            this.groupBox91.Controls.Add(this.label145);
-            this.groupBox91.Controls.Add(this.maskedTextBox16);
-            this.groupBox91.Controls.Add(this.label146);
-            this.groupBox91.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox91.Location = new System.Drawing.Point(597, 298);
-            this.groupBox91.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox91.Name = "groupBox91";
-            this.groupBox91.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox91.Size = new System.Drawing.Size(550, 55);
-            this.groupBox91.TabIndex = 71;
-            this.groupBox91.TabStop = false;
-            this.groupBox91.Text = "Respiratory Rate";
-            // 
-            // comboBox17
-            // 
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Items.AddRange(new object[] {
-            "Regular",
-            "Labored",
-            "Distressed",
-            "Irregular"});
-            this.comboBox17.Location = new System.Drawing.Point(231, 21);
-            this.comboBox17.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(62, 23);
-            this.comboBox17.TabIndex = 7;
-            // 
-            // label145
-            // 
-            this.label145.AutoSize = true;
-            this.label145.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label145.Location = new System.Drawing.Point(184, 26);
-            this.label145.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(43, 13);
-            this.label145.TabIndex = 2;
-            this.label145.Text = "Rhythm";
-            // 
-            // maskedTextBox16
-            // 
-            this.maskedTextBox16.Location = new System.Drawing.Point(48, 21);
-            this.maskedTextBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox16.Name = "maskedTextBox16";
-            this.maskedTextBox16.Size = new System.Drawing.Size(52, 21);
-            this.maskedTextBox16.TabIndex = 1;
-            // 
-            // label146
-            // 
-            this.label146.AutoSize = true;
-            this.label146.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label146.Location = new System.Drawing.Point(11, 25);
-            this.label146.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(30, 13);
-            this.label146.TabIndex = 0;
-            this.label146.Text = "Rate";
-            // 
-            // groupBox92
-            // 
-            this.groupBox92.Controls.Add(this.comboBox18);
-            this.groupBox92.Controls.Add(this.comboBox19);
-            this.groupBox92.Controls.Add(this.comboBox20);
-            this.groupBox92.Controls.Add(this.label147);
-            this.groupBox92.Controls.Add(this.maskedTextBox17);
-            this.groupBox92.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox92.Location = new System.Drawing.Point(597, 239);
-            this.groupBox92.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox92.Name = "groupBox92";
-            this.groupBox92.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox92.Size = new System.Drawing.Size(550, 54);
-            this.groupBox92.TabIndex = 70;
-            this.groupBox92.TabStop = false;
-            this.groupBox92.Text = "Blood Pressure";
-            // 
-            // comboBox18
-            // 
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Items.AddRange(new object[] {
-            "0 = Absent ",
-            "1+ = Thready and weak; easily obliterated ",
-            "2+ = Normal, easily identified; not easily obliderated",
-            "3+ = Increased; moderate pressure for obliteration ",
-            "4+ = Full, bounding; cannot obliterate "});
-            this.comboBox18.Location = new System.Drawing.Point(8, 19);
-            this.comboBox18.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(187, 23);
-            this.comboBox18.TabIndex = 9;
-            this.comboBox18.Text = "Systolic Blood Pressure (SBP)";
-            // 
-            // comboBox19
-            // 
-            this.comboBox19.FormattingEnabled = true;
-            this.comboBox19.Items.AddRange(new object[] {
-            "Right",
-            "Left"});
-            this.comboBox19.Location = new System.Drawing.Point(372, 20);
-            this.comboBox19.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(79, 23);
-            this.comboBox19.TabIndex = 5;
-            // 
-            // comboBox20
-            // 
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Items.AddRange(new object[] {
-            "Upper Arm",
-            "Lower Arm",
-            "Calf",
-            "Thigh",
-            "Wrist"});
-            this.comboBox20.Location = new System.Drawing.Point(462, 20);
-            this.comboBox20.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(79, 23);
-            this.comboBox20.TabIndex = 4;
-            // 
-            // label147
-            // 
-            this.label147.AutoSize = true;
-            this.label147.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label147.Location = new System.Drawing.Point(335, 25);
-            this.label147.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(25, 13);
-            this.label147.TabIndex = 3;
-            this.label147.Text = "Site";
-            // 
-            // maskedTextBox17
-            // 
-            this.maskedTextBox17.Location = new System.Drawing.Point(199, 20);
-            this.maskedTextBox17.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox17.Name = "maskedTextBox17";
-            this.maskedTextBox17.Size = new System.Drawing.Size(52, 21);
-            this.maskedTextBox17.TabIndex = 1;
+            // labelast
+            // 
+            this.labelast.AutoSize = true;
+            this.labelast.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.labelast.Location = new System.Drawing.Point(444, 81);
+            this.labelast.Name = "labelast";
+            this.labelast.Size = new System.Drawing.Size(28, 13);
+            this.labelast.TabIndex = 110;
+            this.labelast.Text = "AST";
+            // 
+            // labelalt
+            // 
+            this.labelalt.AutoSize = true;
+            this.labelalt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.labelalt.Location = new System.Drawing.Point(435, 152);
+            this.labelalt.Name = "labelalt";
+            this.labelalt.Size = new System.Drawing.Size(27, 13);
+            this.labelalt.TabIndex = 111;
+            this.labelalt.Text = "ALT";
+            // 
+            // label150
+            // 
+            this.label150.AutoSize = true;
+            this.label150.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.label150.Location = new System.Drawing.Point(506, 151);
+            this.label150.Name = "label150";
+            this.label150.Size = new System.Drawing.Size(47, 13);
+            this.label150.TabIndex = 112;
+            this.label150.Text = "label150";
+            // 
+            // labelldh
+            // 
+            this.labelldh.AutoSize = true;
+            this.labelldh.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.labelldh.Location = new System.Drawing.Point(503, 77);
+            this.labelldh.Name = "labelldh";
+            this.labelldh.Size = new System.Drawing.Size(29, 13);
+            this.labelldh.TabIndex = 113;
+            this.labelldh.Text = "LDH";
             // 
             // mainView
             // 
@@ -13180,6 +13228,8 @@
             this.groupBox1.ResumeLayout(false);
             this.assDataTabs.ResumeLayout(false);
             this.safCheTab.ResumeLayout(false);
+            this.braScaResPan.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.braScaSubCatPan.ResumeLayout(false);
             this.groupBox43.ResumeLayout(false);
             this.groupBox43.PerformLayout();
@@ -13208,14 +13258,60 @@
             this.groupBox3.PerformLayout();
             this.morScaResSubCatPan.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            this.braScaResPan.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.assessmentTab.ResumeLayout(false);
+            this.genSurSubCatPan.ResumeLayout(false);
+            this.groupBox72.ResumeLayout(false);
+            this.groupBox72.PerformLayout();
+            this.groupBox73.ResumeLayout(false);
+            this.groupBox73.PerformLayout();
+            this.groupBox79.ResumeLayout(false);
+            this.groupBox79.PerformLayout();
+            this.groupBox80.ResumeLayout(false);
+            this.groupBox80.PerformLayout();
+            this.groupBox87.ResumeLayout(false);
+            this.groupBox87.PerformLayout();
+            this.groupBox71.ResumeLayout(false);
+            this.groupBox71.PerformLayout();
+            this.genAppAndBehGrpBox.ResumeLayout(false);
+            this.genAppAndBehGrpBox.PerformLayout();
+            this.genAffGrpBox.ResumeLayout(false);
+            this.genAffGrpBox.PerformLayout();
+            this.reaToLrnGrpBox.ResumeLayout(false);
+            this.reaToLrnGrpBox.PerformLayout();
+            this.famPresGrpBox.ResumeLayout(false);
+            this.famPresGrpBox.PerformLayout();
+            this.uppExtSubCatPan.ResumeLayout(false);
+            this.groupBox63.ResumeLayout(false);
+            this.groupBox63.PerformLayout();
+            this.groupBox64.ResumeLayout(false);
+            this.groupBox64.PerformLayout();
+            this.groupBox65.ResumeLayout(false);
+            this.groupBox65.PerformLayout();
+            this.groupBox66.ResumeLayout(false);
+            this.groupBox66.PerformLayout();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
             this.painSubCatPnl.ResumeLayout(false);
             this.painSubCatPnl.PerformLayout();
+            this.groupBox88.ResumeLayout(false);
+            this.groupBox88.PerformLayout();
             this.groupBox78.ResumeLayout(false);
             this.groupBox78.PerformLayout();
             this.lowExtSubCatPan.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
             this.groupBox46.ResumeLayout(false);
             this.groupBox46.PerformLayout();
             this.groupBox47.ResumeLayout(false);
@@ -13225,6 +13321,26 @@
             this.groupBox49.ResumeLayout(false);
             this.groupBox49.PerformLayout();
             this.abdSubCatPan.ResumeLayout(false);
+            this.groupBox24.ResumeLayout(false);
+            this.groupBox24.PerformLayout();
+            this.groupBox25.ResumeLayout(false);
+            this.groupBox25.PerformLayout();
+            this.groupBox26.ResumeLayout(false);
+            this.groupBox26.PerformLayout();
+            this.groupBox27.ResumeLayout(false);
+            this.groupBox27.PerformLayout();
+            this.groupBox28.ResumeLayout(false);
+            this.groupBox28.PerformLayout();
+            this.groupBox59.ResumeLayout(false);
+            this.groupBox59.PerformLayout();
+            this.groupBox62.ResumeLayout(false);
+            this.groupBox62.PerformLayout();
+            this.groupBox67.ResumeLayout(false);
+            this.groupBox67.PerformLayout();
+            this.groupBox68.ResumeLayout(false);
+            this.groupBox68.PerformLayout();
+            this.groupBox69.ResumeLayout(false);
+            this.groupBox69.PerformLayout();
             this.hEENTSubCatPan.ResumeLayout(false);
             this.groupBox74.ResumeLayout(false);
             this.groupBox74.PerformLayout();
@@ -13243,6 +13359,8 @@
             this.groupBox30.ResumeLayout(false);
             this.groupBox30.PerformLayout();
             this.carSubCatPan.ResumeLayout(false);
+            this.groupBox70.ResumeLayout(false);
+            this.groupBox70.PerformLayout();
             this.groupBox23.ResumeLayout(false);
             this.groupBox23.PerformLayout();
             this.pulSubCatPan.ResumeLayout(false);
@@ -13270,25 +13388,15 @@
             this.groupBox18.PerformLayout();
             this.groupBox17.ResumeLayout(false);
             this.groupBox17.PerformLayout();
-            this.genSurSubCatPan.ResumeLayout(false);
-            this.genAppAndBehGrpBox.ResumeLayout(false);
-            this.genAppAndBehGrpBox.PerformLayout();
-            this.genAffGrpBox.ResumeLayout(false);
-            this.genAffGrpBox.PerformLayout();
-            this.reaToLrnGrpBox.ResumeLayout(false);
-            this.reaToLrnGrpBox.PerformLayout();
-            this.famPresGrpBox.ResumeLayout(false);
-            this.famPresGrpBox.PerformLayout();
-            this.uppExtSubCatPan.ResumeLayout(false);
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
-            this.groupBox13.ResumeLayout(false);
-            this.groupBox13.PerformLayout();
-            this.groupBox14.ResumeLayout(false);
-            this.groupBox14.PerformLayout();
-            this.groupBox15.ResumeLayout(false);
-            this.groupBox15.PerformLayout();
             this.vitalSignTab.ResumeLayout(false);
+            this.groupBox89.ResumeLayout(false);
+            this.groupBox89.PerformLayout();
+            this.groupBox90.ResumeLayout(false);
+            this.groupBox90.PerformLayout();
+            this.groupBox91.ResumeLayout(false);
+            this.groupBox91.PerformLayout();
+            this.groupBox92.ResumeLayout(false);
+            this.groupBox92.PerformLayout();
             this.tempGrpBox.ResumeLayout(false);
             this.tempGrpBox.PerformLayout();
             this.pulGrpBox.ResumeLayout(false);
@@ -13361,13 +13469,6 @@
             this.groupBox54.ResumeLayout(false);
             this.groupBox54.PerformLayout();
             this.ordTabs.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.groupBox57.ResumeLayout(false);
-            this.groupBox57.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBox52.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.groupBox38.ResumeLayout(false);
             this.groupBox38.PerformLayout();
@@ -13379,6 +13480,13 @@
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.groupBox57.ResumeLayout(false);
+            this.groupBox57.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox52.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ordMed_Drug_DataGridView)).EndInit();
             this.notTabs.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).EndInit();
@@ -13393,66 +13501,6 @@
             this.groupBox45.ResumeLayout(false);
             this.groupBox45.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
-            this.groupBox59.ResumeLayout(false);
-            this.groupBox59.PerformLayout();
-            this.groupBox62.ResumeLayout(false);
-            this.groupBox62.PerformLayout();
-            this.groupBox67.ResumeLayout(false);
-            this.groupBox67.PerformLayout();
-            this.groupBox68.ResumeLayout(false);
-            this.groupBox68.PerformLayout();
-            this.groupBox69.ResumeLayout(false);
-            this.groupBox69.PerformLayout();
-            this.groupBox71.ResumeLayout(false);
-            this.groupBox71.PerformLayout();
-            this.groupBox72.ResumeLayout(false);
-            this.groupBox72.PerformLayout();
-            this.groupBox73.ResumeLayout(false);
-            this.groupBox73.PerformLayout();
-            this.groupBox79.ResumeLayout(false);
-            this.groupBox79.PerformLayout();
-            this.groupBox80.ResumeLayout(false);
-            this.groupBox80.PerformLayout();
-            this.groupBox87.ResumeLayout(false);
-            this.groupBox87.PerformLayout();
-            this.groupBox63.ResumeLayout(false);
-            this.groupBox63.PerformLayout();
-            this.groupBox64.ResumeLayout(false);
-            this.groupBox64.PerformLayout();
-            this.groupBox65.ResumeLayout(false);
-            this.groupBox65.PerformLayout();
-            this.groupBox66.ResumeLayout(false);
-            this.groupBox66.PerformLayout();
-            this.groupBox88.ResumeLayout(false);
-            this.groupBox88.PerformLayout();
-            this.groupBox24.ResumeLayout(false);
-            this.groupBox24.PerformLayout();
-            this.groupBox25.ResumeLayout(false);
-            this.groupBox25.PerformLayout();
-            this.groupBox26.ResumeLayout(false);
-            this.groupBox26.PerformLayout();
-            this.groupBox27.ResumeLayout(false);
-            this.groupBox27.PerformLayout();
-            this.groupBox28.ResumeLayout(false);
-            this.groupBox28.PerformLayout();
-            this.groupBox70.ResumeLayout(false);
-            this.groupBox70.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox11.PerformLayout();
-            this.groupBox89.ResumeLayout(false);
-            this.groupBox89.PerformLayout();
-            this.groupBox90.ResumeLayout(false);
-            this.groupBox90.PerformLayout();
-            this.groupBox91.ResumeLayout(false);
-            this.groupBox91.PerformLayout();
-            this.groupBox92.ResumeLayout(false);
-            this.groupBox92.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -14442,5 +14490,9 @@
         private System.Windows.Forms.Label label147;
         private System.Windows.Forms.MaskedTextBox maskedTextBox17;
         private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.Label labelldh;
+        private System.Windows.Forms.Label label150;
+        private System.Windows.Forms.Label labelalt;
+        private System.Windows.Forms.Label labelast;
     }
 }
