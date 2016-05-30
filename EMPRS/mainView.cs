@@ -48,7 +48,7 @@ namespace EMPRS
             hgbMaskTxtBox.Clear();
             pLTMaskTxtBox.Clear();
 
-            //loadData();
+           // loadData();
 
             if (global.isAdmin == false)
             {
@@ -343,53 +343,55 @@ namespace EMPRS
 
             //Labs
             naMaskTxtBox.Text = curPatient.sodium.ToString();
-            labelNa.Text = curPatient.sodium.ToString();
+            labelNa.Text += ":\n" + curPatient.sodium.ToString();
             kMaskTxtBox.Text = curPatient.potassium.ToString();
-            labelK.Text = curPatient.potassium.ToString();
+            labelK.Text += ":\n" + curPatient.potassium.ToString();
             clMaskTxtBox.Text = curPatient.chloride.ToString();
-            labelCl.Text = curPatient.chloride.ToString();
+            labelCl.Text += ":\n" + curPatient.chloride.ToString();
             HCO3MaskTxtBox.Text = curPatient.HCO3.ToString();
-            labelHCO3.Text = curPatient.HCO3.ToString();
+            labelHCO3.Text += ":\n" + curPatient.HCO3.ToString();
             bUNMaskTxtBox.Text = curPatient.BUN.ToString();
-            labelBUN.Text = curPatient.BUN.ToString();
+            labelBUN.Text += ":\n" + curPatient.BUN.ToString();
             creatMaskTxtBox.Text = curPatient.creatinine.ToString();
-            labelCreatine.Text = curPatient.creatinine.ToString();
+            labelCreatine.Text += ":\n" + curPatient.creatinine.ToString();
             glucoseMaskTxtBox.Text = curPatient.glucose.ToString();
-            labelGlaucose.Text = curPatient.glucose.ToString();
+            labelGlaucose.Text += ":\n" + curPatient.glucose.ToString();
             ca2MaskTxtBox.Text = curPatient.calcium.ToString();
-            labelCa.Text = curPatient.calcium.ToString();
+            labelCa.Text += ":\n" + curPatient.calcium.ToString();
             textBox21.Text = curPatient.magnesium.ToString();
             textBox36.Text = curPatient.magnesium.ToString();
             PO43MaskTxtBox.Text = curPatient.phosphate.ToString();
             labelPO4.Text = curPatient.phosphate.ToString();
             tPMaskTxtBox.Text = curPatient.protein.ToString();
-            labelTP.Text = curPatient.protein.ToString();
+            labelTP.Text += ":\n" + curPatient.protein.ToString();
             albMaskTxtBox.Text = curPatient.albumin.ToString();
-            labelAlb.Text = curPatient.albumin.ToString();
+            labelAlb.Text += ":\n" + curPatient.albumin.ToString();
             aSTMaskTxtBox.Text = curPatient.AST.ToString();
-            labelast.Text = curPatient.AST.ToString();
+            labelast.Text += ":\n" + curPatient.AST.ToString();
+            aLPMaskTxtBox.Text = curPatient.ALP.ToString();
+            label150.Text += ":\n" + curPatient.ALP.ToString();
             aLTMaskTxtBox.Text = curPatient.ALT.ToString();
-            labelalt.Text = curPatient.ALT.ToString();
+            labelalt.Text += ":\n" + curPatient.ALT.ToString();
             lDHMastTxtBox.Text = curPatient.LDH.ToString();
-            labelldh.Text = curPatient.LDH.ToString();
+            labelldh.Text += ":\n" + curPatient.LDH.ToString();
             bilMastTxtBox.Text = curPatient.bilirubin.ToString();
-            labelBiliru.Text = curPatient.bilirubin.ToString();
+            labelBiliru.Text += ":\n" + curPatient.bilirubin.ToString();
             hCTMaskTxtBox.Text = curPatient.HCT.ToString();
-            labelHCT.Text = curPatient.HCT.ToString();
+            labelHCT.Text += ":\n" + curPatient.HCT.ToString();
             rBCMaskTxtBox.Text = curPatient.ALT.ToString();
-            labelRBC.Text = curPatient.RBC.ToString();
+            labelRBC.Text += ":\n" + curPatient.RBC.ToString();
             hgbMaskTxtBox.Text = curPatient.Hgb.ToString();
-            labelHgb.Text = curPatient.Hgb.ToString();
+            labelHgb.Text += ":\n" + curPatient.Hgb.ToString();
             wBCMaskTxtBox.Text = curPatient.WBC.ToString();
-            labelWBC.Text = curPatient.WBC.ToString();
+            labelWBC.Text += ":\n" + curPatient.WBC.ToString();
             pLTMaskTxtBox.Text = curPatient.PLT.ToString();
-            labelPLT.Text = curPatient.PLT.ToString();
+            labelPLT.Text += ":\n" + curPatient.PLT.ToString();
             pTMaskTxtBox.Text = curPatient.PT.ToString();
-            labelPT.Text = curPatient.PT.ToString();
+            labelPT.Text += ":\n" + curPatient.PT.ToString();
             pTTMaskTxtBox.Text = curPatient.PTT.ToString();
-            labelPTT.Text = curPatient.PTT.ToString();
+            labelPTT.Text += ":\n" + curPatient.PTT.ToString();
             iNRMaskTxtBox.Text = curPatient.INR.ToString();
-            labelINR.Text = curPatient.INR.ToString();
+            labelINR.Text += ":\n" + curPatient.INR.ToString();
             myoglobinMaskTxtBox.Text = curPatient.myoglobin.ToString();
             cTnIMaskTxtBox.Text = curPatient.cTnI.ToString();
             cTnTMaskTxtBox.Text = curPatient.cTnT.ToString();
