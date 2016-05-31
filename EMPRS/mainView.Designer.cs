@@ -1558,10 +1558,10 @@
             this.safCheTab.Controls.Add(this.morScaSubCatBtn);
             this.safCheTab.Controls.Add(this.braScaResSubCatBtn);
             this.safCheTab.Controls.Add(this.braScaSubCatBtn);
+            this.safCheTab.Controls.Add(this.morScaResSubCatPan);
             this.safCheTab.Controls.Add(this.braScaResPan);
             this.safCheTab.Controls.Add(this.braScaSubCatPan);
             this.safCheTab.Controls.Add(this.morScaSubCatPan);
-            this.safCheTab.Controls.Add(this.morScaResSubCatPan);
             this.safCheTab.Location = new System.Drawing.Point(4, 24);
             this.safCheTab.Margin = new System.Windows.Forms.Padding(2);
             this.safCheTab.Name = "safCheTab";
@@ -13333,110 +13333,122 @@
             // 
             // listBox23
             // 
+            this.listBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox23.FormattingEnabled = true;
             this.listBox23.ItemHeight = 15;
             this.listBox23.Location = new System.Drawing.Point(8, 20);
             this.listBox23.Name = "listBox23";
-            this.listBox23.Size = new System.Drawing.Size(266, 94);
+            this.listBox23.Size = new System.Drawing.Size(266, 90);
             this.listBox23.TabIndex = 0;
             // 
             // listBox24
             // 
+            this.listBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox24.FormattingEnabled = true;
             this.listBox24.ItemHeight = 15;
             this.listBox24.Location = new System.Drawing.Point(298, 20);
             this.listBox24.Name = "listBox24";
-            this.listBox24.Size = new System.Drawing.Size(266, 94);
+            this.listBox24.Size = new System.Drawing.Size(266, 90);
             this.listBox24.TabIndex = 1;
             // 
             // listBox25
             // 
+            this.listBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox25.FormattingEnabled = true;
             this.listBox25.ItemHeight = 15;
             this.listBox25.Location = new System.Drawing.Point(588, 20);
             this.listBox25.Name = "listBox25";
-            this.listBox25.Size = new System.Drawing.Size(266, 94);
+            this.listBox25.Size = new System.Drawing.Size(266, 90);
             this.listBox25.TabIndex = 2;
             // 
             // listBox26
             // 
+            this.listBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox26.FormattingEnabled = true;
             this.listBox26.ItemHeight = 15;
             this.listBox26.Location = new System.Drawing.Point(878, 20);
             this.listBox26.Name = "listBox26";
-            this.listBox26.Size = new System.Drawing.Size(266, 94);
+            this.listBox26.Size = new System.Drawing.Size(266, 90);
             this.listBox26.TabIndex = 3;
             // 
             // listBox27
             // 
+            this.listBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox27.FormattingEnabled = true;
             this.listBox27.ItemHeight = 15;
             this.listBox27.Location = new System.Drawing.Point(878, 20);
             this.listBox27.Name = "listBox27";
-            this.listBox27.Size = new System.Drawing.Size(266, 94);
+            this.listBox27.Size = new System.Drawing.Size(266, 90);
             this.listBox27.TabIndex = 7;
             // 
             // listBox28
             // 
+            this.listBox28.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox28.FormattingEnabled = true;
             this.listBox28.ItemHeight = 15;
             this.listBox28.Location = new System.Drawing.Point(588, 20);
             this.listBox28.Name = "listBox28";
-            this.listBox28.Size = new System.Drawing.Size(266, 94);
+            this.listBox28.Size = new System.Drawing.Size(266, 90);
             this.listBox28.TabIndex = 6;
             // 
             // listBox29
             // 
+            this.listBox29.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox29.FormattingEnabled = true;
             this.listBox29.ItemHeight = 15;
             this.listBox29.Location = new System.Drawing.Point(298, 20);
             this.listBox29.Name = "listBox29";
-            this.listBox29.Size = new System.Drawing.Size(266, 94);
+            this.listBox29.Size = new System.Drawing.Size(266, 90);
             this.listBox29.TabIndex = 5;
             // 
             // listBox30
             // 
+            this.listBox30.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox30.FormattingEnabled = true;
             this.listBox30.ItemHeight = 15;
             this.listBox30.Location = new System.Drawing.Point(8, 20);
             this.listBox30.Name = "listBox30";
-            this.listBox30.Size = new System.Drawing.Size(266, 94);
+            this.listBox30.Size = new System.Drawing.Size(266, 90);
             this.listBox30.TabIndex = 4;
             // 
             // listBox31
             // 
+            this.listBox31.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox31.FormattingEnabled = true;
             this.listBox31.ItemHeight = 15;
             this.listBox31.Location = new System.Drawing.Point(9, 20);
             this.listBox31.Name = "listBox31";
-            this.listBox31.Size = new System.Drawing.Size(554, 244);
+            this.listBox31.Size = new System.Drawing.Size(554, 255);
             this.listBox31.TabIndex = 0;
             // 
             // listBox32
             // 
+            this.listBox32.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox32.FormattingEnabled = true;
             this.listBox32.ItemHeight = 15;
             this.listBox32.Location = new System.Drawing.Point(10, 17);
             this.listBox32.Name = "listBox32";
-            this.listBox32.Size = new System.Drawing.Size(554, 244);
+            this.listBox32.Size = new System.Drawing.Size(554, 240);
             this.listBox32.TabIndex = 1;
             // 
             // listBox33
             // 
+            this.listBox33.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox33.FormattingEnabled = true;
             this.listBox33.ItemHeight = 15;
             this.listBox33.Location = new System.Drawing.Point(7, 19);
             this.listBox33.Name = "listBox33";
-            this.listBox33.Size = new System.Drawing.Size(554, 244);
+            this.listBox33.Size = new System.Drawing.Size(554, 240);
             this.listBox33.TabIndex = 1;
             // 
             // listBox34
             // 
+            this.listBox34.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox34.FormattingEnabled = true;
             this.listBox34.ItemHeight = 15;
             this.listBox34.Location = new System.Drawing.Point(10, 19);
             this.listBox34.Name = "listBox34";
-            this.listBox34.Size = new System.Drawing.Size(554, 244);
+            this.listBox34.Size = new System.Drawing.Size(554, 240);
             this.listBox34.TabIndex = 1;
             // 
             // listBox35
@@ -13473,38 +13485,42 @@
             // 
             // listBox37
             // 
+            this.listBox37.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox37.FormattingEnabled = true;
             this.listBox37.ItemHeight = 15;
             this.listBox37.Location = new System.Drawing.Point(7, 20);
             this.listBox37.Name = "listBox37";
-            this.listBox37.Size = new System.Drawing.Size(266, 94);
+            this.listBox37.Size = new System.Drawing.Size(266, 90);
             this.listBox37.TabIndex = 5;
             // 
             // listBox40
             // 
+            this.listBox40.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox40.FormattingEnabled = true;
             this.listBox40.ItemHeight = 15;
             this.listBox40.Location = new System.Drawing.Point(293, 20);
             this.listBox40.Name = "listBox40";
-            this.listBox40.Size = new System.Drawing.Size(266, 94);
+            this.listBox40.Size = new System.Drawing.Size(266, 90);
             this.listBox40.TabIndex = 6;
             // 
             // listBox41
             // 
+            this.listBox41.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox41.FormattingEnabled = true;
             this.listBox41.ItemHeight = 15;
             this.listBox41.Location = new System.Drawing.Point(579, 20);
             this.listBox41.Name = "listBox41";
-            this.listBox41.Size = new System.Drawing.Size(266, 94);
+            this.listBox41.Size = new System.Drawing.Size(266, 90);
             this.listBox41.TabIndex = 7;
             // 
             // listBox42
             // 
+            this.listBox42.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox42.FormattingEnabled = true;
             this.listBox42.ItemHeight = 15;
             this.listBox42.Location = new System.Drawing.Point(865, 20);
             this.listBox42.Name = "listBox42";
-            this.listBox42.Size = new System.Drawing.Size(266, 94);
+            this.listBox42.Size = new System.Drawing.Size(266, 90);
             this.listBox42.TabIndex = 8;
             // 
             // mainView
