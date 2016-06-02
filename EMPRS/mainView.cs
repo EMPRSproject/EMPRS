@@ -705,6 +705,11 @@ namespace EMPRS
                 tPMaskTxtBox.ForeColor = System.Drawing.Color.Crimson;
             }
         }
+
+        private void lowExtSubCatPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 
