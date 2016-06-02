@@ -48,7 +48,7 @@ namespace EMPRS
             hgbMaskTxtBox.Clear();
             pLTMaskTxtBox.Clear();
 
-           // loadData();
+            loadData();
 
             if (global.isAdmin == false)
             {
@@ -82,6 +82,7 @@ namespace EMPRS
             }
             m_dbConnection.Close();
         }
+
         public void loadPatient(string patientName)
         {
             var names = patientName.Split(' ');
@@ -148,7 +149,30 @@ namespace EMPRS
                     curPatient.cTnI = Convert.ToSingle(rdr["cTnI"]);
                     curPatient.cTnT = Convert.ToSingle(rdr["cTnT"]);
                     curPatient.CPK_CKMB2 = Convert.ToSingle(rdr["CPK_CKMB2"]);
+                }
+            }
 
+            sql = "select * from AssessmentData where patientID == " + curPatient.patientID;
+            command = new SQLiteCommand(sql, m_dbConnection);
+            using (SQLiteDataReader rdr = command.ExecuteReader())
+            {
+                while (rdr.Read())
+                {
+                    curPatient.assessmentDate = Convert.ToDateTime(rdr["assessmentDate"]);
+
+
+                    curPatient.sensePercep = Convert.ToInt32(rdr["sensePercep"]);
+                    curPatient.moisture = Convert.ToInt32(rdr["moisture"]);
+                    curPatient.activity = Convert.ToInt32(rdr["activity"]);
+                    curPatient.mobility = Convert.ToInt32(rdr["mobility"]);
+                    //curPatient.nutrition = Convert.ToInt32(rdr["nutrition"]);
+                    //curPatient.frictionShear = Convert.ToInt32(rdr["frictionShear"]);
+                    //curPatient.fallHistory = Convert.ToInt32(rdr["fallHistory"]);
+                    //curPatient.multDiagnosis = Convert.ToInt32(rdr["multDiagnosis"]);
+                    //curPatient.ambAid = Convert.ToInt32(rdr["ambAid"]);
+                    //curPatient.IVtherapy = Convert.ToInt32(rdr["IVtherapy"]);
+                    //curPatient.gait = Convert.ToInt32(rdr["gait"]);
+                    //curPatient.mentalStatus = Convert.ToInt32(rdr["mentalStatus"]);
                 }
             }
                     m_dbConnection.Close();
@@ -396,10 +420,85 @@ namespace EMPRS
             cTnIMaskTxtBox.Text = curPatient.cTnI.ToString();
             cTnTMaskTxtBox.Text = curPatient.cTnT.ToString();
             cPKMaskTxtBox.Text = curPatient.CPK_CKMB2.ToString();
-            
 
-            //groupBox1.Visible = true;
-            patHigBtn.Enabled = true;
+            //Assessments
+            switch (curPatient.sensePercep)
+            {
+                case 1:
+                    label66.Text = "Completely Limited";
+                    break;
+                case 2:
+                    label66.Text = "Very Limited";
+                    break;
+                case 3:
+                    label66.Text = "Slightly Limited";
+                    break;
+                case 4:
+                    label66.Text = "No Impairment";
+                    break;
+            }
+            switch (curPatient.moisture)
+            {
+                case 1:
+                    label68.Text = "Constantly Moist";
+                    break;
+                case 2:
+                    label68.Text = "Very Moist";
+                    break;
+                case 3:
+                    label68.Text = "Occassionally Moist";
+                    break;
+                case 4:
+                    label68.Text = "Rarely Moist";
+                    break;
+            }
+            switch (curPatient.activity)
+            {
+                case 1:
+                    label69.Text = "Bedfast";
+                    break;
+                case 2:
+                    label69.Text = "Chairfast";
+                    break;
+                case 3:
+                    label69.Text = "Walks Occassionally";
+                    break;
+                case 4:
+                    label69.Text = "Walks Frequently";
+                    break;
+            }
+            switch (curPatient.mobility)
+            {
+                case 1:
+                    label75.Text = "Completely Immobile";
+                    break;
+                case 2:
+                    label75.Text = "Very Limited";
+                    break;
+                case 3:
+                    label75.Text = "Slightly Limited";
+                    break;
+                case 4:
+                    label75.Text = "No Limitation";
+                    break;
+            }
+            switch (curPatient.nutrition)
+            {
+                case 1:
+                    label76.Text = "Very Poor";
+                    break;
+                case 2:
+                    label76.Text = "Probably Inadequate";
+                    break;
+                case 3:
+                    label76.Text = "Adequate";
+                    break;
+                case 4:
+                    label76.Text = "Excellent";
+                    break;
+            }
+                    //groupBox1.Visible = true;
+                    patHigBtn.Enabled = true;
             labsAndImaBtn.Enabled = true;
             mARBtn.Enabled = true;
             assDataBtn.Enabled = true;

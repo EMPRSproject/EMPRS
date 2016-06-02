@@ -241,88 +241,53 @@ namespace EMPRS
         };
 
         //edema
-        enum lowerExEdema
+        public enum lowerExEdema
         {
             None, Barely, Less5Mil, FiveMil, Centi
         };
+        public lowerExEdema lowerExEdemaVar;
 
         //SAFETY CHECKS
 
         //Braden
 
         //sensory perception
-        enum sensePercep
-        {
-            CompLimit = 1, VeryLimit = 2, SlightLimit = 3, NoImpair = 4
-        };
+        public int sensePercep;
 
         //moisture
-        enum moisture
-        {
-            ConstMoist = 1, VeryMoist = 2, OccMoist = 3, RareMoist = 4
-        };
+        public int moisture;
 
         //activity
-        enum activity
-        {
-            Bedfast = 1, Chairfast = 2, WalksOcc = 3, WalksFreq = 4
-        };
+        public int activity;
 
         //mobility
-        enum mobility
-        {
-            Immobile = 1, VeryLimit = 2, SlightLimit = 3, NoLimit = 4
-        };
+        public int mobility;
 
         //nutrition
-        enum nutrition
-        {
-            Poor = 1, Inadequate = 2, Adequate = 3, Excellent = 4
-        };
+        public int nutrition;
 
         //friction and shear
-        enum frictionShear
-        {
-            Problem = 1, PotProb = 2, NoProb = 3
-        };
+        public int frictionShear;
 
         //Morse
 
         //history
-        enum fallHistory
-        {
-            No = 0, Yes = 25
-        };
+        public int fallHistory;
 
         //secondary diagnosis
-        enum multDiagnosis
-        {
-            No = 0, Yes = 15
-        };
+        public int multDiagnosis;
 
         //ambulatory aid
-        enum ambAid
-        {
-            None = 0, Crutch = 15, Furniture = 30
-        };
+        public int ambAid;
 
         //IV therapy/heparin lock
-        enum IVtherapy
-        {
-            No = 0, Yes = 20
-        };
+        public int IVtherapy;
 
         //gait
-        enum gait
-        {
-            Normal = 0, Weak = 10, Impaired = 20
-        };
+        public int gait;
 
         //mental status
-        enum mentalStatus
-        {
-            Oriented = 0, Overestimates = 15
-        };
+        public int mentalStatus;
 
         //-------------------------//
         //----------NOTES----------//
