@@ -269,6 +269,9 @@ namespace EMPRS
         //friction and shear
         public int frictionShear;
 
+        //braden total
+        public int bradenTotal;
+
         //Morse
 
         //history
@@ -288,6 +291,9 @@ namespace EMPRS
 
         //mental status
         public int mentalStatus;
+
+        //morse total
+        public int morseTotal;
 
         //-------------------------//
         //----------NOTES----------//

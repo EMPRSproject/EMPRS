@@ -864,8 +864,8 @@
             this.checkBox117 = new System.Windows.Forms.CheckBox();
             this.checkBox118 = new System.Windows.Forms.CheckBox();
             this.vitalSignTab = new System.Windows.Forms.TabPage();
-            this.listBox22 = new System.Windows.Forms.ListBox();
-            this.listBox21 = new System.Windows.Forms.ListBox();
+            this.comboBox22 = new System.Windows.Forms.ComboBox();
+            this.comboBox21 = new System.Windows.Forms.ComboBox();
             this.groupBox89 = new System.Windows.Forms.GroupBox();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.comboBox12 = new System.Windows.Forms.ComboBox();
@@ -1539,9 +1539,6 @@
             this.groupBox1.Controls.Add(this.ordBtn);
             this.groupBox1.Controls.Add(this.notBtn);
             this.groupBox1.Controls.Add(this.assDataBtn);
-            this.groupBox1.Controls.Add(this.mARTabs);
-            this.groupBox1.Controls.Add(this.labsAndImaTabs);
-            this.groupBox1.Controls.Add(this.patHigPan);
             this.groupBox1.Controls.Add(this.ordTabs);
             this.groupBox1.Controls.Add(this.notTabs);
             this.groupBox1.Controls.Add(this.assDataTabs);
@@ -2094,9 +2091,9 @@
             this.tableLayoutPanel5.Controls.Add(this.label121, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.label122, 6, 0);
             this.tableLayoutPanel5.Controls.Add(this.label123, 2, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label124, 3, 0);
             this.tableLayoutPanel5.Controls.Add(this.label125, 4, 0);
             this.tableLayoutPanel5.Controls.Add(this.label126, 5, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label124, 3, 0);
             this.tableLayoutPanel5.Location = new System.Drawing.Point(128, 144);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 2;
@@ -2227,14 +2224,14 @@
             // label124
             // 
             this.label124.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label124.AutoSize = true;
             this.label124.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label124.Location = new System.Drawing.Point(444, 1);
+            this.label124.Location = new System.Drawing.Point(451, 3);
             this.label124.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(105, 17);
+            this.label124.Size = new System.Drawing.Size(90, 13);
             this.label124.TabIndex = 24;
             this.label124.Text = "Intravenous therapy/heparin lock";
+            this.label124.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // label125
             // 
@@ -4195,10 +4192,10 @@
             this.safCheTab.Controls.Add(this.morScaSubCatBtn);
             this.safCheTab.Controls.Add(this.braScaResSubCatBtn);
             this.safCheTab.Controls.Add(this.braScaSubCatBtn);
+            this.safCheTab.Controls.Add(this.morScaResSubCatPan);
             this.safCheTab.Controls.Add(this.braScaResPan);
             this.safCheTab.Controls.Add(this.braScaSubCatPan);
             this.safCheTab.Controls.Add(this.morScaSubCatPan);
-            this.safCheTab.Controls.Add(this.morScaResSubCatPan);
             this.safCheTab.Location = new System.Drawing.Point(4, 24);
             this.safCheTab.Margin = new System.Windows.Forms.Padding(2);
             this.safCheTab.Name = "safCheTab";
@@ -11464,8 +11461,8 @@
             // 
             // vitalSignTab
             // 
-            this.vitalSignTab.Controls.Add(this.listBox22);
-            this.vitalSignTab.Controls.Add(this.listBox21);
+            this.vitalSignTab.Controls.Add(this.comboBox22);
+            this.vitalSignTab.Controls.Add(this.comboBox21);
             this.vitalSignTab.Controls.Add(this.groupBox89);
             this.vitalSignTab.Controls.Add(this.groupBox90);
             this.vitalSignTab.Controls.Add(this.groupBox91);
@@ -11484,23 +11481,21 @@
             this.vitalSignTab.Text = "Vital Signs";
             this.vitalSignTab.UseVisualStyleBackColor = true;
             // 
-            // listBox22
+            // comboBox22
             // 
-            this.listBox22.FormattingEnabled = true;
-            this.listBox22.ItemHeight = 15;
-            this.listBox22.Location = new System.Drawing.Point(593, 17);
-            this.listBox22.Name = "listBox22";
-            this.listBox22.Size = new System.Drawing.Size(555, 139);
-            this.listBox22.TabIndex = 119;
+            this.comboBox22.FormattingEnabled = true;
+            this.comboBox22.Location = new System.Drawing.Point(593, 15);
+            this.comboBox22.Name = "comboBox22";
+            this.comboBox22.Size = new System.Drawing.Size(121, 23);
+            this.comboBox22.TabIndex = 121;
             // 
-            // listBox21
+            // comboBox21
             // 
-            this.listBox21.FormattingEnabled = true;
-            this.listBox21.ItemHeight = 15;
-            this.listBox21.Location = new System.Drawing.Point(12, 17);
-            this.listBox21.Name = "listBox21";
-            this.listBox21.Size = new System.Drawing.Size(556, 139);
-            this.listBox21.TabIndex = 118;
+            this.comboBox21.FormattingEnabled = true;
+            this.comboBox21.Location = new System.Drawing.Point(18, 16);
+            this.comboBox21.Name = "comboBox21";
+            this.comboBox21.Size = new System.Drawing.Size(121, 23);
+            this.comboBox21.TabIndex = 120;
             // 
             // groupBox89
             // 
@@ -11509,7 +11504,7 @@
             this.groupBox89.Controls.Add(this.label24);
             this.groupBox89.Controls.Add(this.maskedTextBox8);
             this.groupBox89.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox89.Location = new System.Drawing.Point(593, 348);
+            this.groupBox89.Location = new System.Drawing.Point(590, 227);
             this.groupBox89.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox89.Name = "groupBox89";
             this.groupBox89.Padding = new System.Windows.Forms.Padding(2);
@@ -11573,7 +11568,7 @@
             this.groupBox90.Controls.Add(this.maskedTextBox15);
             this.groupBox90.Controls.Add(this.label50);
             this.groupBox90.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox90.Location = new System.Drawing.Point(593, 288);
+            this.groupBox90.Location = new System.Drawing.Point(590, 167);
             this.groupBox90.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox90.Name = "groupBox90";
             this.groupBox90.Padding = new System.Windows.Forms.Padding(2);
@@ -11643,7 +11638,7 @@
             this.groupBox91.Controls.Add(this.maskedTextBox16);
             this.groupBox91.Controls.Add(this.label146);
             this.groupBox91.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox91.Location = new System.Drawing.Point(593, 230);
+            this.groupBox91.Location = new System.Drawing.Point(590, 109);
             this.groupBox91.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox91.Name = "groupBox91";
             this.groupBox91.Padding = new System.Windows.Forms.Padding(2);
@@ -11704,7 +11699,7 @@
             this.groupBox92.Controls.Add(this.label147);
             this.groupBox92.Controls.Add(this.maskedTextBox17);
             this.groupBox92.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox92.Location = new System.Drawing.Point(593, 171);
+            this.groupBox92.Location = new System.Drawing.Point(590, 50);
             this.groupBox92.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox92.Name = "groupBox92";
             this.groupBox92.Padding = new System.Windows.Forms.Padding(2);
@@ -11790,7 +11785,7 @@
             this.tempGrpBox.Controls.Add(this.label31);
             this.tempGrpBox.Controls.Add(this.maskedTextBox7);
             this.tempGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tempGrpBox.Location = new System.Drawing.Point(12, 348);
+            this.tempGrpBox.Location = new System.Drawing.Point(17, 227);
             this.tempGrpBox.Margin = new System.Windows.Forms.Padding(2);
             this.tempGrpBox.Name = "tempGrpBox";
             this.tempGrpBox.Padding = new System.Windows.Forms.Padding(2);
@@ -11854,7 +11849,7 @@
             this.pulGrpBox.Controls.Add(this.maskedTextBox5);
             this.pulGrpBox.Controls.Add(this.label30);
             this.pulGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pulGrpBox.Location = new System.Drawing.Point(12, 288);
+            this.pulGrpBox.Location = new System.Drawing.Point(17, 167);
             this.pulGrpBox.Margin = new System.Windows.Forms.Padding(2);
             this.pulGrpBox.Name = "pulGrpBox";
             this.pulGrpBox.Padding = new System.Windows.Forms.Padding(2);
@@ -11924,7 +11919,7 @@
             this.resRateGrpBox.Controls.Add(this.maskedTextBox6);
             this.resRateGrpBox.Controls.Add(this.label29);
             this.resRateGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resRateGrpBox.Location = new System.Drawing.Point(12, 230);
+            this.resRateGrpBox.Location = new System.Drawing.Point(17, 109);
             this.resRateGrpBox.Margin = new System.Windows.Forms.Padding(2);
             this.resRateGrpBox.Name = "resRateGrpBox";
             this.resRateGrpBox.Padding = new System.Windows.Forms.Padding(2);
@@ -11985,7 +11980,7 @@
             this.bldPreGrpBox.Controls.Add(this.label26);
             this.bldPreGrpBox.Controls.Add(this.maskedTextBox9);
             this.bldPreGrpBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bldPreGrpBox.Location = new System.Drawing.Point(12, 171);
+            this.bldPreGrpBox.Location = new System.Drawing.Point(17, 50);
             this.bldPreGrpBox.Margin = new System.Windows.Forms.Padding(2);
             this.bldPreGrpBox.Name = "bldPreGrpBox";
             this.bldPreGrpBox.Padding = new System.Windows.Forms.Padding(2);
@@ -14960,8 +14955,6 @@
         private System.Windows.Forms.ListBox listBox5;
         private System.Windows.Forms.ListBox listBox8;
         private System.Windows.Forms.ListBox listBox7;
-        private System.Windows.Forms.ListBox listBox22;
-        private System.Windows.Forms.ListBox listBox21;
         private System.Windows.Forms.ListBox listBox26;
         private System.Windows.Forms.ListBox listBox25;
         private System.Windows.Forms.ListBox listBox24;
@@ -14982,5 +14975,7 @@
         private System.Windows.Forms.Label label151;
         private System.Windows.Forms.Label label149;
         private System.Windows.Forms.Label label148;
+        private System.Windows.Forms.ComboBox comboBox22;
+        private System.Windows.Forms.ComboBox comboBox21;
     }
 }

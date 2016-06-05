@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Data.SQLite;
 using System.Windows.Forms;
 
+//is just a test
 namespace EMPRS
 {
     public partial class mainView : Form
@@ -165,14 +166,14 @@ namespace EMPRS
                     curPatient.moisture = Convert.ToInt32(rdr["moisture"]);
                     curPatient.activity = Convert.ToInt32(rdr["activity"]);
                     curPatient.mobility = Convert.ToInt32(rdr["mobility"]);
-                    //curPatient.nutrition = Convert.ToInt32(rdr["nutrition"]);
-                    //curPatient.frictionShear = Convert.ToInt32(rdr["frictionShear"]);
-                    //curPatient.fallHistory = Convert.ToInt32(rdr["fallHistory"]);
-                    //curPatient.multDiagnosis = Convert.ToInt32(rdr["multDiagnosis"]);
-                    //curPatient.ambAid = Convert.ToInt32(rdr["ambAid"]);
-                    //curPatient.IVtherapy = Convert.ToInt32(rdr["IVtherapy"]);
-                    //curPatient.gait = Convert.ToInt32(rdr["gait"]);
-                    //curPatient.mentalStatus = Convert.ToInt32(rdr["mentalStatus"]);
+                    curPatient.nutrition = Convert.ToInt32(rdr["nutrition"]);
+                    curPatient.frictionShear = Convert.ToInt32(rdr["frictionShear"]);
+                    curPatient.fallHistory = Convert.ToInt32(rdr["fallHistory"]);
+                    curPatient.multDiagnosis = Convert.ToInt32(rdr["multDiagnosis"]);
+                    curPatient.ambAid = Convert.ToInt32(rdr["ambAid"]);
+                    curPatient.IVtherapy = Convert.ToInt32(rdr["IVtherapy"]);
+                    curPatient.gait = Convert.ToInt32(rdr["gait"]);
+                    curPatient.mentalStatus = Convert.ToInt32(rdr["mentalStatus"]);
                 }
             }
                     m_dbConnection.Close();
@@ -353,7 +354,7 @@ namespace EMPRS
 
         private void patientDropDown_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
             string curName = patientDropDown.Text;
             loadPatient(curName);
 
@@ -362,6 +363,8 @@ namespace EMPRS
             sexMaskTxtBox.Text = curPatient.sex.ToString();
             ageMaskTxtBox.Text = curPatient.age.ToString();
             birthMaskTxtBox.Text = curPatient.DOB.ToString("d");
+            maskedTextBox13.Text = curPatient.height.ToString();
+            maskedTextBox4.Text = curPatient.height.ToString();
             allMaskTxtBox.Text = curPatient.allergies;
             infPreMaskTxtBox.Text = curPatient.infections;
 
@@ -497,8 +500,63 @@ namespace EMPRS
                     label76.Text = "Excellent";
                     break;
             }
-                    //groupBox1.Visible = true;
-                    patHigBtn.Enabled = true;
+            switch (curPatient.frictionShear)
+            {
+                case 1:
+                    label77.Text = "Problem";
+                    break;
+                case 2:
+                    label77.Text = "Potential Problem";
+                    break;
+                case 3:
+                    label77.Text = "No Apparrent Problem";
+                    break;
+            }
+            curPatient.bradenTotal = curPatient.sensePercep + curPatient.moisture + curPatient.activity + curPatient.mobility + curPatient.nutrition + curPatient.frictionShear;
+            label78.Text = curPatient.bradenTotal.ToString();
+
+            //morse scale
+            if (curPatient.fallHistory == 25)
+                label119.Text = "Yes";
+            else
+                label119.Text = "No";
+
+            if (curPatient.multDiagnosis == 15)
+                label118.Text = "Yes";
+            else
+                label118.Text = "No";
+
+            if (curPatient.ambAid == 30)
+                label117.Text = "Furniture";
+            else if (curPatient.ambAid == 15)
+                label117.Text = "Crutches/cane/walker";
+            else
+                label117.Text = "none/bedrest";
+
+            if (curPatient.IVtherapy == 25)
+                label116.Text = "Yes";
+            else
+                label116.Text = "No";
+
+            if (curPatient.gait == 20)
+                label115.Text = "Impaired";
+            else if (curPatient.gait == 10)
+                label115.Text = "Weak";
+            else
+                label115.Text = "Normal/bedrest/wheelchair";
+
+            if (curPatient.mentalStatus == 15)
+                label114.Text = "Overestimates";
+            else
+                label114.Text = "Oriented";
+
+            curPatient.morseTotal = curPatient.fallHistory + curPatient.multDiagnosis + curPatient.ambAid + curPatient.IVtherapy + curPatient.gait + curPatient.mentalStatus;
+            label113.Text = curPatient.morseTotal.ToString();
+
+
+
+            //groupBox1.Visible = true;
+            patHigBtn.Enabled = true;
             labsAndImaBtn.Enabled = true;
             mARBtn.Enabled = true;
             assDataBtn.Enabled = true;
