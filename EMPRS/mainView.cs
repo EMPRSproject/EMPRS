@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Data.SQLite;
 using System.Windows.Forms;
 
-//is just a test
+//is just a test yo
 namespace EMPRS
 {
     public partial class mainView : Form
