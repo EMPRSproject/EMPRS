@@ -21,8 +21,8 @@ namespace EMPRS
             M, F
         };
         public MF sex;
-        public int height;             //patient height
-        public int weight;             //patient weight
+        public double height;             //patient height
+        public double weight;             //patient weight
         public string allergies;       //patient allergies
         public string infections;      //patient infection risks
 
@@ -30,7 +30,7 @@ namespace EMPRS
         //----------------MAR----------------//
         //---medical administration record---// 
        
-        private struct Medication   //information about medication given to patient
+        public struct Medication   //information about medication given to patient
         {
             int medID;              //Id for specific patient med order
             string med;             //generic name of medication
@@ -46,7 +46,7 @@ namespace EMPRS
             DateTime nextGiven;     //next administration date (if applicable)
         }
 
-        private Medication[] regSchedMeds = new Medication[20];     //array of Medications patient is on or has been given
+        public Medication[] regSchedMeds = new Medication[20];     //array of Medications patient is on or has been given
 
         //--------------//
         //-----LABS-----//
@@ -295,56 +295,52 @@ namespace EMPRS
         //morse total
         public int morseTotal;
 
+        //Pain Scale
+        public int pain;
+
+        public string painProvoc, painQuality, painRegion, painSeverity, painTiming;
+
         //-------------------------//
         //----------NOTES----------//
         //-------------------------//
 
         //PROVIDER NOTE
-        string provChiefComplaint;
-        string provContributingFactor;
-        string provOther;
+        public string provChiefComplaint;
+        public string provContributingFactor;
+        public string provOther;
 
         //NURSING NOTE
-        string nurseChiefComplaint;
-        string nurseContributingFactor;
-        string nurseOther;
+        public string nurseChiefComplaint;
+        public string nurseContributingFactor;
+        public string nurseOther;
 
         //-------------------------//
         //----------ORDERS---------//
         //-------------------------//
 
         //MEDICATIONS
-        Medication asNeededMeds;
-        Medication ongoingMeds;
+        public Medication asNeededMeds;
+        public Medication ongoingMeds;
 
         //NURSING ORDERS
         
         //Activity/Positioning
 
         //activity goal
-        string activityGoal;
+        public string activityGoal;
 
-        //head of bed
-        enum bedHead
-        {
-            LowFowlers, SemiFowlers, StandardFowlers, HighFowlers, Trendelenburg, RevTrendelenburg
-        };
+        //Head of bed position
+        public int bedHead;
 
         //positioning
-        enum positioning
-        {
-            Supine, Prone, Sims, DorsalRecumb, LateralRecumb, Standing, Sitting, Squatting, KneeChest
-        };
+        public int positioning;
 
         //Infection Precautions
-        enum infectionPrec
-        {
-            Standard, Contact, ContactCDiff, Droplet, Airborne
-        };
+        public int infectionPrec;
 
         //Other Requests
-        string communication;
-        string preferences;
-        string irregularities;
+        public string communication;
+        public string preferences;
+        public string irregularities;
     }
 }

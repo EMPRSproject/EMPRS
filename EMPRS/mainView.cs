@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Data.SQLite;
 using System.Windows.Forms;
 
-//is just a test yo
+
 namespace EMPRS
 {
     public partial class mainView : Form
@@ -161,6 +161,25 @@ namespace EMPRS
                 {
                     curPatient.assessmentDate = Convert.ToDateTime(rdr["assessmentDate"]);
 
+                    curPatient.spouse = Convert.ToBoolean(rdr["spouse"]);
+                    curPatient.children = Convert.ToBoolean(rdr["children"]);
+                    curPatient.parents = Convert.ToBoolean(rdr["parents"]);
+                    curPatient.other = Convert.ToBoolean(rdr["other"]);
+                    curPatient.otherText = Convert.ToString(rdr["otherText"]);
+
+                    curPatient.engaged = Convert.ToBoolean(rdr["engaged"]);
+                    curPatient.receptive = Convert.ToBoolean(rdr["receptive"]);
+                    curPatient.questions = Convert.ToBoolean(rdr["questions"]);
+                    curPatient.posFeed = Convert.ToBoolean(rdr["posFeed"]);
+
+                    curPatient.calm = Convert.ToBoolean(rdr["calm"]);          
+                    curPatient.appropriate = Convert.ToBoolean(rdr["appropriate"]);
+                    curPatient.alert = Convert.ToBoolean(rdr["alert"]);
+                    curPatient.anxious = Convert.ToBoolean(rdr["anxious"]);
+                    curPatient.flat = Convert.ToBoolean(rdr["flat"]);
+                    curPatient.unresponsive = Convert.ToBoolean(rdr["unresponsive"]);
+                    curPatient.agitated = Convert.ToBoolean(rdr["agitated"]);
+                    curPatient.aggressive = Convert.ToBoolean(rdr["aggressive"]);
 
                     curPatient.sensePercep = Convert.ToInt32(rdr["sensePercep"]);
                     curPatient.moisture = Convert.ToInt32(rdr["moisture"]);
@@ -174,9 +193,34 @@ namespace EMPRS
                     curPatient.IVtherapy = Convert.ToInt32(rdr["IVtherapy"]);
                     curPatient.gait = Convert.ToInt32(rdr["gait"]);
                     curPatient.mentalStatus = Convert.ToInt32(rdr["mentalStatus"]);
+                    curPatient.pain = Convert.ToInt32(rdr["pain"]);
+                    curPatient.painProvoc = Convert.ToString(rdr["painProvoc"]);
+                    curPatient.painQuality = Convert.ToString(rdr["painQuality"]);
+                    curPatient.painRegion = Convert.ToString(rdr["painRegion"]);
+                    curPatient.painSeverity = Convert.ToString(rdr["painSeverity"]);
+                    curPatient.painTiming = Convert.ToString(rdr["painTiming"]);
+                    
+
+
                 }
             }
-                    m_dbConnection.Close();
+        sql = "select * from Orders where patientID == " + curPatient.patientID;
+        command = new SQLiteCommand(sql, m_dbConnection);
+        using (SQLiteDataReader rdr = command.ExecuteReader())
+        {
+            while (rdr.Read())
+            {
+                    //curPatient.asNeededMeds = Convert.ToInt32(rdr["asNeededMeds"]);
+                    curPatient.activityGoal = Convert.ToString(rdr["activityGoal"]);
+                    curPatient.bedHead = Convert.ToInt32(rdr["bedHead"]);
+                    curPatient.positioning = Convert.ToInt32(rdr["positioning"]);
+                    curPatient.infectionPrec = Convert.ToInt32(rdr["infectionPrec"]);
+                    curPatient.communication = Convert.ToString(rdr["communication"]);
+                    curPatient.preferences = Convert.ToString(rdr["preferences"]);
+                    curPatient.irregularities = Convert.ToString(rdr["irregularities"]);
+                }
+        }
+            m_dbConnection.Close();
         }
         
         private void enableAdminView(Control parent)
@@ -234,9 +278,9 @@ namespace EMPRS
         private void hideSafCheSubCat()
         {
             braScaSubCatPan.Visible = false;
-            braScaResPan.Visible = false;
+  //          braScaResPan.Visible = false;
             morScaSubCatPan.Visible = false;
-            morScaResSubCatPan.Visible = false;
+  //          morScaResSubCatPan.Visible = false;
         }
         private void hideHomeButtons()
         {
@@ -364,7 +408,9 @@ namespace EMPRS
             ageMaskTxtBox.Text = curPatient.age.ToString();
             birthMaskTxtBox.Text = curPatient.DOB.ToString("d");
             maskedTextBox13.Text = curPatient.height.ToString();
-            maskedTextBox4.Text = curPatient.height.ToString();
+            maskedTextBox14.Text = curPatient.weight.ToString();
+            double tempBMI = (curPatient.weight / (curPatient.height * curPatient.height)) * 10000;
+            maskedTextBox20.Text = Math.Round(tempBMI, 1).ToString();
             allMaskTxtBox.Text = curPatient.allergies;
             infPreMaskTxtBox.Text = curPatient.infections;
 
@@ -553,6 +599,173 @@ namespace EMPRS
             curPatient.morseTotal = curPatient.fallHistory + curPatient.multDiagnosis + curPatient.ambAid + curPatient.IVtherapy + curPatient.gait + curPatient.mentalStatus;
             label113.Text = curPatient.morseTotal.ToString();
 
+            //Pain Scale
+            switch(curPatient.pain)
+            {
+                case 0:
+                    painLabel.Text = "0 No Pain";
+                    break;
+                case 1:
+                    painLabel.Text = "1 Very mild";
+                    break;
+                case 2:
+                    painLabel.Text = "2 Discomforting";
+                    break;
+                case 3:
+                    painLabel.Text = "3 Tolerable";
+                    break;
+                case 4:
+                    painLabel.Text = "4 Distressing";
+                    break;
+                case 5:
+                    painLabel.Text = "5 Very Distressing";
+                    break;
+                case 6:
+                    painLabel.Text = "6 Intense";
+                    break;
+                case 7:
+                    painLabel.Text = "7 Very Intense";
+                    break;
+                case 8:
+                    painLabel.Text = "8 Utterly horrible";
+                    break;
+                case 9:
+                    painLabel.Text = "9 Excruciating/Unbearable";
+                    break;
+                case 10:
+                    painLabel.Text = "10 Unimaginable/Unspeakable";
+                    break;
+            }
+            textBox51.Text = curPatient.painQuality;
+            textBox47.Text = curPatient.painProvoc;
+            textBox50.Text = curPatient.painRegion;
+            textBox49.Text = curPatient.painSeverity;
+            textBox48.Text = curPatient.painTiming;
+
+            //orders
+            textBox14.Text = curPatient.activityGoal;
+
+            switch (curPatient.bedHead)
+            {
+                case 1:
+                    textBox18.Text = "Low Fowlers";
+                    break;
+                case 2:
+                    textBox18.Text = "Semi Fowlers";
+                    break;
+                case 3:
+                    textBox18.Text = "Standard Fowlers";
+                    break;
+                case 4:
+                    textBox18.Text = "High Fowlers";
+                    break;
+                case 5:
+                    textBox18.Text = "Trendelenburg";
+                    break;
+                case 6:
+                    textBox18.Text = "Reverse Trendelenburg";
+                    break;
+            }
+
+            switch (curPatient.positioning)
+            {
+                case 1:
+                    textBox19.Text = "Supine";
+                    break;
+                case 2:
+                    textBox19.Text = "Prone";
+                    break;
+                case 3:
+                    textBox19.Text = "Sims";
+                    break;
+                case 4:
+                    textBox19.Text = "Dorsal Recumbent";
+                    break;
+                case 5:
+                    textBox19.Text = "Lateral Recumbent";
+                    break;
+                case 6:
+                    textBox19.Text = "Standing";
+                    break;
+                case 7:
+                    textBox19.Text = "Sitting";
+                    break;
+                case 8:
+                    textBox19.Text = "Squatting";
+                    break;
+                case 9:
+                    textBox19.Text = "Knee-chest";
+                    break;
+            }
+
+            switch (curPatient.infectionPrec)
+            {
+                case 1:
+                    textBox20.Text = "Standard";
+                    break;
+                case 2:
+                    textBox20.Text = "Contact";
+                    break;
+                case 3:
+                    textBox20.Text = "Contact C. diff";
+                    break;
+                case 4:
+                    textBox20.Text = "Droplet";
+                    break;
+                case 5:
+                    textBox20.Text = "Airborne";
+                    break;
+            }
+
+            textBox17.Text = curPatient.communication;
+            textBox16.Text = curPatient.preferences;
+            textBox15.Text = curPatient.irregularities;
+
+            //Psychosocial
+            checkBox133.Checked = curPatient.spouse;
+            checkBox132.Checked = curPatient.parents;
+            checkBox134.Checked = curPatient.children;
+            checkBox131.Checked = curPatient.other;
+            textBox12.Text = curPatient.otherText;
+
+            checkBox137.Checked = curPatient.engaged;
+            checkBox140.Checked = curPatient.receptive;
+            checkBox139.Checked = curPatient.questions;
+            checkBox138.Checked = curPatient.posFeed;
+            checkBox136.Checked = !curPatient.engaged;
+            checkBox135.Checked = !curPatient.posFeed;
+
+            checkBox125.Checked = curPatient.calm;
+            checkBox127.Checked = curPatient.appropriate;
+            checkBox129.Checked = curPatient.alert;
+            checkBox130.Checked = curPatient.anxious;
+            checkBox128.Checked = curPatient.flat;
+            checkBox126.Checked = curPatient.unresponsive;
+            checkBox124.Checked = curPatient.agitated;
+            checkBox116.Checked = curPatient.aggressive;
+
+            //Assessments Tab
+            if (curPatient.fallHistory == 25)
+                radioButton18.Checked = true;
+            else
+                radioButton17.Checked = true;
+
+            if (curPatient.multDiagnosis == 15)
+                radioButton22.Checked = true;
+            else
+                radioButton23.Checked = true;
+
+            if (curPatient.ambAid == 30)
+                radioButton26.Checked = true;
+            else if (curPatient.ambAid == 15)
+                radioButton25.Checked = true;
+            else
+                radioButton27.Checked = true;
+
+            if (curPatient.IVtherapy == 25)
+                radioButton20.Checked = true;
+            else
+                radioButton21.Checked = true;
 
 
             //groupBox1.Visible = true;
@@ -634,7 +847,7 @@ namespace EMPRS
         private void braScaResSubCatBtn_Click(object sender, EventArgs e)
         {
             hideSafCheSubCat();
-            braScaResPan.Visible = true;
+      //      braScaResPan.Visible = true;
         }
 
         private void morScaSubCatBtn_Click(object sender, EventArgs e)
@@ -646,7 +859,7 @@ namespace EMPRS
         private void morScaResSubCatBtn_Click(object sender, EventArgs e)
         {
             hideSafCheSubCat();
-            morScaResSubCatPan.Visible = true;
+      //      morScaResSubCatPan.Visible = true;
         }
 
         // Main Categories Buttons
@@ -764,10 +977,113 @@ namespace EMPRS
             }
         }
 
-        private void lowExtSubCatPan_Paint(object sender, PaintEventArgs e)
+        private void radioButton18_CheckedChanged(object sender, EventArgs e)
         {
+            fallHistoryChange();
+        }
+
+        private void radioButton17_CheckedChanged(object sender, EventArgs e)
+        {
+            fallHistoryChange();
+        }
+
+        private void radioButton23_CheckedChanged(object sender, EventArgs e)
+        {
+            multDiagnosisChange();
+        }
+
+        private void radioButton22_CheckedChanged(object sender, EventArgs e)
+        {
+            multDiagnosisChange();
 
         }
+
+        private void radioButton26_CheckedChanged(object sender, EventArgs e)
+        {
+            ambAidChange();
+        }
+
+        private void radioButton25_CheckedChanged(object sender, EventArgs e)
+        {
+            ambAidChange();
+        }
+
+        private void radioButton27_CheckedChanged(object sender, EventArgs e)
+        {
+            ambAidChange();
+        }
+
+        private void radioButton21_CheckedChanged(object sender, EventArgs e)
+        {
+            IVTherapyChange();
+        }
+
+        private void radioButton20_CheckedChanged(object sender, EventArgs e)
+        {
+            IVTherapyChange();
+        }
+
+        private void fallHistoryChange()
+        {
+            if (radioButton18.Checked)
+            {
+                curPatient.fallHistory = 25;
+            }
+            else
+                curPatient.fallHistory = 0;
+            curPatient.morseTotal = curPatient.fallHistory + curPatient.multDiagnosis + curPatient.ambAid + curPatient.IVtherapy + curPatient.gait + curPatient.mentalStatus;
+            morseScaleTotal.Text = curPatient.morseTotal.ToString();
+            if (curPatient.fallHistory == 25)
+                label119.Text = "Yes";
+            else
+                label119.Text = "No";
+        }
+
+        private void multDiagnosisChange()
+        {
+            if (radioButton23.Checked)
+                curPatient.multDiagnosis = 0;
+            else
+                curPatient.multDiagnosis = 15;
+            curPatient.morseTotal = curPatient.fallHistory + curPatient.multDiagnosis + curPatient.ambAid + curPatient.IVtherapy + curPatient.gait + curPatient.mentalStatus;
+            morseScaleTotal.Text = curPatient.morseTotal.ToString();
+            if (curPatient.multDiagnosis == 15)
+                label118.Text = "Yes";
+            else
+                label118.Text = "No";
+        }
+        private void ambAidChange()
+        {
+            if (radioButton26.Checked)
+                curPatient.ambAid = 30;
+            else if (radioButton25.Checked)
+                curPatient.ambAid = 15;
+            else
+                curPatient.ambAid = 0;
+            curPatient.morseTotal = curPatient.fallHistory + curPatient.multDiagnosis + curPatient.ambAid + curPatient.IVtherapy + curPatient.gait + curPatient.mentalStatus;
+            morseScaleTotal.Text = curPatient.morseTotal.ToString();
+            if (curPatient.ambAid == 30)
+                label117.Text = "Furniture";
+            else if (curPatient.ambAid == 15)
+                label117.Text = "Crutches/cane/walker";
+            else
+                label117.Text = "none/bedrest";
+        }
+        private void IVTherapyChange()
+        {
+            if (radioButton21.Checked)
+                curPatient.IVtherapy = 0;
+            else
+                curPatient.IVtherapy = 25;
+            curPatient.morseTotal = curPatient.fallHistory + curPatient.multDiagnosis + curPatient.ambAid + curPatient.IVtherapy + curPatient.gait + curPatient.mentalStatus;
+            morseScaleTotal.Text = curPatient.morseTotal.ToString();
+            if (curPatient.IVtherapy == 25)
+                label116.Text = "Yes";
+            else
+                label116.Text = "No";
+        }
+
+        
     }
 }
 
